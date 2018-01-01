@@ -6,8 +6,8 @@ const frameModule = require('ui/frame');
 const topmost = require("ui/frame").topmost;
 var platform = require('platform');
 var dialog = require('nativescript-dialog');
-const textFieldModule = require("tns-core-modules/ui/text-field");
-require("nativescript-dom");
+var color_1 = require("color");
+var imageModule = require("ui/image");
 
 var page;
 var items = new ObservableArray([]);
@@ -54,9 +54,9 @@ function getDataFromSocket(args) {
     //localhost:
     // var socket = SocketIO.connect('http://127.0.0.1:3000');
     //lucia home:
-    var socket = SocketIO.connect('http://192.168.1.64:3000');
+    // var socket = SocketIO.connect('http://192.168.1.64:3000');
     //private Network:
-    // var socket = SocketIO.connect('http://169.254.1.2:3000');
+    var socket = SocketIO.connect('http://169.254.1.2:3000');
 
     page = args.object;
     pageData.set("items", items);
@@ -78,14 +78,13 @@ function getDataFromSocket(args) {
                         return false; // break
                         console.log("empty element");
                     } else if (elem.isDetected == "true") {
-                        const textField = page.getElementById('circle');
-                        textField.backgroundColor = "red";
+                        items.push(elem);
                         console.log(elem);
                         return true;
                     }
                 });
             }
-            items.push(drugs);
+            // items.push(drugs);
         });
     }
 };

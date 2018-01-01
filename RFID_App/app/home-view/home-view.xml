@@ -10,13 +10,13 @@
             <lv:ListViewLinearLayout scrollDirection="Vertical"/>
         </lv:RadListView.listViewLayout>
         <lv:RadListView.itemTemplate>
-            <GridLayout class="list-group-item" columns="*,*" tap="onTap" id="grid">
+            <GridLayout class="list-group-item" tap="onTap" id="grid">
                 <StackLayout col="0" class="names">
                     <Label text="{{ name }}" class="list-group-item-heading" id="name"/>
                     <Label text="{{ id }}" class="list-group-item-text" />
                 </StackLayout>
                 <!-- <TextField  col="1" id="circle" class="circle"/> -->
-                <Image col="1" class="circle" id="circle"/>
+                <!-- <Image col="1" class="circle" id="circle"/> -->
             </GridLayout>
         </lv:RadListView.itemTemplate>
     </lv:RadListView>

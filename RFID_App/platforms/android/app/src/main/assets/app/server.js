@@ -8,8 +8,8 @@ var Drug = require("./mongo-node/mongo-node");
 var mongoose = require("mongoose");
 
 
-mongoose.connect('mongodb://192.168.1.64:27017/medication', function (err) {
-// mongoose.connect('mongodb://169.254.1.2:27017/medication', function (err) {
+// mongoose.connect('mongodb://192.168.1.64:27017/medication', function (err) {
+mongoose.connect('mongodb://169.254.1.2:27017/medication', function (err) {
     // mongoose.connect('mongodb://127.0.0.1:27017/medication', function (err) {
     setTimeout(function () {
         if (err) {

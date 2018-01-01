@@ -1,31 +1,7 @@
-
-
-
-
 <Page
     xmlns="http://schemas.nativescript.org/tns.xsd"
     xmlns:lv="nativescript-ui-listview"
     xmlns:PullRefresh="nativescript-pulltorefresh" loaded="pageLoaded">
-
-<!-- <TabView id="tabViewContainer">
-    <TabViewItem title="NativeScript">
-        <StackLayout>
-            <Label text="NativeScript" class="m-15 h2 text-left" color="blue" />
-            <ScrollView>
-                <StackLayout height="100%">
-                    <Label text="{{ content }}" textWrap="true" class="m-15" />
-                </StackLayout>
-            </ScrollView>
-        </StackLayout>
-    </TabViewItem>
-    <TabViewItem title="Icon">
-        <StackLayout>
-            <Image class="m-t-30 m-b-15" src="res://icon" width="80" height="80" />
-            <Label text="NativeScript" textWrap="true" class="h2 m-x-auto" color="blue" />
-        </StackLayout>
-    </TabViewItem>
-</TabView> -->
-
     <ActionBar class="action-bar">
         <Label class="title" background-color="green" text="Medication"></Label>
     </ActionBar>
@@ -34,14 +10,14 @@
             <lv:ListViewLinearLayout scrollDirection="Vertical"/>
         </lv:RadListView.listViewLayout>
         <lv:RadListView.itemTemplate>
-            <GridLayout class="list-group-item" columns="*,*" tap="onTap">
+            <GridLayout class="list-group-item" tap="onTap" id="grid">
                 <StackLayout col="0" class="names">
-                    <Label text="{{ name }}" class="list-group-item-heading"/>
+                    <Label text="{{ name }}" class="list-group-item-heading" id="name"/>
                     <Label text="{{ id }}" class="list-group-item-text" />
                 </StackLayout>
-                 <TextField col="1" backgroundColor="green" id="circle"/>
-                <!-- <Image col="1" class="" id="circle"/> -->
+                <!-- <TextField  col="1" id="circle" class="circle"/> -->
+                <!-- <Image col="1" class="circle" id="circle"/> -->
             </GridLayout>
         </lv:RadListView.itemTemplate>
     </lv:RadListView>
-    </Page> 
+</Page> 

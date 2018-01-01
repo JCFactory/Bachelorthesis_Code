@@ -54,9 +54,9 @@ function getDataFromSocket(args) {
     //localhost:
     // var socket = SocketIO.connect('http://127.0.0.1:3000');
     //lucia home:
-    var socket = SocketIO.connect('http://192.168.1.64:3000');
+    // var socket = SocketIO.connect('http://192.168.1.64:3000');
     //private Network:
-    // var socket = SocketIO.connect('http://169.254.1.2:3000');
+    var socket = SocketIO.connect('http://169.254.1.2:3000');
 
     page = args.object;
     pageData.set("items", items);
@@ -78,17 +78,13 @@ function getDataFromSocket(args) {
                         return false; // break
                         console.log("empty element");
                     } else if (elem.isDetected == "true") {
-                        items(elem).backgroundColor = "#00cc00";
-                        // var image = new imageModule.Image();
-                        // image = page.getViewById("circle");
-                        // var color = new color_1.Color("#00cc00");
-                        // image.color = color;
+                        items.push(elem);
                         console.log(elem);
                         return true;
                     }
                 });
             }
-            items.push(drugs);
+            // items.push(drugs);
         });
     }
 };
