@@ -15,7 +15,10 @@ var pageData = new Observable();
 
 exports.pageLoaded = function (args) {
     // alert("Hello");
-    getDataFromSocket(args);
+    setTimeout(function () {
+        getDataFromSocket(args);
+    }, 3000);
+    // getDataFromSocket(args);
 };
 
 exports.pullToRefreshInitiated = function (args) {
@@ -23,7 +26,7 @@ exports.pullToRefreshInitiated = function (args) {
     setTimeout(function () {
         getDataFromSocket(args);
         page.getViewById("listview").notifyPullToRefreshFinished();
-    }, 3000);
+    }, 5000);
 };
 
 exports.onTap = function (args) {
