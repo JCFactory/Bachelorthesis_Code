@@ -1,0 +1,20 @@
+#label{
+    margin: 30 px;
+    color: blueviolet;
+   
+   }
+   
+   #blue{
+       margin: 30 px;
+    color: blueviolet;
+   text-decoration-style: double;
+   }
+   
+   #bar{
+       color: goldenrod;
+   }
+   
+   #stack{
+       font-size: 20;
+       color: blue;
+   }

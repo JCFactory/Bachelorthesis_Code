@@ -1,0 +1,112 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "amid",
+        "scope": null,
+        "escapedName": "amid",
+        "name": "amid",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/jacquelinefranssen/Desktop/RFID_App"
+    ]
+  ],
+  "_from": "amid@latest",
+  "_id": "amid@1.2.5",
+  "_inCache": true,
+  "_location": "/amid",
+  "_npmUser": {
+    "name": "kobal",
+    "email": "mariano.fiorentino@gmail.com"
+  },
+  "_npmVersion": "1.4.28",
+  "_phantomChildren": {
+    "buffer-crc32": "0.2.1",
+    "core-util-is": "1.0.2",
+    "inherits": "2.0.3",
+    "isarray": "1.0.0",
+    "kerberos": "0.0.11",
+    "process-nextick-args": "2.0.0",
+    "safe-buffer": "5.1.1",
+    "util-deprecate": "1.0.2"
+  },
+  "_requested": {
+    "raw": "amid",
+    "scope": null,
+    "escapedName": "amid",
+    "name": "amid",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/amid/-/amid-1.2.5.tgz",
+  "_shasum": "8c03e27060d6576c6b3e6c0abfe32ae0d56cf302",
+  "_shrinkwrap": null,
+  "_spec": "amid",
+  "_where": "/Users/jacquelinefranssen/Desktop/RFID_App",
+  "author": {
+    "name": "Andrea Negro, Mariano Fiorentino",
+    "email": "andreakobal@gmail.com, mariano.fiorentino@gmail.com"
+  },
+  "bin": {
+    "amid": "./bin/amid-rest"
+  },
+  "bugs": {
+    "url": "https://github.com/mariano-fiorentino/amid/issues"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.0",
+    "excel-export": "~0.4.0",
+    "express": "~4.0.0",
+    "jade": "~1.9.0",
+    "log4js": "~0.6.0",
+    "method-override": "~1.0.0",
+    "mongodb": "~1.4.0",
+    "morgan": "~1.0.0"
+  },
+  "description": "Another Mongo Internet Driver",
+  "devDependencies": {},
+  "directories": {
+    "lib": "./lib"
+  },
+  "dist": {
+    "shasum": "8c03e27060d6576c6b3e6c0abfe32ae0d56cf302",
+    "tarball": "https://registry.npmjs.org/amid/-/amid-1.2.5.tgz"
+  },
+  "engines": {
+    "node": ">= 0.4.4"
+  },
+  "gitHead": "403b608e17e04398cf2abedfda0ecf969fae53a6",
+  "homepage": "https://github.com/mariano-fiorentino/amid",
+  "keywords": [
+    "mongodb",
+    "mongo",
+    "db",
+    "web",
+    "rest",
+    "restful"
+  ],
+  "maintainers": [
+    {
+      "name": "kobal",
+      "email": "andreakobal@gmail.com"
+    }
+  ],
+  "name": "amid",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mariano-fiorentino/amid.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "1.2.5"
+}

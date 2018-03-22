@@ -1,4 +1,38 @@
-const Observable = require("data/observable").Observable;
+var Observable = require("data/observable").Observable;
+var ObservableArray = require("data/observable-array").ObservableArray;
+
+// var page;
+// var items = new ObservableArray([]);
+// var pageData = new Observable();
+
+// exports.pageLoaded = function(args){
+//     page = args.object;
+//     page.bindingContext = pageData;
+//     items.push(  
+//         {  
+//           itemName: "Till Bomke",
+//           itemDesc: "very sweet boy",
+//           itemImage: "~/images/logo.jpg"
+//         },
+//         {
+//           itemName: "Till Bomke",
+//           itemDesc: "very sweet boy",
+//           itemImage: "~/images/logo.jpg"
+//         },
+//         {
+//           itemName: "Till Bomke",
+//           itemDesc: "very sweet boy",
+//           itemImage: "~/images/logo.jpg"
+//         },
+//         {
+//           itemName: "Till Bomke",
+//           itemDesc: "very sweet boy",
+//           itemImage: "~/images/logo.jpg"
+//         }
+//       )
+//       pageData.set("items", items);
+//   };
+
 
 function HomeViewModel() {
     const viewModel = new Observable();
@@ -7,17 +41,3 @@ function HomeViewModel() {
 }
 
 module.exports = HomeViewModel;
-
-
-// var array = new ObservableArray();
-
-// array.push({"city":"Madrid","distance":"0.2km","votes":"0"});
-// array.push({"city":"Madrid","distance":"0.2km","votes":"0"});
-// array.push({"city":"Madrid","distance":"0.2km","votes":"0"});
-// array.push({"city":"Madrid","distance":"0.2km","votes":"0"});
-// array.push({"city":"Madrid","distance":"0.2km","votes":"0"});
-// array.push({"city":"Madrid","distance":"0.2km","votes":"0"});
-
-// var pageData = new Observable({cities: array});
-
-// page.bindingContext = pageData;

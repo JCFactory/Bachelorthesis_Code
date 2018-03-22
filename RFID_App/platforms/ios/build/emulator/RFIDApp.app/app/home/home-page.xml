@@ -1,0 +1,15 @@
+<Page class="page"
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+        <ActionBar class="action-bar" id="bar">
+            <Label class="action-bar-title" text="TSC Uniovi" color="green" font-style="bold"></Label>
+        </ActionBar>
+         <StackLayout>
+        <Image src="./images/logo.jpg" stretch="none" horizontalAlignment="center"></Image>
+         <Button text="marshmallow" class="link" tap="onTap">
+         </Button>
+         </StackLayout>
+</Page>
+
+
+
