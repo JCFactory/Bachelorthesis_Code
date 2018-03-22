@@ -1,0 +1,22 @@
+<Page class="page"
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <!--Add your page content here-->
+    <ActionBar class="action-bar" id="bar">
+        <Label class="action-bar-title" text="mongoData" id="label"></Label>
+    </ActionBar>
+   
+        <ListView class="list-group" loaded="loaded">
+            <ListView.itemTemplate>
+                <StackLayout class="list-group-item">
+                <Label class="list-group-item-heading" text="A Heading" color="black" size="30px">
+                <Button text="r1col0" id="blue" tap="onTap"/>
+                </Label>
+                <Label class="list-group-item-text" text="The rest of the content" textWrap="true">
+                    <Button text="r1col0" id="blue" tap="onTap"/>
+                </Label>
+                </StackLayout>
+            </ListView.itemTemplate>
+        </ListView>
+</Page>
