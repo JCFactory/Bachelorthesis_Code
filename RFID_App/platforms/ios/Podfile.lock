@@ -1,0 +1,15 @@
+PODS:
+  - couchbase-lite-ios/SQLCipher (1.4.0)
+  - SAMKeychain (1.5.3)
+
+DEPENDENCIES:
+  - couchbase-lite-ios/SQLCipher (= 1.4)
+  - SAMKeychain (~> 1.5.2)
+
+SPEC CHECKSUMS:
+  couchbase-lite-ios: 5b9f59ce74c2d981c41795f0949d31354d90c459
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+
+PODFILE CHECKSUM: 47fb572da51bb09a78d0fdf8cc64f037593cd716
+
+COCOAPODS: 1.4.0

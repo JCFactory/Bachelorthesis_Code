@@ -1,11 +1,11 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
     <Page.actionBar>
-        <ActionBar title="My App" icon="" class="action-bar">
+        <ActionBar title="My App"  class="action-bar">
         </ActionBar>
     </Page.actionBar>
 
     <GridLayout>
         <WebView loaded="webViewLoaded"  touch="webViewTouch" pan="webViewPan" 
-        src="https://www.google.de" />
+        src="https://localhost:5984/_utils/#database/medication/_all_docs"/>
     </GridLayout>
 </Page>

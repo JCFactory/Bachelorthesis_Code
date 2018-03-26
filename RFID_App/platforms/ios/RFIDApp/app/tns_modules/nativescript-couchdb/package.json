@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-couchdb",
+        "scope": null,
+        "escapedName": "nativescript-couchdb",
+        "name": "nativescript-couchdb",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App"
+    ]
+  ],
+  "_from": "nativescript-couchdb@latest",
+  "_id": "nativescript-couchdb@0.6.23",
+  "_inCache": true,
+  "_location": "/nativescript-couchdb",
+  "_nodeVersion": "8.9.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/nativescript-couchdb-0.6.23.tgz_1510160476279_0.23633398883976042"
+  },
+  "_npmUser": {
+    "name": "paragasu",
+    "email": "paragasu@gmail.com"
+  },
+  "_npmVersion": "5.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-couchdb",
+    "scope": null,
+    "escapedName": "nativescript-couchdb",
+    "name": "nativescript-couchdb",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-couchdb/-/nativescript-couchdb-0.6.23.tgz",
+  "_shasum": "c73eb6ae5cfc6508e3282b8cd4d748a49b692a2c",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-couchdb",
+  "_where": "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App",
+  "author": {
+    "name": "Jeffry L",
+    "email": "paragasu@gmail.com"
+  },
+  "bootstrapper": "nativescript-plugin-seed",
+  "bugs": {
+    "url": "https://github.com/paragasu/nativescript-couchdb/issues"
+  },
+  "dependencies": {
+    "tns-core-modules-declarations": "^2.5.0"
+  },
+  "description": "Couchdb plugin for nativescript",
+  "devDependencies": {
+    "prompt": "^1.0.0",
+    "rimraf": "^2.5.0",
+    "tns-core-modules": "^3.3.0",
+    "tns-platform-declarations": "^3.3.0",
+    "tslint": "^5.0.0",
+    "typescript": "~2.3.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-zdZS7QFFtcrJpU1gT661qC9QGQGuhCP6u4lvTqJXSJavZGvK3xj231aSypLLdwMw7MnBdvDij9EF/37kOwUPNA==",
+    "shasum": "c73eb6ae5cfc6508e3282b8cd4d748a49b692a2c",
+    "tarball": "https://registry.npmjs.org/nativescript-couchdb/-/nativescript-couchdb-0.6.23.tgz"
+  },
+  "gitHead": "13ddfe830c3d4a9edc8e1ab5a29cd3aba578bbc2",
+  "homepage": "https://github.com/paragasu/nativescript-couchdb",
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "Android",
+    "iOS"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "paragasu",
+      "email": "paragasu@gmail.com"
+    }
+  ],
+  "name": "nativescript-couchdb",
+  "nativescript": {
+    "platforms": {
+      "android": "3.0.0",
+      "ios": "3.0.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "npm i && tsc",
+    "ci.tslint": "npm i && tslint '**/*.ts' --config '../tslint.json' --exclude '**/node_modules/**'",
+    "plugin.tscwatch": "npm run tsc -- -w",
+    "tsc": "tsc -skipLibCheck",
+    "tslint": "cd .. && tslint \"**/*.ts\" --config tslint.json --exclude \"**/node_modules/**\""
+  },
+  "typings": "index.d.ts",
+  "version": "0.6.23"
+}

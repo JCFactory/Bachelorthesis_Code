@@ -1,0 +1,13 @@
+use_frameworks!
+
+target "RFIDApp" do
+# Begin Podfile - /Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App/node_modules/nativescript-couchbaselite/platforms/ios/Podfile 
+ pod 'couchbase-lite-ios/SQLCipher', '1.4' 
+ # End Podfile 
+# Begin Podfile - /Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App/node_modules/kinvey-nativescript-sdk/platforms/ios/Podfile 
+ platform :ios, '9.0'
+pod 'SAMKeychain', '~> 1.5.2'
+ 
+ # End Podfile 
+
+end

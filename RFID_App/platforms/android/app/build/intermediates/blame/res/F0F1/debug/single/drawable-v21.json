@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App/platforms/android/app/build/intermediates/res/merged/F0F1/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/Users/jacquelinefranssen/.android/build-cache/58cc313b60f8c151b5168cbf4f42431bcd09a913/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App/platforms/android/app/build/intermediates/res/merged/F0F1/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/jacquelinefranssen/.android/build-cache/dbfc6d381f4b58e79c88887e5b180c71ef28bcc4/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App/platforms/android/app/build/intermediates/res/merged/F0F1/debug/drawable-v21/pressable_item_background.xml",
+        "source": "/Users/jacquelinefranssen/.android/build-cache/37f4f16aefa02ca4c53bae341e5a94bbd013a6d3/output/res/drawable-v21/pressable_item_background.xml"
+    },
+    {
+        "merged": "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App/platforms/android/app/build/intermediates/res/merged/F0F1/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/jacquelinefranssen/.android/build-cache/dbfc6d381f4b58e79c88887e5b180c71ef28bcc4/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App/platforms/android/app/build/intermediates/res/merged/F0F1/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/jacquelinefranssen/.android/build-cache/dbfc6d381f4b58e79c88887e5b180c71ef28bcc4/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App/platforms/android/app/build/intermediates/res/merged/F0F1/debug/drawable-v21/avd_show_password.xml",
+        "source": "/Users/jacquelinefranssen/.android/build-cache/58cc313b60f8c151b5168cbf4f42431bcd09a913/output/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App/platforms/android/app/build/intermediates/res/merged/F0F1/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/jacquelinefranssen/.android/build-cache/dbfc6d381f4b58e79c88887e5b180c71ef28bcc4/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App/platforms/android/app/build/intermediates/res/merged/F0F1/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/jacquelinefranssen/.android/build-cache/58cc313b60f8c151b5168cbf4f42431bcd09a913/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App/platforms/android/app/build/intermediates/res/merged/F0F1/debug/drawable-v21/design_password_eye.xml",
+        "source": "/Users/jacquelinefranssen/.android/build-cache/58cc313b60f8c151b5168cbf4f42431bcd09a913/output/res/drawable-v21/design_password_eye.xml"
+    }
+]

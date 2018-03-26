@@ -1,0 +1,20 @@
+<Page loaded="pageLoaded">
+    <Page.actionBar color="green">
+  <ActionBar title="Medication">
+   <!-- <ActionBar.actionItems>
+    <ActionItem text="Create" tap="create" ios.position="right" />
+   </ActionBar.actionItems> -->
+  </ActionBar>
+ </Page.actionBar>
+<StackLayout>
+    <ListView height="300">
+        <ListView.itemTemplate>
+            <StackLayout style="padding: 10">
+                <!-- <Image row="0" col="0" src="~/images/273-checkmark.png" class="image"/> -->
+            <Label text ="{{ item }}"/>
+               <Button text="helloWorld" tap="tapped"/>
+            </StackLayout>
+        </ListView.itemTemplate>
+    </ListView>
+</StackLayout>
+</Page>

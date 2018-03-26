@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App/platforms/android/app/build/intermediates/incremental/mergeF0F1DebugResources/merged.dir/values-port/values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "/Users/jacquelinefranssen/.android/build-cache/dbfc6d381f4b58e79c88887e5b180c71ef28bcc4/output/res/values-port/values-port.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 55,
+                        "endOffset": 106
+                    }
+                }
+            }
+        ]
+    }
+]

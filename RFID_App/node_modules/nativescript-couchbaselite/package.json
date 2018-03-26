@@ -1,0 +1,110 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-couchbaselite",
+        "scope": null,
+        "escapedName": "nativescript-couchbaselite",
+        "name": "nativescript-couchbaselite",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App"
+    ]
+  ],
+  "_from": "nativescript-couchbaselite@latest",
+  "_id": "nativescript-couchbaselite@1.0.11",
+  "_inCache": true,
+  "_location": "/nativescript-couchbaselite",
+  "_nodeVersion": "6.8.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/nativescript-couchbaselite-1.0.11.tgz_1492843189073_0.8006356745027006"
+  },
+  "_npmUser": {
+    "name": "nabil_mansouri",
+    "email": "nabil.mansouri.3@gmail.com"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-couchbaselite",
+    "scope": null,
+    "escapedName": "nativescript-couchbaselite",
+    "name": "nativescript-couchbaselite",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-couchbaselite/-/nativescript-couchbaselite-1.0.11.tgz",
+  "_shasum": "1a7713d94f1b51f38e264908a270e6c818f18458",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-couchbaselite",
+  "_where": "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App",
+  "author": {
+    "name": "Nabil Mansouri",
+    "email": "nabil.mansouri.3@gmail.com",
+    "url": "http://e-devservice.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/nabil-mansouri/nativescript-couchbaselite/issues"
+  },
+  "dependencies": {
+    "class-transformer": "^0.1.6"
+  },
+  "description": "A NativeScript plugin that brings you all Couchbase Mobile features (attachments, ttl, map, reduce, group, encryption, conflicts, livequery, replication....). It targets iOS and Android.",
+  "devDependencies": {
+    "tns-core-modules": "^2.5.0",
+    "tns-platform-declarations": "^2.5.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "1a7713d94f1b51f38e264908a270e6c818f18458",
+    "tarball": "https://registry.npmjs.org/nativescript-couchbaselite/-/nativescript-couchbaselite-1.0.11.tgz"
+  },
+  "gitHead": "ce492c0f5b9997f2607213f90e4d100c09e53a1b",
+  "homepage": "https://github.com/nabil-mansouri/nativescript-couchbaselite#readme",
+  "keywords": [
+    "couchbase",
+    "couchbase mobile",
+    "couchbase lite",
+    "nosql",
+    "ios",
+    "android",
+    "attachment",
+    "ttl",
+    "nativescript",
+    "cypher"
+  ],
+  "license": "GNU General Public License 3",
+  "main": "index",
+  "maintainers": [
+    {
+      "name": "nabil_mansouri",
+      "email": "nabil.mansouri.3@gmail.com"
+    }
+  ],
+  "name": "nativescript-couchbaselite",
+  "nativescript": {
+    "platforms": {
+      "android": "2.5.0",
+      "ios": "2.5.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabil-mansouri/nativescript-couchbaselite.git"
+  },
+  "scripts": {
+    "watch": "tsc --watch;"
+  },
+  "typings": "index.d.ts",
+  "version": "1.0.11"
+}

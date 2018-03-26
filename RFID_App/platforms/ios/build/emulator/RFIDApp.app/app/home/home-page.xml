@@ -1,15 +1,19 @@
-<Page class="page"
-    navigatingTo="onNavigatingTo"  
-    xmlns="http://schemas.nativescript.org/tns.xsd">
-        <ActionBar class="action-bar" id="bar">
-            <Label class="action-bar-title" text="TSC Uniovi" color="green" font-style="bold"></Label>
-        </ActionBar>
-         <StackLayout>
-        <Image src="./images/logo.jpg" stretch="none" horizontalAlignment="center"></Image>
-         <Button text="marshmallow" class="link" tap="onTap">
-         </Button>
-         </StackLayout>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:lv="nativescript-ui-listview" loaded="pageLoaded">
+
+	<ActionBar title="TSC Uniovi" class="action-bar" />
+
+	<lv:RadListView id="listview" items="{{ items }}" class="list-group" pullToRefresh="true" pullToRefreshInitiated="pullToRefreshInitiated">
+		<lv:RadListView.listViewLayout>
+			<lv:ListViewLinearLayout scrollDirection="Vertical"/>
+		</lv:RadListView.listViewLayout>
+		<lv:RadListView.itemTemplate>
+			<GridLayout class="list-group-item" rows="auto" columns="auto, *">
+				<Image row="0" col="0" src="{{ itemImage }}" class="image"/>
+				<StackLayout row="0" col="1" >
+					<Label text="{{ itemName }}" class="list-group-item-heading"/>
+					<Label text="{{ itemDesc }}" class="list-group-item-text" />
+				</StackLayout>
+			</GridLayout>
+		</lv:RadListView.itemTemplate>
+	</lv:RadListView>
 </Page>
-
-
-
