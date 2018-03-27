@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		154A93B2EA244F53897CCE94 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4396F695C11444269078C453 /* CouchbaseLite.framework */; };
 		1A2ED69186C042D88E65A38F /* TNSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF4868B013D47DEA3F6465B /* TNSCore.framework */; };

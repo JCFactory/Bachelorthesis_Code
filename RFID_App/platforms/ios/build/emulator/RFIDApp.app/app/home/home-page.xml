@@ -1,19 +1,19 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:lv="nativescript-ui-listview" loaded="pageLoaded">
-
-	<ActionBar title="TSC Uniovi" class="action-bar" />
-
-	<lv:RadListView id="listview" items="{{ items }}" class="list-group" pullToRefresh="true" pullToRefreshInitiated="pullToRefreshInitiated">
-		<lv:RadListView.listViewLayout>
-			<lv:ListViewLinearLayout scrollDirection="Vertical"/>
-		</lv:RadListView.listViewLayout>
-		<lv:RadListView.itemTemplate>
-			<GridLayout class="list-group-item" rows="auto" columns="auto, *">
-				<Image row="0" col="0" src="{{ itemImage }}" class="image"/>
-				<StackLayout row="0" col="1" >
-					<Label text="{{ itemName }}" class="list-group-item-heading"/>
-					<Label text="{{ itemDesc }}" class="list-group-item-text" />
-				</StackLayout>
-			</GridLayout>
-		</lv:RadListView.itemTemplate>
-	</lv:RadListView>
+<Page
+    xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+    <Page.actionBar color="green">
+        <ActionBar title="Medication" class="action-bar"/>
+    </Page.actionBar>
+    <StackLayout>
+        <GridLayout style="margin-top:5px; color: red;"> 
+            <ListView>
+                <GridLayout style="padding:10" rows="*,*,*" column="*,4*,*">
+                    <Label row="0" col="1" text="Till Bomke"></Label>
+                    <Label row="1" col="1" style="color: gray; font-size:13;" text="Till Bomke"></Label>
+                    <Label row="0" col="1"  class="font-awesome" text="Till Bomke"></Label>
+                    <Label row="2" col="2" text="Till Bomke"></Label>
+                </GridLayout>
+            </ListView>
+        </GridLayout>
+    </StackLayout>
 </Page>
+

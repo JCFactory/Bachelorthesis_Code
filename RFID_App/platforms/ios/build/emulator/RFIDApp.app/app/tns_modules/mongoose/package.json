@@ -10,17 +10,17 @@
         "spec": "latest",
         "type": "tag"
       },
-      "/Users/jacquelinefranssen/Desktop/RFID_App"
+      "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App"
     ]
   ],
   "_from": "mongoose@latest",
-  "_id": "mongoose@5.0.11",
+  "_id": "mongoose@5.0.12",
   "_inCache": true,
   "_location": "/mongoose",
   "_nodeVersion": "8.9.4",
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
-    "tmp": "tmp/mongoose_5.0.11_1521489140353_0.6368792621068626"
+    "tmp": "tmp/mongoose_5.0.12_1522163152399_0.5879703517911792"
   },
   "_npmUser": {
     "name": "vkarpov15",
@@ -28,7 +28,9 @@
   },
   "_npmVersion": "5.6.0",
   "_phantomChildren": {
-    "lodash": "4.17.5"
+    "bson": "1.0.6",
+    "lodash": "4.17.5",
+    "require_optional": "1.0.1"
   },
   "_requested": {
     "raw": "mongoose",
@@ -43,11 +45,11 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/mongoose/-/mongoose-5.0.11.tgz",
-  "_shasum": "bb31a98591cd2377312ded28155281110a9e1da0",
+  "_resolved": "https://registry.npmjs.org/mongoose/-/mongoose-5.0.12.tgz",
+  "_shasum": "608a3829bf2edae47b0078cd1970ede2a033b3a0",
   "_shrinkwrap": null,
   "_spec": "mongoose",
-  "_where": "/Users/jacquelinefranssen/Desktop/RFID_App",
+  "_where": "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App",
   "author": {
     "name": "Guillermo Rauch",
     "email": "guillermo@learnboost.com"
@@ -59,7 +61,7 @@
   "dependencies": {
     "async": "2.1.4",
     "bson": "~1.0.4",
-    "kareem": "2.0.5",
+    "kareem": "2.0.6",
     "lodash.get": "4.4.2",
     "mongodb": "3.0.4",
     "mongoose-legacy-pluralize": "1.0.2",
@@ -100,11 +102,11 @@
     "lib": "./lib/mongoose"
   },
   "dist": {
-    "integrity": "sha512-VAnMQ356GdQauWJM4KjQh5VuysPv8r+Nm7bKk9F/np3VQwe31B/p6ynQQVmLsTwmkjF5Dqw1pC8Rlg8CCa3rNA==",
-    "shasum": "bb31a98591cd2377312ded28155281110a9e1da0",
-    "tarball": "https://registry.npmjs.org/mongoose/-/mongoose-5.0.11.tgz",
+    "integrity": "sha512-V0B9vXdT/hYw24OrlgoQ9pilL+oeIwh9tOPSh58m+fhcMd4Wkgc+ySxaU6QRC8WuQb9E/N4nyNnTqyOw0OQR8w==",
+    "shasum": "608a3829bf2edae47b0078cd1970ede2a033b3a0",
+    "tarball": "https://registry.npmjs.org/mongoose/-/mongoose-5.0.12.tgz",
     "fileCount": 163,
-    "unpackedSize": 992777
+    "unpackedSize": 993647
   },
   "engines": {
     "node": ">=4.0.0"
@@ -154,7 +156,7 @@
       "space-unary-ops": "error"
     }
   },
-  "gitHead": "299cc02d3eb967665da5be46cb83fc6e7de5f9c3",
+  "gitHead": "95dd7bc82515aa3a542bc6842cbc7f6cd4a7faa9",
   "homepage": "http://mongoosejs.com",
   "keywords": [
     "mongodb",
@@ -206,5 +208,5 @@
     "test": "mocha --exit test/*.test.js test/**/*.test.js",
     "test-cov": "nyc --reporter=html --reporter=text npm test"
   },
-  "version": "5.0.11"
+  "version": "5.0.12"
 }
