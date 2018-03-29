@@ -10,7 +10,7 @@
         "spec": ">=3.4.0 <3.5.0",
         "type": "range"
       },
-      "/Users/jacquelinefranssen/Desktop/RFID_App/node_modules/tns-template-blank"
+      "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App/node_modules/tns-template-blank"
     ]
   ],
   "_from": "tns-core-modules@>=3.4.0 <3.5.0",
@@ -44,7 +44,7 @@
   "_shasum": "be6882cd04127296e8803eeb10eb7ebfd9afe717",
   "_shrinkwrap": null,
   "_spec": "tns-core-modules@~3.4.0",
-  "_where": "/Users/jacquelinefranssen/Desktop/RFID_App/node_modules/tns-template-blank",
+  "_where": "/Users/jacquelinefranssen/Desktop/Code_Repo/RFID_App/node_modules/tns-template-blank",
   "dependencies": {
     "tns-core-modules-widgets": "3.4.0"
   },

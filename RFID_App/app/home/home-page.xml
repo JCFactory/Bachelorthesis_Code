@@ -1,19 +1,14 @@
-<Page
-    xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
-    <Page.actionBar color="green">
-        <ActionBar title="Medication" class="action-bar"/>
-    </Page.actionBar>
-    <StackLayout>
-        <GridLayout style="margin-top:5px; color: red;"> 
-            <ListView>
-                <GridLayout style="padding:10" rows="*,*,*" column="*,4*,*">
-                    <Label row="0" col="1" text="Till Bomke"></Label>
-                    <Label row="1" col="1" style="color: gray; font-size:13;" text="Till Bomke"></Label>
-                    <Label row="0" col="1"  class="font-awesome" text="Till Bomke"></Label>
-                    <Label row="2" col="2" text="Till Bomke"></Label>
-                </GridLayout>
-            </ListView>
-        </GridLayout>
-    </StackLayout>
+<Page class="page"
+    navigatingTo="onNavigatingTo"
+    xmlns="http://schemas.nativescript.org/tns.xsd"
+    loaded="loaded">
+    <!--Add your page content here-->
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" background-color="green" text="Medication"></Label>
+    </ActionBar>
+    <ListView items="{{ drugs }}">
+        <ListView.itemTemplate>
+            <Button text="{{ name }}" tap="onTap" class="title"/>
+        </ListView.itemTemplate>
+    </ListView>
 </Page>
-

@@ -1,19 +1,14 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:lv="nativescript-ui-listview" loaded="pageLoaded">
-
-	<ActionBar title="TSC Uniovi" class="action-bar" />
-
-	<lv:RadListView id="listview" items="{{ items }}" class="list-group" pullToRefresh="true" pullToRefreshInitiated="pullToRefreshInitiated">
-		<lv:RadListView.listViewLayout>
-			<lv:ListViewLinearLayout scrollDirection="Vertical"/>
-		</lv:RadListView.listViewLayout>
-		<lv:RadListView.itemTemplate>
-			<GridLayout class="list-group-item" rows="auto" columns="auto, *">
-				<Image row="0" col="0" src="{{ itemImage }}" class="image"/>
-				<StackLayout row="0" col="1" >
-					<Label text="{{ itemName }}" class="list-group-item-heading"/>
-					<Label text="{{ itemDesc }}" class="list-group-item-text" />
-				</StackLayout>
-			</GridLayout>
-		</lv:RadListView.itemTemplate>
-	</lv:RadListView>
+<Page class="page"
+    navigatingTo="onNavigatingTo"
+    xmlns="http://schemas.nativescript.org/tns.xsd"
+    loaded="loaded">
+    <!--Add your page content here-->
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" background-color="green" text="Medication"></Label>
+    </ActionBar>
+    <ListView items="{{ drugs }}">
+        <ListView.itemTemplate>
+            <Button text="{{ name }}" tap="onTap" class="title"/>
+        </ListView.itemTemplate>
+    </ListView>
 </Page>

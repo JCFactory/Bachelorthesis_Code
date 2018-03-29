@@ -15,7 +15,7 @@
 				<key>SHA1</key>
 				<string>9BB826B31841BBF62D96F2E822C84C7783D02022</string>
 				<key>dateExpires</key>
-				<string>1/2/19</string>
+				<string>01.02.19</string>
 				<key>type</key>
 				<string>iOS Development</string>
 			</dict>
@@ -32,7 +32,7 @@
 						<key>SHA1</key>
 						<string>9BB826B31841BBF62D96F2E822C84C7783D02022</string>
 						<key>dateExpires</key>
-						<string>1/2/19</string>
+						<string>01.02.19</string>
 						<key>type</key>
 						<string>iOS Development</string>
 					</dict>
@@ -57,82 +57,7 @@
 						<key>SHA1</key>
 						<string>9BB826B31841BBF62D96F2E822C84C7783D02022</string>
 						<key>dateExpires</key>
-						<string>1/2/19</string>
-						<key>type</key>
-						<string>iOS Development</string>
-					</dict>
-					<key>name</key>
-					<string>SAMKeychain.framework</string>
-					<key>team</key>
-					<dict>
-						<key>id</key>
-						<string>97K67M84B8</string>
-						<key>name</key>
-						<string>Jacqueline Franßen</string>
-					</dict>
-				</dict>
-				<dict>
-					<key>architectures</key>
-					<array>
-						<string>armv7</string>
-						<string>arm64</string>
-					</array>
-					<key>certificate</key>
-					<dict>
-						<key>SHA1</key>
-						<string>9BB826B31841BBF62D96F2E822C84C7783D02022</string>
-						<key>dateExpires</key>
-						<string>1/2/19</string>
-						<key>type</key>
-						<string>iOS Development</string>
-					</dict>
-					<key>name</key>
-					<string>TNSCore.framework</string>
-					<key>team</key>
-					<dict>
-						<key>id</key>
-						<string>97K67M84B8</string>
-						<key>name</key>
-						<string>Jacqueline Franßen</string>
-					</dict>
-				</dict>
-				<dict>
-					<key>architectures</key>
-					<array>
-						<string>armv7</string>
-						<string>arm64</string>
-					</array>
-					<key>certificate</key>
-					<dict>
-						<key>SHA1</key>
-						<string>9BB826B31841BBF62D96F2E822C84C7783D02022</string>
-						<key>dateExpires</key>
-						<string>1/2/19</string>
-						<key>type</key>
-						<string>iOS Development</string>
-					</dict>
-					<key>name</key>
-					<string>TNSListView.framework</string>
-					<key>team</key>
-					<dict>
-						<key>id</key>
-						<string>97K67M84B8</string>
-						<key>name</key>
-						<string>Jacqueline Franßen</string>
-					</dict>
-				</dict>
-				<dict>
-					<key>architectures</key>
-					<array>
-						<string>armv7</string>
-						<string>arm64</string>
-					</array>
-					<key>certificate</key>
-					<dict>
-						<key>SHA1</key>
-						<string>9BB826B31841BBF62D96F2E822C84C7783D02022</string>
-						<key>dateExpires</key>
-						<string>1/2/19</string>
+						<string>01.02.19</string>
 						<key>type</key>
 						<string>iOS Development</string>
 					</dict>
@@ -161,7 +86,7 @@
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>f06951f4-b35d-4929-bc86-4e02ecf0b71d</string>
+				<string>6f539a54-ccf7-4e43-85d5-d475079255b3</string>
 				<key>name</key>
 				<string>iOS Team Provisioning Profile: org.nativescript.RFIDApp</string>
 			</dict>

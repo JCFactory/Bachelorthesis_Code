@@ -6,9 +6,6 @@ purpose of the file is to pass control to the app’s first module.
 
 require("./bundle-config");
 const application = require("application");
-// To import the "ui/frame" module:
-
-
 
 application.start({ moduleName: "home/home-page" });
 

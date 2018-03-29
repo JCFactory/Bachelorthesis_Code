@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-fonticon@1.1.1",
+        "scope": null,
+        "escapedName": "nativescript-fonticon",
+        "name": "nativescript-fonticon",
+        "rawSpec": "1.1.1",
+        "spec": "1.1.1",
+        "type": "version"
+      },
+      "/Users/jacquelinefranssen/Desktop/RFID_App/node_modules/nativescript-fontawesome"
+    ]
+  ],
+  "_from": "nativescript-fonticon@1.1.1",
+  "_id": "nativescript-fonticon@1.1.1",
+  "_inCache": true,
+  "_location": "/nativescript-fonticon",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/nativescript-fonticon-1.1.1.tgz_1481784577668_0.6681174889672548"
+  },
+  "_npmUser": {
+    "name": "walkerrunpdx",
+    "email": "walkerrunpdx@gmail.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-fonticon@1.1.1",
+    "scope": null,
+    "escapedName": "nativescript-fonticon",
+    "name": "nativescript-fonticon",
+    "rawSpec": "1.1.1",
+    "spec": "1.1.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/nativescript-fontawesome"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-fonticon/-/nativescript-fonticon-1.1.1.tgz",
+  "_shasum": "1ff981e15dbb4382efeee278739217b931c11dcc",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-fonticon@1.1.1",
+  "_where": "/Users/jacquelinefranssen/Desktop/RFID_App/node_modules/nativescript-fontawesome",
+  "author": {
+    "name": "Nathan Walker",
+    "email": "walkerrunpdx@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/NathanWalker/nativescript-fonticon/issues"
+  },
+  "contributors": [
+    {
+      "name": "Nathanael Anderson",
+      "email": "nathan@master-technology",
+      "url": "https://github.com/nathanaela"
+    }
+  ],
+  "dependencies": {},
+  "description": "Use custom font icon collections seamlessly with NativeScript.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "1ff981e15dbb4382efeee278739217b931c11dcc",
+    "tarball": "https://registry.npmjs.org/nativescript-fonticon/-/nativescript-fonticon-1.1.1.tgz"
+  },
+  "gitHead": "0859c068d72af025be66625a638f85d8b38bfd54",
+  "homepage": "https://github.com/NathanWalker/nativescript-fonticon",
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "Android",
+    "iOS",
+    "icon",
+    "font icon",
+    "font"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/NathanWalker/nativescript-fonticon/blob/master/LICENSE"
+  },
+  "main": "nativescript-fonticon",
+  "maintainers": [
+    {
+      "name": "walkerrunpdx",
+      "email": "walkerrunpdx@gmail.com"
+    }
+  ],
+  "name": "nativescript-fonticon",
+  "nativescript": {
+    "platforms": {
+      "android": "2.0.0",
+      "ios": "2.0.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanWalker/nativescript-fonticon.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.android": "npm run preparedemo; cd demo; tns run android",
+    "demo.ios": "npm run preparedemo; cd demo; tns emulate ios",
+    "preparedemo": "npm run build; cd demo; tns plugin remove nativescript-fonticon; tns plugin add ..; tns install",
+    "setup": "cd demo; npm install; cd ..; npm run build; cd demo; tns plugin add ..; cd .."
+  },
+  "typings": "index.d.ts",
+  "version": "1.1.1"
+}
