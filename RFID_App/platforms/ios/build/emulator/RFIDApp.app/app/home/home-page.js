@@ -13,7 +13,6 @@ exports.onTap = function() {
    topmost().navigate(navigationEntry);
 };
 
-
 var page;
 
 var pageData = new observableModule.fromObject({
@@ -137,22 +136,14 @@ exports.loaded = function(args){
 //   });
 // });
 
-
-
-
 // const navigationEntry = {
 //     moduleName: "detail"
 // }
 
-
-
 // const HomeViewModel = require("./home-view-model");
 // const Observable = require("data/observable").Observable;
 
-
 // const homeViewModel = new HomeViewModel();
-
-
 
 // function onNavigatingTo(args) {
    
