@@ -1,5 +1,6 @@
 var Drug = require("../mongo-node/mongo-node");
 
+var schema = require("../mongo-node/mongo-node");
 // var dialogsModule = require("ui/dialogs");
 // var observableModule = require("data/observable");
 // var ObservableArray = require("data/observable-array").ObservableArray;
@@ -8,23 +9,50 @@ var Drug = require("../mongo-node/mongo-node");
 var page;
 var http = require("http");
 
-
 //GET ALL DRUGS OF MONGODB 
 exports.getDrugs = function (req, res) {
-    //Look for a specific name in medication list
+    Drug.find(function (drugs, err) {
+        if (err) {
+            res.send(err);
+        }
+        res.send(drugs);
+    });
+    // Drug.distinct("name", function (err, results) {
+    //     if (err) {
+    //         res.send(err);
+    //     }
+    //     res.json(results);
+    // });
+};
+    // Look for a specific name in medication list
     // Drug.find({name: req.params.name}, function(drugs, err){
     //     if(err){
     //         res.send(err);
     //     }
     //     res.send(drugs);
     // });
-    Drug.find(function (err, drugs) {
-        if (err) {
-            res.send(err);
-        }
-        res.json(drugs);
-    });
-};
+    // Drug.distinct("name");
+    // alert(Drug);
+
+    // Drug.find().distinct("name", function (error, results) {
+    //     if (err) {
+    //         res.send(err);
+    //     }
+    //     res.json(results);
+    //     // console.log(results);
+    // });
+
+    // Drug.find().distinct("name", function (error, results) {
+    //     console.log(results);
+    // });
+
+    // Drug.find(function (err, drugs) {
+    //     if (err) {
+    //         res.send(err);
+    //     }
+    //     res.json(drugs);
+    // });
+
 
 // //GET SPECIFIC DRUG BY SEARCHING ITS NAME (SEARCH FIELD HAS TO BE IMPLEMENTED!!!!! IN FRONTEND XML)
 // exports.getDrug = function (req, res) {
@@ -80,24 +108,8 @@ exports.getDrugs = function (req, res) {
 //     });
 // };
 
-
-exports.loaded = function (args) {
-
-    http.request({ url: "http://localhost:3000/api/drugs", method: "GET" }).then(function (response) {
-        //// Argument (response) is HttpResponse!
-
-        console.log("Hallo Guapo Till, te echo mucho de menos :-(");
-        //// Content property of the response is HttpContent!
-        var str = response.content.toString();
-        var obj = response.content.toJSON();
-        var img = response.content.toImage();
-    }, function (e) {
-        //// Argument (e) is Error!
-    });
-};
-
-exports.pageNavigatedTo = function (args) {
-    const page = args.object;
-    page.bindingContext = page.navigationContext;
-};
+// exports.pageNavigatedTo = function (args) {
+//     const page = args.object;
+//     page.bindingContext = page.navigationContext;
+// };
 

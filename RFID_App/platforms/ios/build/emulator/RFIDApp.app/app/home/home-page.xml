@@ -1,14 +1,15 @@
-<Page class="page"
-    navigatingTo="onNavigatingTo"
-    xmlns="http://schemas.nativescript.org/tns.xsd"
-    loaded="loaded">
+<Page class="page" loaded="loaded" 
+    xmlns="http://schemas.nativescript.org/tns.xsd">
     <!--Add your page content here-->
     <ActionBar class="action-bar">
         <Label class="action-bar-title" background-color="green" text="Medication"></Label>
     </ActionBar>
-    <ListView items="{{ drugs }}">
-        <ListView.itemTemplate>
-            <Button text="{{ name }}" tap="onTap" class="title"/>
-        </ListView.itemTemplate>
+    <ListView>
+        <Button text="Till i love you" tap="onTap" class="title"/>
+        <Button text="Till i love you" tap="onTap" class="title"/>
+        <Button text="Till i love you" tap="onTap" class="title"/>
+        <Button text="Till i love you" tap="onTap" class="title"/>
+        <Button text="Till i love you" tap="onTap" class="title"/>
     </ListView>
+    <!-- <ListView items="{{ drugs }}"><ListView.itemTemplate><Button text="{{ name }}" tap="onTap" class="title"/></ListView.itemTemplate></ListView> -->
 </Page>

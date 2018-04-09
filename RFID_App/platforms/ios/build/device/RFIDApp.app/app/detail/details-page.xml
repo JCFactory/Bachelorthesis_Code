@@ -6,12 +6,11 @@
         <Label class="action-bar-title" background-color="green" text="Detail-Information"></Label>
     </ActionBar>
     <StackLayout orientation="vertical">
-        <!-- <TextView text="Name"/>
+        <TextView text="Name"/>
         <TextView text="ID"/>
         <TextView text="Countrycode"/>
         <TextView text="Size"/>
         <TextView text="Location"/>
-        <TextView text="Timestamp"/> -->
-        <TextView text="Example Textfield" loaded="textField" class="text-detail"/>
+        <TextView text="Timestamp"/>
     </StackLayout>
 </Page>

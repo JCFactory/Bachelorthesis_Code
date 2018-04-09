@@ -1,0 +1,121 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "http-string-parser",
+        "scope": null,
+        "escapedName": "http-string-parser",
+        "name": "http-string-parser",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App"
+    ]
+  ],
+  "_from": "http-string-parser@latest",
+  "_id": "http-string-parser@0.0.6",
+  "_inCache": true,
+  "_location": "/http-string-parser",
+  "_nodeVersion": "6.10.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/http-string-parser-0.0.6.tgz_1496653739957_0.9824521038681269"
+  },
+  "_npmUser": {
+    "name": "honzajavorek",
+    "email": "mail@honzajavorek.cz"
+  },
+  "_npmVersion": "4.4.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "http-string-parser",
+    "scope": null,
+    "escapedName": "http-string-parser",
+    "name": "http-string-parser",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/http-string-parser/-/http-string-parser-0.0.6.tgz",
+  "_shasum": "4088a1aba2b89155ce13918bcfb5cbbea6c4e7e9",
+  "_shrinkwrap": null,
+  "_spec": "http-string-parser",
+  "_where": "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App",
+  "author": {
+    "name": "Adam Kliment",
+    "email": "adam@apiary.io"
+  },
+  "bugs": {
+    "url": "https://github.com/apiaryio/http-string-parser/issues"
+  },
+  "dependencies": {},
+  "description": "Parse HTTP Request and Response from String",
+  "devDependencies": {
+    "chai": "1.7.1",
+    "coffee-script": "1.6.3",
+    "curl-trace-parser": "",
+    "mocha": "1.11.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "4088a1aba2b89155ce13918bcfb5cbbea6c4e7e9",
+    "tarball": "https://registry.npmjs.org/http-string-parser/-/http-string-parser-0.0.6.tgz"
+  },
+  "gitHead": "da203965301b4442a157279e1e9a105df36b10e4",
+  "homepage": "https://github.com/apiaryio/http-string-parser#readme",
+  "keywords": [
+    "http",
+    "message",
+    "request",
+    "response",
+    "parser",
+    "string",
+    "raw",
+    "bare"
+  ],
+  "license": "MIT",
+  "main": "lib/parser.js",
+  "maintainers": [
+    {
+      "name": "almad",
+      "email": "bugs@almad.net"
+    },
+    {
+      "name": "apiary-sre",
+      "email": "sre@apiary.io"
+    },
+    {
+      "name": "honzajavorek",
+      "email": "mail@honzajavorek.cz"
+    },
+    {
+      "name": "kubakubula",
+      "email": "kubula@apiary.io"
+    },
+    {
+      "name": "netmilk",
+      "email": "adam@apiary.io"
+    },
+    {
+      "name": "tu1ly",
+      "email": "tully@apiary.io"
+    }
+  ],
+  "name": "http-string-parser",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiaryio/http-string-parser.git"
+  },
+  "scripts": {
+    "prepublish": "scripts/prepublish",
+    "test": "scripts/test"
+  },
+  "version": "0.0.6"
+}

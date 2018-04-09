@@ -1,3 +1,18 @@
+//var http = require("http");
+
+
+
+// exports.loaded = function () {
+//     http.request({ url: "http://192.168.1.64:3000/api/drugs", method: "GET" }).then(function (response) {
+//         console.log("asdfjköl");
+//         var responseString = response.content.toString();
+//         // var drugs = parser.parseResponse(response);
+//         alert(responseString);
+//     }, function (e) {
+//         console.log("error");
+//     });
+// }
+
 var dialogsModule = require("ui/dialogs");
 var observableModule = require("data/observable");
 var ObservableArray = require("data/observable-array").ObservableArray;
@@ -12,6 +27,7 @@ exports.onTap = function() {
    };
    topmost().navigate(navigationEntry);
 };
+
 
 var page;
 
@@ -120,35 +136,3 @@ exports.loaded = function(args){
     page = args.object;
     page.bindingContext = pageData;
 };
-
-
-// var MongoClient = require('mongodb').MongoClient;
-// var url = "http://mongodb://localhost:27017/medication";
-// MongoClient.connect(url, function (err, db) {
-//   if (err) throw err;
-//   //for specific queries, define variable for query:
-//   //ejemplo: var query = {age: {gt$: 17}, name: 'john'};
-//   //var query = { }
-//   db.collection("drugs").find({}).toArray(function (err, result) {
-//     if (err) throw err;
-//     console.log(result);
-//     db.close();
-//   });
-// });
-
-// const navigationEntry = {
-//     moduleName: "detail"
-// }
-
-// const HomeViewModel = require("./home-view-model");
-// const Observable = require("data/observable").Observable;
-
-// const homeViewModel = new HomeViewModel();
-
-// function onNavigatingTo(args) {
-   
-//     const page = args.object;
-//     page.bindingContext = homeViewModel;
-// }
-
-// exports.onNavigatingTo = onNavigatingTo;

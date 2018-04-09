@@ -1,0 +1,13 @@
+<Page class="page"
+    xmlns="http://schemas.nativescript.org/tns.xsd"
+    loaded="loaded">
+    <!--Add your page content here-->
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" background-color="green" text="Medication"></Label>
+    </ActionBar>
+     <ListView items="{{ drugs }}">
+        <ListView.itemTemplate>
+            <Button text="{{ name }}" tap="onTap" class="title"/>
+        </ListView.itemTemplate>
+    </ListView>
+</Page>

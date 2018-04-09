@@ -1,9 +1,25 @@
-<!-- <Page class="page"
+<!-- <Page class="page" loaded="loaded" 
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+    <!--Add your page content here-->
+   <!--> <ActionBar class="action-bar">
+        <Label class="action-bar-title" background-color="green" text="Medication"></Label>
+    </ActionBar>
+    <ListView>
+        <Button text="Till i love you" tap="onTap" class="title"/>
+        <Button text="Till i love you" tap="onTap" class="title"/>
+        <Button text="Till i love you" tap="onTap" class="title"/>
+        <Button text="Till i love you" tap="onTap" class="title"/>
+        <Button text="Till i love you" tap="onTap" class="title"/>
+    </ListView>
+    </Page> -->
+
+
+<Page class="page"
     navigatingTo="onNavigatingTo"
     xmlns="http://schemas.nativescript.org/tns.xsd"
     loaded="loaded">
     <!--Add your page content here-->
-    <!-- <ActionBar class="action-bar">
+    <ActionBar class="action-bar">
         <Label class="action-bar-title" background-color="green" text="Medication"></Label>
     </ActionBar>
     <ListView items="{{ drugs }}">
@@ -11,16 +27,4 @@
             <Button text="{{ name }}" tap="onTap" class="title"/>
         </ListView.itemTemplate>
     </ListView>
-</Page> --> 
-
-
-<Page class="page" 
-    xmlns="http://schemas.nativescript.org/tns.xsd">
-    <!--Add your page content here-->
-    <ActionBar class="action-bar">
-        <Label class="action-bar-title" text="Detail-Information"></Label>
-    </ActionBar>
-    <GridLayout>
-        <WebView loaded="webViewLoaded" touch="webViewTouch" pan="webViewPan" src="http://192.168.1.64:3000/api/drugs" />
-    </GridLayout>
 </Page>
