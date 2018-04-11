@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "tns-android",
+        "scope": null,
+        "escapedName": "tns-android",
+        "name": "tns-android",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App"
+    ]
+  ],
+  "_from": "tns-android@latest",
+  "_id": "tns-android@3.4.2",
+  "_inCache": true,
+  "_location": "/tns-android",
+  "_nodeVersion": "6.13.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/tns-android_3.4.2_1520262777507_0.16031523296408845"
+  },
+  "_npmUser": {
+    "name": "tns-bot",
+    "email": "nativescript@telerik.com"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "tns-android",
+    "scope": null,
+    "escapedName": "tns-android",
+    "name": "tns-android",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/tns-android/-/tns-android-3.4.2.tgz",
+  "_shasum": "e617526b6a704ab925fe3f59153e34eddacc748a",
+  "_shrinkwrap": null,
+  "_spec": "tns-android",
+  "_where": "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App",
+  "bugs": {
+    "url": "https://github.com/NativeScript/android-runtime/issues"
+  },
+  "dependencies": {},
+  "description": "NativeScript Runtime for Android",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "e617526b6a704ab925fe3f59153e34eddacc748a",
+    "tarball": "https://registry.npmjs.org/tns-android/-/tns-android-3.4.2.tgz",
+    "fileCount": 47,
+    "unpackedSize": 22743878
+  },
+  "files": [
+    "**/*"
+  ],
+  "homepage": "https://github.com/NativeScript/android-runtime#readme",
+  "maintainers": [
+    {
+      "name": "hdeshev",
+      "email": "hristo@deshev.com"
+    },
+    {
+      "name": "panayot.cankov",
+      "email": "panayot.cankov@telerik.com"
+    },
+    {
+      "name": "tns-bot",
+      "email": "nativescript@telerik.com"
+    }
+  ],
+  "name": "tns-android",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NativeScript/android-runtime.git"
+  },
+  "version": "3.4.2"
+}

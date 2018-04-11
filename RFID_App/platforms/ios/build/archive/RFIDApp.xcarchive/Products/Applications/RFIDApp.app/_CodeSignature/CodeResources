@@ -102,7 +102,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		nP1zlD/h52kN3tYm8S+Lbai3eI8=
+		tAL/azbOGmbFj/NQUXWASAHrPM4=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Frameworks/NativeScript.framework/NativeScript</key>
 		<data>
-		cL83up4M6qURyHRDouSOseRH6UI=
+		RtVtmpxi+ixYJnCjuQZeWhKqo1Q=
 		</data>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Frameworks/TNSWidgets.framework/TNSWidgets</key>
 		<data>
-		vAs8Xsh70KjtfzkNGmuFcZniuN4=
+		GhXZJIEZMMkhdynkxZkVa/DrtWU=
 		</data>
 		<key>Frameworks/TNSWidgets.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -206,7 +206,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		hIDa0p2N09YGHuGM82Jqz4QxiBI=
+		1Lw4Z2dleQwYfkDo1kiNfJrncnw=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		e6excSJDM3rAUvlTVvTc5na7dZ0=
+		OtG1z8XyERgjxEVdWf3oXZ9HnV8=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -234,11 +234,11 @@
 		</data>
 		<key>app/app.css</key>
 		<data>
-		RPlL66l4kQMab5IdBR2QEinM23g=
+		9No7n8JSc5J/x/NRwlyYpjmf0hM=
 		</data>
 		<key>app/app.js</key>
 		<data>
-		PJnmxP/Sy6ktKTwivGV2+vgl9eM=
+		sTs/uA7V1PfoBCBcIupUqDWXYmo=
 		</data>
 		<key>app/bundle-config.js</key>
 		<data>
@@ -246,23 +246,23 @@
 		</data>
 		<key>app/detail/details-page.js</key>
 		<data>
-		P7lhZu8UmT3pVdJA0EqP8BfbcQg=
+		cp8+rDbEPA0YR2T5HvgS8oUtL94=
 		</data>
 		<key>app/detail/details-page.xml</key>
 		<data>
-		LDKQJS91wVqhkLecTrdYFXKfB8g=
+		OZ0KtcSalHy+01AoN8HfV5JtESI=
 		</data>
-		<key>app/home/home-page.js</key>
+		<key>app/home-view/home-view-model.js</key>
 		<data>
-		PzfZWv7QIa8SaAeFdFOvgXGwdRs=
+		U8W1D9jk53lcZuZ2VE8WYWNcRCo=
 		</data>
-		<key>app/home/home-page.xml</key>
+		<key>app/home-view/home-view.js</key>
 		<data>
-		C9wLhXKyhT0wIZh4Dqd9pSWaUI8=
+		lnO9nRasZHPCP4NaPHQw7H/wfjM=
 		</data>
-		<key>app/home/home-view-model.js</key>
+		<key>app/home-view/home-view.xml</key>
 		<data>
-		KsZf0ru7QJdzy1V8/rVzxt2JWng=
+		5w3tIDZzqBXJm++lXi6DcwKlrHI=
 		</data>
 		<key>app/images/272-cross.png</key>
 		<data>
@@ -278,7 +278,7 @@
 		</data>
 		<key>app/mongo-node/mongo-node.js</key>
 		<data>
-		emupZbVQtjUsn/ftjMuoicM3Szo=
+		X7OV6uvVjdWHOPLIrfx6bRZ0pS0=
 		</data>
 		<key>app/package.json</key>
 		<data>
@@ -290,15 +290,7 @@
 		</data>
 		<key>app/server.js</key>
 		<data>
-		jDucRc+jVpaJYulQAvp8D3q1lGg=
-		</data>
-		<key>app/test/test.js</key>
-		<data>
-		o6oH9LmX8ZGcdondAESDaVFsNwU=
-		</data>
-		<key>app/test/test.xml</key>
-		<data>
-		Sgg0DtntuRJw0q+okSh7eUhAuOQ=
+		eJ5hfRUgjt1sdxfcdABUtvsNfVw=
 		</data>
 		<key>app/tns_modules/accepts/HISTORY.md</key>
 		<data>
@@ -5652,9 +5644,21 @@
 		<data>
 		7qFzCWihIsVHZme587kRvlzcDlc=
 		</data>
+		<key>app/tns_modules/mongodb-core/.evergreen/config.yml</key>
+		<data>
+		OJrmfIQ7manQhodgKdTK+LqiUaY=
+		</data>
+		<key>app/tns_modules/mongodb-core/.evergreen/install-dependencies.sh</key>
+		<data>
+		t0QNfQQoizdtNv30ylu1M03zAMk=
+		</data>
+		<key>app/tns_modules/mongodb-core/.evergreen/run-tests.sh</key>
+		<data>
+		cF9nJw3MinmLJ8Q2fI4TcKkGhtE=
+		</data>
 		<key>app/tns_modules/mongodb-core/HISTORY.md</key>
 		<data>
-		z2uqrqNrXMs/OEPAy4JrlKhYFd4=
+		PKvAQgn/9WNHhqKgeCnToH603u0=
 		</data>
 		<key>app/tns_modules/mongodb-core/LICENSE</key>
 		<data>
@@ -5704,13 +5708,17 @@
 		<data>
 		+G798ARfOjrRTNmEEr1mmgzDmLg=
 		</data>
+		<key>app/tns_modules/mongodb-core/lib/connection/apm.js</key>
+		<data>
+		8y9Ds2f1QvIurh8QeOhbzMrLLyE=
+		</data>
 		<key>app/tns_modules/mongodb-core/lib/connection/command_result.js</key>
 		<data>
 		fdUeqfdXoojB2/MVeEC93RdhBn0=
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/connection/commands.js</key>
 		<data>
-		qzi0WM7ffByKRJ8qhydaEA9TOLw=
+		5dX3AxgZvrl6cQ2TqIlKLZpWWPQ=
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/connection/connection.js</key>
 		<data>
@@ -5722,7 +5730,7 @@
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/connection/pool.js</key>
 		<data>
-		r65rJscBy8a3BfWzslyuDJEO+0s=
+		5BRhio6VHFBh1Ez5fo+i9EJKYIA=
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/connection/utils.js</key>
 		<data>
@@ -5730,7 +5738,7 @@
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/cursor.js</key>
 		<data>
-		Z051+tspGPfTl5FfzCDSz3dMvN4=
+		fCOnjvR8+l1WL5WQFHaP/1JLmyA=
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/error.js</key>
 		<data>
@@ -5738,7 +5746,7 @@
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/sessions.js</key>
 		<data>
-		8V8AEneeIi2KAiYfk7Di1dQBA/o=
+		L+aPLpqilzl7qb3BZedjbSi7owE=
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/tools/smoke_plugin.js</key>
 		<data>
@@ -5746,7 +5754,7 @@
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/topologies/mongos.js</key>
 		<data>
-		3w1zDCiLwxkKi64R9gwQw+9xHZE=
+		98/8dTtLZGGsXDcFNh7TocOA8ZY=
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/topologies/read_preference.js</key>
 		<data>
@@ -5754,7 +5762,7 @@
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/topologies/replset.js</key>
 		<data>
-		fa9JN5N6zRAMuA6PtThsfuuIqrQ=
+		PoC8Ini9NPXA0avyZqSADCsoeWc=
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/topologies/replset_state.js</key>
 		<data>
@@ -5762,15 +5770,15 @@
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/topologies/server.js</key>
 		<data>
-		DL7iBRMTwqG6BBlEt3Wnz1VsDQA=
+		uN1U2+BVCyb4z/z40TwO954x3UI=
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/topologies/shared.js</key>
 		<data>
-		qOLRNIqId8wkdBkNnjCkEwpPBhY=
+		61ysjkmwlZI3e4v4yYCSu/PhlHE=
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/uri_parser.js</key>
 		<data>
-		J0ch+6Kvw4HUjCf+S/ciAbj9Qi8=
+		cevoIrM1CT+KFjGwIBbFJUb+A1w=
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/utils.js</key>
 		<data>
@@ -5778,11 +5786,11 @@
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/wireprotocol/2_6_support.js</key>
 		<data>
-		Q0A7JiitogRCUg1dLZY/gZGUeYg=
+		PbVOt66UMr5f2afScJryN0wZs4w=
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/wireprotocol/3_2_support.js</key>
 		<data>
-		bFYLFi9JjGyZMLyr+BpMfeIrux0=
+		YzHacruH9vzAMqiY52vlDWhF+rI=
 		</data>
 		<key>app/tns_modules/mongodb-core/lib/wireprotocol/compression.js</key>
 		<data>
@@ -5794,11 +5802,11 @@
 		</data>
 		<key>app/tns_modules/mongodb-core/package.json</key>
 		<data>
-		Y7y5/6Lj0NGgM0riNh5uoJ/t+rw=
+		TqYIEyoddLzMgRn0y3+mQbMkH10=
 		</data>
 		<key>app/tns_modules/mongodb-core/yarn.lock</key>
 		<data>
-		PSGlNlSSbk01pA155vA8e8IbmvI=
+		S9r6CFux0jUzRHY9OHfniqznoQc=
 		</data>
 		<key>app/tns_modules/mongodb/.coveralls.yml</key>
 		<data>
@@ -5806,15 +5814,15 @@
 		</data>
 		<key>app/tns_modules/mongodb/.eslintrc</key>
 		<data>
-		91xIHcKIAPkRuyw0GIvc1HY6zPQ=
+		oj46sABz5cMQ/FpyPdQHrIZ8/lk=
 		</data>
 		<key>app/tns_modules/mongodb/CHANGES_3.0.0.md</key>
 		<data>
-		2xV0S/kARrnT1GWtB4d1DT0dVhY=
+		OCDBjuCNHUvzxm0Pmva9UAaa5zk=
 		</data>
 		<key>app/tns_modules/mongodb/HISTORY.md</key>
 		<data>
-		kwGPFM1PLUvfubzwNvNLcLhJ9LY=
+		FtVmBbylCgyO6qa384DWmV4UHgM=
 		</data>
 		<key>app/tns_modules/mongodb/LICENSE</key>
 		<data>
@@ -5842,7 +5850,7 @@
 		</data>
 		<key>app/tns_modules/mongodb/index.js</key>
 		<data>
-		DtyN+FKv9ULlRjjjzq1ujW87F7M=
+		EYHoCw743DBjyzTDfXyULnbm38Y=
 		</data>
 		<key>app/tns_modules/mongodb/insert_bench.js</key>
 		<data>
@@ -5854,11 +5862,11 @@
 		</data>
 		<key>app/tns_modules/mongodb/lib/aggregation_cursor.js</key>
 		<data>
-		/UfW/5Fj11xuYMv+DAx7//DzKXE=
+		OUep6C34Z22prvedvDVCcnXAheU=
 		</data>
 		<key>app/tns_modules/mongodb/lib/apm.js</key>
 		<data>
-		QuK64Nq5Ala6kuBKwjibXyWlDUQ=
+		M0+n1lJ0F4DcPI8fDB4YBaAjWNU=
 		</data>
 		<key>app/tns_modules/mongodb/lib/authenticate.js</key>
 		<data>
@@ -5882,19 +5890,19 @@
 		</data>
 		<key>app/tns_modules/mongodb/lib/collection.js</key>
 		<data>
-		0ITVUmenR4UFGd9ETNvfMZfXoMw=
+		jbatWe9b0hY8JEAF3bsCJAhxn6M=
 		</data>
 		<key>app/tns_modules/mongodb/lib/command_cursor.js</key>
 		<data>
-		eJrLJxOAl8Dlx7X8iCE3eGezAwc=
+		tADjF+JD6f0yu7J3SPVjV6C9Nl0=
 		</data>
 		<key>app/tns_modules/mongodb/lib/cursor.js</key>
 		<data>
-		umkg6WALU5E4slcb46EIi0rWEz4=
+		Yef/9uM/G0eawCx3ujr1/ZG3VSw=
 		</data>
 		<key>app/tns_modules/mongodb/lib/db.js</key>
 		<data>
-		xyjLDw3LsnvSrctK4RpctQ02rV4=
+		ppjWoHGa8LYXvU+7sgfGJk/xFNk=
 		</data>
 		<key>app/tns_modules/mongodb/lib/gridfs-stream/download.js</key>
 		<data>
@@ -5922,39 +5930,39 @@
 		</data>
 		<key>app/tns_modules/mongodb/lib/mongo_client.js</key>
 		<data>
-		jTkdy7hP0gq+acGct/wG23dbqMM=
+		GX7Evi+jwST+eLnX/GlRZhSx4Fc=
 		</data>
 		<key>app/tns_modules/mongodb/lib/topologies/mongos.js</key>
 		<data>
-		sn2XBKy4zMGEgFovjWHzTvcW13w=
+		EXKEV8blPISbPM5bdleNng7Imz8=
 		</data>
 		<key>app/tns_modules/mongodb/lib/topologies/replset.js</key>
 		<data>
-		RZFRSWwgVx03akPSQPHI94oK+jM=
+		7tT8ogm1wcmZ0GwqCDk1R56rtHc=
 		</data>
 		<key>app/tns_modules/mongodb/lib/topologies/server.js</key>
 		<data>
-		esn9yNyf/1jCHPyG8WUa4JdpDUY=
+		ymoEJcNPjUdoQYEzdTUfeK54MJ4=
 		</data>
 		<key>app/tns_modules/mongodb/lib/topologies/topology_base.js</key>
 		<data>
-		zBc64u8v6VDqx8+F3xtW4+qUf6U=
+		S1krQaZcSSIZ7KyJATEFwVNHMng=
 		</data>
 		<key>app/tns_modules/mongodb/lib/url_parser.js</key>
 		<data>
-		ATHI1G65n/ToFO9xY5CvaF7b8fw=
+		Ff8WHsq0CYJEJz0wLpaT+p6Hpmk=
 		</data>
 		<key>app/tns_modules/mongodb/lib/utils.js</key>
 		<data>
-		rvmaXLXbuPgibU17T2K4OSoOOS0=
+		H0HF5tG48/MYWeYbAGXOVTtbU4k=
 		</data>
 		<key>app/tns_modules/mongodb/package.json</key>
 		<data>
-		6pYtDsrJRKPQTnTafFcreRmePZQ=
+		YhEIFUa7jM9QNXbeJ/kTynn1BgE=
 		</data>
 		<key>app/tns_modules/mongodb/yarn.lock</key>
 		<data>
-		bglRIcr5ZdxVa5QpDSP2yP2YSqg=
+		fmUnHy3PRFL57YsvNiHGejDnm0Q=
 		</data>
 		<key>app/tns_modules/mongoose-legacy-pluralize/LICENSE</key>
 		<data>
@@ -5994,7 +6002,7 @@
 		</data>
 		<key>app/tns_modules/mongoose/History.md</key>
 		<data>
-		sdL2aiTf67OvbGRz6XWLbX6hrdo=
+		RT6TZfO9gHzf+bQ+q7X9/PScZLk=
 		</data>
 		<key>app/tns_modules/mongoose/README.md</key>
 		<data>
@@ -6362,7 +6370,7 @@
 		</data>
 		<key>app/tns_modules/mongoose/lib/model.js</key>
 		<data>
-		Xi27rBtnOQvKoyuiBpbi57hX7cc=
+		3MRi3cKiXlvfrZL5SfhPCmK2tyE=
 		</data>
 		<key>app/tns_modules/mongoose/lib/options.js</key>
 		<data>
@@ -6394,7 +6402,7 @@
 		</data>
 		<key>app/tns_modules/mongoose/lib/query.js</key>
 		<data>
-		2pnV60p2NAaOtYIqobf6JdDFGLM=
+		H/r9O2Cx2W9vTpfNdpBY9KogDgc=
 		</data>
 		<key>app/tns_modules/mongoose/lib/queryhelpers.js</key>
 		<data>
@@ -6402,7 +6410,7 @@
 		</data>
 		<key>app/tns_modules/mongoose/lib/schema.js</key>
 		<data>
-		5Z7xeSArCZli9ioJ+hAN408dQho=
+		hKXKeYJ2cOEBlGcTNqwWyYRArjo=
 		</data>
 		<key>app/tns_modules/mongoose/lib/schema/array.js</key>
 		<data>
@@ -6506,11 +6514,15 @@
 		</data>
 		<key>app/tns_modules/mongoose/lib/services/model/discriminator.js</key>
 		<data>
-		yjdrRR6nUXY/Lahehje8Jb3RpaU=
+		RyBRxNGfZ4wFn05HI2kYNBgvyys=
 		</data>
 		<key>app/tns_modules/mongoose/lib/services/populate/getSchemaTypes.js</key>
 		<data>
-		rS2trCu0UGituBDjuByeCSB+MNw=
+		yUYLI00MyAh0q/cRuC4Qnxo23Gs=
+		</data>
+		<key>app/tns_modules/mongoose/lib/services/populate/getVirtual.js</key>
+		<data>
+		YSOwV3eXUe7wAyt/hG6ex4AkIA8=
 		</data>
 		<key>app/tns_modules/mongoose/lib/services/projection/isDefiningProjection.js</key>
 		<data>
@@ -6586,7 +6598,7 @@
 		</data>
 		<key>app/tns_modules/mongoose/lib/utils.js</key>
 		<data>
-		kxW112Ic+4ID8Zc5x0V7lE8w1Gk=
+		Ct6BmDGUuZha0+u7uqP4IPY9ms4=
 		</data>
 		<key>app/tns_modules/mongoose/lib/virtualtype.js</key>
 		<data>
@@ -7020,9 +7032,165 @@
 		<data>
 		OlyTvxJxWJPGD67hgaYMKcmygMI=
 		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/.coveralls.yml</key>
+		<data>
+		yOPQQWMbsd+PGd6ksZ5mMSCylXU=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/.eslintrc</key>
+		<data>
+		91xIHcKIAPkRuyw0GIvc1HY6zPQ=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/CHANGES_3.0.0.md</key>
+		<data>
+		2xV0S/kARrnT1GWtB4d1DT0dVhY=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/HISTORY.md</key>
+		<data>
+		kwGPFM1PLUvfubzwNvNLcLhJ9LY=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/LICENSE</key>
+		<data>
+		PZyoWK4EfgXIwDHiS0GuohQX/Co=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/Makefile</key>
+		<data>
+		4I1BUXhff/YqGNDp6IWKWT68D3o=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/README.md</key>
+		<data>
+		OIzDVRWEUBmvhegf+zAq9MXL1ds=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/THIRD-PARTY-NOTICES</key>
+		<data>
+		SpXF4++lCIn5HbHJBEdvVSTXPbg=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/boot_auth.js</key>
+		<data>
+		fT6ViO7dOTC9COqdc7nYRJrUjDk=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/conf.json</key>
+		<data>
+		za9YYMS9wnGk0AJ8vR4+Xjxd270=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/index.js</key>
+		<data>
+		DtyN+FKv9ULlRjjjzq1ujW87F7M=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/insert_bench.js</key>
+		<data>
+		y6HNw3Io0i7vxyTqlBOuDq89lPA=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/admin.js</key>
+		<data>
+		JS0DvHCXFbWRLFxl1mb5FkIOGNc=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/aggregation_cursor.js</key>
+		<data>
+		/UfW/5Fj11xuYMv+DAx7//DzKXE=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/apm.js</key>
+		<data>
+		QuK64Nq5Ala6kuBKwjibXyWlDUQ=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/authenticate.js</key>
+		<data>
+		no0uBSET/pYYo69pBgonEVkQd60=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/bulk/common.js</key>
+		<data>
+		uTv4DL6+PV3FqFWKOmHMesXug64=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/bulk/ordered.js</key>
+		<data>
+		h7pgHF1TSvhPuuQd5zm3yq4x0fQ=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js</key>
+		<data>
+		7xYd4scuvM5zQ3+i1WtDsW2URgE=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/change_stream.js</key>
+		<data>
+		ZRoSzqaFKa09yxkdiAK/bEE8qts=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/collection.js</key>
+		<data>
+		0ITVUmenR4UFGd9ETNvfMZfXoMw=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/command_cursor.js</key>
+		<data>
+		eJrLJxOAl8Dlx7X8iCE3eGezAwc=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/cursor.js</key>
+		<data>
+		umkg6WALU5E4slcb46EIi0rWEz4=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/db.js</key>
+		<data>
+		xyjLDw3LsnvSrctK4RpctQ02rV4=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/gridfs-stream/download.js</key>
+		<data>
+		PdgHR5DsLuUJfSQsYf8jfTTF82M=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/gridfs-stream/index.js</key>
+		<data>
+		Tz/VchlBoOLq9SDxPGGeuCYnXig=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/gridfs-stream/upload.js</key>
+		<data>
+		Lo2tfWviPnDwbMABHRhygviNEDM=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/gridfs/chunk.js</key>
+		<data>
+		KJIYxX2QwsHhayG54OoGZxdZYz0=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/gridfs/grid_store.js</key>
+		<data>
+		gLSk/sYTQTWEq/X7TKPwG2flOYc=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/metadata.js</key>
+		<data>
+		6cWtZkWwPM9pQVp9v0ApzELdQd8=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/mongo_client.js</key>
+		<data>
+		jTkdy7hP0gq+acGct/wG23dbqMM=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/topologies/mongos.js</key>
+		<data>
+		sn2XBKy4zMGEgFovjWHzTvcW13w=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/topologies/replset.js</key>
+		<data>
+		RZFRSWwgVx03akPSQPHI94oK+jM=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/topologies/server.js</key>
+		<data>
+		esn9yNyf/1jCHPyG8WUa4JdpDUY=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/topologies/topology_base.js</key>
+		<data>
+		zBc64u8v6VDqx8+F3xtW4+qUf6U=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/url_parser.js</key>
+		<data>
+		ATHI1G65n/ToFO9xY5CvaF7b8fw=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/utils.js</key>
+		<data>
+		rvmaXLXbuPgibU17T2K4OSoOOS0=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/package.json</key>
+		<data>
+		SewZenJUTF5+kK8SVsggBfJH4jY=
+		</data>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/yarn.lock</key>
+		<data>
+		bglRIcr5ZdxVa5QpDSP2yP2YSqg=
+		</data>
 		<key>app/tns_modules/mongoose/package.json</key>
 		<data>
-		IMRPYrLHVSSf+Sc9XaG2FzTcV6Y=
+		Ox6GlSBUEvFTge/XWIr77gQ851Y=
 		</data>
 		<key>app/tns_modules/mongoose/release-items.md</key>
 		<data>
@@ -7048,17 +7216,13 @@
 		<data>
 		C+wc9B0YlTeDBJrq9BqIpdUcIp0=
 		</data>
-		<key>app/tns_modules/mpath/.npmignore</key>
-		<data>
-		7DOyw2hl+UpJ8OsRjINrTQ1Yr3s=
-		</data>
 		<key>app/tns_modules/mpath/.travis.yml</key>
 		<data>
-		R19J8qx8pxoYpRH+hUlJGVKpSnE=
+		ah50g7cgIC237a/3eIRJwlDCf58=
 		</data>
 		<key>app/tns_modules/mpath/History.md</key>
 		<data>
-		kWnJU5rW3ZJmKqWWKx3kwUQgaLI=
+		Z2PHWYexTCinl4c8JyDE7vGnWkY=
 		</data>
 		<key>app/tns_modules/mpath/LICENSE</key>
 		<data>
@@ -7066,7 +7230,7 @@
 		</data>
 		<key>app/tns_modules/mpath/Makefile</key>
 		<data>
-		IF6GReQiHnOzhgso1lyozno6bJU=
+		++5+mWytGi7qqPEhwdSvZ28krn4=
 		</data>
 		<key>app/tns_modules/mpath/README.md</key>
 		<data>
@@ -7094,15 +7258,15 @@
 		</data>
 		<key>app/tns_modules/mpath/lib/index.js</key>
 		<data>
-		0tivBZGRLJv2qSoIejjpzyKJViE=
+		E1Zi6jMDxOVgjhvXU3UJcHTc9qU=
 		</data>
 		<key>app/tns_modules/mpath/package.json</key>
 		<data>
-		0ZnDGvqirxQzJzrNiqaXx6Rvlag=
+		JrYkHFbCrs/PF/tcyuzHEk1Ju8w=
 		</data>
 		<key>app/tns_modules/mpath/test/index.js</key>
 		<data>
-		WrpUo2+wKIiqH23MCh2clV02JKk=
+		6Smb80fk7sPO2f/5Lr6x5vYg4vI=
 		</data>
 		<key>app/tns_modules/mquery/.travis.yml</key>
 		<data>
@@ -7423,94 +7587,6 @@
 		<key>app/tns_modules/ms/readme.md</key>
 		<data>
 		6HXZ+nQf5EiTx3iXSGDzYnJONew=
-		</data>
-		<key>app/tns_modules/nativescript-fontawesome/.npmignore</key>
-		<data>
-		4hXnXXPx+4e0H0AVbOvPgRHvzKE=
-		</data>
-		<key>app/tns_modules/nativescript-fontawesome/LICENSE</key>
-		<data>
-		khcM3ANLL/gZMj/2cNO3JmyL/80=
-		</data>
-		<key>app/tns_modules/nativescript-fontawesome/README.md</key>
-		<data>
-		lVww0i67VYP72GQtWymWvXh5Ksk=
-		</data>
-		<key>app/tns_modules/nativescript-fontawesome/font-awesome.css</key>
-		<data>
-		Bm3O33O2FeUuOwqHqrHdU76XsTk=
-		</data>
-		<key>app/tns_modules/nativescript-fontawesome/fontawesome.common.d.ts</key>
-		<data>
-		xADAhc6h7u8VY+BuCjwGlKCE84M=
-		</data>
-		<key>app/tns_modules/nativescript-fontawesome/fontawesome.common.js</key>
-		<data>
-		rN07lht6rskbd7Y8c4OnM3JNAIY=
-		</data>
-		<key>app/tns_modules/nativescript-fontawesome/fontawesome.d.ts</key>
-		<data>
-		3DQCcyaVWEAfmZ+k0f8r0n9DtDk=
-		</data>
-		<key>app/tns_modules/nativescript-fontawesome/fontawesome.js</key>
-		<data>
-		Ys8iRrsiZ8p/JTX8o6e8l+MkPGg=
-		</data>
-		<key>app/tns_modules/nativescript-fontawesome/index.d.ts</key>
-		<data>
-		b6eg2LCY1uni7V+axOF92Eszlv4=
-		</data>
-		<key>app/tns_modules/nativescript-fontawesome/package.json</key>
-		<data>
-		DyFwUiPrARPPvvOeet3l+yyr9w8=
-		</data>
-		<key>app/tns_modules/nativescript-fontawesome/references.d.ts</key>
-		<data>
-		kPUxea5gnDo3RcZpauUBwcvyeZc=
-		</data>
-		<key>app/tns_modules/nativescript-fonticon/.npmignore</key>
-		<data>
-		S/eSuH3tsbKfJAVHsrTOVYJKuRw=
-		</data>
-		<key>app/tns_modules/nativescript-fonticon/LICENSE</key>
-		<data>
-		7DZzT1uzSqkf9TyVMnWIDSsOIvo=
-		</data>
-		<key>app/tns_modules/nativescript-fonticon/README.md</key>
-		<data>
-		lcJ+bM+mvwC78JYcMmF3P/sV5uk=
-		</data>
-		<key>app/tns_modules/nativescript-fonticon/fonticon.js.map</key>
-		<data>
-		E958AOzR6E4dkydYRTW957/JmRU=
-		</data>
-		<key>app/tns_modules/nativescript-fonticon/index.d.ts</key>
-		<data>
-		GcgTIyzepgb0G4hx4FZCuQrtjmk=
-		</data>
-		<key>app/tns_modules/nativescript-fonticon/nativescript-fonticon.d.ts</key>
-		<data>
-		GcgTIyzepgb0G4hx4FZCuQrtjmk=
-		</data>
-		<key>app/tns_modules/nativescript-fonticon/nativescript-fonticon.js</key>
-		<data>
-		Wjczd31rvA+RQbkMxh8wtpcpv7g=
-		</data>
-		<key>app/tns_modules/nativescript-fonticon/nativescript-fonticon.js.map</key>
-		<data>
-		GOTSmNZaL6raTRyLqbQFKpGFFvE=
-		</data>
-		<key>app/tns_modules/nativescript-fonticon/package.json</key>
-		<data>
-		KbSs9jdmoP82iZ7P404bCaY2M14=
-		</data>
-		<key>app/tns_modules/nativescript-fonticon/references.d.ts</key>
-		<data>
-		HK19d2ljtJJkiaOsiYI3aVUlhpo=
-		</data>
-		<key>app/tns_modules/nativescript-fonticon/tsconfig.json</key>
-		<data>
-		poo6YyObSrd6vX7eTB9V5APuI4Q=
 		</data>
 		<key>app/tns_modules/nativescript-theme-core/css/aqua.css</key>
 		<data>
@@ -8387,6 +8463,194 @@
 		<key>app/tns_modules/statuses/package.json</key>
 		<data>
 		uEV+JfEB1jNVNmY6xwrDInP5zds=
+		</data>
+		<key>app/tns_modules/tns-android/README.md</key>
+		<data>
+		tXIEouPuVjeXHZ1qKZXR602I0wU=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/build.gradle</key>
+		<data>
+		htEjNEV3axlrlJZR5dWTGGCHAho=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/libs/runtime-libs/nativescript-optimized.aar</key>
+		<data>
+		LNv45MNjXOCJhLdsjGxRSXlrptQ=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/libs/runtime-libs/nativescript-regular.aar</key>
+		<data>
+		XrP8dBx4b8J/Q41VqDabFzT0CAQ=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/debug/java/com/tns/ErrorReport.java</key>
+		<data>
+		c/lKHunLNVjacR7GWIwVD6qSJNc=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/debug/java/com/tns/ErrorReportActivity.java</key>
+		<data>
+		xN1k1oZ/jy/uiVrUMeoD5rxRrVY=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/debug/java/com/tns/NativeScriptSyncService.java</key>
+		<data>
+		CY0KXUfRUrBZzFmHeKN06/enEX0=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/debug/res/layout/error_activity.xml</key>
+		<data>
+		MuYs2WNwQbwqpkbl/xJrvqh8+jw=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/debug/res/layout/exception_tab.xml</key>
+		<data>
+		EuxShYB9j3Zb9HuRBJtjuKF8YcE=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/debug/res/layout/logcat_tab.xml</key>
+		<data>
+		iQGomF57s9jhrqsbQ79daCFoCMQ=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/debug/res/values/colors.xml</key>
+		<data>
+		Yt5ya3+pCgxjR/oEWSB0mqfB5Ns=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/AndroidManifest.xml</key>
+		<data>
+		oACpu6mt/wHPm8cBGR3ml/ch4hE=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/assets/internal/livesync.js</key>
+		<data>
+		VYSZ46gLK5ybDf2VvBqF90Ji1Zw=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/assets/internal/ts_helpers.js</key>
+		<data>
+		WCzWVuwEciHH6sXaEg/kJiyGnXU=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/AndroidJsV8Inspector.java</key>
+		<data>
+		Wv7ifi9t7Tj5RtKOQBv7AVTFlM4=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/DefaultExtractPolicy.java</key>
+		<data>
+		uxu6LoHbAz/Wyf2g0q4dMO43Eyk=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/LogcatLogger.java</key>
+		<data>
+		t/zgE9Ne7wtrWyFFDY8GwaOwnwg=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/NativeScriptApplication.java</key>
+		<data>
+		yYDwT+3ESA8jG/Ij4tAV6NKbTP8=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/NativeScriptUncaughtExceptionHandler.java</key>
+		<data>
+		oDftIlQGp/i393YtWugDfx+KFhg=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/RuntimeHelper.java</key>
+		<data>
+		hps+adLfPvsiYThKVY/d5dSTPiU=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/Util.java</key>
+		<data>
+		e/+LwTdYc0wCAOndLN0+I045zjw=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/internal/AppBuilderCallback.java</key>
+		<data>
+		MVyTKEyE5rD8/jwmBNTL9WNOa9w=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/internal/Plugin.java</key>
+		<data>
+		obiO9V8AyeiymNTjr/dKlO3z9Xw=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/res/values-v21/colors.xml</key>
+		<data>
+		f6HzS0TJl6tDlW6Xfv1obDeV4Kw=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/res/values-v21/styles.xml</key>
+		<data>
+		gIAbd03proIZKnE+zwTFkmlD0To=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/res/values/colors.xml</key>
+		<data>
+		kNH+eolap1U2dI4tWWOGiSgVd3Q=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/res/values/errorstyles.xml</key>
+		<data>
+		v7GtdaMwr53SbM5b1MN7Wf22W10=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/res/values/strings.xml</key>
+		<data>
+		aoffZ9tUgZ3xjGHeEvROV9y60Ok=
+		</data>
+		<key>app/tns_modules/tns-android/framework/app/src/main/res/values/styles.xml</key>
+		<data>
+		QYw2/AulCOHBhTCPZovZtDUgx4Q=
+		</data>
+		<key>app/tns_modules/tns-android/framework/build-tools/android-static-binding-generator/build.gradle</key>
+		<data>
+		TdtHp2pIZuCzNRKGgmHpBVzBLfc=
+		</data>
+		<key>app/tns_modules/tns-android/framework/build-tools/android-static-binding-generator/interfacenamegenerator.jar</key>
+		<data>
+		oyOsFKQHD47suvbaG3TqaPyC2b4=
+		</data>
+		<key>app/tns_modules/tns-android/framework/build-tools/android-static-binding-generator/parser/helpers/file_helpers.js</key>
+		<data>
+		dLY56+ys6Wfuu61SPqzzgp2wW8U=
+		</data>
+		<key>app/tns_modules/tns-android/framework/build-tools/android-static-binding-generator/parser/helpers/json_extension.js</key>
+		<data>
+		NtEWRw9EMn9WI9N4N8Q0/WeUnJ8=
+		</data>
+		<key>app/tns_modules/tns-android/framework/build-tools/android-static-binding-generator/parser/helpers/logger.js</key>
+		<data>
+		u4mXTanQhCCkWmjj5fnVLF0c4ps=
+		</data>
+		<key>app/tns_modules/tns-android/framework/build-tools/android-static-binding-generator/parser/js_parser.js</key>
+		<data>
+		WgblHADMrq9K/qFvNjq+pK9Gf+M=
+		</data>
+		<key>app/tns_modules/tns-android/framework/build-tools/android-static-binding-generator/parser/visitors/es5-visitors.js</key>
+		<data>
+		3UXfjFWegprkn7tG/HikZ6IUpcM=
+		</data>
+		<key>app/tns_modules/tns-android/framework/build-tools/android-static-binding-generator/staticbindinggenerator.jar</key>
+		<data>
+		aeNaOGcZPN2j/B10GAuSDNKuq24=
+		</data>
+		<key>app/tns_modules/tns-android/framework/build-tools/dts-generator.jar</key>
+		<data>
+		mbIlmDT/bgXBaSthhxkKl+rWpl8=
+		</data>
+		<key>app/tns_modules/tns-android/framework/build-tools/metadata-generator.jar</key>
+		<data>
+		VYxYjlpbmBAMKjpBY9A7hyKjJyU=
+		</data>
+		<key>app/tns_modules/tns-android/framework/build.gradle</key>
+		<data>
+		E1Ilmq4/tNcGlDZq4t4PXrFg75g=
+		</data>
+		<key>app/tns_modules/tns-android/framework/gradle.properties</key>
+		<data>
+		soiGm47d/mllsruie1mcmXdvYlg=
+		</data>
+		<key>app/tns_modules/tns-android/framework/gradle/wrapper/gradle-wrapper.jar</key>
+		<data>
+		3OvIvzXXXy5mDMJhk2t/12evhqI=
+		</data>
+		<key>app/tns_modules/tns-android/framework/gradle/wrapper/gradle-wrapper.properties</key>
+		<data>
+		USbf9SSlLs7Am7nWSmade79dJbA=
+		</data>
+		<key>app/tns_modules/tns-android/framework/gradlew</key>
+		<data>
+		De9UaktHLySBcuMmaQgvfRZS9tk=
+		</data>
+		<key>app/tns_modules/tns-android/framework/gradlew.bat</key>
+		<data>
+		qtMIZ8Rohfz8AZwxgTiw9i+lMXI=
+		</data>
+		<key>app/tns_modules/tns-android/framework/settings.gradle</key>
+		<data>
+		nLCg2pBCN9rINYim1TGVHyXIAPU=
+		</data>
+		<key>app/tns_modules/tns-android/package.json</key>
+		<data>
+		SYqsjG7cWhpUklK7p0HIDzuyEjU=
 		</data>
 		<key>app/tns_modules/tns-core-modules-widgets/LICENSE</key>
 		<data>
@@ -9530,7 +9794,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		U2MyQgr1YT2fjl//HmWItaLRbxw=
+		Q4xBSasllaV0pkdxu3WyU52ggiY=
 		</data>
 		<key>en.lproj/InfoPlist.strings</key>
 		<dict>
@@ -9812,11 +10076,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nP1zlD/h52kN3tYm8S+Lbai3eI8=
+			tAL/azbOGmbFj/NQUXWASAHrPM4=
 			</data>
 			<key>hash2</key>
 			<data>
-			mU4HoJObCduq/DQyKOhbWtEPCxCBikPxwFOcSh0PaDc=
+			OtxS6D7uuLaIjpgRpUNqCYv9ECU5AqvgqQWmMErI9xY=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -9834,11 +10098,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cL83up4M6qURyHRDouSOseRH6UI=
+			RtVtmpxi+ixYJnCjuQZeWhKqo1Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			W/RryXLI8J0ziukYJnvQGVM5nv7ejZkCYNlsz/iI8UM=
+			8kq3DMdNI+skshyE0SinHBwWiRqPOMQSJobeemRDoVg=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
@@ -9867,11 +10131,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vAs8Xsh70KjtfzkNGmuFcZniuN4=
+			GhXZJIEZMMkhdynkxZkVa/DrtWU=
 			</data>
 			<key>hash2</key>
 			<data>
-			+Py1px74vbb/8C1jIQkwInv6HTbonwgroaXbpBCQ+IE=
+			PWh2+SWHByUHrrgG0kHKDx5SrtPMcieWwITI7dnc354=
 			</data>
 		</dict>
 		<key>Frameworks/TNSWidgets.framework/_CodeSignature/CodeResources</key>
@@ -10087,11 +10351,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hIDa0p2N09YGHuGM82Jqz4QxiBI=
+			1Lw4Z2dleQwYfkDo1kiNfJrncnw=
 			</data>
 			<key>hash2</key>
 			<data>
-			fgEaSIE+Ixd7mop2sy81ZO38U+S3OYpU4i99UbJ1loQ=
+			UGmFCapVMhigrDRHLjTHsmZ9DXs4l+RT4ZIApw7XE10=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -10109,11 +10373,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e6excSJDM3rAUvlTVvTc5na7dZ0=
+			OtG1z8XyERgjxEVdWf3oXZ9HnV8=
 			</data>
 			<key>hash2</key>
 			<data>
-			wXewmpzOHv6IkMdxU7YYbG+FbDbbWdelbAg1tDNSXY8=
+			vmuGx4dvxGWw7ke+oTs/AtyJCYABPdIMDMHuD7zkN58=
 			</data>
 		</dict>
 		<key>app/CODE_OF_CONDUCT.md</key>
@@ -10153,22 +10417,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RPlL66l4kQMab5IdBR2QEinM23g=
+			9No7n8JSc5J/x/NRwlyYpjmf0hM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Sw0HlH9mTq3tDlymm4SJZqzqYaD/g7RJ5dJdHNik4vU=
+			8K1mnHQJqniedXjszD+83YDZbGHUuJI0SypiqFefHBA=
 			</data>
 		</dict>
 		<key>app/app.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PJnmxP/Sy6ktKTwivGV2+vgl9eM=
+			sTs/uA7V1PfoBCBcIupUqDWXYmo=
 			</data>
 			<key>hash2</key>
 			<data>
-			tWSON+8BTrSYIUVB5dUavV/yVhJlRKt0ybCq38TcCxs=
+			adUBbTKrC4jjRLMJdoB1HF317+JnpWKKJjTiEDU8+90=
 			</data>
 		</dict>
 		<key>app/bundle-config.js</key>
@@ -10186,55 +10450,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P7lhZu8UmT3pVdJA0EqP8BfbcQg=
+			cp8+rDbEPA0YR2T5HvgS8oUtL94=
 			</data>
 			<key>hash2</key>
 			<data>
-			hrABiAlSyalbd2OKtKcTReM5/qAJ74Sa6dD9DpPPvlc=
+			Jy8hQF2HMd9Pxl7397XjRMp4BZP9jsiOMlUtSc1RCwY=
 			</data>
 		</dict>
 		<key>app/detail/details-page.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LDKQJS91wVqhkLecTrdYFXKfB8g=
+			OZ0KtcSalHy+01AoN8HfV5JtESI=
 			</data>
 			<key>hash2</key>
 			<data>
-			M7iIp7sNv6j8mIPKoIWe8lTYW+m2KPa0gJpDE/+BYQA=
+			yUvz5Sb3HamjAwnv/yFqTrBRC1UKL66n32M1x0GHsf4=
 			</data>
 		</dict>
-		<key>app/home/home-page.js</key>
+		<key>app/home-view/home-view-model.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PzfZWv7QIa8SaAeFdFOvgXGwdRs=
+			U8W1D9jk53lcZuZ2VE8WYWNcRCo=
 			</data>
 			<key>hash2</key>
 			<data>
-			x+80GJ1zKZKbFWtM6euj2x9lgrzZqlzhFrmRF+fUh4A=
+			5dqohJra7xpe9EkIbTiR6HUT0fH5kSU0sUR2va0mJcw=
 			</data>
 		</dict>
-		<key>app/home/home-page.xml</key>
+		<key>app/home-view/home-view.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C9wLhXKyhT0wIZh4Dqd9pSWaUI8=
+			lnO9nRasZHPCP4NaPHQw7H/wfjM=
 			</data>
 			<key>hash2</key>
 			<data>
-			TdHojOlbGlFWubtt9aLT4w9F8eqZJ5MFVe/j9+sStgU=
+			OMTms72q5WZsc1ZemixBev7F0ifN/9sdUclNfTPJUgQ=
 			</data>
 		</dict>
-		<key>app/home/home-view-model.js</key>
+		<key>app/home-view/home-view.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KsZf0ru7QJdzy1V8/rVzxt2JWng=
+			5w3tIDZzqBXJm++lXi6DcwKlrHI=
 			</data>
 			<key>hash2</key>
 			<data>
-			uPSNfKqI3z4qu37ZUueaSKuj2PVaVcRWLFAMxZXuy6I=
+			vWI4hKHHtpfvYef1stGyY3iAwmPaALYg7MynLiUW9ZY=
 			</data>
 		</dict>
 		<key>app/images/272-cross.png</key>
@@ -10274,11 +10538,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			emupZbVQtjUsn/ftjMuoicM3Szo=
+			X7OV6uvVjdWHOPLIrfx6bRZ0pS0=
 			</data>
 			<key>hash2</key>
 			<data>
-			dkAu+Mun1j2Zc7GCGDkiIJpBd0QmtYYtogWRv1c7ktI=
+			8c9fSRZq73Q8ncO2iZWq3A0m2Q2NkeCe9K4dZseKmKQ=
 			</data>
 		</dict>
 		<key>app/package.json</key>
@@ -10307,33 +10571,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jDucRc+jVpaJYulQAvp8D3q1lGg=
+			eJ5hfRUgjt1sdxfcdABUtvsNfVw=
 			</data>
 			<key>hash2</key>
 			<data>
-			D++x1P884vEobprj+RDUpLNJXXHAorq6VF9aqZeEKg4=
-			</data>
-		</dict>
-		<key>app/test/test.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			o6oH9LmX8ZGcdondAESDaVFsNwU=
-			</data>
-			<key>hash2</key>
-			<data>
-			vgutUEfxAqq9UQm9UX6VeVt1EwMvvrXngnKZUh0EjJQ=
-			</data>
-		</dict>
-		<key>app/test/test.xml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Sgg0DtntuRJw0q+okSh7eUhAuOQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			IyWPeupDrIor537Wn6jZUIRbKhI/XwfID2++czYkQPY=
+			5fizcYx6fpG96aMOPtTJyYy2Ru3QNM+N440FYXT0B2w=
 			</data>
 		</dict>
 		<key>app/tns_modules/accepts/HISTORY.md</key>
@@ -25054,15 +25296,48 @@
 			g8yxw+sidHLtABAxDEZQVLM98Os3WBvo9AuClJTKlFg=
 			</data>
 		</dict>
+		<key>app/tns_modules/mongodb-core/.evergreen/config.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OJrmfIQ7manQhodgKdTK+LqiUaY=
+			</data>
+			<key>hash2</key>
+			<data>
+			UBfQ4a+Y6ATkv/iMfA+ODDYwrzYHJyVMmS4SSzCtlXs=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongodb-core/.evergreen/install-dependencies.sh</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t0QNfQQoizdtNv30ylu1M03zAMk=
+			</data>
+			<key>hash2</key>
+			<data>
+			5YDLGVodF06A5L2/VOccaJOQ0ReaZ+5+qzFOvNdgwcM=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongodb-core/.evergreen/run-tests.sh</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cF9nJw3MinmLJ8Q2fI4TcKkGhtE=
+			</data>
+			<key>hash2</key>
+			<data>
+			aEkC30cHPhzPN4OyP80qb4ENrmCCwa66wwY7RBY2Q3M=
+			</data>
+		</dict>
 		<key>app/tns_modules/mongodb-core/HISTORY.md</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z2uqrqNrXMs/OEPAy4JrlKhYFd4=
+			PKvAQgn/9WNHhqKgeCnToH603u0=
 			</data>
 			<key>hash2</key>
 			<data>
-			T4NlVtKgUR3Xb5LJ6dzcZrzaMC9G1EOXLtDA026BJm4=
+			PUQJBdUsn/5SjuR732GMfU328WU+xcrK+9OnbeUPkZY=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb-core/LICENSE</key>
@@ -25197,6 +25472,17 @@
 			dp6KwmZ+jQkvz8ojIVZDRvotsw1AGmJbACTiwNdhp50=
 			</data>
 		</dict>
+		<key>app/tns_modules/mongodb-core/lib/connection/apm.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8y9Ds2f1QvIurh8QeOhbzMrLLyE=
+			</data>
+			<key>hash2</key>
+			<data>
+			9CWFNi6b2/7vhZOU/7nSVwEk16iy4RQat1RbUNVflio=
+			</data>
+		</dict>
 		<key>app/tns_modules/mongodb-core/lib/connection/command_result.js</key>
 		<dict>
 			<key>hash</key>
@@ -25212,11 +25498,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qzi0WM7ffByKRJ8qhydaEA9TOLw=
+			5dX3AxgZvrl6cQ2TqIlKLZpWWPQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			89EYjACKivM81OTBlCzRVGf+DZf5Shnmjb9shVEfotI=
+			rdBrXVZiCwc/F5/mi3MFdlBD3AAmMiSqO5XWvjtJ2D8=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb-core/lib/connection/connection.js</key>
@@ -25245,11 +25531,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r65rJscBy8a3BfWzslyuDJEO+0s=
+			5BRhio6VHFBh1Ez5fo+i9EJKYIA=
 			</data>
 			<key>hash2</key>
 			<data>
-			bj0xMJW/X3zF9K7QHInegqL923C1pW5X7yMBP3fHP64=
+			f0Qh/Z4+PjUu6bq8+1KNU3lHxRLeteS0T92kNQT93YM=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb-core/lib/connection/utils.js</key>
@@ -25267,11 +25553,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z051+tspGPfTl5FfzCDSz3dMvN4=
+			fCOnjvR8+l1WL5WQFHaP/1JLmyA=
 			</data>
 			<key>hash2</key>
 			<data>
-			hvJPx71XSjQdDA/v4CuC1BD4OgFhQnGCuklwHm+Y8B8=
+			cf7XCXS11xw6VMRsy4rR4EUA93dWcBC7iwixsnlfOZQ=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb-core/lib/error.js</key>
@@ -25289,11 +25575,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8V8AEneeIi2KAiYfk7Di1dQBA/o=
+			L+aPLpqilzl7qb3BZedjbSi7owE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Elfc4dXvit11UD8LPFJvJpcdQFAnP6/gEMrGOCtIohw=
+			lioMbJp72rmWoniq3wOzNE8sKXA3nxTG7T/ROxN5rQQ=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb-core/lib/tools/smoke_plugin.js</key>
@@ -25311,11 +25597,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3w1zDCiLwxkKi64R9gwQw+9xHZE=
+			98/8dTtLZGGsXDcFNh7TocOA8ZY=
 			</data>
 			<key>hash2</key>
 			<data>
-			0vXvI6Ipkt3YEszQ0GDf++A1NXA9Hd8iu1VzDslVcgI=
+			lIRx7o9hFq44QGfXsIqhTUAR4gIiSQTrzZbJafo4/1c=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb-core/lib/topologies/read_preference.js</key>
@@ -25333,11 +25619,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fa9JN5N6zRAMuA6PtThsfuuIqrQ=
+			PoC8Ini9NPXA0avyZqSADCsoeWc=
 			</data>
 			<key>hash2</key>
 			<data>
-			6qTO8wRGYfwlh8EVpI8WBm45YgyazTaIBkAhZ8xDz7E=
+			X7Jr/dM96WJRn1Wp2rkrmgtsYA/y/t76VbnM/P7AfKw=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb-core/lib/topologies/replset_state.js</key>
@@ -25355,33 +25641,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DL7iBRMTwqG6BBlEt3Wnz1VsDQA=
+			uN1U2+BVCyb4z/z40TwO954x3UI=
 			</data>
 			<key>hash2</key>
 			<data>
-			nkBRGT5uOOF5jk7X4O5aOvMnhDOdlP+s5N+ThDHpPGA=
+			hJi1SH4Bpy4wbr870GKIOBZWjp0aRJl1BiXZ00lpw2Q=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb-core/lib/topologies/shared.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qOLRNIqId8wkdBkNnjCkEwpPBhY=
+			61ysjkmwlZI3e4v4yYCSu/PhlHE=
 			</data>
 			<key>hash2</key>
 			<data>
-			wOqh8NCQxGSXPOqPVP+JYjNr66u+bCtXZHVqRelsBnc=
+			Tq2yFSoQ4WjvUhb7yzggLk67OY67qtbfMCta68Nn/wM=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb-core/lib/uri_parser.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J0ch+6Kvw4HUjCf+S/ciAbj9Qi8=
+			cevoIrM1CT+KFjGwIBbFJUb+A1w=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZHfD4CN2p4cr0j8bUS9E5BhqhoVlhUeQ+efFW3oxus0=
+			Nk6phls+7zngBJY1Sd5BC5paV7DmLq3R9Al1BUSOTMo=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb-core/lib/utils.js</key>
@@ -25399,22 +25685,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q0A7JiitogRCUg1dLZY/gZGUeYg=
+			PbVOt66UMr5f2afScJryN0wZs4w=
 			</data>
 			<key>hash2</key>
 			<data>
-			LuhPgmbjF6qR8hCFNPuKaT7c6GzMrD64yL6RupwDCsY=
+			TbFenrz36J0i9TfnZh/kMcY4o8pkxMC+luaqMVxlR8I=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb-core/lib/wireprotocol/3_2_support.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bFYLFi9JjGyZMLyr+BpMfeIrux0=
+			YzHacruH9vzAMqiY52vlDWhF+rI=
 			</data>
 			<key>hash2</key>
 			<data>
-			qKyoPgKVomZYSunxGL8Vzjcf+QUFiu4vvGmRMrH0Oos=
+			pCD+13JyMSItYclgzonqFEPj68Q6kQnGRxwICIP3HSM=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb-core/lib/wireprotocol/compression.js</key>
@@ -25443,22 +25729,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Y7y5/6Lj0NGgM0riNh5uoJ/t+rw=
+			TqYIEyoddLzMgRn0y3+mQbMkH10=
 			</data>
 			<key>hash2</key>
 			<data>
-			HBU5q0tMvHm4Ya1oj3/LnPydmez3bseOlq6oS3LNPuQ=
+			IdNvF38zKjD3NNi6maMUdSlLbwLnhSdx+3Z12aBQuaE=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb-core/yarn.lock</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PSGlNlSSbk01pA155vA8e8IbmvI=
+			S9r6CFux0jUzRHY9OHfniqznoQc=
 			</data>
 			<key>hash2</key>
 			<data>
-			N2qqwNmYD4wNpL/TdnmlRhftxs+EF2J2NQor04DYawE=
+			3rjs5UK1ZOsI2fmoDbiKxQZH/OMNnu7C0mL3Ad8kZNA=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/.coveralls.yml</key>
@@ -25476,33 +25762,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			91xIHcKIAPkRuyw0GIvc1HY6zPQ=
+			oj46sABz5cMQ/FpyPdQHrIZ8/lk=
 			</data>
 			<key>hash2</key>
 			<data>
-			0EgcR53lo7QOj8fgqs82zNZ45TZcM31XlFArjCa/mH8=
+			54c6dTSASHRPYI4I3MnJQx7FC83GY3r0VQMTfoL+FCI=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/CHANGES_3.0.0.md</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2xV0S/kARrnT1GWtB4d1DT0dVhY=
+			OCDBjuCNHUvzxm0Pmva9UAaa5zk=
 			</data>
 			<key>hash2</key>
 			<data>
-			N9ig958LLsO6U7+iJsMaZpFvgNMBBrGuY86JEKle9Pw=
+			Nap2j/dI1wKWU1rsDn49SYDaJHk13NZIEJ698Lq8l9I=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/HISTORY.md</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kwGPFM1PLUvfubzwNvNLcLhJ9LY=
+			FtVmBbylCgyO6qa384DWmV4UHgM=
 			</data>
 			<key>hash2</key>
 			<data>
-			aUrfyT5AfW49RQ+EbUi5De/0noq8YlPe6xF1UreQlF8=
+			m4hse78ExQLGDui3FCzbUnvd1rcrBMJEjEVQr1/FMZo=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/LICENSE</key>
@@ -25575,11 +25861,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DtyN+FKv9ULlRjjjzq1ujW87F7M=
+			EYHoCw743DBjyzTDfXyULnbm38Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			86q4zqroYtfhPWfSEQEKGuyRuHTZlZ6f5y4IEPPqi8I=
+			oqvxhrTY2FYbA8Xk0HylNWUaTwZ20FtT1R5ydea+8EA=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/insert_bench.js</key>
@@ -25608,22 +25894,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/UfW/5Fj11xuYMv+DAx7//DzKXE=
+			OUep6C34Z22prvedvDVCcnXAheU=
 			</data>
 			<key>hash2</key>
 			<data>
-			D6HPssEl08vXBNrDbpxiU2GjUUOU28528tmXUk14Pq0=
+			0pWsdsB13v3BdCPa02IPxo3JPHeW9v5HFx4YnRrjLgg=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/lib/apm.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QuK64Nq5Ala6kuBKwjibXyWlDUQ=
+			M0+n1lJ0F4DcPI8fDB4YBaAjWNU=
 			</data>
 			<key>hash2</key>
 			<data>
-			aBaD4FuResNhamZ7I7YLc7lug+7eH/xZo9fJdi7gOso=
+			gXSJvpmg3SFTettIBdoXPzEwKExXDBAcXQ9ebn1DbtY=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/lib/authenticate.js</key>
@@ -25685,44 +25971,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0ITVUmenR4UFGd9ETNvfMZfXoMw=
+			jbatWe9b0hY8JEAF3bsCJAhxn6M=
 			</data>
 			<key>hash2</key>
 			<data>
-			T0hC97aRSQvuI0Y4XmgYTeBLLycnhGbXYANBti3utJY=
+			XRUwb/imWzhoB7LhbAb1jrRQild2NbZl5dJD2l1h9ys=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/lib/command_cursor.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eJrLJxOAl8Dlx7X8iCE3eGezAwc=
+			tADjF+JD6f0yu7J3SPVjV6C9Nl0=
 			</data>
 			<key>hash2</key>
 			<data>
-			B/E4C//zkaVuxfFbLoh/v1i+Dm5QwpmcPLksgx/5aaE=
+			4lOjYsOzdFnuCoSb5N5vWW7qpXzKVVwKjcLlkTnDyA8=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/lib/cursor.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			umkg6WALU5E4slcb46EIi0rWEz4=
+			Yef/9uM/G0eawCx3ujr1/ZG3VSw=
 			</data>
 			<key>hash2</key>
 			<data>
-			D4oTeaBtt/o+SGsf0iAakSybmEPp6l3JUc7yVJenlBs=
+			sDxZnDxJGP5RGO5TXHl8e8LO+4RGAYbFX1cbHZ+ERYI=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/lib/db.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xyjLDw3LsnvSrctK4RpctQ02rV4=
+			ppjWoHGa8LYXvU+7sgfGJk/xFNk=
 			</data>
 			<key>hash2</key>
 			<data>
-			gvHONTUt0vKylHi3Oy6jfzj/YSbfGHMw4LdU7UriBVM=
+			qI/dtTKXMvRWGXUHVPOn2cmoG25f8kM18qlPLnVhsbw=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/lib/gridfs-stream/download.js</key>
@@ -25795,99 +26081,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jTkdy7hP0gq+acGct/wG23dbqMM=
+			GX7Evi+jwST+eLnX/GlRZhSx4Fc=
 			</data>
 			<key>hash2</key>
 			<data>
-			0GPSAPAL6KGUnFuUlHF4ii4qQKaiOoMnye3Rcsqrf4s=
+			MpgzzQ2yGmN9O53WhcdB2zBrgari92sgx7HY+Mu899Y=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/lib/topologies/mongos.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sn2XBKy4zMGEgFovjWHzTvcW13w=
+			EXKEV8blPISbPM5bdleNng7Imz8=
 			</data>
 			<key>hash2</key>
 			<data>
-			mQFZ5uvOdjbirOx+aVd1lXAQIJofYUVY1uAAGE06mNM=
+			/H+XdktJPsHftqjn9bxDyJo6Z6guSeRORlnVI6fMHAU=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/lib/topologies/replset.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RZFRSWwgVx03akPSQPHI94oK+jM=
+			7tT8ogm1wcmZ0GwqCDk1R56rtHc=
 			</data>
 			<key>hash2</key>
 			<data>
-			30hogL8Z++wWmux0fVdecuzsiNjFUJH0x7TF11q7f2o=
+			YlAT01lnBOVGBxwHrb4heIS3APLQbUaphhZqUU4jq/8=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/lib/topologies/server.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			esn9yNyf/1jCHPyG8WUa4JdpDUY=
+			ymoEJcNPjUdoQYEzdTUfeK54MJ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			3rdEM2g8smVM62AtTZ79gWYa9svh1YQf9Rfi1tVPEjo=
+			XD9wh3wGYbLC4aDQ/LaAi2lf+5reUQGF+RZYPtDcYTQ=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/lib/topologies/topology_base.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zBc64u8v6VDqx8+F3xtW4+qUf6U=
+			S1krQaZcSSIZ7KyJATEFwVNHMng=
 			</data>
 			<key>hash2</key>
 			<data>
-			859p3y1aw+c1Ra8Ff/v4hAzETUvpDoK9+Y5BuyZ7UnQ=
+			Iwr4fFQcXntSa1bcaFRzH/we+LOJjsn+Yol6c7vyOCw=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/lib/url_parser.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ATHI1G65n/ToFO9xY5CvaF7b8fw=
+			Ff8WHsq0CYJEJz0wLpaT+p6Hpmk=
 			</data>
 			<key>hash2</key>
 			<data>
-			eUHb4HI1bn4HNSydvLjtlOA0P+BlDIbP042gs3H0TPg=
+			DGj3oIWE1Lz6S1duP9NtFKhMrhOnWTnXRSOqgsmcVaI=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/lib/utils.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rvmaXLXbuPgibU17T2K4OSoOOS0=
+			H0HF5tG48/MYWeYbAGXOVTtbU4k=
 			</data>
 			<key>hash2</key>
 			<data>
-			hZ2/fE02rm0ygouZXsEwbOhvpGCzEHXah6LgA6Y4wuw=
+			0Lo99dnFRXBaB/eeTHGIQcqM4Z2xpjIRy5RGta/sVUE=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/package.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6pYtDsrJRKPQTnTafFcreRmePZQ=
+			YhEIFUa7jM9QNXbeJ/kTynn1BgE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Aak2C/tc54nQEOrgtkG6acxwGboW4tO51ldto4Th/jU=
+			tyrKKxFA8ikI/5tOUS8jnJPeh9IQrb076yRb3Bimd+s=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongodb/yarn.lock</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bglRIcr5ZdxVa5QpDSP2yP2YSqg=
+			fmUnHy3PRFL57YsvNiHGejDnm0Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			gVH9KLvJqMlBG4U+lQZDThJnzvBF1wlAafUohc07YZ4=
+			MwY5BsDqsdISi24sWfELBXI1VCYbotSlCF2gRKBoTes=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongoose-legacy-pluralize/LICENSE</key>
@@ -25993,11 +26279,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sdL2aiTf67OvbGRz6XWLbX6hrdo=
+			RT6TZfO9gHzf+bQ+q7X9/PScZLk=
 			</data>
 			<key>hash2</key>
 			<data>
-			V6Oe4xzzEdP33l/+kfsE2IDzpJFc4g7T0sJEWfZiqa8=
+			0h+JSIBFcTeMiZjrsdx2ikEQZAXDrcE3uI80TiCQ3dM=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongoose/README.md</key>
@@ -27005,11 +27291,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xi27rBtnOQvKoyuiBpbi57hX7cc=
+			3MRi3cKiXlvfrZL5SfhPCmK2tyE=
 			</data>
 			<key>hash2</key>
 			<data>
-			qC8nyZwQmzivG5oce60pmi3tcJtwYMbGHN2lz9xckUw=
+			ljYf1c0h3S3mk86Up4KQANld7+M5T4eYXPaHZ+pIHGI=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongoose/lib/options.js</key>
@@ -27093,11 +27379,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2pnV60p2NAaOtYIqobf6JdDFGLM=
+			H/r9O2Cx2W9vTpfNdpBY9KogDgc=
 			</data>
 			<key>hash2</key>
 			<data>
-			LHSv/wLKMCi9ooiUoCs1S/gYffl091xNNsFA5sAKFcU=
+			8CAkI7+5aWJk/qgZB5GQEBNiBTuSmxYsIkZMPLkF194=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongoose/lib/queryhelpers.js</key>
@@ -27115,11 +27401,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5Z7xeSArCZli9ioJ+hAN408dQho=
+			hKXKeYJ2cOEBlGcTNqwWyYRArjo=
 			</data>
 			<key>hash2</key>
 			<data>
-			YQqy1ktbcczLHC5VazVQeacq9ryf4ZxcUGkJhp15pqI=
+			X7ZbvbcV5YTz7q4IrK7PtqJlJLs11HMaIpUmS/DO17Y=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongoose/lib/schema/array.js</key>
@@ -27401,22 +27687,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yjdrRR6nUXY/Lahehje8Jb3RpaU=
+			RyBRxNGfZ4wFn05HI2kYNBgvyys=
 			</data>
 			<key>hash2</key>
 			<data>
-			rbswyBD9QqAUp3NVJvcXIHpIDcPLpDuM8p0P7J8d5ZQ=
+			YlaruqK+jM/qaii2SYoTrn1qeHgEimyAhO8ePWKfuBk=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongoose/lib/services/populate/getSchemaTypes.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rS2trCu0UGituBDjuByeCSB+MNw=
+			yUYLI00MyAh0q/cRuC4Qnxo23Gs=
 			</data>
 			<key>hash2</key>
 			<data>
-			u5smmBoHT+ILeQBBOgv4xUsyzUW+kw98b3JZndmdrzQ=
+			aL3fAqZzuhANGGS3gYQP2DzEMbMBHsS7UK7uIcSa/4M=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/lib/services/populate/getVirtual.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YSOwV3eXUe7wAyt/hG6ex4AkIA8=
+			</data>
+			<key>hash2</key>
+			<data>
+			Es9VLvovzef+145c9s4Ij7sDOZeE4kJzBv0qYHzg0+Q=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongoose/lib/services/projection/isDefiningProjection.js</key>
@@ -27621,11 +27918,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kxW112Ic+4ID8Zc5x0V7lE8w1Gk=
+			Ct6BmDGUuZha0+u7uqP4IPY9ms4=
 			</data>
 			<key>hash2</key>
 			<data>
-			KK3D9VbuS4xOEMOZ/PpiHj4DEkSEn2l0UINR+E3NuFo=
+			RO4akbWRBjJTZ+AoXSVLYpxQVYyXG5Twgwjpn7SS1dc=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongoose/lib/virtualtype.js</key>
@@ -28816,15 +29113,444 @@
 			Ve9+cm5EFFen3Y1k2+srMy4vmpheac8Uls8mSWuQ+v0=
 			</data>
 		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/.coveralls.yml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yOPQQWMbsd+PGd6ksZ5mMSCylXU=
+			</data>
+			<key>hash2</key>
+			<data>
+			AFWcG+3FipH4wy0kEI6I0YTsEgGBRbI0jxzMJ1tVI4E=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/.eslintrc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			91xIHcKIAPkRuyw0GIvc1HY6zPQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			0EgcR53lo7QOj8fgqs82zNZ45TZcM31XlFArjCa/mH8=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/CHANGES_3.0.0.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2xV0S/kARrnT1GWtB4d1DT0dVhY=
+			</data>
+			<key>hash2</key>
+			<data>
+			N9ig958LLsO6U7+iJsMaZpFvgNMBBrGuY86JEKle9Pw=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/HISTORY.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kwGPFM1PLUvfubzwNvNLcLhJ9LY=
+			</data>
+			<key>hash2</key>
+			<data>
+			aUrfyT5AfW49RQ+EbUi5De/0noq8YlPe6xF1UreQlF8=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/LICENSE</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PZyoWK4EfgXIwDHiS0GuohQX/Co=
+			</data>
+			<key>hash2</key>
+			<data>
+			bcDgaNzzpbyOBUIFuFt3IOHUkmW7xkv1FdLPeRl99po=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/Makefile</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4I1BUXhff/YqGNDp6IWKWT68D3o=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZHRlr9tAd53WGrgVZALJOIuCs5bzX8ClDN5xmZhbQ2E=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OIzDVRWEUBmvhegf+zAq9MXL1ds=
+			</data>
+			<key>hash2</key>
+			<data>
+			a9JP2fkwdCg5hTdsft/uVphwvsnBWt1y6Q4vHBSbAiA=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/THIRD-PARTY-NOTICES</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SpXF4++lCIn5HbHJBEdvVSTXPbg=
+			</data>
+			<key>hash2</key>
+			<data>
+			eCDpQuf/Un8FRkHdrBjN99xZM6NhXn6RKSgq6Hw9u+c=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/boot_auth.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fT6ViO7dOTC9COqdc7nYRJrUjDk=
+			</data>
+			<key>hash2</key>
+			<data>
+			4kaorefx0HK2tMiY8ymWfZSu4gEZPAdfSftYF6TuYsI=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/conf.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			za9YYMS9wnGk0AJ8vR4+Xjxd270=
+			</data>
+			<key>hash2</key>
+			<data>
+			I14cHkjtPTf4O8Dk1m4EbgNpeQyj12apBAZfXACH/D4=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/index.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DtyN+FKv9ULlRjjjzq1ujW87F7M=
+			</data>
+			<key>hash2</key>
+			<data>
+			86q4zqroYtfhPWfSEQEKGuyRuHTZlZ6f5y4IEPPqi8I=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/insert_bench.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			y6HNw3Io0i7vxyTqlBOuDq89lPA=
+			</data>
+			<key>hash2</key>
+			<data>
+			XEapBHuDXxZOf4OSrVfrKv5+B65tK4Fc8QiG+nEIieQ=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/admin.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JS0DvHCXFbWRLFxl1mb5FkIOGNc=
+			</data>
+			<key>hash2</key>
+			<data>
+			G9g8dDWKVqb1NzZPk4ecoHHZSevRi/DmpXqFsfkNyG4=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/aggregation_cursor.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/UfW/5Fj11xuYMv+DAx7//DzKXE=
+			</data>
+			<key>hash2</key>
+			<data>
+			D6HPssEl08vXBNrDbpxiU2GjUUOU28528tmXUk14Pq0=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/apm.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QuK64Nq5Ala6kuBKwjibXyWlDUQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			aBaD4FuResNhamZ7I7YLc7lug+7eH/xZo9fJdi7gOso=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/authenticate.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			no0uBSET/pYYo69pBgonEVkQd60=
+			</data>
+			<key>hash2</key>
+			<data>
+			6+G4ESWy8md1ID87MOAfmDK6J7+kLhZoMrqODTDpMSE=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/bulk/common.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uTv4DL6+PV3FqFWKOmHMesXug64=
+			</data>
+			<key>hash2</key>
+			<data>
+			rvlnvpqlC2s+kSKjg89KgeUW2PTXPVfvis6ahMBqXno=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/bulk/ordered.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h7pgHF1TSvhPuuQd5zm3yq4x0fQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			66+ck95MxPyGUcvs4XQFDbpFbID22e4hGuRarRcqWm0=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/bulk/unordered.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7xYd4scuvM5zQ3+i1WtDsW2URgE=
+			</data>
+			<key>hash2</key>
+			<data>
+			UC+9fDbeOdKLHVBk2JEmLVIv/Km577AdifabVLgr5OE=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/change_stream.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZRoSzqaFKa09yxkdiAK/bEE8qts=
+			</data>
+			<key>hash2</key>
+			<data>
+			d7do4HzA2Lb8MxcMzySjgTmOsF6nCItF9IYNTiyD0EA=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/collection.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0ITVUmenR4UFGd9ETNvfMZfXoMw=
+			</data>
+			<key>hash2</key>
+			<data>
+			T0hC97aRSQvuI0Y4XmgYTeBLLycnhGbXYANBti3utJY=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/command_cursor.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eJrLJxOAl8Dlx7X8iCE3eGezAwc=
+			</data>
+			<key>hash2</key>
+			<data>
+			B/E4C//zkaVuxfFbLoh/v1i+Dm5QwpmcPLksgx/5aaE=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/cursor.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			umkg6WALU5E4slcb46EIi0rWEz4=
+			</data>
+			<key>hash2</key>
+			<data>
+			D4oTeaBtt/o+SGsf0iAakSybmEPp6l3JUc7yVJenlBs=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/db.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xyjLDw3LsnvSrctK4RpctQ02rV4=
+			</data>
+			<key>hash2</key>
+			<data>
+			gvHONTUt0vKylHi3Oy6jfzj/YSbfGHMw4LdU7UriBVM=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/gridfs-stream/download.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PdgHR5DsLuUJfSQsYf8jfTTF82M=
+			</data>
+			<key>hash2</key>
+			<data>
+			Vilexin/2116CGDGRhqhgeVYzTgwNX71Jas9q3ds+BE=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/gridfs-stream/index.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Tz/VchlBoOLq9SDxPGGeuCYnXig=
+			</data>
+			<key>hash2</key>
+			<data>
+			GIXk//4+aWanl7Sq5/cASm5D18HcsasnDHTL3AM4M9g=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/gridfs-stream/upload.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Lo2tfWviPnDwbMABHRhygviNEDM=
+			</data>
+			<key>hash2</key>
+			<data>
+			p/WG+bdKsH4Rc3BvjuF8XIDHkGkbDVfKGq2mcXlbJ1E=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/gridfs/chunk.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KJIYxX2QwsHhayG54OoGZxdZYz0=
+			</data>
+			<key>hash2</key>
+			<data>
+			PVS+J69NkGco2ZTeo+bDHzeSxQ8Xb660VBpgF83wUVc=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/gridfs/grid_store.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gLSk/sYTQTWEq/X7TKPwG2flOYc=
+			</data>
+			<key>hash2</key>
+			<data>
+			U8FUqhNNa4rJ1mJPAjyzpgfCQfo0WMcDqa3gOCmkZJQ=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/metadata.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6cWtZkWwPM9pQVp9v0ApzELdQd8=
+			</data>
+			<key>hash2</key>
+			<data>
+			jG4hTJYsWmROcoNdejzbP3b0rudoACbKHI4TU8HJyyw=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/mongo_client.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jTkdy7hP0gq+acGct/wG23dbqMM=
+			</data>
+			<key>hash2</key>
+			<data>
+			0GPSAPAL6KGUnFuUlHF4ii4qQKaiOoMnye3Rcsqrf4s=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/topologies/mongos.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sn2XBKy4zMGEgFovjWHzTvcW13w=
+			</data>
+			<key>hash2</key>
+			<data>
+			mQFZ5uvOdjbirOx+aVd1lXAQIJofYUVY1uAAGE06mNM=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/topologies/replset.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RZFRSWwgVx03akPSQPHI94oK+jM=
+			</data>
+			<key>hash2</key>
+			<data>
+			30hogL8Z++wWmux0fVdecuzsiNjFUJH0x7TF11q7f2o=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/topologies/server.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			esn9yNyf/1jCHPyG8WUa4JdpDUY=
+			</data>
+			<key>hash2</key>
+			<data>
+			3rdEM2g8smVM62AtTZ79gWYa9svh1YQf9Rfi1tVPEjo=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/topologies/topology_base.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zBc64u8v6VDqx8+F3xtW4+qUf6U=
+			</data>
+			<key>hash2</key>
+			<data>
+			859p3y1aw+c1Ra8Ff/v4hAzETUvpDoK9+Y5BuyZ7UnQ=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/url_parser.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ATHI1G65n/ToFO9xY5CvaF7b8fw=
+			</data>
+			<key>hash2</key>
+			<data>
+			eUHb4HI1bn4HNSydvLjtlOA0P+BlDIbP042gs3H0TPg=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/lib/utils.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rvmaXLXbuPgibU17T2K4OSoOOS0=
+			</data>
+			<key>hash2</key>
+			<data>
+			hZ2/fE02rm0ygouZXsEwbOhvpGCzEHXah6LgA6Y4wuw=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SewZenJUTF5+kK8SVsggBfJH4jY=
+			</data>
+			<key>hash2</key>
+			<data>
+			gdA2C9m9WM2xlJ3i96aMLczMXKDGhZUpLhPuspzGbsA=
+			</data>
+		</dict>
+		<key>app/tns_modules/mongoose/node_modules/mongodb/yarn.lock</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bglRIcr5ZdxVa5QpDSP2yP2YSqg=
+			</data>
+			<key>hash2</key>
+			<data>
+			gVH9KLvJqMlBG4U+lQZDThJnzvBF1wlAafUohc07YZ4=
+			</data>
+		</dict>
 		<key>app/tns_modules/mongoose/package.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IMRPYrLHVSSf+Sc9XaG2FzTcV6Y=
+			Ox6GlSBUEvFTge/XWIr77gQ851Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			dRHYg1w+OQwBKrjnit103WGlEuwxUTH4hFwQCfydyIM=
+			LRWYaEsu9NzkyjNJbyqqTsH+1O/ZdCTXCX/cdPfPAsU=
 			</data>
 		</dict>
 		<key>app/tns_modules/mongoose/release-items.md</key>
@@ -28893,37 +29619,26 @@
 			RSTrpSPA+ulx+bP9Kk0Lskrcq8CyU49H2jI6ohALxGk=
 			</data>
 		</dict>
-		<key>app/tns_modules/mpath/.npmignore</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7DOyw2hl+UpJ8OsRjINrTQ1Yr3s=
-			</data>
-			<key>hash2</key>
-			<data>
-			IwtIU/0kqDl2hXPTGag5NFeJUUoNm2ixBiXwnwQrv/s=
-			</data>
-		</dict>
 		<key>app/tns_modules/mpath/.travis.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R19J8qx8pxoYpRH+hUlJGVKpSnE=
+			ah50g7cgIC237a/3eIRJwlDCf58=
 			</data>
 			<key>hash2</key>
 			<data>
-			Bw3/x9wTvwvjzvvvjznOAVU3rTl6u4EuLK2PHfn0WeE=
+			ELNnwXAa+sLRzDbNP95PISxj7r06lxhRbTQJz/JyWJ0=
 			</data>
 		</dict>
 		<key>app/tns_modules/mpath/History.md</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kWnJU5rW3ZJmKqWWKx3kwUQgaLI=
+			Z2PHWYexTCinl4c8JyDE7vGnWkY=
 			</data>
 			<key>hash2</key>
 			<data>
-			xMlzpln+LoOvq85A0sU+umJ+X87EjzO511T53OsE2T8=
+			DrTz0Tz907Tpo1Glj/Caqlwi3jNMfIPoXo+JR/msWy0=
 			</data>
 		</dict>
 		<key>app/tns_modules/mpath/LICENSE</key>
@@ -28941,11 +29656,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IF6GReQiHnOzhgso1lyozno6bJU=
+			++5+mWytGi7qqPEhwdSvZ28krn4=
 			</data>
 			<key>hash2</key>
 			<data>
-			gObsR38D/pzi14LGmYiHUENBxVGeV9xj3WP6iRvjlK8=
+			puuvepKmZuZCCNxa6bwk/GdgFCNG2roEWq9gcsgK+Is=
 			</data>
 		</dict>
 		<key>app/tns_modules/mpath/README.md</key>
@@ -29018,33 +29733,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0tivBZGRLJv2qSoIejjpzyKJViE=
+			E1Zi6jMDxOVgjhvXU3UJcHTc9qU=
 			</data>
 			<key>hash2</key>
 			<data>
-			QbNmmdIidl9Tu5zyQk8iIlX5MrxTUjCXVjpnmfhl7c4=
+			vdrE6S50IsCXG+zCDmOHKEJol5CgBJj7R2nOUycgblk=
 			</data>
 		</dict>
 		<key>app/tns_modules/mpath/package.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0ZnDGvqirxQzJzrNiqaXx6Rvlag=
+			JrYkHFbCrs/PF/tcyuzHEk1Ju8w=
 			</data>
 			<key>hash2</key>
 			<data>
-			zVBYo3yTW2ffzE1Opv8+vhdr3F41kB4ahsEz3/gZzx4=
+			cIN4lbBW0tbS8fcfPkC7zm2UOsl3HUUJLf35ymZuuko=
 			</data>
 		</dict>
 		<key>app/tns_modules/mpath/test/index.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WrpUo2+wKIiqH23MCh2clV02JKk=
+			6Smb80fk7sPO2f/5Lr6x5vYg4vI=
 			</data>
 			<key>hash2</key>
 			<data>
-			CssQUfWkeqyHwBPep3ABrTzdVWDxigWXfZFnL4XRXDY=
+			EWPo7cKwi+Tx51jfK5442zUteV1YIkL/+AUvezJFot0=
 			</data>
 		</dict>
 		<key>app/tns_modules/mquery/.travis.yml</key>
@@ -29925,248 +30640,6 @@
 			<key>hash2</key>
 			<data>
 			yaxn/xA8AYcbD/CeLwlGMZkZCMH9DcCL21Moflp2CuU=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fontawesome/.npmignore</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4hXnXXPx+4e0H0AVbOvPgRHvzKE=
-			</data>
-			<key>hash2</key>
-			<data>
-			tXpPDczgdrH8hfpnqpWaNlgPSefGeTTl088poh9lLsQ=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fontawesome/LICENSE</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			khcM3ANLL/gZMj/2cNO3JmyL/80=
-			</data>
-			<key>hash2</key>
-			<data>
-			tAkwu8+AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M+E=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fontawesome/README.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lVww0i67VYP72GQtWymWvXh5Ksk=
-			</data>
-			<key>hash2</key>
-			<data>
-			jOAQO3tU+HSWN7VS0nPKdLKNDOO+o7nz+VoWSCv98Q4=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fontawesome/font-awesome.css</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Bm3O33O2FeUuOwqHqrHdU76XsTk=
-			</data>
-			<key>hash2</key>
-			<data>
-			sxenBZDPd09/RWASbE3eKOgOwhCfcT9OTru9RL4y2no=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fontawesome/fontawesome.common.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xADAhc6h7u8VY+BuCjwGlKCE84M=
-			</data>
-			<key>hash2</key>
-			<data>
-			2l68WQFSvWd4ziWISF+qUEJjYtefSSxYdA2F/7Utnok=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fontawesome/fontawesome.common.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rN07lht6rskbd7Y8c4OnM3JNAIY=
-			</data>
-			<key>hash2</key>
-			<data>
-			8Qd3lOB2cNnsBzbxLyrG2eDfZZ/z62zCE3l3oOUe27U=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fontawesome/fontawesome.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3DQCcyaVWEAfmZ+k0f8r0n9DtDk=
-			</data>
-			<key>hash2</key>
-			<data>
-			zCvPAPyaIIt7BJ6Ikt9Dmvt7pUfPFmSdHpzBO9I9I4s=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fontawesome/fontawesome.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ys8iRrsiZ8p/JTX8o6e8l+MkPGg=
-			</data>
-			<key>hash2</key>
-			<data>
-			5ZQzK8MMQDLKqONBCR3Hky/1XM1pIaxvMLGNgy9WmCk=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fontawesome/index.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			b6eg2LCY1uni7V+axOF92Eszlv4=
-			</data>
-			<key>hash2</key>
-			<data>
-			UFfGzjT/cL7x2zK6bfUyx9Xtl2lHk7NpyJLCdzAs8qM=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fontawesome/package.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DyFwUiPrARPPvvOeet3l+yyr9w8=
-			</data>
-			<key>hash2</key>
-			<data>
-			eEy33t3kkQpCm0EYejVzQLGxmkRYvu+irvcxyGKJRko=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fontawesome/references.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kPUxea5gnDo3RcZpauUBwcvyeZc=
-			</data>
-			<key>hash2</key>
-			<data>
-			9be28/L86VOQEuo/tIbFQO+XcYd8ol8YG6P7HuvEhq8=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fonticon/.npmignore</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			S/eSuH3tsbKfJAVHsrTOVYJKuRw=
-			</data>
-			<key>hash2</key>
-			<data>
-			JZsrnvKO1KX/pRj5d+gYeLkviAitD53qWq5WTTqWh/8=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fonticon/LICENSE</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7DZzT1uzSqkf9TyVMnWIDSsOIvo=
-			</data>
-			<key>hash2</key>
-			<data>
-			KrBJaAow8b15X8vZVXJmboshLRdA06vm3s8dVfXcSAQ=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fonticon/README.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lcJ+bM+mvwC78JYcMmF3P/sV5uk=
-			</data>
-			<key>hash2</key>
-			<data>
-			uLRv2DAfbNTuskJT8MnpDoBtpie13fiWdl5mGkfLn7A=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fonticon/fonticon.js.map</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			E958AOzR6E4dkydYRTW957/JmRU=
-			</data>
-			<key>hash2</key>
-			<data>
-			qi5Zzv3/ggXZIwERsQiDSF3jL5iiU+O5NW7fd23jjuU=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fonticon/index.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GcgTIyzepgb0G4hx4FZCuQrtjmk=
-			</data>
-			<key>hash2</key>
-			<data>
-			zvbZbct+GG6DpoTb5Z7An0qVPQCnyEpL8PjaOXeCev0=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fonticon/nativescript-fonticon.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GcgTIyzepgb0G4hx4FZCuQrtjmk=
-			</data>
-			<key>hash2</key>
-			<data>
-			zvbZbct+GG6DpoTb5Z7An0qVPQCnyEpL8PjaOXeCev0=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fonticon/nativescript-fonticon.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Wjczd31rvA+RQbkMxh8wtpcpv7g=
-			</data>
-			<key>hash2</key>
-			<data>
-			7iguF0CgXFltb83iRfG82PA9Y52bHe9p1hb2s6b9aIs=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fonticon/nativescript-fonticon.js.map</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GOTSmNZaL6raTRyLqbQFKpGFFvE=
-			</data>
-			<key>hash2</key>
-			<data>
-			emIzCj5KWixjC+81iJS/qPRggejQ6rQDPUdzDEbUslc=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fonticon/package.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KbSs9jdmoP82iZ7P404bCaY2M14=
-			</data>
-			<key>hash2</key>
-			<data>
-			TrrIdgHw3Tzuf7p7CoZMqzVZSw969gIu+09VqH5vYVs=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fonticon/references.d.ts</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HK19d2ljtJJkiaOsiYI3aVUlhpo=
-			</data>
-			<key>hash2</key>
-			<data>
-			xsQIcT0mvGZRdJo1eKh4KSm3+hZ0BfsUf6p5ucZK+gc=
-			</data>
-		</dict>
-		<key>app/tns_modules/nativescript-fonticon/tsconfig.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			poo6YyObSrd6vX7eTB9V5APuI4Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			o0jMI8xtArAMQrhyyq+Vl9XRhZ2PRd0W0Go89KYMVSU=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-theme-core/css/aqua.css</key>
@@ -32576,6 +33049,523 @@
 			<key>hash2</key>
 			<data>
 			nfJh96lS09f9L6se7iqQ1JUgyuLB2GENPDislnYV7Co=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tXIEouPuVjeXHZ1qKZXR602I0wU=
+			</data>
+			<key>hash2</key>
+			<data>
+			YLhMpV/32SHPtPg65HXc1jTbvz3Vkes0q5IQ31h2Mcw=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/build.gradle</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			htEjNEV3axlrlJZR5dWTGGCHAho=
+			</data>
+			<key>hash2</key>
+			<data>
+			kBqz3acdb0jF3mfU3IyKsNjD2fLpc31aI6N4IWvC4fg=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/libs/runtime-libs/nativescript-optimized.aar</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LNv45MNjXOCJhLdsjGxRSXlrptQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			Mj8gi7Ynw48XQYXqidBcKz0JyxtelxbAS74qKBWVc4E=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/libs/runtime-libs/nativescript-regular.aar</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XrP8dBx4b8J/Q41VqDabFzT0CAQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			K8tz6GxI+6FPU6jiLU7Mktj/+wb21MzUa0ZsjOz1+ZQ=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/debug/java/com/tns/ErrorReport.java</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			c/lKHunLNVjacR7GWIwVD6qSJNc=
+			</data>
+			<key>hash2</key>
+			<data>
+			oSt7UqOgZ3wgxAjCfOhuJHfQucUc1sWuVYhJNNgZ/X8=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/debug/java/com/tns/ErrorReportActivity.java</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xN1k1oZ/jy/uiVrUMeoD5rxRrVY=
+			</data>
+			<key>hash2</key>
+			<data>
+			tBUmJYZOd/UtSShwtp5vDHJBIZ8iylpM1/yJu5OO9Gs=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/debug/java/com/tns/NativeScriptSyncService.java</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CY0KXUfRUrBZzFmHeKN06/enEX0=
+			</data>
+			<key>hash2</key>
+			<data>
+			a8r4342QWTKeDjwzRx5tG1FjnVljIxD6/CNDPGH6Wdo=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/debug/res/layout/error_activity.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MuYs2WNwQbwqpkbl/xJrvqh8+jw=
+			</data>
+			<key>hash2</key>
+			<data>
+			6anfAF0+YUnKBIlxDPROfCgAR2VJygOsBRkAJTcnhT4=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/debug/res/layout/exception_tab.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EuxShYB9j3Zb9HuRBJtjuKF8YcE=
+			</data>
+			<key>hash2</key>
+			<data>
+			1dfySlrKZ+eYQiflG5Ial9dYX/H5WlUtExTbqMVqRrY=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/debug/res/layout/logcat_tab.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iQGomF57s9jhrqsbQ79daCFoCMQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			ELA2d9VgXu6bvCTu2aMavLGD0GBd1Svqj8n50d4eZW8=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/debug/res/values/colors.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Yt5ya3+pCgxjR/oEWSB0mqfB5Ns=
+			</data>
+			<key>hash2</key>
+			<data>
+			TSOKwZYcDK/Hn4QptqXEuK/O0V+4X4yY7nLgi4D5H0A=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/AndroidManifest.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oACpu6mt/wHPm8cBGR3ml/ch4hE=
+			</data>
+			<key>hash2</key>
+			<data>
+			BFdemVGL2sobQuel6cfHUMuUfSnrZEMfZ00Vy2TjXqw=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/assets/internal/livesync.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VYSZ46gLK5ybDf2VvBqF90Ji1Zw=
+			</data>
+			<key>hash2</key>
+			<data>
+			zBPVxqx5jwOVDs7CcUCmOIj4KUWNY21MtXL/EZmle+g=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/assets/internal/ts_helpers.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WCzWVuwEciHH6sXaEg/kJiyGnXU=
+			</data>
+			<key>hash2</key>
+			<data>
+			xMq85ogHMYAq6iVa6kTw7T4nXYHO777wLcTZtbwLVqY=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/AndroidJsV8Inspector.java</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Wv7ifi9t7Tj5RtKOQBv7AVTFlM4=
+			</data>
+			<key>hash2</key>
+			<data>
+			yZW9ARt/gWzk2Encd/H7mQTo/2hA5wna5ejFJnEYEaI=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/DefaultExtractPolicy.java</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uxu6LoHbAz/Wyf2g0q4dMO43Eyk=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZRWAnxlarnlj+kBGRPhgCAfLLrQQSTrNOy2V2hGt+RY=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/LogcatLogger.java</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t/zgE9Ne7wtrWyFFDY8GwaOwnwg=
+			</data>
+			<key>hash2</key>
+			<data>
+			vSYWsjn3JAItK9IctsudXUFkuSapBSRyiZAkB9OQong=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/NativeScriptApplication.java</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yYDwT+3ESA8jG/Ij4tAV6NKbTP8=
+			</data>
+			<key>hash2</key>
+			<data>
+			PHK9WWsBAVECUgsnMrfPkNcD1Lzir2zi2K+m09hsRyc=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/NativeScriptUncaughtExceptionHandler.java</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oDftIlQGp/i393YtWugDfx+KFhg=
+			</data>
+			<key>hash2</key>
+			<data>
+			og5paUAmnc44lOVya07dXha/E+yCdp2b3IQYdyrBN0Y=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/RuntimeHelper.java</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hps+adLfPvsiYThKVY/d5dSTPiU=
+			</data>
+			<key>hash2</key>
+			<data>
+			btfT/uDzg7Yi9S430+4kpZjcG4uwhgHR38KV9NzcNdw=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/Util.java</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e/+LwTdYc0wCAOndLN0+I045zjw=
+			</data>
+			<key>hash2</key>
+			<data>
+			e1od40qN9v7vw1IluUJFk8mOC1PLMCs+4Fpu/bzNLbc=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/internal/AppBuilderCallback.java</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MVyTKEyE5rD8/jwmBNTL9WNOa9w=
+			</data>
+			<key>hash2</key>
+			<data>
+			Dt/0CPMl4ImKYQWEezh7nvrL/63nmFSYDmUVHZRnFWE=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/java/com/tns/internal/Plugin.java</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			obiO9V8AyeiymNTjr/dKlO3z9Xw=
+			</data>
+			<key>hash2</key>
+			<data>
+			8gyQyD//5AvvQ2FWgLMByd8FVMc8Usq1P+WxIyu+5yM=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/res/values-v21/colors.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			f6HzS0TJl6tDlW6Xfv1obDeV4Kw=
+			</data>
+			<key>hash2</key>
+			<data>
+			7lA+WmsXpRK+ZlW5G8UnB1cIqi3zMri0b2xplpzC5rQ=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/res/values-v21/styles.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gIAbd03proIZKnE+zwTFkmlD0To=
+			</data>
+			<key>hash2</key>
+			<data>
+			GH93iFETkGhwpJSEUMagO23I8h7wTBqb459BneGodF8=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/res/values/colors.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kNH+eolap1U2dI4tWWOGiSgVd3Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			i8dWjwrXW0MPzV/uP6dfyhszOUA/j6wT1hDfTkRRcUQ=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/res/values/errorstyles.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			v7GtdaMwr53SbM5b1MN7Wf22W10=
+			</data>
+			<key>hash2</key>
+			<data>
+			b8MdvoypXv4Dvpo1jLnL/PF7t5QH8fC5kOmXATmU1nQ=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/res/values/strings.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aoffZ9tUgZ3xjGHeEvROV9y60Ok=
+			</data>
+			<key>hash2</key>
+			<data>
+			M6utFI4J991jTdsJSh81v2rAOVZMQEMirxDWFiUjum8=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/app/src/main/res/values/styles.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QYw2/AulCOHBhTCPZovZtDUgx4Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			OHjZ5xYIZc5G/A1F+0hkjuGGXMHJ9VLEo6Cw9TpXTJU=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/build-tools/android-static-binding-generator/build.gradle</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TdtHp2pIZuCzNRKGgmHpBVzBLfc=
+			</data>
+			<key>hash2</key>
+			<data>
+			Lm0z11IitonLXuOhsRhGOLM01SzF+dbVMDrtrrr1+y4=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/build-tools/android-static-binding-generator/interfacenamegenerator.jar</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oyOsFKQHD47suvbaG3TqaPyC2b4=
+			</data>
+			<key>hash2</key>
+			<data>
+			BadP/6YMZL+5FvVdqrArVXmrZs7nMbyx/M7KBEzxTME=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/build-tools/android-static-binding-generator/parser/helpers/file_helpers.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dLY56+ys6Wfuu61SPqzzgp2wW8U=
+			</data>
+			<key>hash2</key>
+			<data>
+			80AKcfqJLPfXZs7sUc2igCAvyhEWgbILXhHTRL7FMqg=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/build-tools/android-static-binding-generator/parser/helpers/json_extension.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NtEWRw9EMn9WI9N4N8Q0/WeUnJ8=
+			</data>
+			<key>hash2</key>
+			<data>
+			OAVjeQVwn4k1rTDXC5XaYIgzHUhVs/54OUYPbPMfaVM=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/build-tools/android-static-binding-generator/parser/helpers/logger.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			u4mXTanQhCCkWmjj5fnVLF0c4ps=
+			</data>
+			<key>hash2</key>
+			<data>
+			hhMzepzfc9aA4LRQu/QkwtiFt0PTiOf2qAlMnurkutQ=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/build-tools/android-static-binding-generator/parser/js_parser.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WgblHADMrq9K/qFvNjq+pK9Gf+M=
+			</data>
+			<key>hash2</key>
+			<data>
+			AYq+efBm1iPUMJZobNcJSaVPqnCK2HzjDprIT6kABKw=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/build-tools/android-static-binding-generator/parser/visitors/es5-visitors.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3UXfjFWegprkn7tG/HikZ6IUpcM=
+			</data>
+			<key>hash2</key>
+			<data>
+			s7lpr9pig+jYcaISPuYmc6R5H3WpkMFNLYfn7F6noac=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/build-tools/android-static-binding-generator/staticbindinggenerator.jar</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aeNaOGcZPN2j/B10GAuSDNKuq24=
+			</data>
+			<key>hash2</key>
+			<data>
+			D5DSdwwBs5lzrjx6kCVSqIAn1EPhDHUzpExckj2cRoc=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/build-tools/dts-generator.jar</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mbIlmDT/bgXBaSthhxkKl+rWpl8=
+			</data>
+			<key>hash2</key>
+			<data>
+			1Pu/zUuTGcuhXQBROgxX1gbacZY6x8dVZ8G70zAnK4s=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/build-tools/metadata-generator.jar</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VYxYjlpbmBAMKjpBY9A7hyKjJyU=
+			</data>
+			<key>hash2</key>
+			<data>
+			TmnT0AQ7SF6Cvx6cGXKyl13uYLZEHCzeuv78YvNH2lY=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/build.gradle</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			E1Ilmq4/tNcGlDZq4t4PXrFg75g=
+			</data>
+			<key>hash2</key>
+			<data>
+			AYJoDaKTEBOwHyMuxvREngJB+pY5Ugk7+Fjw1OojHEc=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/gradle.properties</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			soiGm47d/mllsruie1mcmXdvYlg=
+			</data>
+			<key>hash2</key>
+			<data>
+			JiifAoKp/86EfQKu6uDeoz6ddp6E3Z0KJfPqCusm4/Y=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/gradle/wrapper/gradle-wrapper.jar</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3OvIvzXXXy5mDMJhk2t/12evhqI=
+			</data>
+			<key>hash2</key>
+			<data>
+			HwC75+mYNjHzken1XUaiPscftdXHTdVxGLmut6YS13c=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/gradle/wrapper/gradle-wrapper.properties</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			USbf9SSlLs7Am7nWSmade79dJbA=
+			</data>
+			<key>hash2</key>
+			<data>
+			mdZgFGwOKtk7t4ifZMvdjqMy+98b7Px/+vDXIM399yk=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/gradlew</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			De9UaktHLySBcuMmaQgvfRZS9tk=
+			</data>
+			<key>hash2</key>
+			<data>
+			E9HrXYCXQJ9T1hbR2jHsT0+Ey0kvM6XftVoOxiesHyI=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/gradlew.bat</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qtMIZ8Rohfz8AZwxgTiw9i+lMXI=
+			</data>
+			<key>hash2</key>
+			<data>
+			Lxj8ar1QgD3ns6IlA40oQmiQTJ0TyqbPgfmTZdyHZHk=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/framework/settings.gradle</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nLCg2pBCN9rINYim1TGVHyXIAPU=
+			</data>
+			<key>hash2</key>
+			<data>
+			nBAbnbY9SjorGL5qewmRzopkg7u5mJ/JxmRP8ORecHA=
+			</data>
+		</dict>
+		<key>app/tns_modules/tns-android/package.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SYqsjG7cWhpUklK7p0HIDzuyEjU=
+			</data>
+			<key>hash2</key>
+			<data>
+			FthhthRx7GP+PROV5oww4PWLYO87fizv9hFbBFXmk84=
 			</data>
 		</dict>
 		<key>app/tns_modules/tns-core-modules-widgets/LICENSE</key>
@@ -35717,11 +36707,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U2MyQgr1YT2fjl//HmWItaLRbxw=
+			Q4xBSasllaV0pkdxu3WyU52ggiY=
 			</data>
 			<key>hash2</key>
 			<data>
-			5ACrQ68GcoDL7tln58jVnhC8PnGwBifuuvpZTfwAXb8=
+			OHGwX+y43DcbIPdKSiImgECA4W0tmfhzz6Jx37P0cNk=
 			</data>
 		</dict>
 		<key>en.lproj/InfoPlist.strings</key>
