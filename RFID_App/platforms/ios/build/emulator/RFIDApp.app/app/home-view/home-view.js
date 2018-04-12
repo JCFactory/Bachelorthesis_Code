@@ -14,7 +14,7 @@ exports.onTap = function (eventData) {
         var responseArray = response.content.toJSON();
         var responseString = response.content.toString();
         drugs.push(responseArray);
-
+        console.log(drugs);
         console.log(responseString);
     }, function (e) {
         console.log("error");

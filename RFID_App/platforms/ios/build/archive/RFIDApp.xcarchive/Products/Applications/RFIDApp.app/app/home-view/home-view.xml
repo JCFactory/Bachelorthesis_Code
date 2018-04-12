@@ -6,7 +6,7 @@
     <GridLayout>
         <ListView items="{{drugs}}">
             <ListView.itemTemplate>
-                <Button text="{{name}}" horizontalAlignment="left" verticalAlignment="center"/>
+                <Button text="{{name}}"/>
             </ListView.itemTemplate>
         </ListView>
     </GridLayout>

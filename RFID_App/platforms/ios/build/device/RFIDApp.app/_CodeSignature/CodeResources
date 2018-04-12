@@ -110,7 +110,7 @@
 		</data>
 		<key>Frameworks/NativeScript.framework/NativeScript</key>
 		<data>
-		5/7/ox0rOPd0gdeXPrbReDsNrsg=
+		uq7zPXPyXkC26NcsE+ZRZ6VhcNk=
 		</data>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -258,11 +258,11 @@
 		</data>
 		<key>app/home-view/home-view.js</key>
 		<data>
-		lnO9nRasZHPCP4NaPHQw7H/wfjM=
+		TF35ohL9WdZmp7AmHmPNv2bSxYE=
 		</data>
 		<key>app/home-view/home-view.xml</key>
 		<data>
-		5w3tIDZzqBXJm++lXi6DcwKlrHI=
+		azuacTB4sDyfChvmL5rDhEgZ5zY=
 		</data>
 		<key>app/images/272-cross.png</key>
 		<data>
@@ -10094,11 +10094,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5/7/ox0rOPd0gdeXPrbReDsNrsg=
+			uq7zPXPyXkC26NcsE+ZRZ6VhcNk=
 			</data>
 			<key>hash2</key>
 			<data>
-			9tiSY+Qv3PhQiysfOs6EsVHytuNMxguKIq+SL+5wLSo=
+			XygfG+q3sjWsfjorxeNKgAdK5EGl0ejTZuRPCQvIKHg=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
@@ -10479,22 +10479,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lnO9nRasZHPCP4NaPHQw7H/wfjM=
+			TF35ohL9WdZmp7AmHmPNv2bSxYE=
 			</data>
 			<key>hash2</key>
 			<data>
-			OMTms72q5WZsc1ZemixBev7F0ifN/9sdUclNfTPJUgQ=
+			QXcvIpg69vj31JWMkhqE7FFZiJhOed0iYXXGJK2Fluo=
 			</data>
 		</dict>
 		<key>app/home-view/home-view.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5w3tIDZzqBXJm++lXi6DcwKlrHI=
+			azuacTB4sDyfChvmL5rDhEgZ5zY=
 			</data>
 			<key>hash2</key>
 			<data>
-			vWI4hKHHtpfvYef1stGyY3iAwmPaALYg7MynLiUW9ZY=
+			V6DbfzbEVP72zmTQEzZm+5bnZ+HVclHWbKxl6ckTJM0=
 			</data>
 		</dict>
 		<key>app/images/272-cross.png</key>

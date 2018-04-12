@@ -3,12 +3,12 @@
     <ActionBar class="action-bar">
         <Label class="action-bar-title" background-color="green" text="Medication"></Label>
     </ActionBar>
-    <!-- <GridLayout>
+    <GridLayout>
         <ListView items="{{drugs}}">
             <ListView.itemTemplate>
                 <Button text="{{name}}" horizontalAlignment="left" verticalAlignment="center"/>
             </ListView.itemTemplate>
         </ListView>
-    </GridLayout> -->
-    <StackLayout><Button text='{{drugs}}' tap="onTap" class="btn"/></StackLayout>
+    </GridLayout>
+    <!-- <StackLayout><Button text='Till' tap="onTap" class="btn"/></StackLayout> -->
 </Page>

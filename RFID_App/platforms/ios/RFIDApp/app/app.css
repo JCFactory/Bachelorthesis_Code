@@ -1,5 +1,5 @@
 ﻿.btn {
-    font-size: 20;
+    font-size: 14;
     color: turquoise;
 }
 
@@ -8,14 +8,8 @@
     font-size: 20;
 }
 
-
 .action-bar-title{
     font-size: 20;
-}
-
-.btnIcon {
-font-family: "Ionicons";
-font-size:60;
 }
 
 .title {
@@ -25,17 +19,9 @@ font-size:60;
     text-align: left;
 }
 
-.image{
-    background-color: aquamarine;
-    width: 50;
-    height: 50;
-}
-
 .detail{
+    font-size: 14;
     padding: 10;
-    text-align: left;
-    font-size: 20;
-    vertical-align: center;
 }
 
 .text-detail{

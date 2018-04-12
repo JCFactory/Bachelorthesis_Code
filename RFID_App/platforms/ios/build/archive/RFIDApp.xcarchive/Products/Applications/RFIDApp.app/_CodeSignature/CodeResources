@@ -102,7 +102,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		tAL/azbOGmbFj/NQUXWASAHrPM4=
+		2uGFdAr+fT94KyRPzD4p3cIFhFQ=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Frameworks/NativeScript.framework/NativeScript</key>
 		<data>
-		RtVtmpxi+ixYJnCjuQZeWhKqo1Q=
+		987UsPuGTUOfa9tbqd5QHlMJHAw=
 		</data>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Frameworks/TNSWidgets.framework/TNSWidgets</key>
 		<data>
-		GhXZJIEZMMkhdynkxZkVa/DrtWU=
+		2MWhy/bqmYLQtziHIV0wSY4tbzg=
 		</data>
 		<key>Frameworks/TNSWidgets.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -206,7 +206,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		1Lw4Z2dleQwYfkDo1kiNfJrncnw=
+		jL4sqynMREVoU0F18gDOo1RTW+0=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		OtG1z8XyERgjxEVdWf3oXZ9HnV8=
+		2IrYcVwz/J0T6V61Og87uy36OMw=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -258,11 +258,11 @@
 		</data>
 		<key>app/home-view/home-view.js</key>
 		<data>
-		lnO9nRasZHPCP4NaPHQw7H/wfjM=
+		TF35ohL9WdZmp7AmHmPNv2bSxYE=
 		</data>
 		<key>app/home-view/home-view.xml</key>
 		<data>
-		5w3tIDZzqBXJm++lXi6DcwKlrHI=
+		azuacTB4sDyfChvmL5rDhEgZ5zY=
 		</data>
 		<key>app/images/272-cross.png</key>
 		<data>
@@ -10076,11 +10076,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tAL/azbOGmbFj/NQUXWASAHrPM4=
+			2uGFdAr+fT94KyRPzD4p3cIFhFQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			OtxS6D7uuLaIjpgRpUNqCYv9ECU5AqvgqQWmMErI9xY=
+			H3hxpG7I7OaDF+SY7TyUrvm5V3Flh8vHAn5fekippOI=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -10098,11 +10098,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RtVtmpxi+ixYJnCjuQZeWhKqo1Q=
+			987UsPuGTUOfa9tbqd5QHlMJHAw=
 			</data>
 			<key>hash2</key>
 			<data>
-			8kq3DMdNI+skshyE0SinHBwWiRqPOMQSJobeemRDoVg=
+			gvMejxjeu47B1c0HtgoiiCUBaXEIXUrUdwhSA/qYQ6k=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/_CodeSignature/CodeResources</key>
@@ -10131,11 +10131,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GhXZJIEZMMkhdynkxZkVa/DrtWU=
+			2MWhy/bqmYLQtziHIV0wSY4tbzg=
 			</data>
 			<key>hash2</key>
 			<data>
-			PWh2+SWHByUHrrgG0kHKDx5SrtPMcieWwITI7dnc354=
+			jxTYBald05PqpNNhqKS0IWw7+fBmng6n+qbInJ7ShYE=
 			</data>
 		</dict>
 		<key>Frameworks/TNSWidgets.framework/_CodeSignature/CodeResources</key>
@@ -10351,11 +10351,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1Lw4Z2dleQwYfkDo1kiNfJrncnw=
+			jL4sqynMREVoU0F18gDOo1RTW+0=
 			</data>
 			<key>hash2</key>
 			<data>
-			UGmFCapVMhigrDRHLjTHsmZ9DXs4l+RT4ZIApw7XE10=
+			QjaxwDVKdl6eD7X/w1OZDCJJ2MrDoF9O+4wrC/LaFoM=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -10373,11 +10373,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OtG1z8XyERgjxEVdWf3oXZ9HnV8=
+			2IrYcVwz/J0T6V61Og87uy36OMw=
 			</data>
 			<key>hash2</key>
 			<data>
-			vmuGx4dvxGWw7ke+oTs/AtyJCYABPdIMDMHuD7zkN58=
+			gbeLS2Sb4fuxSC4WTKm9zRL3JPcKn7ySSjpMvfqXHEk=
 			</data>
 		</dict>
 		<key>app/CODE_OF_CONDUCT.md</key>
@@ -10483,22 +10483,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lnO9nRasZHPCP4NaPHQw7H/wfjM=
+			TF35ohL9WdZmp7AmHmPNv2bSxYE=
 			</data>
 			<key>hash2</key>
 			<data>
-			OMTms72q5WZsc1ZemixBev7F0ifN/9sdUclNfTPJUgQ=
+			QXcvIpg69vj31JWMkhqE7FFZiJhOed0iYXXGJK2Fluo=
 			</data>
 		</dict>
 		<key>app/home-view/home-view.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5w3tIDZzqBXJm++lXi6DcwKlrHI=
+			azuacTB4sDyfChvmL5rDhEgZ5zY=
 			</data>
 			<key>hash2</key>
 			<data>
-			vWI4hKHHtpfvYef1stGyY3iAwmPaALYg7MynLiUW9ZY=
+			V6DbfzbEVP72zmTQEzZm+5bnZ+HVclHWbKxl6ckTJM0=
 			</data>
 		</dict>
 		<key>app/images/272-cross.png</key>
