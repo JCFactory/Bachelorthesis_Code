@@ -7,10 +7,11 @@ var drugs = new ObservableArray;
 
 exports.showDetail = function(args) {
     console.log("sweet till");
+    var circle = args.object;
     green(args);
     const navigationEntry = {
         moduleName: "detail/details-page",
-        context: {args},
+        context: {pageData},
         animated:true
     };
     topmost().navigate(navigationEntry);

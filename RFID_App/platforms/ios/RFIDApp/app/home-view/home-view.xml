@@ -6,8 +6,8 @@
     <ListView items="{{drugs}}">
         <ListView.itemTemplate>
             <GridLayout columns="*,*" tap="showDetail">
-                <Label text="{{name}}" class="btn" col="0"/>
-                <Label stretch="none" class="circle" tap="onTap" col="1"/>
+                <Label text="{{name}}" class="btn" col="0" colSpan="2"/>
+                <Label stretch="none" id = "activation" class="circle" tap="onTap" col="1"/>
             </GridLayout>
         </ListView.itemTemplate>
     </ListView>

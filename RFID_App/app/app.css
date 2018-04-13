@@ -1,7 +1,8 @@
 ﻿.btn {
     font-size: 18;
     color: rgb(16, 121, 190);
-    text-align: center;
+   /** text-align: center;*/
+    margin-left: 20;
 }
 
 .circle {
@@ -44,8 +45,9 @@
 }
 
 .detail {
-    font-size: 14;
+    font-size: 16;
     padding: 10;
+    margin-left: 20;
 }
 
 .text-detail {
