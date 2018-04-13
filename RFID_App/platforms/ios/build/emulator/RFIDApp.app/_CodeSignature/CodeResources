@@ -234,7 +234,7 @@
 		</data>
 		<key>app/app.css</key>
 		<data>
-		9No7n8JSc5J/x/NRwlyYpjmf0hM=
+		ZBhjmXShfcvZQtd/So6FBZszKDg=
 		</data>
 		<key>app/app.js</key>
 		<data>
@@ -246,11 +246,11 @@
 		</data>
 		<key>app/detail/details-page.js</key>
 		<data>
-		cp8+rDbEPA0YR2T5HvgS8oUtL94=
+		oqd9ckNADtVEFGbSl8rDvnA4Mys=
 		</data>
 		<key>app/detail/details-page.xml</key>
 		<data>
-		OZ0KtcSalHy+01AoN8HfV5JtESI=
+		IfDTSrGs4QOZrC7Qmyor3tQCmAE=
 		</data>
 		<key>app/home-view/home-view-model.js</key>
 		<data>
@@ -258,11 +258,11 @@
 		</data>
 		<key>app/home-view/home-view.js</key>
 		<data>
-		lnO9nRasZHPCP4NaPHQw7H/wfjM=
+		q+EQT+MeOUPNQHiRPY54KWypCWM=
 		</data>
 		<key>app/home-view/home-view.xml</key>
 		<data>
-		5w3tIDZzqBXJm++lXi6DcwKlrHI=
+		dZvEBufgOf/+QDJF4Ha0DhOe66Y=
 		</data>
 		<key>app/images/272-cross.png</key>
 		<data>
@@ -278,7 +278,7 @@
 		</data>
 		<key>app/mongo-node/mongo-node.js</key>
 		<data>
-		X7OV6uvVjdWHOPLIrfx6bRZ0pS0=
+		zkuLr8Zidhf+qKWxsVu0u1/D64I=
 		</data>
 		<key>app/package.json</key>
 		<data>
@@ -290,7 +290,7 @@
 		</data>
 		<key>app/server.js</key>
 		<data>
-		eJ5hfRUgjt1sdxfcdABUtvsNfVw=
+		pEW6JjrCKkNBGZBpcI5fxaCT1h0=
 		</data>
 		<key>app/tns_modules/accepts/HISTORY.md</key>
 		<data>
@@ -10409,11 +10409,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9No7n8JSc5J/x/NRwlyYpjmf0hM=
+			ZBhjmXShfcvZQtd/So6FBZszKDg=
 			</data>
 			<key>hash2</key>
 			<data>
-			8K1mnHQJqniedXjszD+83YDZbGHUuJI0SypiqFefHBA=
+			EnD8AV/JOIuEF/XNynBlYMjXbsXXipiLZuoM5qBaOKk=
 			</data>
 		</dict>
 		<key>app/app.js</key>
@@ -10442,22 +10442,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cp8+rDbEPA0YR2T5HvgS8oUtL94=
+			oqd9ckNADtVEFGbSl8rDvnA4Mys=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jy8hQF2HMd9Pxl7397XjRMp4BZP9jsiOMlUtSc1RCwY=
+			mz/wEHwTyQhPegUyyEs/du9SfGlYZbVpAjzI77SOb54=
 			</data>
 		</dict>
 		<key>app/detail/details-page.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OZ0KtcSalHy+01AoN8HfV5JtESI=
+			IfDTSrGs4QOZrC7Qmyor3tQCmAE=
 			</data>
 			<key>hash2</key>
 			<data>
-			yUvz5Sb3HamjAwnv/yFqTrBRC1UKL66n32M1x0GHsf4=
+			GJF1t5T1gfUpVl1KXitBYaY2+ORAVRWVMxPBm7IiRNg=
 			</data>
 		</dict>
 		<key>app/home-view/home-view-model.js</key>
@@ -10475,22 +10475,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lnO9nRasZHPCP4NaPHQw7H/wfjM=
+			q+EQT+MeOUPNQHiRPY54KWypCWM=
 			</data>
 			<key>hash2</key>
 			<data>
-			OMTms72q5WZsc1ZemixBev7F0ifN/9sdUclNfTPJUgQ=
+			2QN6A6juhIFqwbadJ74nhMkOr2hXWbz0n8QRTRkJxEY=
 			</data>
 		</dict>
 		<key>app/home-view/home-view.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5w3tIDZzqBXJm++lXi6DcwKlrHI=
+			dZvEBufgOf/+QDJF4Ha0DhOe66Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			vWI4hKHHtpfvYef1stGyY3iAwmPaALYg7MynLiUW9ZY=
+			ondHzitivd2wda8wBC5K640OWENy0ZBones8lNkKfQ0=
 			</data>
 		</dict>
 		<key>app/images/272-cross.png</key>
@@ -10530,11 +10530,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X7OV6uvVjdWHOPLIrfx6bRZ0pS0=
+			zkuLr8Zidhf+qKWxsVu0u1/D64I=
 			</data>
 			<key>hash2</key>
 			<data>
-			8c9fSRZq73Q8ncO2iZWq3A0m2Q2NkeCe9K4dZseKmKQ=
+			+/UdbqSbKjITcCIRCgpxzrYJFJCkw4X4DfARzgoSqgs=
 			</data>
 		</dict>
 		<key>app/package.json</key>
@@ -10563,11 +10563,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eJ5hfRUgjt1sdxfcdABUtvsNfVw=
+			pEW6JjrCKkNBGZBpcI5fxaCT1h0=
 			</data>
 			<key>hash2</key>
 			<data>
-			5fizcYx6fpG96aMOPtTJyYy2Ru3QNM+N440FYXT0B2w=
+			TpoapwfoOJogCMS9ISwfc61xAmEQsrOSxWouWRLVBNQ=
 			</data>
 		</dict>
 		<key>app/tns_modules/accepts/HISTORY.md</key>

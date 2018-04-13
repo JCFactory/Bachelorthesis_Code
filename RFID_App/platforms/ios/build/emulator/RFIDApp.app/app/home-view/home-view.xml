@@ -6,9 +6,14 @@
     <GridLayout>
         <ListView items="{{drugs}}">
             <ListView.itemTemplate>
-                <Button text="{{name}}" horizontalAlignment="left" verticalAlignment="center"/>
-            </ListView.itemTemplate>
-        </ListView>
-    </GridLayout>
-    <!-- <StackLayout><Button text='Till' tap="onTap" class="btn"/></StackLayout> -->
-</Page>
+                <Button>
+                    <Label text="{{id}}" tap="onTap" class="btn"/>
+                    <Label text="{{name}}" tap="onTap" class="btn">
+                    </Button>
+                    <!-- <Button text="{{id, name}}" tap="onTap" class="btn"/> -->
+                    <!-- <Button text="{{id}}" tap="onTap" class="btn"/> -->
+                </ListView.itemTemplate>
+            </ListView>
+        </GridLayout>
+        <!-- <StackLayout><Button text='Till' tap="onTap" class="btn"/></StackLayout> -->
+    </Page>

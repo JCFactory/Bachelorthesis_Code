@@ -5,13 +5,13 @@ var drug = new mongoose.Schema({
         type: Number,
         default: "",
         required: true,
-        select: false
+        //select: false
     },
     id: {
         type: Number,
         default: "",
         required: true,
-        select: false
+        // select: false
     },
     name: {
         type: String,
@@ -21,22 +21,22 @@ var drug = new mongoose.Schema({
     countryCode: {
         type: Number,
         default: "",
-        select: false
+        // select: false
     },
     size: {
         type: String,
         default: "",
-        select: false
+        // select: false
     },
     location: {
         type: String,
         default: "",
-        select: false
+        // select: false
     },
     timeStamp: {
         type: Date,
         default: "",
-        select: false
+        // select: false
     },
 });
 

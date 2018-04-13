@@ -5,15 +5,29 @@ var page;
 const topmost = require("ui/frame").topmost;
 var drugs = new ObservableArray;
 
-exports.onTap = function() {
+exports.showDetail = function(args) {
     console.log("sweet till");
+    green(args);
     const navigationEntry = {
         moduleName: "detail/details-page",
-        context: {pageData},
+        context: {args},
         animated:true
     };
     topmost().navigate(navigationEntry);
+    //console.log(args.toString());
 };
+
+//function to show active and detected tags in green color
+function green(args){
+    var circle = args.object;
+    circle.color= "#10BA10";
+}
+
+//function to show inactive tags in red color
+function red(args){
+    var circle = args.object;
+    circle.color = "#E53003";
+}
 
 var pageData = new observableModule.fromObject({
     drugs
@@ -28,10 +42,13 @@ exports.loaded = function (args) {
     http.request({ url: "http://127.0.0.1:3000/api/drugs", method: "GET" }).then(function (response) {
         console.log("asdfjköl");
         var responseArray = response.content.toJSON();
-        var responseString = response.content.toString();
-        drugs.push(responseArray);
-        console.log(drugs);
-        console.log(responseString);
+        // var responseString = response.content.toString();
+       // if (responseArray != drugs.toJSON()){
+            drugs.push(responseArray);
+        //}
+       // drugs.push(responseArray);
+        // console.log(drugs);
+        // console.log(responseString);
     }, function (e) {
         console.log("error");
     });
