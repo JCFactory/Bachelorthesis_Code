@@ -1,45 +1,37 @@
-var http = require('http');
+const topmost = require("ui/frame").topmost;
 var observableModule = require("data/observable");
 var ObservableArray = require("data/observable-array").ObservableArray;
 var page;
-const topmost = require("ui/frame").topmost;
-var drugs = new ObservableArray;
+
+var drug = new ObservableArray();
+var id;
+var name;
+var countryCode;
+var size;
+var location;
+var timeStamp;
 
 var pageData = new observableModule.fromObject({
-    drugs
+    id: drug.id,
+    name: drug.name,
+    countryCode: drug.countryCode,
+    size: drug.size,
+    location: drug.location,
+    timeStamp: drug.timeStamp
+
 });
 
 exports.loaded = function (args) {
-    console.log("till i miss you");
-    //IP in WLAN (Lucia home)
-    // http.request({ url: "http://192.168.1.64:3000/api/drugs", method: "GET" }).then(function (response) {
-    //Developing with Emulator: http://127.0.0.1:3000/api/drugs
-    //IP in Eduroam (UNIOVI) changes everyday
-    http.request({ url: "http://127.0.0.1:3000/api/drugs", method: "GET" }).then(function (response) {
-        console.log("asdfjköl");
-        var responseArray = response.content.toJSON();
-        // var responseString = response.content.toString();
-        if (responseArray != drugs.toJSON()){
-            drugs.push(responseArray);
-        }
-       // drugs.push(responseArray);
-        // console.log(drugs);
-        // console.log(responseString);
-    }, function (e) {
-        console.log("error");
-    });
     page = args.object;
-    page.bindingContext = pageData;
+    const context = page.navigationContext;
+    console.log(context);
+    var newDrug = drug;
+    drug = [];
+    newDrug.push(context.id);
+    newDrug.push(context.nombre);
+    newDrug.push(context.apellido);
+    newDrug.push(context.accion);
+    console.log(newDrug);
+    page = args.object;
+    page.bindingContext = context;
 }
-
-
-
-
-
-
-
-
-
-
-
-

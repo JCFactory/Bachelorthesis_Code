@@ -2,7 +2,7 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
 
-mongoose.connect('mongodb://localhost:27017/medication');
+mongoose.connect('mongodb://127.0.0.1:27017/medication');
 var app = express();
 
 app.use(bodyParser.urlencoded({
@@ -13,8 +13,6 @@ var router = express.Router();
 
 app.use("/api", router);
 router.route("/drugs").get(getDrugs);
-router.route("/drugnames").get(someValue);
-
 // router.route("/drug/:name").get(drugController.getDrug);
 // router.route("/addDrug").post(drugController.addDrug);
 // router.route("/updateDrug/:id").post(drugController.updateDrug);
@@ -29,15 +27,6 @@ var http = require("http");
 
 //GET NAME OF DRUGS IN MONGODB 
 function getDrugs(req, res) {
-    //var totalDrugs = [];
-
-
-    // Drug.find().distinct('name', function(err,drugs){
-    //     if(err) return done(err);
-    //     console.log(drugs);
-    //     res.send(drugs);
-    // });
-
     Drug.find(function (err, drugs) {
         if (err) {
             res.send(err);
@@ -46,13 +35,6 @@ function getDrugs(req, res) {
     });
 };
 
-function someValue(req, res, next) {
-    var query = Drug.find({}).select('name');
-    query.exec(function (err, someValue) {
-        if (err) return next(err);
-        res.send(someValue);
-    });
-};
 //GET SPECIFIC DRUG BY SEARCHING ITS NAME (SEARCH FIELD HAS TO BE IMPLEMENTED!!!!! IN FRONTEND XML)
 // exports.getDrug = function (req, res) {
 //     Drug.find({ name: req.params.name }, function (err, drug) {

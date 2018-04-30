@@ -1,19 +1,13 @@
-<Page class="page" 
-    xmlns="http://schemas.nativescript.org/tns.xsd" loaded="loaded">
+<Page class="page" xmlns="http://schemas.nativescript.org/tns.xsd" loaded="loaded">
     <ActionBar class="action-bar">
         <Label class="action-bar-title" background-color="green" text="Medication"></Label>
     </ActionBar>
-    <GridLayout>
-        <ListView items="{{drugs}}">
-            <ListView.itemTemplate>
-                <Button>
-                    <Label text="{{id}}" tap="onTap" class="btn"/>
-                    <Label text="{{name}}" tap="onTap" class="btn">
-                    </Button>
-                    <!-- <Button text="{{id, name}}" tap="onTap" class="btn"/> -->
-                    <!-- <Button text="{{id}}" tap="onTap" class="btn"/> -->
-                </ListView.itemTemplate>
-            </ListView>
-        </GridLayout>
-        <!-- <StackLayout><Button text='Till' tap="onTap" class="btn"/></StackLayout> -->
-    </Page>
+    <ListView items="{{drugs}}">
+        <ListView.itemTemplate>
+            <GridLayout columns="*,*">
+                <Label text="{{name}}" class="btn" col="0" colSpan="2" tap="onTap"/>
+                <Label stretch="none" class="circle" col="1"/>
+            </GridLayout>
+        </ListView.itemTemplate>
+    </ListView>
+</Page>

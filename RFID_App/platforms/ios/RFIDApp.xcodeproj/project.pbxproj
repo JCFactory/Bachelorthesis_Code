@@ -9,11 +9,11 @@
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
-		4804C39353CA4EE29D0097D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD243DE5A6E4C8891B1F7AF /* Assets.xcassets */; };
-		EF48C4F0BD824BE5AB1CAF47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16E97817D8149FE96CEB501 /* LaunchScreen.storyboard */; };
-		B278496D281C4766BEFF124D /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 81084D6E6E084643828E9E8D /* build.xcconfig */; };
-		7B043F49B3874E4C877F5C63 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1720DD9AB342AEB89D47C1 /* TNSWidgets.framework */; };
-		5A597CF83172455DAAD1CEB6 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD1720DD9AB342AEB89D47C1 /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		161CA77DE81444F49ADD4A22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03FC04B33964054BE4AF8FB /* Assets.xcassets */; };
+		E02C4743B7B04262A93CE892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2DEE378AE04B99934E976B /* LaunchScreen.storyboard */; };
+		696C7E9071804EE8A1C8702C /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6C411B75DBC04510A4B24665 /* build.xcconfig */; };
+		17A8AA4660F942A39F67D9FE /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4607FD4A327641A09A60CC7A /* TNSWidgets.framework */; };
+		70B6CCBDEC544C45AD5F6B73 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4607FD4A327641A09A60CC7A /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,7 +23,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5A597CF83172455DAAD1CEB6 /* TNSWidgets.framework in Embed Frameworks */,
+				70B6CCBDEC544C45AD5F6B73 /* TNSWidgets.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,10 +41,10 @@
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		BBD243DE5A6E4C8891B1F7AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = Assets.xcassets; path = "RFIDApp/Resources/Assets.xcassets"; sourceTree = "<group>"; fileEncoding = 4; };
-		C16E97817D8149FE96CEB501 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = "RFIDApp/Resources/LaunchScreen.storyboard"; sourceTree = "<group>"; fileEncoding = 4; };
-		81084D6E6E084643828E9E8D /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = build.xcconfig; path = "RFIDApp/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; };
-		DD1720DD9AB342AEB89D47C1 /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		C03FC04B33964054BE4AF8FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = Assets.xcassets; path = "RFIDApp/Resources/Assets.xcassets"; sourceTree = "<group>"; fileEncoding = 4; };
+		0B2DEE378AE04B99934E976B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = "RFIDApp/Resources/LaunchScreen.storyboard"; sourceTree = "<group>"; fileEncoding = 4; };
+		6C411B75DBC04510A4B24665 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = build.xcconfig; path = "RFIDApp/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; };
+		4607FD4A327641A09A60CC7A /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B043F49B3874E4C877F5C63 /* TNSWidgets.framework in Frameworks */,
+				17A8AA4660F942A39F67D9FE /* TNSWidgets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 		858B833018CA111C00AB12DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD1720DD9AB342AEB89D47C1 /* TNSWidgets.framework */,
+				4607FD4A327641A09A60CC7A /* TNSWidgets.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,9 +112,9 @@
 		E070579D1B39A9D000214BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BBD243DE5A6E4C8891B1F7AF /* Assets.xcassets */,
-				C16E97817D8149FE96CEB501 /* LaunchScreen.storyboard */,
-				81084D6E6E084643828E9E8D /* build.xcconfig */,
+				C03FC04B33964054BE4AF8FB /* Assets.xcassets */,
+				0B2DEE378AE04B99934E976B /* LaunchScreen.storyboard */,
+				6C411B75DBC04510A4B24665 /* build.xcconfig */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -183,9 +183,9 @@
 			files = (
 				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
 				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
-				4804C39353CA4EE29D0097D2 /* Assets.xcassets in Resources */,
-				EF48C4F0BD824BE5AB1CAF47 /* LaunchScreen.storyboard in Resources */,
-				B278496D281C4766BEFF124D /* build.xcconfig in Resources */,
+				161CA77DE81444F49ADD4A22 /* Assets.xcassets in Resources */,
+				E02C4743B7B04262A93CE892 /* LaunchScreen.storyboard in Resources */,
+				696C7E9071804EE8A1C8702C /* build.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

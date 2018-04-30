@@ -7,7 +7,6 @@
 		<dict>
 			<key>architectures</key>
 			<array>
-				<string>armv7</string>
 				<string>arm64</string>
 			</array>
 			<key>certificate</key>
@@ -15,7 +14,7 @@
 				<key>SHA1</key>
 				<string>9BB826B31841BBF62D96F2E822C84C7783D02022</string>
 				<key>dateExpires</key>
-				<string>01.02.19</string>
+				<string>1/2/19</string>
 				<key>type</key>
 				<string>iOS Development</string>
 			</dict>
@@ -24,7 +23,6 @@
 				<dict>
 					<key>architectures</key>
 					<array>
-						<string>armv7</string>
 						<string>arm64</string>
 					</array>
 					<key>certificate</key>
@@ -32,7 +30,7 @@
 						<key>SHA1</key>
 						<string>9BB826B31841BBF62D96F2E822C84C7783D02022</string>
 						<key>dateExpires</key>
-						<string>01.02.19</string>
+						<string>1/2/19</string>
 						<key>type</key>
 						<string>iOS Development</string>
 					</dict>
@@ -49,7 +47,6 @@
 				<dict>
 					<key>architectures</key>
 					<array>
-						<string>armv7</string>
 						<string>arm64</string>
 					</array>
 					<key>certificate</key>
@@ -57,7 +54,7 @@
 						<key>SHA1</key>
 						<string>9BB826B31841BBF62D96F2E822C84C7783D02022</string>
 						<key>dateExpires</key>
-						<string>01.02.19</string>
+						<string>1/2/19</string>
 						<key>type</key>
 						<string>iOS Development</string>
 					</dict>

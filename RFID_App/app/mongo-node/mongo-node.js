@@ -3,40 +3,31 @@ var mongoose = require("mongoose");
 var drug = new mongoose.Schema({
     _id: {
         type: Number,
-        default: "",
-        required: true,
-        //select: false
+        default: ""
     },
     id: {
         type: Number,
-        default: "",
-        required: true,
-        // select: false
+        default: ""
     },
     name: {
         type: String,
-        default: "",
-        required: true
+        default: ""
     },
     countryCode: {
         type: Number,
-        default: "",
-        // select: false
+        default: ""
     },
     size: {
         type: String,
-        default: "",
-        // select: false
+        default: ""
     },
     location: {
         type: String,
-        default: "",
-        // select: false
+        default: ""
     },
     timeStamp: {
         type: Date,
-        default: "",
-        // select: false
+        default: ""
     },
 });
 

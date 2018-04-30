@@ -1,10 +1,9 @@
-<Page class="page" loaded="loaded" 
+<Page class="page" navigatingTo="loaded"
     xmlns="http://schemas.nativescript.org/tns.xsd">
     <ActionBar class="action-bar">
-        <Label class="action-bar-title" background-color="green" text="Detail-Information"></Label>
+        <Label class="action-bar-title" background-color="green" text="Details"></Label>
     </ActionBar>
-    <!-- <ListView items="{{drugs}}"><ListView.itemTemplate><Button text="{{id}}" tap="onTap" class="btn"/><Button text="{{countryCode}}" tap="onTap" class="btn"/><Button text="{{id}}" tap="onTap" class="btn"/><Button text="{{id}}" tap="onTap" class="btn"/></ListView.itemTemplate></ListView> -->
-    <GridLayout rows="50, 50, 50, 50, 50, 50" columns="*, *" items="{{drugs}}">
+    <GridLayout rows="50, 50, 50, 50, 50, 50" columns="*, *">
         <GridLayout.itemTemplate>
             <Label text="ID" col="0" row="0" class="detail"/>
             <Label text="{{id}}" col="1" row="0" class="detail"/>

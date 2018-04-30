@@ -2,18 +2,18 @@
   "_args": [
     [
       {
-        "raw": "tns-android",
+        "raw": "tns-android@^3.4.2",
         "scope": null,
         "escapedName": "tns-android",
         "name": "tns-android",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
+        "rawSpec": "^3.4.2",
+        "spec": ">=3.4.2 <4.0.0",
+        "type": "range"
       },
       "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App"
     ]
   ],
-  "_from": "tns-android@latest",
+  "_from": "tns-android@>=3.4.2 <4.0.0",
   "_id": "tns-android@3.4.2",
   "_inCache": true,
   "_location": "/tns-android",
@@ -29,13 +29,13 @@
   "_npmVersion": "4.6.1",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "tns-android",
+    "raw": "tns-android@^3.4.2",
     "scope": null,
     "escapedName": "tns-android",
     "name": "tns-android",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "rawSpec": "^3.4.2",
+    "spec": ">=3.4.2 <4.0.0",
+    "type": "range"
   },
   "_requiredBy": [
     "#USER",
@@ -44,7 +44,7 @@
   "_resolved": "https://registry.npmjs.org/tns-android/-/tns-android-3.4.2.tgz",
   "_shasum": "e617526b6a704ab925fe3f59153e34eddacc748a",
   "_shrinkwrap": null,
-  "_spec": "tns-android",
+  "_spec": "tns-android@^3.4.2",
   "_where": "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App",
   "bugs": {
     "url": "https://github.com/NativeScript/android-runtime/issues"
