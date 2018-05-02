@@ -2,18 +2,18 @@
   "_args": [
     [
       {
-        "raw": "http-string-parser",
+        "raw": "http-string-parser@0.0.6",
         "scope": null,
         "escapedName": "http-string-parser",
         "name": "http-string-parser",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
+        "rawSpec": "0.0.6",
+        "spec": "0.0.6",
+        "type": "version"
       },
       "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App"
     ]
   ],
-  "_from": "http-string-parser@latest",
+  "_from": "http-string-parser@0.0.6",
   "_id": "http-string-parser@0.0.6",
   "_inCache": true,
   "_location": "/http-string-parser",
@@ -29,22 +29,21 @@
   "_npmVersion": "4.4.4",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "http-string-parser",
+    "raw": "http-string-parser@0.0.6",
     "scope": null,
     "escapedName": "http-string-parser",
     "name": "http-string-parser",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "rawSpec": "0.0.6",
+    "spec": "0.0.6",
+    "type": "version"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/http-string-parser/-/http-string-parser-0.0.6.tgz",
   "_shasum": "4088a1aba2b89155ce13918bcfb5cbbea6c4e7e9",
   "_shrinkwrap": null,
-  "_spec": "http-string-parser",
+  "_spec": "http-string-parser@0.0.6",
   "_where": "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App",
   "author": {
     "name": "Adam Kliment",

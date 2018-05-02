@@ -1,3 +1,36 @@
+5.0.17 / 2018-04-30
+===================
+ * docs(migration): certain chars in passwords may cause connection failures #6401 [markstos](https://github.com/markstos)
+ * fix(document): don't throw when `push()` on a nested doc array #6398
+ * fix(model): apply hooks to custom methods if specified #6385
+ * fix(schema): support opting out of one timestamp field but not the other for `insertMany()` #6381
+ * fix(documentarray): handle `required: true` within documentarray definition #6364
+ * fix(document): ensure `isNew` is set before default functions run on init #3793
+
+5.0.16 / 2018-04-23
+===================
+ * docs(api): sort api methods based on their string property #6374 [lineus](https://github.com/lineus)
+ * docs(connection): fix typo in `createCollection()` #6370 [mattc41190](https://github.com/mattc41190)
+ * docs(document): remove vestigial reference to `numAffected` #6367 [ekulabuhov](https://github.com/ekulabuhov)
+ * docs(schema): fix typo #6366 [dhritzkiv](https://github.com/dhritzkiv)
+ * docs(schematypes): add missing `minlength` and `maxlength` docs #6365 [treble-snake](https://github.com/treble-snake)
+ * docs(queries): fix formatting #6360 [treble-snake](https://github.com/treble-snake)
+ * docs(api): add cursors to API docs #6353 #6344 [lineus](https://github.com/lineus)
+ * docs(aggregate): remove reference to non-existent `.select()` method #6346
+ * fix(update): handle `required` array with update validators and $pull #6341
+ * fix(update): avoid setting __v in findOneAndUpdate if it is `$set` #5973
+
+5.0.15 / 2018-04-16
+===================
+ * fix: add ability for casting from number to decimal128 #6336 #6331 [lineus](https://github.com/lineus)
+ * docs(middleware): enumerate the ways to error out in a hook #6315
+ * fix(document): respect schema-level depopulate option for toObject() #6313
+ * fix: bump mongodb driver -> 3.0.6 #6310
+ * fix(number): check for `valueOf()` function to support Decimal.js #6306 #6299 [lineus](https://github.com/lineus)
+ * fix(query): run array setters on query if input value is an array #6277
+ * fix(versioning): don't require matching version when using array.pull() #6190
+ * fix(document): add `toHexString()` function so you don't need to check whether a path is populated to get an id #6115
+
 5.0.14 / 2018-04-09
 ===================
  * fix(schema): clone aliases and alternative option syntax correctly

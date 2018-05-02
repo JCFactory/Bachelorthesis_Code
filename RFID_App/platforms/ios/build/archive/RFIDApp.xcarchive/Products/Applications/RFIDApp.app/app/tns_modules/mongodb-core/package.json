@@ -2,49 +2,49 @@
   "_args": [
     [
       {
-        "raw": "mongodb-core@3.0.4",
+        "raw": "mongodb-core@3.0.7",
         "scope": null,
         "escapedName": "mongodb-core",
         "name": "mongodb-core",
-        "rawSpec": "3.0.4",
-        "spec": "3.0.4",
+        "rawSpec": "3.0.7",
+        "spec": "3.0.7",
         "type": "version"
       },
-      "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App/node_modules/mongoose/node_modules/mongodb"
+      "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App/node_modules/mongodb"
     ]
   ],
-  "_from": "mongodb-core@3.0.4",
-  "_id": "mongodb-core@3.0.4",
+  "_from": "mongodb-core@3.0.7",
+  "_id": "mongodb-core@3.0.7",
   "_inCache": true,
-  "_location": "/mongoose/mongodb-core",
-  "_nodeVersion": "8.9.4",
+  "_location": "/mongodb-core",
+  "_nodeVersion": "8.9.1",
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
-    "tmp": "tmp/mongodb-core_3.0.4_1520280252445_0.931502401021086"
+    "tmp": "tmp/mongodb-core_3.0.7_1524009443777_0.5717637488905216"
   },
   "_npmUser": {
     "name": "mbroadst",
     "email": "mbroadst@gmail.com"
   },
-  "_npmVersion": "5.6.0",
+  "_npmVersion": "5.5.1",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "mongodb-core@3.0.4",
+    "raw": "mongodb-core@3.0.7",
     "scope": null,
     "escapedName": "mongodb-core",
     "name": "mongodb-core",
-    "rawSpec": "3.0.4",
-    "spec": "3.0.4",
+    "rawSpec": "3.0.7",
+    "spec": "3.0.7",
     "type": "version"
   },
   "_requiredBy": [
-    "/mongoose/mongodb"
+    "/mongodb"
   ],
-  "_resolved": "https://registry.npmjs.org/mongodb-core/-/mongodb-core-3.0.4.tgz",
-  "_shasum": "a3fdf466e697a2f1df87e458e5e2df1c26cc654b",
+  "_resolved": "https://registry.npmjs.org/mongodb-core/-/mongodb-core-3.0.7.tgz",
+  "_shasum": "a9941f14883a75768d554cef5fd67756a9cc0f25",
   "_shrinkwrap": null,
-  "_spec": "mongodb-core@3.0.4",
-  "_where": "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App/node_modules/mongoose/node_modules/mongodb",
+  "_spec": "mongodb-core@3.0.7",
+  "_where": "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App/node_modules/mongodb",
   "author": {
     "name": "Christian Kvalheim"
   },
@@ -70,13 +70,14 @@
   },
   "directories": {},
   "dist": {
-    "integrity": "sha512-OTH267FjfwBdEufSnrgd+u8HuLWRuQ6p8DR0XirPl2BdlLEMh4XwjJf1RTlruILp5p2m1w8dDC8rCxibC3W8qQ==",
-    "shasum": "a3fdf466e697a2f1df87e458e5e2df1c26cc654b",
-    "tarball": "https://registry.npmjs.org/mongodb-core/-/mongodb-core-3.0.4.tgz",
-    "fileCount": 39,
-    "unpackedSize": 587073
+    "integrity": "sha512-z6YufO7s40wLiv2ssFshqoLS4+Kf+huhHq6KZ7gDArsKNzXYjAwTMnhEIJ9GQ8fIfBGs5tBLNPfbIDoCKGPmOw==",
+    "shasum": "a9941f14883a75768d554cef5fd67756a9cc0f25",
+    "tarball": "https://registry.npmjs.org/mongodb-core/-/mongodb-core-3.0.7.tgz",
+    "fileCount": 43,
+    "unpackedSize": 621443,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa1onlCRA9TVsSAnZWagAAOFUP/0EopJoAK+vv+DL6EroH\nNdcWqipzcFq/5wGVMiV5tLnQ7YURsdl8ZXJZNcWKWPIrAYaNcm2Wa1OpUvQl\naUxrue2nBw/vdVIv56SgqqAjr9lhO6LUxK3zf0uEgG/1Vm1p4pKhNrz0iu7Z\n6UIx4+aKmY3X9w/VdSmC9uVIrfZUBZxfhFJvQVi75rCgLBEaixRy1l9jAR00\nY4CLBv/dCjXgXAzYGkCXqJB5xjVfTW5FzuuhfgcsRh9yjGaZOmcHPSFq5msR\njdEtg15ogTq1SP62eoROsJdHSdb9ygZbSSkgH6wk1bpPXs2wBb/WICxtdV5p\nNwTb4T6MPgsNjLVOILI0bj9rJNdn9Vf+UCJ5LRCu6+9ievpCp/8/LwKC0fno\n6t/jvzhC4qluzG/90+rstFW3lBGN226OO8+dCLn2SyVCa7vpWHoBvoFyp2eS\nyIKBL7WXokkVpXvf5Yp2z88e8Sg6dWdNDt14Cch+3jcgs336J59EhRP2o7WR\n+FfR80Xce9I2Bv9Pj2qW6DjOvtPvRNKHg/rJlYhN6Ya010muwngQ7Ymo4bbr\nw4I8fUomgrK06sE1o3D0jBpEGYgfPb6maxznsMwJkLwSjn6BjbKFPtahvW28\nXLsRaanzRPyhiFw88Pz1VyhLkK4062Opc9eRKBmhE8yTMAK/7uLIfaso609q\n7zmk\r\n=SfsH\r\n-----END PGP SIGNATURE-----\r\n"
   },
-  "gitHead": "d0b0346e855c6b57227cf984364800247a6799ee",
+  "gitHead": "172617531b453cb948d613eb7a0399c1eb6e2b27",
   "homepage": "https://github.com/mongodb-js/mongodb-core",
   "keywords": [
     "mongodb",
@@ -117,5 +118,5 @@
     "lint": "eslint index.js lib test",
     "test": "npm run lint && mongodb-test-runner -t 60000 test/tests"
   },
-  "version": "3.0.4"
+  "version": "3.0.7"
 }

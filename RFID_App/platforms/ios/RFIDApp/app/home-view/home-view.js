@@ -21,32 +21,38 @@ var pageData = new observableModule.fromObject({
     drugs
 });
 
-exports.loaded = function(args){
-    http.request({url:"http://127.0.0.1:3000/api/drugs", method: "GET"}).then(function(response){
+function httpRequest() {
+    http.request({ url: "http://127.0.0.1:3000/api/drugs", method: "GET" }).then(function (response) {
         console.log("asdfjklö");
         var responseArray = response.content.toJSON();
         var newDrugs = drugs;
         drugs = [];
-        newDrugs.push(responseArray);      
-    }, function(e){
+        newDrugs.push(responseArray);
+    }, function (e) {
         console.log("error");
     });
+}
+// setInterval(httpRequest(), 5000);
+
+exports.loaded = function (args) {
+    // setInterval(httpRequest, 1000);
+    httpRequest();
     page = args.object;
     page.bindingContext = pageData;
 }
 
-exports.onTap = function(args){
+exports.onTap = function (args) {
     const selectedDrug = args.view.bindingContext;
     const navigationEntry = {
         moduleName: "detail/details-page",
         context: {
-          id: selectedDrug.id,
-          name: selectedDrug.name,
-          countryCode: selectedDrug.countryCode,
-          size: selectedDrug.size,
-          location: selectedDrug.location,
-          timeStamp: selectedDrug.timeStamp
-                 },
+            id: selectedDrug.id,
+            name: selectedDrug.name,
+            countryCode: selectedDrug.countryCode,
+            size: selectedDrug.size,
+            location: selectedDrug.location,
+            timeStamp: selectedDrug.timeStamp
+        },
         animated: true,
         transition: {
             name: "flip",
@@ -57,3 +63,23 @@ exports.onTap = function(args){
     console.log("selected drug " + selectedDrug.id);
     topmost().navigate(navigationEntry);
 }
+
+exports.refreshList = function (args) {
+    var pullRefresh = args.object;
+    alert("Refreshing...");
+    
+    // console.log(pullRefresh);
+
+    //Refresh and get data from http server
+// pullRefresh.then((resp) => {
+//         setTimeout(() => {
+//             pullRefresh.refreshing = false;
+//         }, 1000);
+//     }, (err) => {
+//         pullRefresh.refreshing = false;
+//     });
+    setTimeout(function(){
+        pullRefresh.refreshing = false;
+    }, 5000);
+}
+

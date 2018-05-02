@@ -25,7 +25,20 @@ var Drug = require("./mongo-node/mongo-node");
 
 var http = require("http");
 
-//GET NAME OF DRUGS IN MONGODB 
+
+// //GET NAME OF DRUGS IN MONGODB 
+// setInterval(function (req, res) {
+//     Drug.find(function (err, drugs) {
+//         if (err) {
+//             res.send(err);
+//             console.log("mongodb query not ok");
+//         }
+//         res.send(drugs);
+//     })
+// }, 1000)
+
+
+
 function getDrugs(req, res) {
     Drug.find(function (err, drugs) {
         if (err) {

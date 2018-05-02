@@ -1,4 +1,6 @@
-<Page class="page" xmlns="http://schemas.nativescript.org/tns.xsd" loaded="loaded">
+<Page class="page" xmlns="http://schemas.nativescript.org/tns.xsd" 
+xmlns:PullRefresh="nativescript-pulltorefresh"
+loaded="loaded">
     <ActionBar class="action-bar">
         <Label class="action-bar-title" background-color="green" text="Medication"></Label>
     </ActionBar>

@@ -2,7 +2,9 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
 
-mongoose.connect('mongodb://127.0.0.1:27017/medication');
+
+// setInterval(mongoose.connect('mongodb://127.0.0.1:27017/medication'), 2500);
+ mongoose.connect('mongodb://127.0.0.1:27017/medication');
 var app = express();
 
 app.use(bodyParser.urlencoded({
@@ -18,6 +20,7 @@ router.route("/drugs").get(getDrugs);
 // router.route("/updateDrug/:id").post(drugController.updateDrug);
 // router.route("/deleteDrugs/:id").get(drugController.deleteDrug);
 
+
 app.listen(3000);
 
 
@@ -25,7 +28,20 @@ var Drug = require("./mongo-node/mongo-node");
 
 var http = require("http");
 
-//GET NAME OF DRUGS IN MONGODB 
+
+// //GET NAME OF DRUGS IN MONGODB 
+// setInterval(function (req, res) {
+//     Drug.find(function (err, drugs) {
+//         if (err) {
+//             res.send(err);
+//             console.log("mongodb query not ok");
+//         }
+//         res.send(drugs);
+//     })
+// }, 1000)
+
+
+
 function getDrugs(req, res) {
     Drug.find(function (err, drugs) {
         if (err) {
