@@ -10,7 +10,7 @@
         "spec": ">=1.0.0 <2.0.0",
         "type": "range"
       },
-      "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App"
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
     ]
   ],
   "_from": "socket-io@>=1.0.0 <2.0.0",
@@ -44,7 +44,7 @@
   "_shasum": "fc566f4d30a6370224d07e65dcef386bd8f5d296",
   "_shrinkwrap": null,
   "_spec": "socket-io@^1.0.0",
-  "_where": "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
   "author": "",
   "bugs": {
     "url": "https://github.com/npm/deprecate-holder/issues"

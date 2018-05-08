@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw480dp-v13/values-sw480dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSCalendar-release.aar/58fc5aef38ad11d705561a90110b5b11/res/values-sw480dp-v13/values-sw480dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

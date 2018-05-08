@@ -10,7 +10,7 @@
         "spec": "3.0.7",
         "type": "version"
       },
-      "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App/node_modules/mongodb"
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/mongodb"
     ]
   ],
   "_from": "mongodb-core@3.0.7",
@@ -44,7 +44,7 @@
   "_shasum": "a9941f14883a75768d554cef5fd67756a9cc0f25",
   "_shrinkwrap": null,
   "_spec": "mongodb-core@3.0.7",
-  "_where": "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App/node_modules/mongodb",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/mongodb",
   "author": {
     "name": "Christian Kvalheim"
   },

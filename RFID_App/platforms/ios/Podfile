@@ -1,0 +1,9 @@
+use_frameworks!
+
+target "RFIDApp" do
+# Begin Podfile - /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/nativescript-socket.io/platforms/ios/Podfile 
+ pod 'Socket.IO-Client-Swift', '~> 11.0'
+ 
+ # End Podfile 
+
+end

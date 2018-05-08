@@ -1,0 +1,17 @@
+<Page class="page" 
+    xmlns="http://schemas.nativescript.org/tns.xsd" 
+    xmlns:PullRefresh="nativescript-pulltorefresh" loaded="loaded">
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" background-color="green" text="Medication"></Label>
+    </ActionBar>
+    <PullRefresh:PullToRefresh refresh="refreshList">
+        <ListView items="{{drugs}}">
+            <ListView.itemTemplate>
+                <GridLayout columns="*,*">
+                    <Label text="{{name}}" class="btn" col="0" colSpan="2" tap="onTap"/>
+                    <Label stretch="none" class="circle" col="1"/>
+                </GridLayout>
+            </ListView.itemTemplate>
+        </ListView>
+    </PullRefresh:PullToRefresh>
+</Page>

@@ -10,7 +10,7 @@
         "spec": "4.0.0",
         "type": "version"
       },
-      "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App/node_modules/tns-core-modules"
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/tns-core-modules"
     ]
   ],
   "_from": "tns-core-modules-widgets@4.0.0",
@@ -44,7 +44,7 @@
   "_shasum": "25b3eecc67a5df2554d25aa17cb12b0f244eea82",
   "_shrinkwrap": null,
   "_spec": "tns-core-modules-widgets@4.0.0",
-  "_where": "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App/node_modules/tns-core-modules",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/tns-core-modules",
   "author": {
     "name": "NativeScript team"
   },

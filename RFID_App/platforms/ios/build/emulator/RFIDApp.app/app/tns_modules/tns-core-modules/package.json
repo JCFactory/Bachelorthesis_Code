@@ -10,7 +10,7 @@
         "spec": ">=4.0.0 <5.0.0",
         "type": "range"
       },
-      "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App"
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
     ]
   ],
   "_from": "tns-core-modules@>=4.0.0 <5.0.0",
@@ -38,14 +38,13 @@
     "type": "range"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-4.0.0.tgz",
   "_shasum": "94171224eac82aa5b5873a78aa309aecd3e6346a",
   "_shrinkwrap": null,
   "_spec": "tns-core-modules@^4.0.0",
-  "_where": "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
   "dependencies": {
     "tns-core-modules-widgets": "4.0.0"
   },

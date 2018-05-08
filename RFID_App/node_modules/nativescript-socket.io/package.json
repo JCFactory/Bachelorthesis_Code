@@ -1,0 +1,125 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-socket.io",
+        "scope": null,
+        "escapedName": "nativescript-socket.io",
+        "name": "nativescript-socket.io",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
+    ]
+  ],
+  "_from": "nativescript-socket.io@latest",
+  "_id": "nativescript-socket.io@0.9.0",
+  "_inCache": true,
+  "_location": "/nativescript-socket.io",
+  "_nodeVersion": "6.11.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/nativescript-socket.io-0.9.0.tgz_1509388221861_0.31652130861766636"
+  },
+  "_npmUser": {
+    "name": "naderio",
+    "email": "ping@nader.tech"
+  },
+  "_npmVersion": "5.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-socket.io",
+    "scope": null,
+    "escapedName": "nativescript-socket.io",
+    "name": "nativescript-socket.io",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-socket.io/-/nativescript-socket.io-0.9.0.tgz",
+  "_shasum": "3bd64f0549dbc5165a92b425484f15fe9ed35878",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-socket.io",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
+  "author": {
+    "name": "Nader Toukabri",
+    "email": "ping@nader.tech"
+  },
+  "bugs": {
+    "url": "https://github.com/naderio/nativescript-socket.io/issues"
+  },
+  "contributors": [
+    {
+      "name": "Ludovic Fabrèges",
+      "url": "https://github.com/lfabreges"
+    }
+  ],
+  "dependencies": {},
+  "description": "Full-featured Socket.IO client implementation for NativeScript",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "karma": "1.7.1",
+    "karma-chai": "0.1.0",
+    "karma-mocha": "1.3.0",
+    "karma-nativescript-launcher": "0.4.0",
+    "mocha": "4.0.1",
+    "tns-core-modules": "3.2.0",
+    "tns-platform-declarations": "3.2.0",
+    "typescript": "~2.3.4"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-AcXgIQmlklcdeHJqAcdhIz/Wl8tlN23HzhmWaOi9Iqkp77sDGnRXbUh/xXHCx4OjTL+1U/1YbpyE+JX4EO1sfg==",
+    "shasum": "3bd64f0549dbc5165a92b425484f15fe9ed35878",
+    "tarball": "https://registry.npmjs.org/nativescript-socket.io/-/nativescript-socket.io-0.9.0.tgz"
+  },
+  "gitHead": "dc3dae70f149c07da5d8a6f9e04bd9e8b8637be7",
+  "homepage": "https://github.com/naderio/nativescript-socket.io#readme",
+  "keywords": [
+    "NativeScript",
+    "ecosystem:nativeScript",
+    "JavaScript",
+    "TypeScript",
+    "Android",
+    "iOS",
+    "WebSocket",
+    "Socket.IO",
+    "SocketIO",
+    "Socket"
+  ],
+  "license": "Unlicense",
+  "main": "socketio",
+  "maintainers": [
+    {
+      "name": "naderio",
+      "email": "contact@nader.tn"
+    }
+  ],
+  "name": "nativescript-socket.io",
+  "nativescript": {
+    "platforms": {
+      "ios": "2.0.0",
+      "android": "2.0.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naderio/nativescript-socket.io.git"
+  },
+  "scripts": {
+    "android-native-type-definition": "cd demo ; tns build android ; java -jar platforms/android/build-tools/dts-generator.jar -input $(find ./ -name 'engine.io-client-*.jar') -input $(find ./ -name 'socket.io-client-*.jar') ; cp -f ./out/android.d.ts ../typings/android.d.ts ; rm -fr ./out ; cd ..",
+    "build": "tsc",
+    "dev": "rm -fr ./nativescript-socket.io-*.tgz ; npm pack ; cd ./demo ; rm -fr ./dev ; tar -xvzf ../nativescript-socket.io-*.tgz ; mv ./package ./dev ; exit",
+    "ios-native-type-definition": "cd demo ; TNS_TYPESCRIPT_DECLARATIONS_PATH=$(pwd)/typings tns build ios ; cp -f './typings-x86_64/objc!SocketIO.d.ts' ../typings/ios.d.ts ; rm -fr ./typings* ; cd ..",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "typings": "index.d.ts",
+  "version": "0.9.0"
+}

@@ -5,6 +5,28 @@ var page;
 const topmost = require("ui/frame").topmost;
 var drugs = new ObservableArray();
 
+
+const SocketIO = require('nativescript-socket.io');
+const socketio = SocketIO.connect("http://127.0.0.1:3000", options);
+
+SocketIO.enableDebug();
+
+const options = {
+    query: {
+        token: 'SOME_TOKEN_HERE',
+    },
+};
+
+socketio.on("connect", function () {
+    console.log("connect");
+});
+
+
+
+
+
+
+
 //function to show active and detected tags in green color
 function green(args) {
     var circle = args.object;
@@ -22,12 +44,14 @@ var pageData = new observableModule.fromObject({
 });
 
 function httpRequest() {
-    http.request({ url: "http://127.0.0.1:3000/api/drugs", method: "GET" }).then(function (response) {
+    http.request({ url: "http://127.0.0.1:3000", method: "GET" }).then(function (response) {
         console.log("asdfjklö");
         var responseArray = response.content.toJSON();
+        var responseString = response.content.toString();
         var newDrugs = drugs;
         drugs = [];
         newDrugs.push(responseArray);
+        //alert(responseString); //getting always the current database entries
     }, function (e) {
         console.log("error");
     });
@@ -35,8 +59,8 @@ function httpRequest() {
 // setInterval(httpRequest(), 5000);
 
 exports.loaded = function (args) {
-    setInterval(httpRequest, 1000);
-    // httpRequest();
+    this.socketio.connect();
+    httpRequest();
     page = args.object;
     page.bindingContext = pageData;
 }
@@ -63,3 +87,23 @@ exports.onTap = function (args) {
     console.log("selected drug " + selectedDrug.id);
     topmost().navigate(navigationEntry);
 }
+
+exports.refreshList = function (args) {
+    var pullRefresh = args.object;
+    alert("Refreshing...");
+
+    // console.log(pullRefresh);
+
+    //Refresh and get data from http server
+    // pullRefresh.then((resp) => {
+    //         setTimeout(() => {
+    //             pullRefresh.refreshing = false;
+    //         }, 1000);
+    //     }, (err) => {
+    //         pullRefresh.refreshing = false;
+    //     });
+    setTimeout(function () {
+        pullRefresh.refreshing = false;
+    }, 5000);
+}
+

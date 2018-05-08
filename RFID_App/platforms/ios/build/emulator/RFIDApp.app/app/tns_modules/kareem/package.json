@@ -10,7 +10,7 @@
         "spec": "2.0.7",
         "type": "version"
       },
-      "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App/node_modules/mongoose"
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/mongoose"
     ]
   ],
   "_from": "kareem@2.0.7",
@@ -44,7 +44,7 @@
   "_shasum": "8d260366a4df4236ceccec318fcf10c17c5beb22",
   "_shrinkwrap": null,
   "_spec": "kareem@2.0.7",
-  "_where": "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App/node_modules/mongoose",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/mongoose",
   "author": {
     "name": "Valeri Karpov",
     "email": "val@karpov.io"

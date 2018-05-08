@@ -10,7 +10,7 @@
         "spec": "0.0.6",
         "type": "version"
       },
-      "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App"
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
     ]
   ],
   "_from": "http-string-parser@0.0.6",
@@ -44,7 +44,7 @@
   "_shasum": "4088a1aba2b89155ce13918bcfb5cbbea6c4e7e9",
   "_shrinkwrap": null,
   "_spec": "http-string-parser@0.0.6",
-  "_where": "/Users/jacquelinefranssen/Desktop/Code_Repo/Bachelorthesis_Code/RFID_App",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
   "author": {
     "name": "Adam Kliment",
     "email": "adam@apiary.io"
