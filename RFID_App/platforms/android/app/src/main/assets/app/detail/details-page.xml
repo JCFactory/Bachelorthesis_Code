@@ -1,4 +1,4 @@
-<Page class="page" loaded="loaded"
+<Page class="page" navigatingTo="loaded"
     xmlns="http://schemas.nativescript.org/tns.xsd">
     <ActionBar class="action-bar">
         <Label class="action-bar-title" background-color="green" text="Details"></Label>

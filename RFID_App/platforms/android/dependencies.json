@@ -8,6 +8,10 @@
         "directory": "../../node_modules/nativescript-pulltorefresh"
     },
     {
+        "name": "nativescript-socket.io",
+        "directory": "../../node_modules/nativescript-socket.io"
+    },
+    {
         "name": "nativescript-theme-core",
         "directory": "../../node_modules/nativescript-theme-core"
     },

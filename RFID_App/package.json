@@ -1,10 +1,13 @@
 {
+  "name": "backend",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app/server.js"
+  },
+  "author": "jacky",
   "description": "NativeScript Application",
   "license": "SEE LICENSE IN <your-license-filename>",
-  "repository": {
-    "type": "git",
-    "url": "<fill-your-repository-here>"
-  },
   "nativescript": {
     "id": "org.nativescript.RFIDApp",
     "tns-ios": {
@@ -47,12 +50,5 @@
     "webpack": "~3.10.0",
     "webpack-bundle-analyzer": "^2.9.1",
     "webpack-sources": "~1.1.0"
-  },
-  "name": "backend",
-  "version": "0.0.1",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "jacky"
+  }
 }

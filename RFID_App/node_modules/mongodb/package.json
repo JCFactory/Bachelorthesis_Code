@@ -2,49 +2,50 @@
   "_args": [
     [
       {
-        "raw": "mongodb@^3.0.6",
+        "raw": "mongodb@3.0.8",
         "scope": null,
         "escapedName": "mongodb",
         "name": "mongodb",
-        "rawSpec": "^3.0.6",
-        "spec": ">=3.0.6 <4.0.0",
-        "type": "range"
+        "rawSpec": "3.0.8",
+        "spec": "3.0.8",
+        "type": "version"
       },
       "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
     ]
   ],
-  "_from": "mongodb@>=3.0.6 <4.0.0",
-  "_id": "mongodb@3.0.7",
+  "_from": "mongodb@3.0.8",
+  "_id": "mongodb@3.0.8",
   "_inCache": true,
   "_location": "/mongodb",
-  "_nodeVersion": "8.9.1",
+  "_nodeVersion": "8.11.1",
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
-    "tmp": "tmp/mongodb_3.0.7_1524009528794_0.9632269476574737"
+    "tmp": "tmp/mongodb_3.0.8_1525804844411_0.11708655357356434"
   },
   "_npmUser": {
-    "name": "mbroadst",
-    "email": "mbroadst@gmail.com"
+    "name": "daprahamian",
+    "email": "dan.aprahamian@gmail.com"
   },
-  "_npmVersion": "5.5.1",
+  "_npmVersion": "5.6.0",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "mongodb@^3.0.6",
+    "raw": "mongodb@3.0.8",
     "scope": null,
     "escapedName": "mongodb",
     "name": "mongodb",
-    "rawSpec": "^3.0.6",
-    "spec": ">=3.0.6 <4.0.0",
-    "type": "range"
+    "rawSpec": "3.0.8",
+    "spec": "3.0.8",
+    "type": "version"
   },
   "_requiredBy": [
+    "#USER",
     "/",
     "/mongoose"
   ],
-  "_resolved": "https://registry.npmjs.org/mongodb/-/mongodb-3.0.7.tgz",
-  "_shasum": "cfcbaee992d78dabca67177f8f9db9cf13ac3a44",
+  "_resolved": "https://registry.npmjs.org/mongodb/-/mongodb-3.0.8.tgz",
+  "_shasum": "2c1daecac9a0ec2de2f2aea4dc97d76ae70f8951",
   "_shrinkwrap": null,
-  "_spec": "mongodb@^3.0.6",
+  "_spec": "mongodb@3.0.8",
   "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
   "author": {
     "name": "Christian Kvalheim"
@@ -53,7 +54,7 @@
     "url": "https://github.com/mongodb/node-mongodb-native/issues"
   },
   "dependencies": {
-    "mongodb-core": "3.0.7"
+    "mongodb-core": "3.0.8"
   },
   "description": "The official MongoDB driver for Node.js",
   "devDependencies": {
@@ -77,17 +78,17 @@
   },
   "directories": {},
   "dist": {
-    "integrity": "sha512-n/14kMJEoARXz1qhpNPhUocqy+z5130jhqgEIX1Tsl8UVpHrndQ8et+VmgC4yPK/I8Tcgc93JEMQCHTekBUnNA==",
-    "shasum": "cfcbaee992d78dabca67177f8f9db9cf13ac3a44",
-    "tarball": "https://registry.npmjs.org/mongodb/-/mongodb-3.0.7.tgz",
-    "fileCount": 40,
-    "unpackedSize": 856449,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa1oo7CRA9TVsSAnZWagAAgPcP/0AiMtevojHFYHgU6PfP\n+tcN+HdQm9t7MckjVEagDSTXZW2HQtm6VZWhrDe5+3XCW4aRWaednaKZdCpI\n/uQs3nUp+xhCWz69hCVVuSt2SkYcCeAE4fgRiTfo9P9B2fkjQFzMx9eO9xZ0\nmBLpe59LSsfBJe7JVW6h2ckVWOu4fSuazKdxUIKPqgOo5xMyCbKcWEz3RQrE\n/Y6KT/Q+rZxzyMR6z5ylyPf3+75QSc2rRd2utudbpNHz3E5rX/IIPf/7AliM\nL0TBNN2wv5qXDbzlIM6O0h7p8fnhim9wXR7bWvnEw6UBd3MJZ1gx7dDP2vcF\nDhSzoEfBv/6I6AXir3UkAvnxdgBLzlGQHpxkdAZ6bFK2OUffLHjpK7+SDbTa\nl9DwfTJaEJQtljC3cEBKy5dRM6ov8MvQLbXAWIz1BrDQ0VXLK16/bl36yD1f\n7fquHWz+mwTw2Vb7rgaNAuYSNNLUBr0WG/Ou59wYkwYsB7is0fnONDkbYfcO\n9tUuJlgpeTaasO5mrHShZhO6DDbxHHxeGmr6o6ai/8aZdRi0rDPDV9hBtPxo\nToHBwahvGbMKTM0LWJ3gI3eAu8NVI3cWXOmaOC7QHbBFZpxZhoEp5rYYZHWY\nGOOyWN8o2+G3+ZxjHOQvsSbH8ys3NnkZGheucMXoe8lOWZW9HJUkGFF2ULQv\nTq91\r\n=WLec\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-mj7yIUyAr9xnO2ev8pcVJ9uX7gSum5LLs1qIFoWLxA5Il50+jcojKtaO1/TbexsScZ9Poz00Pc3b86GiSqJ7WA==",
+    "shasum": "2c1daecac9a0ec2de2f2aea4dc97d76ae70f8951",
+    "tarball": "https://registry.npmjs.org/mongodb/-/mongodb-3.0.8.tgz",
+    "fileCount": 39,
+    "unpackedSize": 733469,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa8e8uCRA9TVsSAnZWagAAY5EP+QCOvbN7tk14dwby2Y4K\n9FBnnBCPyAXoWdbN8Yi8gWBWXOnG/ARDvyfwrqoAVZAxIHoVMzjNUgoDQpfh\nsbw2qphhA4Qmjw7czhW/ofmN2F5WH5Tn9KRVHOU54NGjJAOzqRUKhFX9VLBR\ncF/LNtBXtgMoKZoU2rHpN4veNgpnyeGeuSu9Rg0QeFf7Hem30/yKP+S9L45g\nLEfs3wIIBMvpzfkhRzUY1gbeAbycMlec/0JSne058+xDrxDr2FpghpFda4cb\nJzPSaQlFeGto5kCl29hPCWZRzuuFII3i92dJE/rDMPUikR2rs4/Dvrg+S+25\nHXBUSzTDrdD49JLueqqFVWWPcf/kT99z+HBRYrdkB1rF4dy4Ems95k05/Fgb\njOp5gts2Ppoj5Esn+YzGXrHoZec2WKZDhlgX1Dy4qqzwOpqTneSjnXL5GRkU\nLBnZRRDqU9x9bMVk30xdfOhX+y1VzP7RDgg611weIsoY2SNje6DCOyatBOi3\nhpB8k8G+/TSgUc+/4maCSmd06DJxz+HFjdBXovqcUi4PIUBjDNfuvB5Tim5+\n1/b9xMq+gXLDIa045Ieh26LruY7cC8NdQzpzWtec2fIEIt7UwTVNsvBi30+5\n8PzOBtAc03KPeR/WbxbhBEGOlrQlEJvOloz62suqcgfIcttZOOJgDzynh3VB\nGFNI\r\n=bOOa\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "engines": {
     "node": ">=4"
   },
-  "gitHead": "43d4860f7fda3f28ed998eaa78b8fcb18ec83892",
+  "gitHead": "d4dfe96b15e57a04fda3abfd11301c3c5e0cecc1",
   "homepage": "https://github.com/mongodb/node-mongodb-native",
   "keywords": [
     "mongodb",
@@ -125,5 +126,5 @@
     "lint": "eslint lib test",
     "test": "npm run lint && mongodb-test-runner -t 60000 test/unit test/functional"
   },
-  "version": "3.0.7"
+  "version": "3.0.8"
 }

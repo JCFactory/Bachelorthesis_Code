@@ -1,9 +1,13 @@
-var http = require('http');
-var observableModule = require("data/observable");
-var ObservableArray = require("data/observable-array").ObservableArray;
-var page;
+const http = require('http');
+const observableModule = require("data/observable");
+const ObservableArray = require("data/observable-array").ObservableArray;
+const frameModule = require('ui/frame');
 const topmost = require("ui/frame").topmost;
+const SocketIO = require('nativescript-socket.io');
+
+var page;
 var drugs = new ObservableArray();
+
 
 //function to show active and detected tags in green color
 function green(args) {
@@ -21,24 +25,43 @@ var pageData = new observableModule.fromObject({
     drugs
 });
 
-function httpRequest() {
-    http.request({ url: "http://127.0.0.1:3000/api/drugs", method: "GET" }).then(function (response) {
-        console.log("asdfjklö");
-        var responseArray = response.content.toJSON();
-        var newDrugs = drugs;
-        drugs = [];
-        newDrugs.push(responseArray);
-    }, function (e) {
-        console.log("error");
+function socketIOConnect() {
+    var socketio = SocketIO.connect("http://127.0.0.1:3000");
+    socketio.on("socketToMe", function (data) {
+         console.log(data);
+         drugs.push(data);
     });
 }
+
+// exports.navigatingTo = function(args){
+//     socketIOConnect();
+//     // httpRequest();
+//     page = args.object;
+//     page.bindingContext = pageData;
+// }
+
+
+// function httpRequest() {
+//     http.request({ url: "http://127.0.0.1:3000", method: "GET" }).then(function (response) {
+//         console.log("asdfjklö");
+//         var responseArray = response.content.toJSON();
+//         var responseString = response.content.toString();
+//         var newDrugs = drugs;
+//         drugs = [];
+//         newDrugs.push(responseArray);
+//         //alert(responseString); //getting always the current database entries
+//     }, function (e) {
+//         console.log("error");
+//     });
+// }
 // setInterval(httpRequest(), 5000);
 
 exports.loaded = function (args) {
-    // setInterval(httpRequest, 1000);
-    httpRequest();
+    // httpRequest();
+    socketIOConnect();
     page = args.object;
     page.bindingContext = pageData;
+    // socketIO.emit('getDrugs');
 }
 
 exports.onTap = function (args) {
@@ -64,22 +87,4 @@ exports.onTap = function (args) {
     topmost().navigate(navigationEntry);
 }
 
-exports.refreshList = function (args) {
-    var pullRefresh = args.object;
-    alert("Refreshing...");
-    
-    // console.log(pullRefresh);
-
-    //Refresh and get data from http server
-// pullRefresh.then((resp) => {
-//         setTimeout(() => {
-//             pullRefresh.refreshing = false;
-//         }, 1000);
-//     }, (err) => {
-//         pullRefresh.refreshing = false;
-//     });
-    setTimeout(function(){
-        pullRefresh.refreshing = false;
-    }, 5000);
-}
 

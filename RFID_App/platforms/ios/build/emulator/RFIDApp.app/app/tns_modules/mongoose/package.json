@@ -2,25 +2,25 @@
   "_args": [
     [
       {
-        "raw": "mongoose@^5.0.12",
+        "raw": "mongoose@5.0.18",
         "scope": null,
         "escapedName": "mongoose",
         "name": "mongoose",
-        "rawSpec": "^5.0.12",
-        "spec": ">=5.0.12 <6.0.0",
-        "type": "range"
+        "rawSpec": "5.0.18",
+        "spec": "5.0.18",
+        "type": "version"
       },
       "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
     ]
   ],
-  "_from": "mongoose@>=5.0.12 <6.0.0",
-  "_id": "mongoose@5.0.17",
+  "_from": "mongoose@5.0.18",
+  "_id": "mongoose@5.0.18",
   "_inCache": true,
   "_location": "/mongoose",
   "_nodeVersion": "8.9.4",
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
-    "tmp": "tmp/mongoose_5.0.17_1525122297631_0.11433021422864775"
+    "tmp": "tmp/mongoose_5.0.18_1525901081815_0.1462609434668649"
   },
   "_npmUser": {
     "name": "vkarpov15",
@@ -31,21 +31,22 @@
     "lodash": "4.17.10"
   },
   "_requested": {
-    "raw": "mongoose@^5.0.12",
+    "raw": "mongoose@5.0.18",
     "scope": null,
     "escapedName": "mongoose",
     "name": "mongoose",
-    "rawSpec": "^5.0.12",
-    "spec": ">=5.0.12 <6.0.0",
-    "type": "range"
+    "rawSpec": "5.0.18",
+    "spec": "5.0.18",
+    "type": "version"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/mongoose/-/mongoose-5.0.17.tgz",
-  "_shasum": "7c70e663b8ac567460902dca636ebb59f36a540a",
+  "_resolved": "https://registry.npmjs.org/mongoose/-/mongoose-5.0.18.tgz",
+  "_shasum": "2d04c70f0800959b4c8180e5e70db13bc18d3826",
   "_shrinkwrap": null,
-  "_spec": "mongoose@^5.0.12",
+  "_spec": "mongoose@5.0.18",
   "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
   "author": {
     "name": "Guillermo Rauch",
@@ -57,10 +58,10 @@
   },
   "dependencies": {
     "async": "2.1.4",
-    "bson": "~1.0.4",
+    "bson": "~1.0.5",
     "kareem": "2.0.7",
     "lodash.get": "4.4.2",
-    "mongodb": "3.0.7",
+    "mongodb": "3.0.8",
     "mongoose-legacy-pluralize": "1.0.2",
     "mpath": "0.4.1",
     "mquery": "3.0.0",
@@ -99,12 +100,12 @@
     "lib": "./lib/mongoose"
   },
   "dist": {
-    "integrity": "sha512-RV1WBQhzW7oOhStR+s7LQYfgQWTJm4hgmU3TqtgTiBCfnj5/sNliX2/SY+ef7tpIZRUqEBV5xITZdAlwQ6Ymdg==",
-    "shasum": "7c70e663b8ac567460902dca636ebb59f36a540a",
-    "tarball": "https://registry.npmjs.org/mongoose/-/mongoose-5.0.17.tgz",
+    "integrity": "sha512-13+gKxvViIVp4esPkgQYTdfisLLWxghvsj7aBg4oBurvb0LAXcSXFZpFORZnxtOdyxM7kJiSV9kjFjerEm3Bhw==",
+    "shasum": "2d04c70f0800959b4c8180e5e70db13bc18d3826",
+    "tarball": "https://registry.npmjs.org/mongoose/-/mongoose-5.0.18.tgz",
     "fileCount": 165,
-    "unpackedSize": 1008515,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa54T8CRA9TVsSAnZWagAAap8P/iXAdcv1jXv3V+NZSUbt\ndfsAjKyH5ZAKRjgyEV5/0qqdoyxWr0CqXM5E6HJSakya7Z+b+5+fF4ymADLa\nFTIEGWLqHyiAWYTV6ZdOpdtABfmLF6GSttUOSzah8PFcV/RbRudgwAaqyAmt\n17hNvucl2QZHitA7W7W3rgFj3HBVhjGVNtSWgkuFERvgrl9bI5JAHY7dA+O2\ng6APneSpmp0s0M8PmnqQ9ZUxqz/kHTy1pw7RA3g/UqdgGs8zg6jNo8UVR5tj\n4m48R78xSKrbtCEwdRBlt9auURFgz2LSqgbU0pAYdwB/kNYJZM6YU/F6FVKh\nSzS9KmIGGvtegZXw0sJ9rK0W41Ekbr6T8UYdHedadrNprAaBtW4bBGlaXg8K\nNP+2JEH5NkjM7JjSG9xjDpWzEsFJD56jyenSN43J6gf2BqoT48BwZpqHaBSe\nYLA6AC8EZgQwwUpJo4jPWOBMfLjcWqrhIaBINmzp7IZDb6AMDa7cG9ILDAaN\nSrC2xWQ3VxbJjKipG72kDi4bCVvF5kEsdIkYnRBRxnDLHJAIYvewWRx1EYqi\nTFeYBqyokd306uieeIdzOFi46paJFcAippPvQC76karKxwE/I6tZEAoUIqFU\n2WeVKZOLB8ePnLMyZjvz0xTnsk3TkesP40jXAejDWTeY3zCfyYfrqpjYXWnZ\nhbRL\r\n=/SAJ\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 1010886,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa82cbCRA9TVsSAnZWagAA53gP/1vEJfJDsyzX+7iWe//4\nCZDS+aUaJ8Fsr/dHYxikvaGwPszFLcVAoBt7cYRDzDU820XAmtssVireyh4b\nt3s1zL3rkEcHQRrJ5EDpn8z7Bt9S7JJWq1R/8zgEfEyin2D8UFzWhIj6kQTH\nV1oLaz6P33rs4TZGLUc+Z/YwpESRr3p2fBblTUg7fNXYv6cNNj82BLyFN4cU\n8REyQshYHBljaypXvCpfpH3DTpuSdhDaQD0jebe010YqFVIOI+SXjZlNObUj\n511cUeT68Wk8AXNyKVAI9D7SPbE+dUZUsyPo0jgXWYggwi9KjvEwhoLZy6HZ\no4QLkRZ3y+JWQlyqrXGF7R/abpTs6uMtg0FqKW00Hra23iu4J+q0EoeuGUzN\nNPln1flTT6JoKH3znjPck5CC2cG4cZOW8E4Swsmu9DRqoq0wBXf04Maadd9B\nqFp5LlgTeVNPbTQ3Y78s+NWlyuw67z9kXekgof7JXQ1xSy7SOY0ngYvLVrxP\nLivpuj1+4oKcuRPQiVbgWUrmsxi3CCRM/Td7awxaxItXkY252573C8GVPZi+\n9gfPw9YdWSGWyVBkCEunGiGrlpccIhD5GEkV8e2e/XOj2hqMjdaVKnsD6eR7\nHxAV+sNFI3B0Awd776UfNm3jLVmZsq8TAf6BvgRzD1P8f4OIsYg8haXMfZsd\nYTUM\r\n=sEBy\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "engines": {
     "node": ">=4.0.0"
@@ -154,7 +155,7 @@
       "space-unary-ops": "error"
     }
   },
-  "gitHead": "e270b9e4a2039c305ce4414b2d84eeacc8838196",
+  "gitHead": "37146c25689ae4e400f2c0ae29c4a4373671b052",
   "homepage": "http://mongoosejs.com",
   "keywords": [
     "mongodb",
@@ -206,5 +207,5 @@
     "test": "mocha --exit test/*.test.js test/**/*.test.js",
     "test-cov": "nyc --reporter=html --reporter=text npm test"
   },
-  "version": "5.0.17"
+  "version": "5.0.18"
 }
