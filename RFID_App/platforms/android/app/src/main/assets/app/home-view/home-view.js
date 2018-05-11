@@ -4,8 +4,8 @@ const ObservableArray = require("data/observable-array").ObservableArray;
 const frameModule = require('ui/frame');
 const topmost = require("ui/frame").topmost;
 const SocketIO = require('nativescript-socket.io');
-
 var page;
+
 var drugs = new ObservableArray();
 
 
@@ -25,43 +25,37 @@ var pageData = new observableModule.fromObject({
     drugs
 });
 
-function socketIOConnect() {
-    var socketio = SocketIO.connect("http://127.0.0.1:3000");
-    socketio.on("socketToMe", function (data) {
-         console.log(data);
-         drugs.push(data);
+function serverConnect() {
+    return new Promise(function (resolve, reject) {
+        try {
+            var socket = SocketIO.connect('http://127.0.0.1:4000');
+
+            //check for connection
+            if (socket !== undefined) {
+                console.log('connected to socket...');
+
+                socket.on('output', function (data) {
+                    console.log("output from mongodb: " + data);
+                    if (data.length > 0) {
+                        if (drugs.length !== data.length) {
+                            var newDrugs = drugs;
+                            drugs = [];
+                            newDrugs.push(data);
+                        }
+                    }
+                });
+            };
+            resolve("great success");
+        } catch (ex) {
+            reject(ex);
+        }
     });
-}
-
-// exports.navigatingTo = function(args){
-//     socketIOConnect();
-//     // httpRequest();
-//     page = args.object;
-//     page.bindingContext = pageData;
-// }
-
-
-// function httpRequest() {
-//     http.request({ url: "http://127.0.0.1:3000", method: "GET" }).then(function (response) {
-//         console.log("asdfjklö");
-//         var responseArray = response.content.toJSON();
-//         var responseString = response.content.toString();
-//         var newDrugs = drugs;
-//         drugs = [];
-//         newDrugs.push(responseArray);
-//         //alert(responseString); //getting always the current database entries
-//     }, function (e) {
-//         console.log("error");
-//     });
-// }
-// setInterval(httpRequest(), 5000);
+};
 
 exports.loaded = function (args) {
-    // httpRequest();
-    socketIOConnect();
+    serverConnect();
     page = args.object;
     page.bindingContext = pageData;
-    // socketIO.emit('getDrugs');
 }
 
 exports.onTap = function (args) {
@@ -74,7 +68,8 @@ exports.onTap = function (args) {
             countryCode: selectedDrug.countryCode,
             size: selectedDrug.size,
             location: selectedDrug.location,
-            timeStamp: selectedDrug.timeStamp
+            timeStamp: selectedDrug.timeStamp,
+            socket: SocketIO.instance
         },
         animated: true,
         transition: {
@@ -87,4 +82,16 @@ exports.onTap = function (args) {
     topmost().navigate(navigationEntry);
 }
 
+exports.refreshList = function (args) {
+    var pullRefresh = args.object;
 
+    // Do work here... and when done call set refreshing property to false to stop the refreshing
+    serverConnect().then((resp) => {
+        // ONLY USING A TIMEOUT TO SIMULATE/SHOW OFF THE REFRESHING
+        setTimeout(() => {
+            pullRefresh.refreshing = false;
+        }, 1000);
+    }, (err) => {
+        pullRefresh.refreshing = false;
+    });
+}

@@ -2,48 +2,48 @@
   "_args": [
     [
       {
-        "raw": "mongodb-core@3.0.7",
+        "raw": "mongodb-core@3.0.8",
         "scope": null,
         "escapedName": "mongodb-core",
         "name": "mongodb-core",
-        "rawSpec": "3.0.7",
-        "spec": "3.0.7",
+        "rawSpec": "3.0.8",
+        "spec": "3.0.8",
         "type": "version"
       },
       "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/mongodb"
     ]
   ],
-  "_from": "mongodb-core@3.0.7",
-  "_id": "mongodb-core@3.0.7",
+  "_from": "mongodb-core@3.0.8",
+  "_id": "mongodb-core@3.0.8",
   "_inCache": true,
   "_location": "/mongodb-core",
-  "_nodeVersion": "8.9.1",
+  "_nodeVersion": "8.11.1",
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
-    "tmp": "tmp/mongodb-core_3.0.7_1524009443777_0.5717637488905216"
+    "tmp": "tmp/mongodb-core_3.0.8_1525801501211_0.1821069265951274"
   },
   "_npmUser": {
-    "name": "mbroadst",
-    "email": "mbroadst@gmail.com"
+    "name": "daprahamian",
+    "email": "dan.aprahamian@gmail.com"
   },
-  "_npmVersion": "5.5.1",
+  "_npmVersion": "5.6.0",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "mongodb-core@3.0.7",
+    "raw": "mongodb-core@3.0.8",
     "scope": null,
     "escapedName": "mongodb-core",
     "name": "mongodb-core",
-    "rawSpec": "3.0.7",
-    "spec": "3.0.7",
+    "rawSpec": "3.0.8",
+    "spec": "3.0.8",
     "type": "version"
   },
   "_requiredBy": [
     "/mongodb"
   ],
-  "_resolved": "https://registry.npmjs.org/mongodb-core/-/mongodb-core-3.0.7.tgz",
-  "_shasum": "a9941f14883a75768d554cef5fd67756a9cc0f25",
+  "_resolved": "https://registry.npmjs.org/mongodb-core/-/mongodb-core-3.0.8.tgz",
+  "_shasum": "8d401f4eab6056c0d874a3d5844a4844f761d4d7",
   "_shrinkwrap": null,
-  "_spec": "mongodb-core@3.0.7",
+  "_spec": "mongodb-core@3.0.8",
   "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/mongodb",
   "author": {
     "name": "Christian Kvalheim"
@@ -70,14 +70,14 @@
   },
   "directories": {},
   "dist": {
-    "integrity": "sha512-z6YufO7s40wLiv2ssFshqoLS4+Kf+huhHq6KZ7gDArsKNzXYjAwTMnhEIJ9GQ8fIfBGs5tBLNPfbIDoCKGPmOw==",
-    "shasum": "a9941f14883a75768d554cef5fd67756a9cc0f25",
-    "tarball": "https://registry.npmjs.org/mongodb-core/-/mongodb-core-3.0.7.tgz",
-    "fileCount": 43,
-    "unpackedSize": 621443,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa1onlCRA9TVsSAnZWagAAOFUP/0EopJoAK+vv+DL6EroH\nNdcWqipzcFq/5wGVMiV5tLnQ7YURsdl8ZXJZNcWKWPIrAYaNcm2Wa1OpUvQl\naUxrue2nBw/vdVIv56SgqqAjr9lhO6LUxK3zf0uEgG/1Vm1p4pKhNrz0iu7Z\n6UIx4+aKmY3X9w/VdSmC9uVIrfZUBZxfhFJvQVi75rCgLBEaixRy1l9jAR00\nY4CLBv/dCjXgXAzYGkCXqJB5xjVfTW5FzuuhfgcsRh9yjGaZOmcHPSFq5msR\njdEtg15ogTq1SP62eoROsJdHSdb9ygZbSSkgH6wk1bpPXs2wBb/WICxtdV5p\nNwTb4T6MPgsNjLVOILI0bj9rJNdn9Vf+UCJ5LRCu6+9ievpCp/8/LwKC0fno\n6t/jvzhC4qluzG/90+rstFW3lBGN226OO8+dCLn2SyVCa7vpWHoBvoFyp2eS\nyIKBL7WXokkVpXvf5Yp2z88e8Sg6dWdNDt14Cch+3jcgs336J59EhRP2o7WR\n+FfR80Xce9I2Bv9Pj2qW6DjOvtPvRNKHg/rJlYhN6Ya010muwngQ7Ymo4bbr\nw4I8fUomgrK06sE1o3D0jBpEGYgfPb6maxznsMwJkLwSjn6BjbKFPtahvW28\nXLsRaanzRPyhiFw88Pz1VyhLkK4062Opc9eRKBmhE8yTMAK/7uLIfaso609q\n7zmk\r\n=SfsH\r\n-----END PGP SIGNATURE-----\r\n"
+    "integrity": "sha512-dFxfhH9N7ohuQnINyIl6dqEF8sYOE0WKuymrFf3L3cipJNrx+S8rAbNOTwa00/fuJCjBMJNFsaA+R2N16//UIw==",
+    "shasum": "8d401f4eab6056c0d874a3d5844a4844f761d4d7",
+    "tarball": "https://registry.npmjs.org/mongodb-core/-/mongodb-core-3.0.8.tgz",
+    "fileCount": 44,
+    "unpackedSize": 513168,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa8eIeCRA9TVsSAnZWagAAIxMQAIsJoUDJAVriIvKreK1m\n/csOnjrZpfhiYPiylDJhgMPboGbgDzmgvtYBSsTL15OtgiV2vbwPMHC9a3vG\n1Rs5WRPn8ZMe8uKWjWesm9AOrHFYaykQ26EgutNHWOpLqUr3TGfejpcom/Sd\nHUsJkwXOEaNzaEdPZfqUYiev77xcpO/fTXlmzNjqLxDwDksfVPIrN7S9Qt8a\nO39zcRX7+2WfxckhyNX/vdCPVqdA3q8jllxVgOCsf03v3kvOk4b4zNQL5YM/\nfI/TIZSOnLG39yzKZck5aVfBWIKTGW9uPm9NYC2o7MeFBGv/tv2KZNy3eUJ/\nsRLDCfAiJDtPg5YWT4B9QPTQFwrQ1zEPddFdg3Oo7NyHv/2yDabxv+hNVWlR\ncD++REf3kQ6c7ipS5qXg9YkkXJIvzlB+zxxlOGC2GNQBKlJ9jXOP2sxt0tkQ\nTIQ4fDradnx4LosXNVUrdsCHZKvCQpRL3+vd0w8+2RHlbTeMBX4w4qrgEQYH\nqvd527fA8bhoQLU+v9a3pjqG8JlDbitH9GPhQecYb3IrYq9/VWIDTC9ZxfFb\nThE04GdxxzjrbToSkeYFzSqCED/JHbYP7uybbtWxdUBf67QvRoPfJ2m1uPmS\n4LGpcyfuMJR1NAaU7xKa6Kut2mbybOl0oR3VQKfyn9sbKa2hYlE3E5iUH3WP\nivIo\r\n=ro6L\r\n-----END PGP SIGNATURE-----\r\n"
   },
-  "gitHead": "172617531b453cb948d613eb7a0399c1eb6e2b27",
+  "gitHead": "b40b61f0f384a97453e1849d698eb9ae7f3741fa",
   "homepage": "https://github.com/mongodb-js/mongodb-core",
   "keywords": [
     "mongodb",
@@ -118,5 +118,5 @@
     "lint": "eslint index.js lib test",
     "test": "npm run lint && mongodb-test-runner -t 60000 test/tests"
   },
-  "version": "3.0.7"
+  "version": "3.0.8"
 }

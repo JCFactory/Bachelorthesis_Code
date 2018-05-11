@@ -1,8 +1,10 @@
 <Page class="page" 
-    xmlns="http://schemas.nativescript.org/tns.xsd" loaded="loaded" navigatingTo="navigatingTo">
+    xmlns="http://schemas.nativescript.org/tns.xsd" 
+    xmlns:PullRefresh="nativescript-pulltorefresh" loaded="loaded">
     <ActionBar class="action-bar">
         <Label class="action-bar-title" background-color="green" text="Medication"></Label>
     </ActionBar>
+    <PullRefresh:PullToRefresh refresh="refreshList">
         <ListView items="{{drugs}}">
             <ListView.itemTemplate>
                 <GridLayout columns="*,*">
@@ -11,4 +13,5 @@
                 </GridLayout>
             </ListView.itemTemplate>
         </ListView>
+    </PullRefresh:PullToRefresh>
 </Page>

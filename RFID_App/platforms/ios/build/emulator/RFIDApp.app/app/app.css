@@ -3,31 +3,17 @@
     color: rgb(16, 121, 190);
    /** text-align: center;*/
     margin-left: 20;
+    text-size-adjust: 70%;
 }
+
 
 .circle {
     height: 50px;
     width: 50px;
-    background-color: #E53003;
+    background-color: #10BA10;
     border-radius: 50%;
     display: inline-block;
 }
-
-/* .circle-active{
-  height: 50px;
-  width: 50px;
-  background-color: #10BA10;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.circle-inactive{
-    height: 50px;
-    width: 50px;
-    background-color: #E53003;
-    border-radius: 50%;
-    display: inline-block;
-  } */
 
 .action-bar {
     background-color: aquamarine;

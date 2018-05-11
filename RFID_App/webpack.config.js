@@ -127,15 +127,17 @@ module.exports = env => {
     }
     if (uglify) {
         config.plugins.push(new webpack.LoaderOptionsPlugin({ minimize: true }));
-
+    
         // Work around an Android issue by setting compress = false
         const compress = platform !== "android";
         config.plugins.push(new UglifyJsPlugin({
             uglifyOptions: {
-                mangle: { reserved: nsWebpack.uglifyMangleExcludes },
+                mangle: { reserved: [ ...nsWebpack.uglifyMangleExcludes, "TNS_SwipeRefreshListener" ] },
                 compress,
             }
         }));
     }
     return config;
 };
+
+

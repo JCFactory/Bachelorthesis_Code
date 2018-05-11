@@ -18,7 +18,6 @@ var pageData = new observableModule.fromObject({
     size: drug.size,
     location: drug.location,
     timeStamp: drug.timeStamp
-
 });
 
 exports.loaded = function (args) {
