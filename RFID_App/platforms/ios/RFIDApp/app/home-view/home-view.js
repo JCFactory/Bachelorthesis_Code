@@ -1,5 +1,6 @@
 const http = require('http');
 const observableModule = require("data/observable");
+const fromObjectRecursive = require("data/observable").fromObjectRecursive;
 const ObservableArray = require("data/observable-array").ObservableArray;
 const frameModule = require('ui/frame');
 const topmost = require("ui/frame").topmost;
@@ -21,33 +22,28 @@ function red(args) {
     circle.color = "#E53003";
 }
 
-var pageData = new observableModule.fromObject({
+var pageData = new observableModule.fromObjectRecursive({
     drugs
 });
 
 function serverConnect() {
-    return new Promise(function (resolve, reject) {
-        try {
-            var socket = SocketIO.connect('http://127.0.0.1:4000');
-            //check for connection
-            if (socket !== undefined) {
-                console.log('connected to socket...');
-                socket.on('output', function (data) {
-                    console.log("output from mongodb: " + data.length);
-                    if (data.length > 0) {
-                        if (drugs.length !== data.length) {
-                            var newDrugs = drugs;
-                            drugs = [];
-                            newDrugs.push(data);
-                        }
-                    }
-                });
-            };
-            resolve("great success");
-        } catch (ex) {
-            reject(ex);
-        }
-    });
+    var socket = SocketIO.connect('http://127.0.0.1:4000');
+    //check for connection
+    if (socket !== undefined) {
+        socket.on('output', function (data) {
+            console.log('connected to socket...' + data.length);
+             var stringData = JSON.stringify(data);
+            // drugs.push(data);
+
+             alert(stringData);
+             drugs.push(data);
+            // var newDrugs = drugs;
+            // drugs = [];
+            // newDrugs.push(data);
+
+            // alert(newDrugs);
+        });
+    };
 };
 
 exports.loaded = function (args) {
@@ -83,13 +79,13 @@ exports.onTap = function (args) {
 exports.refreshList = function (args) {
     var pullRefresh = args.object;
     serverConnect();
-    pageData.data = [serverConnect()];
-    pageData.set('name', serverConnect);
-    // pullRefresh.bindingContext = pageData;
-    // page.bindingContext = pullRefresh;
     setTimeout(() => {
         pullRefresh.refreshing = false;
     }, 1000);
 }, (err) => {
     pullRefresh.refreshing = false;
 }
+
+
+
+
