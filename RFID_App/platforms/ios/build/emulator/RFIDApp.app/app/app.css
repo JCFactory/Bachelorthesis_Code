@@ -1,11 +1,11 @@
 ﻿.btn {
     font-size: 18;
     color: rgb(16, 121, 190);
-   /** text-align: center;*/
     margin-left: 20;
-    text-size-adjust: 70%;
+    max-width: 10;
+    white-space: nowrap;
+    overflow: hidden;
 }
-
 
 .circle {
     height: 50px;
@@ -34,6 +34,9 @@
     font-size: 16;
     padding: 10;
     margin-left: 20;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .text-detail {

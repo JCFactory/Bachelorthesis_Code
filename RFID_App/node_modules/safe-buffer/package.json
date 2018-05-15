@@ -53,6 +53,7 @@
     "/ssri",
     "/string_decoder",
     "/tunnel-agent",
+    "/webpack-bundle-analyzer/ws",
     "/ws"
   ],
   "_resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz",

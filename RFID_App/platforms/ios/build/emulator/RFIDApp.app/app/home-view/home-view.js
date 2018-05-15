@@ -4,7 +4,7 @@ const ObservableArray = require("data/observable-array").ObservableArray;
 const frameModule = require('ui/frame');
 const topmost = require("ui/frame").topmost;
 const SocketIO = require('nativescript-socket.io');
-var page;
+var platformModule = require("tns-core-modules/platform");
 
 var drugs = new ObservableArray();
 
@@ -25,38 +25,47 @@ var pageData = new observableModule.fromObject({
     drugs
 });
 
-function serverConnect() {
-    return new Promise(function (resolve, reject) {
-        try {
-            var socket = SocketIO.connect('http://127.0.0.1:4000');
 
-            //check for connection
-            if (socket !== undefined) {
-                console.log('connected to socket...');
-
-                socket.on('output', function (data) {
-                    console.log("output from mongodb: " + data);
-                    if (data.length > 0) {
-                        if (drugs.length !== data.length) {
-                            var newDrugs = drugs;
-                            drugs = [];
-                            newDrugs.push(data);
-                        }
-                    }
-                });
-            };
-            resolve("great success");
-        } catch (ex) {
-            reject(ex);
+function removeDuplicates(arr) {
+    let uniqueArray = [];
+    for (let i; i < arr.length; i++) {
+        if (uniqueArray.indexOf(arr[i]) == -1) {
+            uniqueArray.push(arr[i]);
         }
-    });
+    }
+    return uniqueArray;
+}
+
+function serverConnect() {
+    var socket = SocketIO.connect('http://127.0.0.1:4000');
+
+    //check for connection
+    if (socket !== undefined) {
+        socket.on('output', function (data) {
+            console.log('connected to socket...' + data.length);
+            // var stringData = JSON.stringify(data);
+            // alert(stringData);
+            if (data.length === 0) {
+                alert("No medicine found");
+            } else {
+                // removeDuplicates(drugs);
+                // var newDrugs = drugs;
+                // drugs = [];
+                drugs.push(data);
+                //  newDrugs.push(data);
+            }
+        });
+    };
 };
 
-exports.loaded = function (args) {
-    serverConnect();
-    page = args.object;
+
+function loaded(args){
+    const page = args.object;
     page.bindingContext = pageData;
+    serverConnect();
 }
+exports.loaded = loaded;
+
 
 exports.onTap = function (args) {
     const selectedDrug = args.view.bindingContext;
@@ -82,16 +91,23 @@ exports.onTap = function (args) {
     topmost().navigate(navigationEntry);
 }
 
-exports.refreshList = function (args) {
-    var pullRefresh = args.object;
-
-    // Do work here... and when done call set refreshing property to false to stop the refreshing
-    serverConnect().then((resp) => {
-        // ONLY USING A TIMEOUT TO SIMULATE/SHOW OFF THE REFRESHING
-        setTimeout(() => {
+function refreshList(args) {
+    const pullRefresh = args.object;
+    serverConnect().then(
+        response =>{
+            console.log(response);
+            setTimeout(() => {
+                pullRefresh.refreshing = false;
+            }, 1000);
+        },
+        err => {
             pullRefresh.refreshing = false;
-        }, 1000);
-    }, (err) => {
-        pullRefresh.refreshing = false;
-    });
+            alert(err);
+        }
+    );
 }
+exports.refreshList = refreshList;
+
+
+
+

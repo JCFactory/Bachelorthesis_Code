@@ -4,25 +4,6 @@
             "outputFile": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/Feedback-release.aar/a5c98af80ef760939eb8b9361cf53be5/res/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "3",
-                        "endColumns": "12",
-                        "endOffsets": "137"
-                    },
-                    "to": {
-                        "startLines": "7",
-                        "startColumns": "4",
-                        "startOffsets": "398",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "480"
-                    }
-                },
-                {
                     "source": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/res/values-v21/styles.xml",
                     "from": {
                         "startLines": "4,19,10,15",
@@ -42,7 +23,26 @@
                     }
                 },
                 {
-                    "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/2a14c5369f2a6c54380e195a3c1e6705/res/values-v21/values-v21.xml",
+                    "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/Feedback-release.aar/f88575a6e54cac478a5611e964fe7b33/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "12",
+                        "endOffsets": "137"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "398",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "480"
+                    }
+                },
+                {
+                    "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/e30f988979089b76923c7ecf1a8bce85/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -61,7 +61,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/b0fb20d9ba27330cc0296812e653345c/res/values-v21/values-v21.xml",
+                    "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/dddbcdfc0547042ae5d2ffc54513dc9b/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,23,24,25,26,28,30,31,32,33,34,36,38,40,42,44,46,47,52,54,56,57,58,60,62,63,64,65,66,67,111,114,158,161,164,166,168,170,173,175,178,179,180,183,184,185,186,187,188,191,192,194,196,198,200,204,206,207,208,209,211,215,217,219,220,221,222,223,225,226,227,237,238,239,251,263,264,265,268,271,272,275,276,279,282",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

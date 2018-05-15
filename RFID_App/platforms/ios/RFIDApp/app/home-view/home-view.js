@@ -29,20 +29,18 @@ var pageData = new observableModule.fromObjectRecursive({
 function serverConnect() {
     var socket = SocketIO.connect('http://127.0.0.1:4000');
     //check for connection
+    var currentData = [];
     if (socket !== undefined) {
         socket.on('output', function (data) {
             console.log('connected to socket...' + data.length);
-             var stringData = JSON.stringify(data);
+            var stringData = JSON.stringify(data);
+            currentData.push(data);
+            // alert(stringData);
             // drugs.push(data);
-
-             alert(stringData);
-             drugs.push(data);
-            // var newDrugs = drugs;
-            // drugs = [];
-            // newDrugs.push(data);
-
-            // alert(newDrugs);
         });
+        var newDrugs = drugs;
+        drugs = [];
+        newDrugs.push(currentData);
     };
 };
 
@@ -85,7 +83,3 @@ exports.refreshList = function (args) {
 }, (err) => {
     pullRefresh.refreshing = false;
 }
-
-
-
-

@@ -10,13 +10,13 @@
         "spec": "0.4.19",
         "type": "version"
       },
-      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/body-parser"
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/express/node_modules/body-parser"
     ]
   ],
   "_from": "iconv-lite@0.4.19",
   "_id": "iconv-lite@0.4.19",
   "_inCache": true,
-  "_location": "/iconv-lite",
+  "_location": "/express/iconv-lite",
   "_nodeVersion": "8.1.0",
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
@@ -38,14 +38,14 @@
     "type": "version"
   },
   "_requiredBy": [
-    "/body-parser",
-    "/raw-body"
+    "/express/body-parser",
+    "/express/raw-body"
   ],
   "_resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.19.tgz",
   "_shasum": "f7468f60135f5e5dad3399c0a81be9a1603a082b",
   "_shrinkwrap": null,
   "_spec": "iconv-lite@0.4.19",
-  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/body-parser",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/express/node_modules/body-parser",
   "author": {
     "name": "Alexander Shtuchkin",
     "email": "ashtuchkin@gmail.com"

@@ -38,6 +38,7 @@
     "type": "range"
   },
   "_requiredBy": [
+    "/webpack-bundle-analyzer/ws",
     "/ws"
   ],
   "_resolved": "https://registry.npmjs.org/async-limiter/-/async-limiter-1.0.0.tgz",

@@ -18,19 +18,14 @@
     }
   },
   "dependencies": {
-    "body-parser": "^1.18.2",
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
-    "express": "^4.16.3",
-    "forever": "^0.15.3",
-    "http-string-parser": "0.0.6",
     "mongodb": "^3.0.6",
     "mongoose": "^5.0.12",
     "nativescript-pro-ui": "3.4.1",
     "nativescript-pulltorefresh": "^2.1.0",
     "nativescript-socket.io": "^0.9.0",
     "nativescript-theme-core": "~1.0.4",
-    "socket-io": "^1.0.0",
     "socket.io": "^2.1.0",
     "tns-core-modules": "^4.0.0"
   },

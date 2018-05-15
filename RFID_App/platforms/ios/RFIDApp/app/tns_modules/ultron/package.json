@@ -10,7 +10,7 @@
         "spec": ">=1.1.0 <1.2.0",
         "type": "range"
       },
-      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/engine.io/node_modules/ws"
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/ws"
     ]
   ],
   "_from": "ultron@>=1.1.0 <1.2.0",
@@ -38,14 +38,13 @@
     "type": "range"
   },
   "_requiredBy": [
-    "/engine.io-client/ws",
-    "/engine.io/ws"
+    "/ws"
   ],
   "_resolved": "https://registry.npmjs.org/ultron/-/ultron-1.1.1.tgz",
   "_shasum": "9fe1536a10a664a65266a1e3ccf85fd36302bc9c",
   "_shrinkwrap": null,
   "_spec": "ultron@~1.1.0",
-  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/engine.io/node_modules/ws",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/ws",
   "author": {
     "name": "Arnout Kazemier"
   },

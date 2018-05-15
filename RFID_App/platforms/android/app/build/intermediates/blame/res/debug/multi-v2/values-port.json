@@ -4,7 +4,7 @@
             "outputFile": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/b0fb20d9ba27330cc0296812e653345c/res/values-port/values-port.xml",
+                    "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/dddbcdfc0547042ae5d2ffc54513dc9b/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

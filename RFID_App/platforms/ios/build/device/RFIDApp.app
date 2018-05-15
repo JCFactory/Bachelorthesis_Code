@@ -1,1 +1,0 @@
-/Users/jacquelinefranssen/Library/Developer/Xcode/DerivedData/RFIDApp-hiowszqwlslmgiabvgjstuyefcda/Build/Intermediates.noindex/ArchiveIntermediates/RFIDApp/InstallationBuildProductsLocation/Applications/RFIDApp.app

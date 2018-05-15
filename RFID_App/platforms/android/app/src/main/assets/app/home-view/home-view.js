@@ -1,5 +1,6 @@
 const http = require('http');
 const observableModule = require("data/observable");
+const fromObjectRecursive = require("data/observable").fromObjectRecursive;
 const ObservableArray = require("data/observable-array").ObservableArray;
 const frameModule = require('ui/frame');
 const topmost = require("ui/frame").topmost;
@@ -21,35 +22,28 @@ function red(args) {
     circle.color = "#E53003";
 }
 
-var pageData = new observableModule.fromObject({
+var pageData = new observableModule.fromObjectRecursive({
     drugs
 });
 
 function serverConnect() {
-    return new Promise(function (resolve, reject) {
-        try {
-            var socket = SocketIO.connect('http://127.0.0.1:4000');
+    var socket = SocketIO.connect('http://127.0.0.1:4000');
+    //check for connection
+    if (socket !== undefined) {
+        socket.on('output', function (data) {
+            console.log('connected to socket...' + data.length);
+             var stringData = JSON.stringify(data);
+            // drugs.push(data);
 
-            //check for connection
-            if (socket !== undefined) {
-                console.log('connected to socket...');
+             alert(stringData);
+             drugs.push(data);
+            // var newDrugs = drugs;
+            // drugs = [];
+            // newDrugs.push(data);
 
-                socket.on('output', function (data) {
-                    console.log("output from mongodb: " + data);
-                    if (data.length > 0) {
-                        if (drugs.length !== data.length) {
-                            var newDrugs = drugs;
-                            drugs = [];
-                            newDrugs.push(data);
-                        }
-                    }
-                });
-            };
-            resolve("great success");
-        } catch (ex) {
-            reject(ex);
-        }
-    });
+            // alert(newDrugs);
+        });
+    };
 };
 
 exports.loaded = function (args) {
@@ -84,14 +78,10 @@ exports.onTap = function (args) {
 
 exports.refreshList = function (args) {
     var pullRefresh = args.object;
-
-    // Do work here... and when done call set refreshing property to false to stop the refreshing
-    serverConnect().then((resp) => {
-        // ONLY USING A TIMEOUT TO SIMULATE/SHOW OFF THE REFRESHING
-        setTimeout(() => {
-            pullRefresh.refreshing = false;
-        }, 1000);
-    }, (err) => {
+    serverConnect();
+    setTimeout(() => {
         pullRefresh.refreshing = false;
-    });
+    }, 1000);
+}, (err) => {
+    pullRefresh.refreshing = false;
 }

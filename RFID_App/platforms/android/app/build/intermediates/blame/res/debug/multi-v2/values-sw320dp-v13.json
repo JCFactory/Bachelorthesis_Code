@@ -4,7 +4,7 @@
             "outputFile": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw320dp-v13/values-sw320dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSCalendar-release.aar/58fc5aef38ad11d705561a90110b5b11/res/values-sw320dp-v13/values-sw320dp-v13.xml",
+                    "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSCalendar-release.aar/9c52ab1cc445e3590363a6b164241f3d/res/values-sw320dp-v13/values-sw320dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

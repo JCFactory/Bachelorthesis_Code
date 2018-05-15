@@ -446,9 +446,11 @@ exports.isMongooseObject = function(v) {
   MongooseArray || (MongooseArray = require('./types').Array);
   MongooseBuffer || (MongooseBuffer = require('./types').Buffer);
 
-  return v instanceof Document ||
-      (v && v.isMongooseArray) ||
-      (v && v.isMongooseBuffer);
+  if (v == null) {
+    return false;
+  }
+
+  return v.$__ != null || v.isMongooseArray || v.isMongooseBuffer;
 };
 var isMongooseObject = exports.isMongooseObject;
 
@@ -535,7 +537,7 @@ exports.populate = function populate(path, select, model, match, options, subPop
     if (Array.isArray(path)) {
       let singles = makeSingles(path);
       return singles.map(function(o) {
-        if (o.populate) {
+        if (o.populate && !o.match) {
           return exports.populate(
             o.path,
             o.select,
@@ -720,7 +722,7 @@ exports.array.unique = function(arr) {
   var ret = [];
   var length = arr.length;
   for (var i = 0; i < length; ++i) {
-    if (typeof arr[i] === 'number' || typeof arr[i] === 'string') {
+    if (typeof arr[i] === 'number' || typeof arr[i] === 'string' || arr[i] == null) {
       if (primitives[arr[i]]) {
         continue;
       }

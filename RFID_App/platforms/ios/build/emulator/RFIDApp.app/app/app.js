@@ -8,3 +8,4 @@ require("./bundle-config");
 const application = require("application");
 application.setCssFileName("app.css");
 application.start({ moduleName: "home-view/home-view" });
+ 

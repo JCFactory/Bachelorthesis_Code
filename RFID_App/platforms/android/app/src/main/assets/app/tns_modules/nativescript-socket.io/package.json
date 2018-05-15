@@ -2,18 +2,18 @@
   "_args": [
     [
       {
-        "raw": "nativescript-socket.io",
+        "raw": "nativescript-socket.io@^0.9.0",
         "scope": null,
         "escapedName": "nativescript-socket.io",
         "name": "nativescript-socket.io",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
+        "rawSpec": "^0.9.0",
+        "spec": ">=0.9.0 <0.10.0",
+        "type": "range"
       },
       "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
     ]
   ],
-  "_from": "nativescript-socket.io@latest",
+  "_from": "nativescript-socket.io@>=0.9.0 <0.10.0",
   "_id": "nativescript-socket.io@0.9.0",
   "_inCache": true,
   "_location": "/nativescript-socket.io",
@@ -29,22 +29,21 @@
   "_npmVersion": "5.5.1",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "nativescript-socket.io",
+    "raw": "nativescript-socket.io@^0.9.0",
     "scope": null,
     "escapedName": "nativescript-socket.io",
     "name": "nativescript-socket.io",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "rawSpec": "^0.9.0",
+    "spec": ">=0.9.0 <0.10.0",
+    "type": "range"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-socket.io/-/nativescript-socket.io-0.9.0.tgz",
   "_shasum": "3bd64f0549dbc5165a92b425484f15fe9ed35878",
   "_shrinkwrap": null,
-  "_spec": "nativescript-socket.io",
+  "_spec": "nativescript-socket.io@^0.9.0",
   "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
   "author": {
     "name": "Nader Toukabri",

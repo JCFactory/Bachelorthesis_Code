@@ -26,7 +26,7 @@ var drug = new mongoose.Schema({
         default: ""
     },
     timeStamp: {
-        type: Date,
+        type: String,
         default: ""
     },
 });
