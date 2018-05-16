@@ -17,6 +17,10 @@
       "version": "4.0.1"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JCFactory/Bachelorthesis_Code.git"
+  },
   "dependencies": {
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
@@ -27,7 +31,8 @@
     "nativescript-socket.io": "^0.9.0",
     "nativescript-theme-core": "~1.0.4",
     "socket.io": "^2.1.0",
-    "tns-core-modules": "^4.0.0"
+    "tns-core-modules": "^4.0.0",
+    "webpack": "^3.1.0"
   },
   "devDependencies": {
     "babel-traverse": "6.26.0",

@@ -2,11 +2,11 @@
   "_args": [
     [
       {
-        "raw": "tns-core-modules",
+        "raw": "tns-core-modules@latest",
         "scope": null,
         "escapedName": "tns-core-modules",
         "name": "tns-core-modules",
-        "rawSpec": "",
+        "rawSpec": "latest",
         "spec": "latest",
         "type": "tag"
       },
@@ -29,11 +29,11 @@
   "_npmVersion": "4.6.1",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "tns-core-modules",
+    "raw": "tns-core-modules@latest",
     "scope": null,
     "escapedName": "tns-core-modules",
     "name": "tns-core-modules",
-    "rawSpec": "",
+    "rawSpec": "latest",
     "spec": "latest",
     "type": "tag"
   },
@@ -44,7 +44,7 @@
   "_resolved": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-4.0.0.tgz",
   "_shasum": "94171224eac82aa5b5873a78aa309aecd3e6346a",
   "_shrinkwrap": null,
-  "_spec": "tns-core-modules",
+  "_spec": "tns-core-modules@latest",
   "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
   "dependencies": {
     "tns-core-modules-widgets": "4.0.0"

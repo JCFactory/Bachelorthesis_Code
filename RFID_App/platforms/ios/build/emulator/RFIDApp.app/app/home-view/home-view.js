@@ -1,10 +1,11 @@
 const http = require('http');
 const observableModule = require("data/observable");
+const fromObjectRecursive = require("data/observable").fromObjectRecursive;
 const ObservableArray = require("data/observable-array").ObservableArray;
 const frameModule = require('ui/frame');
 const topmost = require("ui/frame").topmost;
 const SocketIO = require('nativescript-socket.io');
-var platformModule = require("tns-core-modules/platform");
+var page;
 
 var drugs = new ObservableArray();
 
@@ -21,51 +22,33 @@ function red(args) {
     circle.color = "#E53003";
 }
 
-var pageData = new observableModule.fromObject({
+var pageData = new observableModule.fromObjectRecursive({
     drugs
 });
 
-
-function removeDuplicates(arr) {
-    let uniqueArray = [];
-    for (let i; i < arr.length; i++) {
-        if (uniqueArray.indexOf(arr[i]) == -1) {
-            uniqueArray.push(arr[i]);
-        }
-    }
-    return uniqueArray;
-}
-
 function serverConnect() {
     var socket = SocketIO.connect('http://127.0.0.1:4000');
-
     //check for connection
+    var currentData = [];
     if (socket !== undefined) {
         socket.on('output', function (data) {
             console.log('connected to socket...' + data.length);
-            // var stringData = JSON.stringify(data);
+            var stringData = JSON.stringify(data);
+            currentData.push(data);
             // alert(stringData);
-            if (data.length === 0) {
-                alert("No medicine found");
-            } else {
-                // removeDuplicates(drugs);
-                // var newDrugs = drugs;
-                // drugs = [];
-                drugs.push(data);
-                //  newDrugs.push(data);
-            }
+            // drugs.push(data);
         });
+        var newDrugs = drugs;
+        drugs = [];
+        newDrugs.push(currentData);
     };
 };
 
-
-function loaded(args){
-    const page = args.object;
-    page.bindingContext = pageData;
+exports.loaded = function (args) {
     serverConnect();
+    page = args.object;
+    page.bindingContext = pageData;
 }
-exports.loaded = loaded;
-
 
 exports.onTap = function (args) {
     const selectedDrug = args.view.bindingContext;
@@ -91,23 +74,12 @@ exports.onTap = function (args) {
     topmost().navigate(navigationEntry);
 }
 
-function refreshList(args) {
-    const pullRefresh = args.object;
-    serverConnect().then(
-        response =>{
-            console.log(response);
-            setTimeout(() => {
-                pullRefresh.refreshing = false;
-            }, 1000);
-        },
-        err => {
-            pullRefresh.refreshing = false;
-            alert(err);
-        }
-    );
+exports.refreshList = function (args) {
+    var pullRefresh = args.object;
+    serverConnect();
+    setTimeout(() => {
+        pullRefresh.refreshing = false;
+    }, 1000);
+}, (err) => {
+    pullRefresh.refreshing = false;
 }
-exports.refreshList = refreshList;
-
-
-
-

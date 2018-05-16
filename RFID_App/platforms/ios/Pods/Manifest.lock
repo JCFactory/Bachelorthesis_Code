@@ -7,7 +7,7 @@ DEPENDENCIES:
   - Socket.IO-Client-Swift (~> 11.0)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Socket.IO-Client-Swift
     - StarscreamSocketIO
 
@@ -17,4 +17,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: c09ac85119a6161bcc0f04dc973b11992bcc1666
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.2
