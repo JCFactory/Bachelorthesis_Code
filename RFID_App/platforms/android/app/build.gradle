@@ -60,8 +60,8 @@ version of the {N} CLI install a previous version of the runtime package - 'tns 
 project.ext.extractedDependenciesDir = "${project.buildDir}/exploded-dependencies"
 def nativescriptDependencies = new JsonSlurper().parseText(dependenciesJson.text)
 
-def computeCompileSdkVersion = { -> project.hasProperty("compileSdk") ? compileSdk : 26 }
-def computeTargetSdkVersion = { -> project.hasProperty("targetSdk") ? targetSdk : 26 }
+def computeCompileSdkVersion = { -> project.hasProperty("compileSdk") ? compileSdk : 27 }
+def computeTargetSdkVersion = { -> project.hasProperty("targetSdk") ? targetSdk : 27 }
 def computeBuildToolsVersion = { ->
     project.hasProperty("buildToolsVersion") ? buildToolsVersion : "27.0.1"
 }

@@ -1,4 +1,4 @@
-const client = require('socket.io').listen(4000).sockets;
+const client = require('socket.io').listen(3000).sockets;
 
 connections = [];
 
@@ -27,10 +27,10 @@ setTimeout(function () {
                 socket.emit('output', drugs);
 
             });
-            // socket.on("disconnect", function (data) {
-            //     connections.splice(connections.indexOf(socket), 1);
-            //     console.log("disconnected: %s sockets connected", connections.length);
-            // });
+            socket.on("disconnect", function (data) {
+                connections.splice(connections.indexOf(socket), 1);
+                console.log("disconnected: %s sockets connected", connections.length);
+            });
         });
     });
 }, 2500)

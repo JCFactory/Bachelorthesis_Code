@@ -1,9 +1,9 @@
 {
-	"time": "Fri May 18 2018 14:55:37 GMT+0200 (CEST)",
+	"time": "Fri May 18 2018 15:35:52 GMT+0200 (CEST)",
 	"nativePlatformStatus": "3",
 	"bundle": false,
 	"release": false,
 	"changesRequireBuild": true,
-	"projectFileHash": "9b356d4091be1a6b72bee0936997b0e45574ef72c5d85b77ee10d65b5371285e",
-	"changesRequireBuildTime": "Fri May 18 2018 14:55:37 GMT+0200 (CEST)"
+	"projectFileHash": "88ec2ac04a5a8b34a1e0694c2b9bbbe51328a0236f707b8c8aeb69740d6a09ef",
+	"changesRequireBuildTime": "Fri May 18 2018 15:35:52 GMT+0200 (CEST)"
 }

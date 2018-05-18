@@ -26,7 +26,7 @@ var pageData = new observableModule.fromObject({
 });
 
 function serverConnect() {
-    var socket = SocketIO.connect('http://127.0.0.1:4000');
+    var socket = SocketIO.connect('http://127.0.0.1:3000');
     //check for connection
     if (socket !== undefined) {
         socket.on('output', function (data) {
@@ -36,6 +36,7 @@ function serverConnect() {
             }
             var stringData = JSON.stringify(data);
             drugs.push(data);
+            alert(data);
 
             // var stringArray = drugs.toString();
             // if(stringArray!== stringData){
@@ -45,16 +46,17 @@ function serverConnect() {
             // var newDrugs = drugs;
             // drugs = [];
             // newDrugs.push(data);
-            console.log(newDrugs.name);
         });
 
     };
 };
 
-exports.loaded = function (args) {
+exports.onNavigatingTo = function (args) {
+    serverConnect();
     page = args.object;
     page.bindingContext = pageData;
-    serverConnect();
+    alert("hello");
+    // serverConnect();
 }
 
 exports.onTap = function (args) {

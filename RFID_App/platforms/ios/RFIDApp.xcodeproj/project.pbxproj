@@ -6,33 +6,15 @@
 	objectVersion = 46;
 	objects = {
 /* Begin PBXBuildFile section */
-		054AC4E28CAF4CA59B97AC80 /* TNSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 136FBAEE84174FEF93FD860E /* TNSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1A3587A882E84C819BE4BB24 /* TNSCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9165DF95134F2FB98BC1E2 /* TNSCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		268C6B92EB114666BEA90FAF /* TNSAutoComplete.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B4B33F89F58743D3BCA75F40 /* TNSAutoComplete.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		378FAB1F909F4B83A54E99E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB154BCC7DF43078C9A2957 /* Assets.xcassets */; };
 		61C1E9F87D3B4F14955AB4B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3722E0144C9B48B4AD36FEE1 /* LaunchScreen.storyboard */; };
-		684F0C1C0BFD40CC98FDC0C3 /* TelerikAppFeedback.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3981B5802448E3AFE7B0F7 /* TelerikAppFeedback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		703FA7066D68423BAF06DD11 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 98513EC507454E0098A374D2 /* build.xcconfig */; };
-		79F4988F5DA84746AA5DC8EE /* TNSCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9165DF95134F2FB98BC1E2 /* TNSCalendar.framework */; };
-		7C67AB9C7C524BC48C9A8238 /* TNSListView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 67B75BA0ED104E708071A0A3 /* TNSListView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
-		8DC795E7D6E6484EA7522644 /* TNSChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CBA7E4DC1666441E9A9DF7F6 /* TNSChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		91ED2272262783C42A3A691A /* Pods_RFIDApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20ADC5199AD66C41466997FA /* Pods_RFIDApp.framework */; };
-		AF351758DBF9401990490604 /* TNSDataForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9FF4223A624593B867ED49 /* TNSDataForm.framework */; };
-		C908BA0F01D84ED8B22F814B /* TelerikAppFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3981B5802448E3AFE7B0F7 /* TelerikAppFeedback.framework */; };
-		CC56D3C13E3E4FF893162E60 /* TNSAutoComplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B33F89F58743D3BCA75F40 /* TNSAutoComplete.framework */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
-		DAA0B394FBAF4AFBA31F9BEC /* TNSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136FBAEE84174FEF93FD860E /* TNSCore.framework */; };
 		DD45BE1B814F49FAA6C9D921 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA6438045E634DBA9CDE222B /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EE44D8878E804EFCAFCECB3B /* TNSSideDrawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4AB2C2FB85414693704A26 /* TNSSideDrawer.framework */; };
-		F013ABD55D584FB19AE3F990 /* TNSSideDrawer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB4AB2C2FB85414693704A26 /* TNSSideDrawer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F3CD518DCB074AA586129144 /* TNSGauge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF18A610286C422DA8AC1073 /* TNSGauge.framework */; };
 		F966180EF89E401E9CAC071B /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6438045E634DBA9CDE222B /* TNSWidgets.framework */; };
-		FA1CBD01FBF74AB0AAA06D6F /* TNSGauge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF18A610286C422DA8AC1073 /* TNSGauge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FDFB593E631E41CFBD75D666 /* TNSChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA7E4DC1666441E9A9DF7F6 /* TNSChart.framework */; };
-		FE81277374EF42DD993AA81E /* TNSDataForm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE9FF4223A624593B867ED49 /* TNSDataForm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FEE70D574E4E4B6AAAF2B2B7 /* TNSListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B75BA0ED104E708071A0A3 /* TNSListView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,15 +24,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				268C6B92EB114666BEA90FAF /* TNSAutoComplete.framework in Embed Frameworks */,
-				1A3587A882E84C819BE4BB24 /* TNSCalendar.framework in Embed Frameworks */,
-				8DC795E7D6E6484EA7522644 /* TNSChart.framework in Embed Frameworks */,
-				054AC4E28CAF4CA59B97AC80 /* TNSCore.framework in Embed Frameworks */,
-				FE81277374EF42DD993AA81E /* TNSDataForm.framework in Embed Frameworks */,
-				FA1CBD01FBF74AB0AAA06D6F /* TNSGauge.framework in Embed Frameworks */,
-				7C67AB9C7C524BC48C9A8238 /* TNSListView.framework in Embed Frameworks */,
-				F013ABD55D584FB19AE3F990 /* TNSSideDrawer.framework in Embed Frameworks */,
-				684F0C1C0BFD40CC98FDC0C3 /* TelerikAppFeedback.framework in Embed Frameworks */,
 				DD45BE1B814F49FAA6C9D921 /* TNSWidgets.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -59,20 +32,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0C9165DF95134F2FB98BC1E2 /* TNSCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSCalendar.framework; path = "$(SRCROOT)/../../node_modules/nativescript-pro-ui/platforms/ios/TNSCalendar.framework"; sourceTree = "<group>"; };
-		136FBAEE84174FEF93FD860E /* TNSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSCore.framework; path = "$(SRCROOT)/../../node_modules/nativescript-pro-ui/platforms/ios/TNSCore.framework"; sourceTree = "<group>"; };
 		20ADC5199AD66C41466997FA /* Pods_RFIDApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RFIDApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3722E0144C9B48B4AD36FEE1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = RFIDApp/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		67B75BA0ED104E708071A0A3 /* TNSListView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSListView.framework; path = "$(SRCROOT)/../../node_modules/nativescript-pro-ui/platforms/ios/TNSListView.framework"; sourceTree = "<group>"; };
 		858B832E18CA111C00AB12DE /* RFIDApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFIDApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		858B833918CA111C00AB12DE /* RFIDApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RFIDApp-Info.plist"; sourceTree = "<group>"; };
 		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		858B833F18CA111C00AB12DE /* RFIDApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RFIDApp-Prefix.pch"; sourceTree = "<group>"; };
 		858B843318CA22B800AB12DE /* RFIDApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFIDApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98513EC507454E0098A374D2 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = build.xcconfig; path = RFIDApp/Resources/build.xcconfig; sourceTree = "<group>"; };
-		9B3981B5802448E3AFE7B0F7 /* TelerikAppFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikAppFeedback.framework; path = "$(SRCROOT)/../../node_modules/nativescript-pro-ui/platforms/ios/TelerikAppFeedback.framework"; sourceTree = "<group>"; };
-		B4B33F89F58743D3BCA75F40 /* TNSAutoComplete.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSAutoComplete.framework; path = "$(SRCROOT)/../../node_modules/nativescript-pro-ui/platforms/ios/TNSAutoComplete.framework"; sourceTree = "<group>"; };
-		CBA7E4DC1666441E9A9DF7F6 /* TNSChart.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSChart.framework; path = "$(SRCROOT)/../../node_modules/nativescript-pro-ui/platforms/ios/TNSChart.framework"; sourceTree = "<group>"; };
 		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
 		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,9 +47,6 @@
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
 		DA6438045E634DBA9CDE222B /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
 		DAB154BCC7DF43078C9A2957 /* Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Assets.xcassets; path = RFIDApp/Resources/Assets.xcassets; sourceTree = "<group>"; };
-		DB4AB2C2FB85414693704A26 /* TNSSideDrawer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSSideDrawer.framework; path = "$(SRCROOT)/../../node_modules/nativescript-pro-ui/platforms/ios/TNSSideDrawer.framework"; sourceTree = "<group>"; };
-		EF18A610286C422DA8AC1073 /* TNSGauge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSGauge.framework; path = "$(SRCROOT)/../../node_modules/nativescript-pro-ui/platforms/ios/TNSGauge.framework"; sourceTree = "<group>"; };
-		FE9FF4223A624593B867ED49 /* TNSDataForm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSDataForm.framework; path = "$(SRCROOT)/../../node_modules/nativescript-pro-ui/platforms/ios/TNSDataForm.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,15 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC56D3C13E3E4FF893162E60 /* TNSAutoComplete.framework in Frameworks */,
-				79F4988F5DA84746AA5DC8EE /* TNSCalendar.framework in Frameworks */,
-				FDFB593E631E41CFBD75D666 /* TNSChart.framework in Frameworks */,
-				DAA0B394FBAF4AFBA31F9BEC /* TNSCore.framework in Frameworks */,
-				AF351758DBF9401990490604 /* TNSDataForm.framework in Frameworks */,
-				F3CD518DCB074AA586129144 /* TNSGauge.framework in Frameworks */,
-				FEE70D574E4E4B6AAAF2B2B7 /* TNSListView.framework in Frameworks */,
-				EE44D8878E804EFCAFCECB3B /* TNSSideDrawer.framework in Frameworks */,
-				C908BA0F01D84ED8B22F814B /* TelerikAppFeedback.framework in Frameworks */,
 				F966180EF89E401E9CAC071B /* TNSWidgets.framework in Frameworks */,
 				91ED2272262783C42A3A691A /* Pods_RFIDApp.framework in Frameworks */,
 			);
@@ -137,15 +92,6 @@
 		858B833018CA111C00AB12DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B4B33F89F58743D3BCA75F40 /* TNSAutoComplete.framework */,
-				0C9165DF95134F2FB98BC1E2 /* TNSCalendar.framework */,
-				CBA7E4DC1666441E9A9DF7F6 /* TNSChart.framework */,
-				136FBAEE84174FEF93FD860E /* TNSCore.framework */,
-				FE9FF4223A624593B867ED49 /* TNSDataForm.framework */,
-				EF18A610286C422DA8AC1073 /* TNSGauge.framework */,
-				67B75BA0ED104E708071A0A3 /* TNSListView.framework */,
-				DB4AB2C2FB85414693704A26 /* TNSSideDrawer.framework */,
-				9B3981B5802448E3AFE7B0F7 /* TelerikAppFeedback.framework */,
 				DA6438045E634DBA9CDE222B /* TNSWidgets.framework */,
 				20ADC5199AD66C41466997FA /* Pods_RFIDApp.framework */,
 			);

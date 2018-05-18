@@ -14,7 +14,6 @@
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-socket.io/socketio.common.js
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-socket.io/socketio.js
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-socket.io/helpers.js
-/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-pro-ui/scripts/eula-prompt.js
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/globals/globals.js
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/globals/decorators.js
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/border/border.js
@@ -167,3 +166,6 @@
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/matrix/matrix.js
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/bundle-entry-points.js
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/console/console.js
+/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-ui-listview/ui-listview.common.js
+/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-ui-listview/hooks/before-livesync/nativescript-angular-sync.js
+/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-ui-listview/ui-listview.js

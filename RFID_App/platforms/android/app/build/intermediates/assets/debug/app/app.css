@@ -36,7 +36,7 @@
     margin-left: 20;
     overflow: hidden;
     white-space: nowrap;
-    text-align: justify;
+    /* text-align: justify; */
     word-break: break-all;
 }
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.nativescript.myappname"
+    package="org.nativescript.RFIDApp"
     android:versionCode="10000"
     android:versionName="1.0" >
 
@@ -45,26 +45,6 @@
             </intent-filter>
         </activity>
         <activity android:name="com.tns.ErrorReportActivity" />
-        <activity
-            android:name="com.telerik.widget.feedback.SendFeedbackActivity"
-            android:label="@string/title_activity_send_feedback"
-            android:theme="@style/AppCompatTheme" >
-        </activity>
-        <activity
-            android:name="com.telerik.widget.feedback.ViewFeedbackActivity"
-            android:label="@string/title_activity_view_feedback"
-            android:theme="@style/AppCompatTheme" >
-        </activity>
-        <activity
-            android:name="com.telerik.widget.feedback.ViewFeedbackItemActivity"
-            android:label="@string/title_activity_view_feedback"
-            android:theme="@style/AppCompatTheme" >
-        </activity>
-        <activity
-            android:name="com.telerik.widget.feedback.EditDetailsActivity"
-            android:label="@string/title_activity_edit_details"
-            android:theme="@style/AppCompatTheme" >
-        </activity>
     </application>
 
 </manifest>

@@ -69,10 +69,7 @@ var loadModule = profiling_1.profile("loadModule", function (moduleNamePath, ent
 });
 var viewFromBuilder = profiling_1.profile("viewFromBuilder", function (moduleNamePath, moduleExports) {
     var fileName = file_name_resolver_1.resolveFileName(moduleNamePath, "xml");
-    if (fileName) {
-        return loadPage(moduleNamePath, fileName, moduleExports);
-    }
-    return null;
+    return loadPage(moduleNamePath, fileName, moduleExports);
 });
 exports.createViewFromEntry = profiling_1.profile("createViewFromEntry", function (entry) {
     if (entry.create) {
@@ -108,10 +105,16 @@ var moduleCreateView = profiling_1.profile("module.createView", function (module
 });
 function loadInternal(fileName, context, moduleNamePath) {
     var componentModule;
-    if (file_system_1.File.exists(fileName)) {
-        var file = file_system_1.File.fromPath(fileName);
-        var text = file.readTextSync(function (error) { throw new Error("Error loading file " + fileName + " :" + error.message); });
+    var appPath = file_system_1.knownFolders.currentApp().path;
+    var filePathRelativeToApp = (moduleNamePath && moduleNamePath.startsWith(appPath) ? "./" + moduleNamePath.substr(appPath.length + 1) : moduleNamePath) + ".xml";
+    if (global.moduleExists(filePathRelativeToApp)) {
+        var text = global.loadModule(filePathRelativeToApp);
         componentModule = parseInternal(text, context, fileName, moduleNamePath);
+    }
+    else if (fileName && file_system_1.File.exists(fileName)) {
+        var file = file_system_1.File.fromPath(fileName);
+        var text_1 = file.readTextSync(function (error) { throw new Error("Error loading file " + fileName + " :" + error.message); });
+        componentModule = parseInternal(text_1, context, fileName, moduleNamePath);
     }
     if (componentModule && componentModule.component) {
         componentModule.component.exports = context;

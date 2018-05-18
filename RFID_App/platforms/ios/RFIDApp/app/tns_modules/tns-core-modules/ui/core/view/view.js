@@ -41,6 +41,9 @@ var View = (function (_super) {
         if (nativeView) {
             nativeView.setNeedsLayout();
         }
+        if (this.viewController && this.viewController.view !== nativeView) {
+            this.viewController.view.setNeedsLayout();
+        }
     };
     View.prototype.measure = function (widthMeasureSpec, heightMeasureSpec) {
         var measureSpecsChanged = this._setCurrentMeasureSpecs(widthMeasureSpec, heightMeasureSpec);
