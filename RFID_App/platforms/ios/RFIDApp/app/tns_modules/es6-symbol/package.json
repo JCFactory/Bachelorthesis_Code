@@ -42,7 +42,8 @@
     "/es6-iterator",
     "/es6-map",
     "/es6-set",
-    "/es6-weak-map"
+    "/es6-weak-map",
+    "/loglevelnext"
   ],
   "_resolved": "https://registry.npmjs.org/es6-symbol/-/es6-symbol-3.1.1.tgz",
   "_shasum": "bf00ef4fdab6ba1b46ecb7b629b4c7ed5715cc77",

@@ -10,13 +10,13 @@
         "spec": ">=2.0.0 <3.0.0",
         "type": "range"
       },
-      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/watchpack/node_modules/chokidar"
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/chokidar"
     ]
   ],
   "_from": "anymatch@>=2.0.0 <3.0.0",
   "_id": "anymatch@2.0.0",
   "_inCache": true,
-  "_location": "/watchpack/anymatch",
+  "_location": "/anymatch",
   "_nodeVersion": "6.10.2",
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
@@ -38,13 +38,13 @@
     "type": "range"
   },
   "_requiredBy": [
-    "/watchpack/chokidar"
+    "/chokidar"
   ],
   "_resolved": "https://registry.npmjs.org/anymatch/-/anymatch-2.0.0.tgz",
   "_shasum": "bcb24b4f37934d9aa7ac17b4adaf89e7c76ef2eb",
   "_shrinkwrap": null,
   "_spec": "anymatch@^2.0.0",
-  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/watchpack/node_modules/chokidar",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/chokidar",
   "author": {
     "name": "Elan Shanker",
     "url": "http://github.com/es128"

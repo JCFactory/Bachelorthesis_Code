@@ -10,7 +10,7 @@
         "spec": ">=4.14.0 <5.0.0",
         "type": "range"
       },
-      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/mongoose/node_modules/async"
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/async"
     ]
   ],
   "_from": "lodash@>=4.14.0 <5.0.0",
@@ -38,19 +38,19 @@
     "type": "range"
   },
   "_requiredBy": [
+    "/async",
     "/babel-traverse",
     "/babel-types",
     "/copy-webpack-plugin",
     "/extract-text-webpack-plugin/async",
-    "/mongoose/async",
-    "/webpack-bundle-analyzer",
-    "/webpack/async"
+    "/http-proxy-middleware",
+    "/webpack-bundle-analyzer"
   ],
   "_resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.10.tgz",
   "_shasum": "1b7793cf7259ea38fb3661d4d38b3260af8ae4e7",
   "_shrinkwrap": null,
   "_spec": "lodash@^4.14.0",
-  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/mongoose/node_modules/async",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/async",
   "author": {
     "name": "John-David Dalton",
     "email": "john.david.dalton@gmail.com",

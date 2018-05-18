@@ -10,7 +10,7 @@
         "spec": "2.0.0",
         "type": "version"
       },
-      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/debug"
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/mongoose"
     ]
   ],
   "_from": "ms@2.0.0",
@@ -41,17 +41,19 @@
     "/debug",
     "/engine.io-client/debug",
     "/engine.io/debug",
+    "/follow-redirects/debug",
     "/mongoose",
     "/send",
     "/socket.io-client/debug",
     "/socket.io-parser/debug",
-    "/socket.io/debug"
+    "/socket.io/debug",
+    "/webpack-dev-server/debug"
   ],
   "_resolved": "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz",
   "_shasum": "5608aeadfc00be6c2901df5f9861788de0d597c8",
   "_shrinkwrap": null,
   "_spec": "ms@2.0.0",
-  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/debug",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/mongoose",
   "bugs": {
     "url": "https://github.com/zeit/ms/issues"
   },

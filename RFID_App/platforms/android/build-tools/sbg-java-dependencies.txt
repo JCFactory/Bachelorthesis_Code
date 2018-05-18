@@ -1,4 +1,4 @@
-/usr/local/share/android-sdk/platforms/android-25/android.jar
+/Users/jacquelinefranssen/Library/Android/sdk/platforms/android-27/android.jar
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/exploded-dependencies/20/classes.jar
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/exploded-dependencies/18/classes.jar
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/exploded-dependencies/27/engine.io-client-1.0.0.jar
@@ -14,7 +14,7 @@
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/exploded-dependencies/1/classes.jar
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/exploded-dependencies/10/classes.jar
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/exploded-dependencies/19/classes.jar
-/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/exploded-dependencies/26/support-annotations-25.3.1.jar
+/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/exploded-dependencies/26/support-annotations-26.0.0-alpha1.jar
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/exploded-dependencies/8/classes.jar
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/exploded-dependencies/21/classes.jar
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/exploded-dependencies/24/classes.jar

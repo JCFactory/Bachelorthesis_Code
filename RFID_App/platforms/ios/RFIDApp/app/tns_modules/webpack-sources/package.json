@@ -2,18 +2,18 @@
   "_args": [
     [
       {
-        "raw": "webpack-sources@~1.1.0",
+        "raw": "webpack-sources@^1.0.1",
         "scope": null,
         "escapedName": "webpack-sources",
         "name": "webpack-sources",
-        "rawSpec": "~1.1.0",
-        "spec": ">=1.1.0 <1.2.0",
+        "rawSpec": "^1.0.1",
+        "spec": ">=1.0.1 <2.0.0",
         "type": "range"
       },
-      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/webpack"
     ]
   ],
-  "_from": "webpack-sources@>=1.1.0 <1.2.0",
+  "_from": "webpack-sources@>=1.0.1 <2.0.0",
   "_id": "webpack-sources@1.1.0",
   "_inCache": true,
   "_location": "/webpack-sources",
@@ -29,26 +29,25 @@
   "_npmVersion": "5.4.2",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "webpack-sources@~1.1.0",
+    "raw": "webpack-sources@^1.0.1",
     "scope": null,
     "escapedName": "webpack-sources",
     "name": "webpack-sources",
-    "rawSpec": "~1.1.0",
-    "spec": ">=1.1.0 <1.2.0",
+    "rawSpec": "^1.0.1",
+    "spec": ">=1.0.1 <2.0.0",
     "type": "range"
   },
   "_requiredBy": [
     "#DEV:/",
     "/extract-text-webpack-plugin",
     "/uglifyjs-webpack-plugin",
-    "/webpack",
-    "/webpack/uglifyjs-webpack-plugin"
+    "/webpack"
   ],
   "_resolved": "https://registry.npmjs.org/webpack-sources/-/webpack-sources-1.1.0.tgz",
   "_shasum": "a101ebae59d6507354d71d8013950a3a8b7a5a54",
   "_shrinkwrap": null,
-  "_spec": "webpack-sources@~1.1.0",
-  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
+  "_spec": "webpack-sources@^1.0.1",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/webpack",
   "author": {
     "name": "Tobias Koppers @sokra"
   },

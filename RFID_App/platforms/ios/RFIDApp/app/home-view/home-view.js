@@ -1,6 +1,5 @@
 const http = require('http');
 const observableModule = require("data/observable");
-const fromObjectRecursive = require("data/observable").fromObjectRecursive;
 const ObservableArray = require("data/observable-array").ObservableArray;
 const frameModule = require('ui/frame');
 const topmost = require("ui/frame").topmost;
@@ -22,7 +21,7 @@ function red(args) {
     circle.color = "#E53003";
 }
 
-var pageData = new observableModule.fromObjectRecursive({
+var pageData = new observableModule.fromObject({
     drugs
 });
 
@@ -32,24 +31,30 @@ function serverConnect() {
     if (socket !== undefined) {
         socket.on('output', function (data) {
             console.log('connected to socket...' + data.length);
-            if (data.length === 0){
+            if (data.length === 0) {
                 alert("No medication data found...");
             }
-            // var stringData = JSON.stringify(data);
-            //  alert(stringData);
+            var stringData = JSON.stringify(data);
             drugs.push(data);
-            
+
+            // var stringArray = drugs.toString();
+            // if(stringArray!== stringData){
+                // drugs.push(data);
+            // }
+            //  alert(stringData);
+            // var newDrugs = drugs;
+            // drugs = [];
+            // newDrugs.push(data);
+            console.log(newDrugs.name);
         });
-        // var newDrugs = drugs;
-        // drugs = [];
-        // newDrugs.push(currentData);
+
     };
 };
 
 exports.loaded = function (args) {
-    serverConnect();
     page = args.object;
     page.bindingContext = pageData;
+    serverConnect();
 }
 
 exports.onTap = function (args) {
@@ -79,6 +84,8 @@ exports.onTap = function (args) {
 exports.refreshList = function (args) {
     var pullRefresh = args.object;
     serverConnect();
+    // page = args.object;
+    // page.bindingContext = pageData;
     setTimeout(() => {
         pullRefresh.refreshing = false;
     }, 1000);
