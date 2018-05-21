@@ -8,7 +8,6 @@ var page;
 
 var drugs = new ObservableArray();
 
-
 //function to show active and detected tags in green color
 function green(args) {
     var circle = args.object;
@@ -26,34 +25,44 @@ var pageData = new observableModule.fromObject({
 });
 
 function serverConnect() {
-    var socket = SocketIO.connect('http://127.0.0.1:4000');
+    var socket = SocketIO.connect('http://127.0.0.1:3000');
     //check for connection
     if (socket !== undefined) {
         socket.on('output', function (data) {
             console.log('connected to socket...' + data.length);
             if (data.length === 0) {
                 alert("No medication data found...");
+            }else{
+                drugs.push(data);
             }
-            var stringData = JSON.stringify(data);
-            drugs.push(data);
-
-            // var stringArray = drugs.toString();
-            // if(stringArray!== stringData){
-                // drugs.push(data);
+            // for (var i = 0; i < drugs.length; i++) {
+            //     for (var j = 0; j < data.length; j++) {
+            //         if (drugs.filter(i !== data)) {
+                       
+            //         }
+            //     }
             // }
-            //  alert(stringData);
+            // drugs.push(data);
+           
             // var newDrugs = drugs;
             // drugs = [];
             // newDrugs.push(data);
         });
-
     };
 };
 
+// exports.onNavigatingTo = function (args) {
+//     // serverConnect();
+//     page = args.object;
+//     page.bindingContext = pageData;
+//     alert("hello");
+//     // serverConnect();
+// }
+
 exports.loaded = function (args) {
+    serverConnect();
     page = args.object;
     page.bindingContext = pageData;
-    serverConnect();
 }
 
 exports.onTap = function (args) {

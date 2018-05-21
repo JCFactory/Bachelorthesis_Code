@@ -1,49 +1,31 @@
 {
   "_args": [
     [
-      {
-        "raw": "nativescript-pulltorefresh@^2.1.0",
-        "scope": null,
-        "escapedName": "nativescript-pulltorefresh",
-        "name": "nativescript-pulltorefresh",
-        "rawSpec": "^2.1.0",
-        "spec": ">=2.1.0 <3.0.0",
-        "type": "range"
-      },
+      "nativescript-pulltorefresh@2.1.1",
       "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
     ]
   ],
-  "_from": "nativescript-pulltorefresh@>=2.1.0 <3.0.0",
+  "_from": "nativescript-pulltorefresh@2.1.1",
   "_id": "nativescript-pulltorefresh@2.1.1",
-  "_inCache": true,
+  "_inBundle": false,
+  "_integrity": "sha1-xt9NKzDiT8zqAoU8Uq2F4Kv69is=",
   "_location": "/nativescript-pulltorefresh",
-  "_nodeVersion": "6.11.0",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/nativescript-pulltorefresh_2.1.1_1525406624025_0.09731178393201034"
-  },
-  "_npmUser": {
-    "name": "bradmartin",
-    "email": "bradwaynemartin@gmail.com"
-  },
-  "_npmVersion": "5.8.0",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "nativescript-pulltorefresh@^2.1.0",
-    "scope": null,
-    "escapedName": "nativescript-pulltorefresh",
+    "type": "version",
+    "registry": true,
+    "raw": "nativescript-pulltorefresh@2.1.1",
     "name": "nativescript-pulltorefresh",
-    "rawSpec": "^2.1.0",
-    "spec": ">=2.1.0 <3.0.0",
-    "type": "range"
+    "escapedName": "nativescript-pulltorefresh",
+    "rawSpec": "2.1.1",
+    "saveSpec": null,
+    "fetchSpec": "2.1.1"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-pulltorefresh/-/nativescript-pulltorefresh-2.1.1.tgz",
-  "_shasum": "c6df4d2b30e24fccea02853c52ad85e0abfaf62b",
-  "_shrinkwrap": null,
-  "_spec": "nativescript-pulltorefresh@^2.1.0",
+  "_spec": "2.1.1",
   "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
   "author": {
     "name": "Brad Martin",
@@ -87,7 +69,6 @@
       "url": "https://github.com/matt4446"
     }
   ],
-  "dependencies": {},
   "description": "A NativeScript plugin to provide the Pull to Refresh control on any view.",
   "devDependencies": {
     "husky": "^0.14.3",
@@ -98,15 +79,6 @@
     "tns-platform-declarations": "^4.0.0",
     "tslint": "~5.10.0",
     "typescript": "~2.8.3"
-  },
-  "directories": {},
-  "dist": {
-    "integrity": "sha512-lt6p5IkZiANwFJQckCS8AewoAZdjCFVHd9XOfKsS2qo2MtnZlVV3C5xQ9WUe8EeLst4R2zFaU72pI/FnBOXByg==",
-    "shasum": "c6df4d2b30e24fccea02853c52ad85e0abfaf62b",
-    "tarball": "https://registry.npmjs.org/nativescript-pulltorefresh/-/nativescript-pulltorefresh-2.1.1.tgz",
-    "fileCount": 6,
-    "unpackedSize": 13937,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa69uhCRA9TVsSAnZWagAAEOsP/2a0zOQ2YIuIIybT0ylH\nUmZs4R34wKKFsLjGfJlW13jDaHqiaYVm10kn/wWeDBC++Ez8S4Xnc59HVWJo\nEyWLNBP7nowf5+13ipkI6F08KVXnDzz7l+lg+4lp/uLdVrUqJ90MVgrqetX5\nNYuFf0QEbM8BLfVUPdvO0fvaYu6z2KeyG2+MZpdb38A4znS2YROco9SI37vr\n/MA3TaqrXqPMrGnpQwnBbi7gN7HutQ7WeD8fMXKKEzfm55RnmoyxfugbvNgy\nt9Ti8aWgs6bNvfOt9QGYpfBRhSzbDZ25GGdwrnc6W7U/t9B62ZgEcYEkliWJ\nlG1HVvBz+z382O5wQqr6qP76rN8V6PxwzWUuaRzr2NGj8TMceNEnMx2EIEIP\nOfWemgVQqg70l3YF6A82Sqgr0ndyp3BvwN4p0mc5lxJfkxRhW5IaH/FUjXK+\n5ZTPqFoF36Uh1nkRoxQ7nS5rvU1kojzN60/0+I2c+6uvj9FCpPmVyNqNbU2K\nIJcK0+DWnSsOJuQOtLzLTHNnutTGD/3a9zZKtPGmw5HFWi/gP8vqh2oko4bZ\nQrrU3ysM7458jDGsXscjzyp1/OnQiAgV5Wq2pS78BfEet+v/GmeK0+q+xc9M\nfrmH8dO6xUDzOSNGkcIdSZurNcXsfPRql4LYTqESOD+dkYQEN/GMcQm46xvv\ntble\r\n=j6XW\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "homepage": "https://github.com/bradmartin/nativescript-pulltorefresh",
   "keywords": [
@@ -130,20 +102,6 @@
     ]
   },
   "main": "pulltorefresh",
-  "maintainers": [
-    {
-      "name": "bradmartin",
-      "email": "bradmartin0905@gmail.com"
-    },
-    {
-      "name": "nathanaela",
-      "email": "nathan@master-technology.com"
-    },
-    {
-      "name": "pstaev",
-      "email": "peter.staev@gmail.com"
-    }
-  ],
   "name": "nativescript-pulltorefresh",
   "nativescript": {
     "platforms": {
@@ -157,11 +115,9 @@
       "category": "Interface"
     }
   },
-  "optionalDependencies": {},
   "peerDependencies": {
     "tns-core-modules": "^3.0.0 || >=4.0.0 || >=4.1.0"
   },
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bradmartin/nativescript-pulltorefresh.git"

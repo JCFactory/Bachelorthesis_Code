@@ -164,17 +164,17 @@ module.exports = env => {
             useLibs: false
         }));
     }
-    // if (uglify) {
-    //     config.plugins.push(new webpack.LoaderOptionsPlugin({ minimize: true }));
+    if (uglify) {
+        config.plugins.push(new webpack.LoaderOptionsPlugin({ minimize: true }));
 
-    //     // Work around an Android issue by setting compress = false
-    //     const compress = platform !== "android";
-    //     config.plugins.push(new UglifyJsPlugin({
-    //         uglifyOptions: {
-    //             mangle: { reserved: nsWebpack.uglifyMangleExcludes }, // Deprecated. Remove if using {N} 4+.
-    //             compress,
-    //         }
-    //     }));
-    // }
-    // return config;
+        // Work around an Android issue by setting compress = false
+        const compress = platform !== "android";
+        config.plugins.push(new UglifyJsPlugin({
+            uglifyOptions: {
+                mangle: { reserved: nsWebpack.uglifyMangleExcludes }, // Deprecated. Remove if using {N} 4+.
+                compress,
+            }
+        }));
+    }
+    return config;
 };

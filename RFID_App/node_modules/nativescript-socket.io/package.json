@@ -1,49 +1,31 @@
 {
   "_args": [
     [
-      {
-        "raw": "nativescript-socket.io@^0.9.0",
-        "scope": null,
-        "escapedName": "nativescript-socket.io",
-        "name": "nativescript-socket.io",
-        "rawSpec": "^0.9.0",
-        "spec": ">=0.9.0 <0.10.0",
-        "type": "range"
-      },
+      "nativescript-socket.io@0.9.0",
       "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
     ]
   ],
-  "_from": "nativescript-socket.io@>=0.9.0 <0.10.0",
+  "_from": "nativescript-socket.io@0.9.0",
   "_id": "nativescript-socket.io@0.9.0",
-  "_inCache": true,
+  "_inBundle": false,
+  "_integrity": "sha1-O9ZPBUnbxRZakrQlSE8V/p7TWHg=",
   "_location": "/nativescript-socket.io",
-  "_nodeVersion": "6.11.4",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/nativescript-socket.io-0.9.0.tgz_1509388221861_0.31652130861766636"
-  },
-  "_npmUser": {
-    "name": "naderio",
-    "email": "ping@nader.tech"
-  },
-  "_npmVersion": "5.5.1",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "nativescript-socket.io@^0.9.0",
-    "scope": null,
-    "escapedName": "nativescript-socket.io",
+    "type": "version",
+    "registry": true,
+    "raw": "nativescript-socket.io@0.9.0",
     "name": "nativescript-socket.io",
-    "rawSpec": "^0.9.0",
-    "spec": ">=0.9.0 <0.10.0",
-    "type": "range"
+    "escapedName": "nativescript-socket.io",
+    "rawSpec": "0.9.0",
+    "saveSpec": null,
+    "fetchSpec": "0.9.0"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-socket.io/-/nativescript-socket.io-0.9.0.tgz",
-  "_shasum": "3bd64f0549dbc5165a92b425484f15fe9ed35878",
-  "_shrinkwrap": null,
-  "_spec": "nativescript-socket.io@^0.9.0",
+  "_spec": "0.9.0",
   "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
   "author": {
     "name": "Nader Toukabri",
@@ -58,7 +40,6 @@
       "url": "https://github.com/lfabreges"
     }
   ],
-  "dependencies": {},
   "description": "Full-featured Socket.IO client implementation for NativeScript",
   "devDependencies": {
     "chai": "4.1.2",
@@ -71,13 +52,6 @@
     "tns-platform-declarations": "3.2.0",
     "typescript": "~2.3.4"
   },
-  "directories": {},
-  "dist": {
-    "integrity": "sha512-AcXgIQmlklcdeHJqAcdhIz/Wl8tlN23HzhmWaOi9Iqkp77sDGnRXbUh/xXHCx4OjTL+1U/1YbpyE+JX4EO1sfg==",
-    "shasum": "3bd64f0549dbc5165a92b425484f15fe9ed35878",
-    "tarball": "https://registry.npmjs.org/nativescript-socket.io/-/nativescript-socket.io-0.9.0.tgz"
-  },
-  "gitHead": "dc3dae70f149c07da5d8a6f9e04bd9e8b8637be7",
   "homepage": "https://github.com/naderio/nativescript-socket.io#readme",
   "keywords": [
     "NativeScript",
@@ -93,12 +67,6 @@
   ],
   "license": "Unlicense",
   "main": "socketio",
-  "maintainers": [
-    {
-      "name": "naderio",
-      "email": "contact@nader.tn"
-    }
-  ],
   "name": "nativescript-socket.io",
   "nativescript": {
     "platforms": {
@@ -106,8 +74,6 @@
       "android": "2.0.0"
     }
   },
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/naderio/nativescript-socket.io.git"

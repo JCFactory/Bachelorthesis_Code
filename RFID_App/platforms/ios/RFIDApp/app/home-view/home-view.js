@@ -8,7 +8,6 @@ var page;
 
 var drugs = new ObservableArray();
 
-
 //function to show active and detected tags in green color
 function green(args) {
     var circle = args.object;
@@ -25,35 +24,50 @@ var pageData = new observableModule.fromObject({
     drugs
 });
 
+function tempArr(arr) {
+    newArr = new Array();
+    for (i = 0; i < arr.length; i++) {
+        if (!duplValuescheck(newArr, arr[i])) {
+            newArr.length += 1;
+            newArr[newArr.length - 1] = arr[i];
+        }
+    }
+    alert(newArr);
+}
+
+function duplValuescheck(arr, e) {
+    for (j = 0; j < arr.length; j++) if (arr[j] == e) return true;
+    return false;
+}
+
+
 function serverConnect() {
-    var socket = SocketIO.connect('http://127.0.0.1:4000');
+    var socket = SocketIO.connect('http://127.0.0.1:3000');
     //check for connection
     if (socket !== undefined) {
         socket.on('output', function (data) {
             console.log('connected to socket...' + data.length);
             if (data.length === 0) {
                 alert("No medication data found...");
+            } else {
+                tempArr(drugs.push(data));
             }
-            var stringData = JSON.stringify(data);
-            drugs.push(data);
-
-            // var stringArray = drugs.toString();
-            // if(stringArray!== stringData){
-                // drugs.push(data);
-            // }
-            //  alert(stringData);
-            // var newDrugs = drugs;
-            // drugs = [];
-            // newDrugs.push(data);
         });
-
     };
 };
 
+// exports.onNavigatingTo = function (args) {
+//     // serverConnect();
+//     page = args.object;
+//     page.bindingContext = pageData;
+//     alert("hello");
+//     // serverConnect();
+// }
+
 exports.loaded = function (args) {
+    serverConnect();
     page = args.object;
     page.bindingContext = pageData;
-    serverConnect();
 }
 
 exports.onTap = function (args) {

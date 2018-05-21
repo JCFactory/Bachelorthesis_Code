@@ -1,10 +1,11 @@
 <Page class="page"
+    xmlns:lv="nativescript-ui-listview"
     xmlns="http://schemas.nativescript.org/tns.xsd"
-    xmlns:PullRefresh="nativescript-pulltorefresh" loaded="loaded">
+    xmlns:PullRefresh="nativescript-pulltorefresh" 
+    loaded="loaded">
     <ActionBar class="action-bar">
-            <Label class="action-bar-title" background-color="green" text="Medication"></Label>
+        <Label class="action-bar-title" background-color="green" text="Medication"></Label>
     </ActionBar>
-    <SearchBar id="searchBar" hint="Search for someone"></SearchBar>
     <PullRefresh:PullToRefresh refresh="refreshList">
         <ListView items="{{drugs}}">
             <ListView.itemTemplate>

@@ -1,49 +1,31 @@
 {
   "_args": [
     [
-      {
-        "raw": "tns-core-modules@^4.0.0",
-        "scope": null,
-        "escapedName": "tns-core-modules",
-        "name": "tns-core-modules",
-        "rawSpec": "^4.0.0",
-        "spec": ">=4.0.0 <5.0.0",
-        "type": "range"
-      },
+      "tns-core-modules@4.0.1",
       "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
     ]
   ],
-  "_from": "tns-core-modules@>=4.0.0 <5.0.0",
+  "_from": "tns-core-modules@4.0.1",
   "_id": "tns-core-modules@4.0.1",
-  "_inCache": true,
+  "_inBundle": false,
+  "_integrity": "sha1-3J6KxdfUnDAApQdU1ZDa/tbz+HY=",
   "_location": "/tns-core-modules",
-  "_nodeVersion": "8.11.1",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/tns-core-modules_4.0.1_1526636082141_0.992444119517154"
-  },
-  "_npmUser": {
-    "name": "tns-bot",
-    "email": "nativescript@telerik.com"
-  },
-  "_npmVersion": "5.6.0",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "tns-core-modules@^4.0.0",
-    "scope": null,
-    "escapedName": "tns-core-modules",
+    "type": "version",
+    "registry": true,
+    "raw": "tns-core-modules@4.0.1",
     "name": "tns-core-modules",
-    "rawSpec": "^4.0.0",
-    "spec": ">=4.0.0 <5.0.0",
-    "type": "range"
+    "escapedName": "tns-core-modules",
+    "rawSpec": "4.0.1",
+    "saveSpec": null,
+    "fetchSpec": "4.0.1"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-4.0.1.tgz",
-  "_shasum": "dc9e8ac5d7d49c3000a50754d590dafed6f3f876",
-  "_shrinkwrap": null,
-  "_spec": "tns-core-modules@^4.0.0",
+  "_spec": "4.0.1",
   "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
   "dependencies": {
     "tns-core-modules-widgets": "4.0.0"
@@ -52,15 +34,6 @@
   "devDependencies": {
     "@types/node": "~7.0.5",
     "tns-platform-declarations": "*"
-  },
-  "directories": {},
-  "dist": {
-    "integrity": "sha512-GgfwWC4TgqwSZeimR0mvCyrJjve31gSr3vhnEYQLD/8rQGu1ZS7U5tlHcgHsYtTKtwksxkovXAnHMPBz4MFRfQ==",
-    "shasum": "dc9e8ac5d7d49c3000a50754d590dafed6f3f876",
-    "tarball": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-4.0.1.tgz",
-    "fileCount": 416,
-    "unpackedSize": 2224847,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa/p4yCRA9TVsSAnZWagAAdVgP/1vCiy+B3Vyrx0FCGIN9\nYRqHnApGTEjqZSLhOmrVtFJaLDxXtgJDBrXH9MZ7FHNBB32QsU75VnkZ2Wwv\nQ8DvSL8saRig5MwTxiMBfyqekrxjJOMVJ/O1fgf55vPseZBTkyfgyvyekxrE\nxxSlRotjmMjTQt6O152QgbKmZP6KLIRSFhYKFqVN6mjx5Cb26ggeEnhmJCP6\n8V42GEK4qxtIdiNg2gYWZyy6bqEZl0frnSEdyVQPcmzHbpKG/xTCtMtGwi1P\nylluJr8UfS/N3PcVXgwJCBuDDr+NY5ILL0gK3sb31MFDQvxTRk97sCVn1V0x\nvfD7yg5rt9TQixtFuvQnzNVQ7louJzndxLXMqknarvVIkvkSQ4Be+igHPfal\n/REl04HC7cRiO5MdTTgY5zQRQYMaInbZf759CEc1GzG9ZLQU8MHPNzqT7Y/K\nqAMBm9XGwYgZAJKcyUWma5rixcv2igRLQ4DsK84koqSedwg9skSssPIKBVZe\nQlgetzeMXSI6wzSXwVHpF78x2wlpZ2RuhBjnm52xtxvPSHDPA0inDK51fE0d\nhdfei1AgGUmVONldwss+ZX+MtvvapVznup4Q8athqX8r7SdaNr146bjcFE9K\n4JUQEWCzO7DtkJkdYwFTWl+ucfyEk8/SljLEIYqqWx5RI39e9GhgEimUD0G2\noxO3\r\n=3YYN\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "files": [
     "**/*.d.ts",
@@ -79,24 +52,6 @@
   ],
   "homepage": "https://www.nativescript.org",
   "license": "Apache-2.0",
-  "maintainers": [
-    {
-      "name": "hhristov",
-      "email": "hristo.hristov@outlook.com"
-    },
-    {
-      "name": "panayot.cankov",
-      "email": "panayot.cankov@telerik.com"
-    },
-    {
-      "name": "tns-bot",
-      "email": "nativescript@telerik.com"
-    },
-    {
-      "name": "vakrilov",
-      "email": "alexander.vakrilov@gmail.com"
-    }
-  ],
   "name": "tns-core-modules",
   "nativescript": {
     "platforms": {
@@ -104,8 +59,6 @@
       "android": "3.0.0"
     }
   },
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "https://github.com/NativeScript/NativeScript/commit/67c1df35d4ab69a1fc5e5384464c9fec545d9a03"
