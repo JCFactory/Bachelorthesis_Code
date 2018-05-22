@@ -1,19 +1,22 @@
-<Page class="page"
-    xmlns:lv="nativescript-ui-listview"
+<Page
     xmlns="http://schemas.nativescript.org/tns.xsd"
-    xmlns:PullRefresh="nativescript-pulltorefresh" 
-    loaded="loaded">
+    xmlns:lv="nativescript-ui-listview"
+    xmlns:PullRefresh="nativescript-pulltorefresh" loaded="pageLoaded">
     <ActionBar class="action-bar">
         <Label class="action-bar-title" background-color="green" text="Medication"></Label>
     </ActionBar>
-    <PullRefresh:PullToRefresh refresh="refreshList">
-        <ListView items="{{drugs}}">
-            <ListView.itemTemplate>
-                <GridLayout columns="*,*">
-                    <Label text="{{name}}" class="btn" col="0" colSpan="2" tap="onTap"/>
-                    <Label stretch="none" class="circle" col="1"/>
+    <lv:RadListView id="listview" items="{{ items }}" class="list-group" pullToRefresh="true" pullToRefreshInitiated="pullToRefreshInitiated">
+            <lv:RadListView.listViewLayout>
+                <lv:ListViewLinearLayout scrollDirection="Vertical"/>
+            </lv:RadListView.listViewLayout>
+            <lv:RadListView.itemTemplate>
+                <GridLayout class="list-group-item" columns="*,*" tap="onTap">
+                    <Image col="1" stretch="none" class="circle"/>
+                    <StackLayout col="0" >
+                        <Label text="{{ name }}" class="list-group-item-heading" />
+                        <Label text="{{ id }}" class="list-group-item-text" />
+                    </StackLayout>
                 </GridLayout>
-            </ListView.itemTemplate>
-        </ListView>
-    </PullRefresh:PullToRefresh>
+            </lv:RadListView.itemTemplate>
+    </lv:RadListView>
 </Page>

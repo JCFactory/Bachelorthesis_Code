@@ -9,6 +9,9 @@
   "description": "NativeScript Application",
   "nativescript": {
     "id": "org.nativescript.RFIDApp",
+    "tns-android": {
+      "version": "4.0.1"
+    },
     "tns-ios": {
       "version": "4.0.1"
     }
@@ -27,7 +30,7 @@
     "nativescript-theme-core": "~1.0.4",
     "nativescript-ui-listview": "^3.5.6",
     "socket.io": "^2.1.0",
-    "tns-core-modules": "^4.0.0"
+    "tns-core-modules": "^4.0.1"
   },
   "devDependencies": {
     "babel-traverse": "6.26.0",
@@ -43,7 +46,7 @@
     "raw-loader": "~0.5.1",
     "resolve-url-loader": "~2.2.1",
     "uglifyjs-webpack-plugin": "~1.1.6",
-    "webpack": "^4.8.3",
+    "webpack": "^2.7.0",
     "webpack-bundle-analyzer": "^2.9.1",
     "webpack-dev-server": "^3.1.4",
     "webpack-sources": "~1.1.0"

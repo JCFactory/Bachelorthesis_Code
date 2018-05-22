@@ -6,9 +6,9 @@ Environment  LANG=en_US.US-ASCII PATH=/Applications/Xcode.app/Contents/Developer
 BuilderIdent ProcessPCH\ /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/ios/build/sharedpch/RFIDApp-Prefix-crughfpgtajbvzccrstpbinixfge/RFIDApp-Prefix.pch.pch\ RFIDApp/RFIDApp-Prefix.pch\ normal\ x86_64\ objective-c\ com.apple.compilers.llvm.clang.1_0.compiler
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/SDKSettings.plist 0 1509139769 919 33204
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/CoreServices/SystemVersion.plist 0 1510295428 490 33188
-InputFile    /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/ios/RFIDApp/RFIDApp-Prefix.pch 0 1526915744 236 33188
+InputFile    /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/ios/RFIDApp/RFIDApp-Prefix.pch 0 1526996504 236 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/SDKSettings.plist 0 1509139769 919 33204
-InputFile    /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/ios/RFIDApp/RFIDApp-Prefix.pch 0 1526915744 236 33188
+InputFile    /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/ios/RFIDApp/RFIDApp-Prefix.pch 0 1526996504 236 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/Availability.h 0 1509143014 17607 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/AvailabilityInternal.h 0 1508960121 3476765 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h 0 1510206747 8222 33188

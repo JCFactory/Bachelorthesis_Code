@@ -19,7 +19,7 @@
       <projects_view />
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="79" />
     <option name="y" value="24" />
     <option name="width" value="1201" />
@@ -56,19 +56,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="RFID_App" type="1abcf292:AndroidViewProjectNode" />
-              <item name="RFID_App" type="e9137016:NonAndroidModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -80,6 +67,19 @@
               <item name="RFID_App" type="b2602c69:ProjectViewProjectNode" />
               <item name="RFID_App" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RFID_App" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RFID_App" type="e9137016:NonAndroidModuleNode" />
             </path>
           </expand>
           <select />
@@ -252,7 +252,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="23" width="1201" height="777" extended-state="6" />
+    <frame x="79" y="24" width="1201" height="777" extended-state="0" />
     <layout>
       <window_info id="ADC" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />

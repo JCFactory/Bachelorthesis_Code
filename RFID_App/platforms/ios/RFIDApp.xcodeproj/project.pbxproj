@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B58C0EEC82149E7B94D9483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2547C82A3C4C72AB3F6925 /* LaunchScreen.storyboard */; };
-		3CFB1249395042A2AA7760F3 /* TNSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAE24A236784FDEAB67CB96 /* TNSCore.framework */; };
-		5BF76FF271524CFDB5050ACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A8DC57C5804751A2D565DF /* Assets.xcassets */; };
+		14FB492254B644568B6B5484 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BC7EF07E955240E4BB15D5CA /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1807569DED5146DDB795A550 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7EF07E955240E4BB15D5CA /* TNSWidgets.framework */; };
+		2C0F3F94024741F9B45C4EDA /* TNSListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850BB9395E964F7E9A23ED9A /* TNSListView.framework */; };
+		67FE311337AE466B8E0232A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9AAA9817F64E349AF7EF99 /* LaunchScreen.storyboard */; };
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
-		87A09490316E27B615167524 /* Pods_RFIDApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4627680CB25C2F80368B6ED /* Pods_RFIDApp.framework */; };
-		8F2BB031F4014D6283394B92 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F73E8A6E28E4CB5ACBD2902 /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8F9C4BFAAE57428CA36FE515 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9ACC4EB3F5034D9CB1107BED /* build.xcconfig */; };
-		918040CD2B7B4E978770E092 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F73E8A6E28E4CB5ACBD2902 /* TNSWidgets.framework */; };
-		B8BBCAE6833C44C1849DF18D /* TNSListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC9A23326DF4C3CADBB99D6 /* TNSListView.framework */; };
-		CB241D1679FE41D8850EBA77 /* TNSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFAE24A236784FDEAB67CB96 /* TNSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8842DA43DF0B41E1BC2AB7D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54D042A362764AABBD73C1C3 /* Assets.xcassets */; };
+		A1AAF06FD6A246318C6147C7 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FC643AAF291D493B9CF93C92 /* build.xcconfig */; };
+		B45AD7DAF9CF416AA5B53B0C /* TNSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC3ED59EBFC4A15A82B5C29 /* TNSCore.framework */; };
+		C1A20FEAE43306A2B611EA71 /* Pods_RFIDApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391C9C24B13F3D68DC764E52 /* Pods_RFIDApp.framework */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
-		DCCCE18E2F8A4EB5A5DDA412 /* TNSListView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC9A23326DF4C3CADBB99D6 /* TNSListView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EFE5551321414DAD940D1658 /* TNSListView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 850BB9395E964F7E9A23ED9A /* TNSListView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FE3E6E95DF9947D5B09C7221 /* TNSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ADC3ED59EBFC4A15A82B5C29 /* TNSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,9 +29,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DCCCE18E2F8A4EB5A5DDA412 /* TNSListView.framework in Embed Frameworks */,
-				CB241D1679FE41D8850EBA77 /* TNSCore.framework in Embed Frameworks */,
-				8F2BB031F4014D6283394B92 /* TNSWidgets.framework in Embed Frameworks */,
+				EFE5551321414DAD940D1658 /* TNSListView.framework in Embed Frameworks */,
+				FE3E6E95DF9947D5B09C7221 /* TNSCore.framework in Embed Frameworks */,
+				14FB492254B644568B6B5484 /* TNSWidgets.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,23 +39,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		13A8DC57C5804751A2D565DF /* Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Assets.xcassets; path = RFIDApp/Resources/Assets.xcassets; sourceTree = "<group>"; };
-		1AC9A23326DF4C3CADBB99D6 /* TNSListView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSListView.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-listview/platforms/ios/TNSListView.framework"; sourceTree = "<group>"; };
-		1F73E8A6E28E4CB5ACBD2902 /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		391C9C24B13F3D68DC764E52 /* Pods_RFIDApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RFIDApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D042A362764AABBD73C1C3 /* Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Assets.xcassets; path = RFIDApp/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		850BB9395E964F7E9A23ED9A /* TNSListView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSListView.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-listview/platforms/ios/TNSListView.framework"; sourceTree = "<group>"; };
 		858B832E18CA111C00AB12DE /* RFIDApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFIDApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		858B833918CA111C00AB12DE /* RFIDApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RFIDApp-Info.plist"; sourceTree = "<group>"; };
 		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		858B833F18CA111C00AB12DE /* RFIDApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RFIDApp-Prefix.pch"; sourceTree = "<group>"; };
 		858B843318CA22B800AB12DE /* RFIDApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFIDApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A2547C82A3C4C72AB3F6925 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = RFIDApp/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9ACC4EB3F5034D9CB1107BED /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = build.xcconfig; path = RFIDApp/Resources/build.xcconfig; sourceTree = "<group>"; };
+		ADC3ED59EBFC4A15A82B5C29 /* TNSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSCore.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-core/platforms/ios/TNSCore.framework"; sourceTree = "<group>"; };
+		BC7EF07E955240E4BB15D5CA /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		BF9AAA9817F64E349AF7EF99 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = RFIDApp/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
 		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		E4627680CB25C2F80368B6ED /* Pods_RFIDApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RFIDApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFAE24A236784FDEAB67CB96 /* TNSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSCore.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-core/platforms/ios/TNSCore.framework"; sourceTree = "<group>"; };
+		FC643AAF291D493B9CF93C92 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = build.xcconfig; path = RFIDApp/Resources/build.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,16 +63,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8BBCAE6833C44C1849DF18D /* TNSListView.framework in Frameworks */,
-				3CFB1249395042A2AA7760F3 /* TNSCore.framework in Frameworks */,
-				918040CD2B7B4E978770E092 /* TNSWidgets.framework in Frameworks */,
-				87A09490316E27B615167524 /* Pods_RFIDApp.framework in Frameworks */,
+				2C0F3F94024741F9B45C4EDA /* TNSListView.framework in Frameworks */,
+				B45AD7DAF9CF416AA5B53B0C /* TNSCore.framework in Frameworks */,
+				1807569DED5146DDB795A550 /* TNSWidgets.framework in Frameworks */,
+				C1A20FEAE43306A2B611EA71 /* Pods_RFIDApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D5276A1800FBD003600D658 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		858B832518CA111C00AB12DE = {
 			isa = PBXGroup;
 			children = (
@@ -80,7 +87,7 @@
 				858B833718CA111C00AB12DE /* RFIDApp */,
 				858B833018CA111C00AB12DE /* Frameworks */,
 				858B832F18CA111C00AB12DE /* Products */,
-				9E8F74734ED5A734463B449D /* Pods */,
+				2D5276A1800FBD003600D658 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +103,10 @@
 		858B833018CA111C00AB12DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1AC9A23326DF4C3CADBB99D6 /* TNSListView.framework */,
-				FFAE24A236784FDEAB67CB96 /* TNSCore.framework */,
-				1F73E8A6E28E4CB5ACBD2902 /* TNSWidgets.framework */,
-				E4627680CB25C2F80368B6ED /* Pods_RFIDApp.framework */,
+				850BB9395E964F7E9A23ED9A /* TNSListView.framework */,
+				ADC3ED59EBFC4A15A82B5C29 /* TNSCore.framework */,
+				BC7EF07E955240E4BB15D5CA /* TNSWidgets.framework */,
+				391C9C24B13F3D68DC764E52 /* Pods_RFIDApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,19 +134,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9E8F74734ED5A734463B449D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		E070579D1B39A9D000214BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				13A8DC57C5804751A2D565DF /* Assets.xcassets */,
-				9A2547C82A3C4C72AB3F6925 /* LaunchScreen.storyboard */,
-				9ACC4EB3F5034D9CB1107BED /* build.xcconfig */,
+				54D042A362764AABBD73C1C3 /* Assets.xcassets */,
+				BF9AAA9817F64E349AF7EF99 /* LaunchScreen.storyboard */,
+				FC643AAF291D493B9CF93C92 /* build.xcconfig */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "RFIDApp" */;
 			buildPhases = (
-				5A6FB60E84ABD9A148EE1050 /* [CP] Check Pods Manifest.lock */,
+				3DC00CC119DAEDAF693F2911 /* [CP] Check Pods Manifest.lock */,
 				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
 				858B83F218CA22B800AB12DE /* Sources */,
 				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
@@ -159,7 +159,7 @@
 				858B842C18CA22B800AB12DE /* Resources */,
 				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
 				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
-				D92C169E8BD302CE9989085F /* [CP] Embed Pods Frameworks */,
+				1E6D456396390C9A1112F4E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,16 +204,36 @@
 			files = (
 				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
 				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
-				5BF76FF271524CFDB5050ACF /* Assets.xcassets in Resources */,
-				2B58C0EEC82149E7B94D9483 /* LaunchScreen.storyboard in Resources */,
-				8F9C4BFAAE57428CA36FE515 /* build.xcconfig in Resources */,
+				8842DA43DF0B41E1BC2AB7D4 /* Assets.xcassets in Resources */,
+				67FE311337AE466B8E0232A9 /* LaunchScreen.storyboard in Resources */,
+				A1AAF06FD6A246318C6147C7 /* build.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5A6FB60E84ABD9A148EE1050 /* [CP] Check Pods Manifest.lock */ = {
+		1E6D456396390C9A1112F4E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RFIDApp/Pods-RFIDApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/StarscreamSocketIO/StarscreamSocketIO.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StarscreamSocketIO.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RFIDApp/Pods-RFIDApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DC00CC119DAEDAF693F2911 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,26 +294,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
-			showEnvVarsInLog = 0;
-		};
-		D92C169E8BD302CE9989085F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RFIDApp/Pods-RFIDApp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
-				"${BUILT_PRODUCTS_DIR}/StarscreamSocketIO/StarscreamSocketIO.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StarscreamSocketIO.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RFIDApp/Pods-RFIDApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

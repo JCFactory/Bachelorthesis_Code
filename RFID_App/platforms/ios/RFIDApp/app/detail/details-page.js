@@ -34,3 +34,15 @@ exports.loaded = function (args) {
     page = args.object;
     page.bindingContext = context;
 }
+
+exports.onNavBtnTap = function (args) {
+    const navigationEntry = {
+        moduleName: "home-view/home-view",
+        animated: true,
+        clearHistory: false,
+        transition: {
+            name: "fade"
+        }
+    };
+    topmost().navigate(navigationEntry);
+}

@@ -2,6 +2,7 @@
     xmlns="http://schemas.nativescript.org/tns.xsd">
     <ActionBar class="action-bar">
         <Label class="action-bar-title" background-color="green" text="Details"></Label>
+        <!-- <NavigationButton text="Go Back" android.systemIcon="ic_menu_back" tap="onNavBtnTap"/> -->
     </ActionBar>
     <GridLayout rows="50, 50, 50, 50, 50, 50" columns="*, *">
         <GridLayout.itemTemplate>
