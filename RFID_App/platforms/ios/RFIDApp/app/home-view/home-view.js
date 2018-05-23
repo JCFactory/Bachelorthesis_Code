@@ -1,6 +1,5 @@
 var view = require("ui/core/view");
 const SocketIO = require('nativescript-socket.io');
-
 var Observable = require("data/observable").Observable;
 var ObservableArray = require("data/observable-array").ObservableArray;
 const frameModule = require('ui/frame');
@@ -12,7 +11,6 @@ var pageData = new Observable();
 exports.pageLoaded = function (args) {
     getDataFromSocket(args);
 };
-
 
 exports.pullToRefreshInitiated = function (args) {
     setTimeout(function () {
@@ -56,7 +54,7 @@ function getDataFromSocket(args){
             console.log(StringData);
             if (drugs.length === 0) {
                 alert("No medication data found...");
-
+                items.push(drugs);
             } else {
                 while(items.length){
                     items.pop();
