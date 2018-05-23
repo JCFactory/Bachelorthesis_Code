@@ -1,7 +1,5 @@
-﻿.btn {
-    font-size: 18;
-    color: rgb(16, 121, 190);
-    margin-left: 20;
+﻿.names {
+    margin-left: 30;
     max-width: 10;
     white-space: nowrap;
     overflow: hidden;
@@ -10,8 +8,9 @@
 .circle {
     height: 50px;
     width: 50px;
-    background-color: #10BA10;
-    border-radius: 50%;
+    /* background-color: #10BA10;
+    border-radius: 50%; */
+    background: url('./images/icon.png');
     display: inline-block;
 }
 

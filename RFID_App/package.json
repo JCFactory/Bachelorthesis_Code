@@ -9,10 +9,10 @@
   "description": "NativeScript Application",
   "nativescript": {
     "id": "org.nativescript.RFIDApp",
-    "tns-android": {
+    "tns-ios": {
       "version": "4.0.1"
     },
-    "tns-ios": {
+    "tns-android": {
       "version": "4.0.1"
     }
   },

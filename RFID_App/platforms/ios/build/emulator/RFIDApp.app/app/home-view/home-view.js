@@ -10,19 +10,53 @@ var items = new ObservableArray([]);
 var pageData = new Observable();
 
 exports.pageLoaded = function (args) {
-    serverConnect();
+    var socket = SocketIO.connect('http://127.0.0.1:3000');
     page = args.object;
-    page.bindingContext = pageData;
-    pageData.set("items", items);
+    //check for connection
+    if (socket !== undefined) {
+        socket.on('output', function (drugs) {
+            var StringData = JSON.stringify(drugs);
+            console.log(StringData);
+            if (drugs.length === 0) {
+                alert("No medication data found...");
+            } else {
+                items.push(drugs);
+            }
+        });
+        pageData.set("items", items);
+        page.bindingContext = pageData;
+    };
 };
 
 
-exports.pullToRefreshInitiated = function () {
-    setTimeout(function () {
-        serverConnect();
-        page.getViewById("listview").notifyPullToRefreshFinished();
-    }, 2000);
-};
+// exports.pullToRefreshInitiated = function (args) {
+//     setTimeout(function () {
+//         var socket = SocketIO.connect('http://127.0.0.1:3000');
+//         console.log("socket connected");
+//         //check for connection
+//         if (socket !== undefined) {
+//             console.log("socket not empty");
+
+//             socket.on('output', function (data) {
+//                 console.log("retrieving output");
+
+//                 var StringData = JSON.stringify(data);
+//                 console.log(StringData);
+//                 if (data.length === 0) {
+//                     alert("No medication data found...");
+//                     console.log("nothing found");
+//                 } else {
+//                     items.push(data);
+//                 }
+//             });
+//         };
+//         // serverConnect();
+//         page = args.object;
+//         page.bindingContext = pageData;
+//         pageData.set("items", items); page.getViewById("listview").notifyPullToRefreshFinished();
+//     }, 2000);
+//     alert("refreshing finished");
+// };
 
 exports.onTap = function (args) {
     const selectedItem = args.view.bindingContext;
@@ -37,7 +71,7 @@ exports.onTap = function (args) {
             timeStamp: selectedItem.timeStamp
         },
         animated: true,
-        clearHistory: true,
+        clearHistory: false,
         transition: {
             name: "fade"
         }
@@ -46,57 +80,19 @@ exports.onTap = function (args) {
     topmost().navigate(navigationEntry);
 }
 
-function serverConnect() {
-    var socket = SocketIO.connect('http://127.0.0.1:3000');
-    //check for connection
-    if (socket !== undefined) {
-        socket.on('output', function (data) {
-            var StringData = JSON.stringify(data);
-            console.log(StringData);
-            console.log('connected to socket...' + data);
-            if (data.length === 0) {
-                alert("No medication data found...");
-            } else {
-                items.push(data);
-                // for (var i = 0; i < StringData.length; i++) {
-                //     items.push({
-                //         itemName: StringData[i].name,
-                //         itemDesc: StringData[i].id
-                //     });
-                // }
-                // items.push(data);
-            }
-        });
-    };
-}
-
-
-
-
-
-
-// var Observable = require("data/observable").Observable;
-// var ObservableArray = require("data/observable-array").ObservableArray;
-
-// var page;
-// var items = new ObservableArray([]);
-// var pageData = new Observable();
-
-// // //function to show active and detected tags in green color
-// // function green(args) {
-// //     var circle = args.object;
-// //     circle.color = "#10BA10";
-// // }
-
-// // //function to show inactive tags in red color
-// // function red(args) {
-// //     var circle = args.object;
-// //     circle.color = "#E53003";
-// // }
-
-// // var pageData = new observableModule.fromObject({
-// //     drugs
-// // });
-
-
-
+// function serverConnect() {
+//     var socket = SocketIO.connect('http://127.0.0.1:3000');
+//     //check for connection
+//     if (socket !== undefined) {
+//         socket.on('output', function (data) {
+//             var StringData = JSON.stringify(data);
+//             console.log(StringData);
+//             console.log('connected to socket...' + data);
+//             if (data.length === 0) {
+//                 alert("No medication data found...");
+//             } else {
+//                 items.push(data);
+//             }
+//         });
+//     };
+// }

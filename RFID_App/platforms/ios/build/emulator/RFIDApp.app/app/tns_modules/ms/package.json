@@ -22,11 +22,6 @@
     "fetchSpec": "2.0.0"
   },
   "_requiredBy": [
-    "/@webassemblyjs/ast/debug",
-    "/@webassemblyjs/helper-buffer/debug",
-    "/@webassemblyjs/helper-wasm-section/debug",
-    "/@webassemblyjs/wasm-edit/debug",
-    "/@webassemblyjs/wasm-opt/debug",
     "/debug",
     "/engine.io-client/debug",
     "/engine.io/debug",

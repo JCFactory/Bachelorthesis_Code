@@ -10,32 +10,16 @@ var items = new ObservableArray([]);
 var pageData = new Observable();
 
 exports.pageLoaded = function (args) {
-    var socket = SocketIO.connect('http://127.0.0.1:3000');
-    //check for connection
-    if (socket !== undefined) {
-        socket.on('output', function (data) {
-            var StringData = JSON.stringify(data);
-            console.log(StringData);
-            console.log('connected to socket...' + data);
-            if (data.length === 0) {
-                alert("No medication data found...");
-            } else {
-                items.push(data);
-            }
-        });
-    };
-    // serverConnect();
-    page = args.object;
-    page.bindingContext = pageData;
-    pageData.set("items", items);
+    getDataFromSocket(args);
 };
 
 
-exports.pullToRefreshInitiated = function () {
+exports.pullToRefreshInitiated = function (args) {
     setTimeout(function () {
-        serverConnect();
+        getDataFromSocket(args);
         page.getViewById("listview").notifyPullToRefreshFinished();
     }, 2000);
+    alert("refreshing finished");
 };
 
 exports.onTap = function (args) {
@@ -60,50 +44,25 @@ exports.onTap = function (args) {
     topmost().navigate(navigationEntry);
 }
 
-function serverConnect() {
+function getDataFromSocket(args){
     var socket = SocketIO.connect('http://127.0.0.1:3000');
+    page = args.object;
+    pageData.set("items", items);
+    page.bindingContext = pageData;
     //check for connection
     if (socket !== undefined) {
-        socket.on('output', function (data) {
-            var StringData = JSON.stringify(data);
+        socket.on('output', function (drugs) {
+            var StringData = JSON.stringify(drugs);
             console.log(StringData);
-            console.log('connected to socket...' + data);
-            if (data.length === 0) {
+            if (drugs.length === 0) {
                 alert("No medication data found...");
+
             } else {
-                items.push(data);
+                while(items.length){
+                    items.pop();
+                }
+                items.push(drugs);
             }
-        });
+        }); 
     };
 }
-
-
-
-
-
-
-// var Observable = require("data/observable").Observable;
-// var ObservableArray = require("data/observable-array").ObservableArray;
-
-// var page;
-// var items = new ObservableArray([]);
-// var pageData = new Observable();
-
-// // //function to show active and detected tags in green color
-// // function green(args) {
-// //     var circle = args.object;
-// //     circle.color = "#10BA10";
-// // }
-
-// // //function to show inactive tags in red color
-// // function red(args) {
-// //     var circle = args.object;
-// //     circle.color = "#E53003";
-// // }
-
-// // var pageData = new observableModule.fromObject({
-// //     drugs
-// // });
-
-
-

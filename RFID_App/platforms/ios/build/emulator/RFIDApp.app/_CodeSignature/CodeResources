@@ -102,7 +102,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		8ZpkfI8xpzupfZAOaPkmmYM04ZI=
+		Kc4EQhxYh30Xk46cJs1ivwIUQpI=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Frameworks/SocketIO.framework/SocketIO</key>
 		<data>
-		DSGOxqBhgNLZYK6K3tSczLmzmIA=
+		QLtqqpd0qNUlYZDJfilZzIUBcJM=
 		</data>
 		<key>Frameworks/SocketIO.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Frameworks/StarscreamSocketIO.framework/StarscreamSocketIO</key>
 		<data>
-		7oMuM/lhAthLF/WylkeWMOaQBhM=
+		ak2NheIrcx+S6gk3hS4qB0yMRf8=
 		</data>
 		<key>Frameworks/StarscreamSocketIO.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -306,7 +306,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		j3mLzV6qP1Xz2DzrpbPERAFIPK8=
+		HsLSbezonlb1dLTdJBfxHClqXR4=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -314,7 +314,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		xGf576QLDCAYmdOWr/w+ostjVFs=
+		moxmgtzDVaHUMLOdsgq9ekaX2oQ=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -334,11 +334,11 @@
 		</data>
 		<key>app/app.css</key>
 		<data>
-		ZxDiUs/VXWpxgnAnzjmGtO8PNIs=
+		kMk4RN3OdxQlgDhiSQVFzszIfTU=
 		</data>
 		<key>app/app.js</key>
 		<data>
-		p6D4r8ww8xpa3obcAAyEsaB0s40=
+		VB9uICcTjsSNIRDs4iMhIEpl6wQ=
 		</data>
 		<key>app/bundle-config.js</key>
 		<data>
@@ -346,11 +346,11 @@
 		</data>
 		<key>app/detail/details-page.js</key>
 		<data>
-		kFTeniPeAb0OEnAwPS9h0qQLDoc=
+		vUWo0Wk+1S8+KpvtKP1qDelBv2M=
 		</data>
 		<key>app/detail/details-page.xml</key>
 		<data>
-		/iHsAzTRbZDKoPKZvx1Y1vWU3Wo=
+		nHEuJzATQuny6SElHCtAdrTfJTw=
 		</data>
 		<key>app/hihi/bin/forever</key>
 		<data>
@@ -8410,23 +8410,15 @@
 		</data>
 		<key>app/home-view/home-view.js</key>
 		<data>
-		f0jiIgxSlc0oWsnBQrTnJIeO9Oc=
+		vZCQ3GZQWwEpB97gIpqReZBXMbw=
 		</data>
 		<key>app/home-view/home-view.xml</key>
 		<data>
-		awqoYKvxIZnwurinUIlxc6cjqx8=
+		QRub4BMBvixumIvyWz6rbbIKKDk=
 		</data>
-		<key>app/images/272-cross.png</key>
+		<key>app/images/icon.png</key>
 		<data>
-		wq3KqvV1EErfrTr1WySAg1zJnBA=
-		</data>
-		<key>app/images/273-checkmark.png</key>
-		<data>
-		eeMNVIf5Ys5aDgImvf3Au5HI2Vw=
-		</data>
-		<key>app/images/logo.jpg</key>
-		<data>
-		E+O7DgkHqdsujtiKTJGwyrgjcTw=
+		KjZvfY/oEhqIMIReD/EoqduZOjY=
 		</data>
 		<key>app/mongo-node/mongo-node.js</key>
 		<data>
@@ -8902,7 +8894,7 @@
 		</data>
 		<key>app/tns_modules/async/package.json</key>
 		<data>
-		QIRCLZy0O29LR74+2lBEmnf+2vI=
+		8m2x54KXlmEAQvyotjrFcUKyXGg=
 		</data>
 		<key>app/tns_modules/async/parallel.js</key>
 		<data>
@@ -15754,7 +15746,7 @@
 		</data>
 		<key>app/tns_modules/ms/package.json</key>
 		<data>
-		iTkJG30NOAx6t0LKtMAuHM8V53w=
+		yms8qH9hM2eg6czjsXfxT6/3hiM=
 		</data>
 		<key>app/tns_modules/ms/readme.md</key>
 		<data>
@@ -17250,7 +17242,7 @@
 		</data>
 		<key>app/tns_modules/tns-core-modules/package.json</key>
 		<data>
-		UoGtalcVDykjOo5GRjeGqe8Naz0=
+		XWai9/y6Tbi0OMvQkpU0HLaszgw=
 		</data>
 		<key>app/tns_modules/tns-core-modules/platform/package.json</key>
 		<data>
@@ -18484,11 +18476,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8ZpkfI8xpzupfZAOaPkmmYM04ZI=
+			Kc4EQhxYh30Xk46cJs1ivwIUQpI=
 			</data>
 			<key>hash2</key>
 			<data>
-			u86j1SZMb1CfS4P0WuP0BwwaMXLOFShpILawIFjqY6s=
+			6J5ZPw7ojd+OfbSPFbKAiucKA4xTn6ZnRZKZuUqSzc8=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -18539,11 +18531,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DSGOxqBhgNLZYK6K3tSczLmzmIA=
+			QLtqqpd0qNUlYZDJfilZzIUBcJM=
 			</data>
 			<key>hash2</key>
 			<data>
-			IRMHMIxGb5Umb962FDFHFs3odMpvoslqziF6st+GZMA=
+			RFFponauaiWwn42W9CBPXydc0Hjjj22hQdPapttQYMM=
 			</data>
 		</dict>
 		<key>Frameworks/SocketIO.framework/_CodeSignature/CodeResources</key>
@@ -18572,11 +18564,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7oMuM/lhAthLF/WylkeWMOaQBhM=
+			ak2NheIrcx+S6gk3hS4qB0yMRf8=
 			</data>
 			<key>hash2</key>
 			<data>
-			hBrzXxGhSjM1iVnChL3ny3ZgF57M5BqgmKjKP25t46U=
+			+6rl6ftZvbR3w+oClxuqIefbMkWM55UdYAF9bfoiAsM=
 			</data>
 		</dict>
 		<key>Frameworks/StarscreamSocketIO.framework/_CodeSignature/CodeResources</key>
@@ -19034,11 +19026,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			j3mLzV6qP1Xz2DzrpbPERAFIPK8=
+			HsLSbezonlb1dLTdJBfxHClqXR4=
 			</data>
 			<key>hash2</key>
 			<data>
-			qJcRSqtTQBsXTVL31jAu7Rjs/GTATtTpvYwTqrJSNF0=
+			769aJKwda9R+jDZu/dNmWtuLfMEkNB/fdzuAfmSE4sU=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -19056,11 +19048,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xGf576QLDCAYmdOWr/w+ostjVFs=
+			moxmgtzDVaHUMLOdsgq9ekaX2oQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			/dLQUm8zT58J916w6RQ5Dvj5FS9YEIEk2Px8ll06vZU=
+			1QIpTmlNrUX0Fz7V+3hCBWUXIrAwF3YDEPJQQsE3YSk=
 			</data>
 		</dict>
 		<key>app/CODE_OF_CONDUCT.md</key>
@@ -19100,22 +19092,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZxDiUs/VXWpxgnAnzjmGtO8PNIs=
+			kMk4RN3OdxQlgDhiSQVFzszIfTU=
 			</data>
 			<key>hash2</key>
 			<data>
-			/g29X4LOuwT5oAc2CNIzPhophFOLnVb2b5JqwWBzqE0=
+			SiTbzqODRcve7+hzR+bQmLrUiYI71wOgdc1U1ogJhsA=
 			</data>
 		</dict>
 		<key>app/app.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			p6D4r8ww8xpa3obcAAyEsaB0s40=
+			VB9uICcTjsSNIRDs4iMhIEpl6wQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			zibrXEFSQ4QoDS3i6J2CiuAwf5hRo3lj44pcJpRzY/U=
+			AZunddyEf1fQ/UujVMnquxJlZukgOQrHl6nqaOTYYeQ=
 			</data>
 		</dict>
 		<key>app/bundle-config.js</key>
@@ -19133,22 +19125,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kFTeniPeAb0OEnAwPS9h0qQLDoc=
+			vUWo0Wk+1S8+KpvtKP1qDelBv2M=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z9S8uBdukzxqp+n5ZnOvsUzblE1j6Y+Q6tgsovzGGC0=
+			NNLMpjly5kMfCzmVnz0QzRU1+mXVArNBiH9dFd2Y7ZY=
 			</data>
 		</dict>
 		<key>app/detail/details-page.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/iHsAzTRbZDKoPKZvx1Y1vWU3Wo=
+			nHEuJzATQuny6SElHCtAdrTfJTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			+EjmiM9+JV5+cH9v0e9I7Jgvzn4qcvhNaBLplRznkF8=
+			8w1XGXUShXskBxFcCbZhEiMLvR/gtPDyIOMbrb64RxU=
 			</data>
 		</dict>
 		<key>app/hihi/bin/forever</key>
@@ -41309,55 +41301,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f0jiIgxSlc0oWsnBQrTnJIeO9Oc=
+			vZCQ3GZQWwEpB97gIpqReZBXMbw=
 			</data>
 			<key>hash2</key>
 			<data>
-			pI0MxIQ2wNCMlFQj0Z4madWpDFxsAxICqiuF9B/3/AE=
+			J/Sf3Km1ZyfsRElV/fCEoMQywnGFtniz7VTVvI+Bsmc=
 			</data>
 		</dict>
 		<key>app/home-view/home-view.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			awqoYKvxIZnwurinUIlxc6cjqx8=
+			QRub4BMBvixumIvyWz6rbbIKKDk=
 			</data>
 			<key>hash2</key>
 			<data>
-			BidHCZGZtLerjq6zC1KF+vszj/TTf/HW9uAZoUPDAII=
+			YZkw+ltkgj+9eq7s4B5Y1JRQqwRbk5D1V+Ove0ZDR/Y=
 			</data>
 		</dict>
-		<key>app/images/272-cross.png</key>
+		<key>app/images/icon.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wq3KqvV1EErfrTr1WySAg1zJnBA=
+			KjZvfY/oEhqIMIReD/EoqduZOjY=
 			</data>
 			<key>hash2</key>
 			<data>
-			rEApIQwVN1zVV3jo312e6/RFlzYLa3uy3f5c6b985VM=
-			</data>
-		</dict>
-		<key>app/images/273-checkmark.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eeMNVIf5Ys5aDgImvf3Au5HI2Vw=
-			</data>
-			<key>hash2</key>
-			<data>
-			uFOYWxD4rsgH5yu45ZEV2IupmfTXwpN2C9Ahb+Qz5xk=
-			</data>
-		</dict>
-		<key>app/images/logo.jpg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			E+O7DgkHqdsujtiKTJGwyrgjcTw=
-			</data>
-			<key>hash2</key>
-			<data>
-			yZixpKoyWGNJSvy/ngbHaudt5d0yYQZ+jYEN52ls7Rs=
+			/dWJfpAe0NQt17wqtLW2TW/WXKAKnsYTcG0D+KDNhCk=
 			</data>
 		</dict>
 		<key>app/mongo-node/mongo-node.js</key>
@@ -42662,11 +42632,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QIRCLZy0O29LR74+2lBEmnf+2vI=
+			8m2x54KXlmEAQvyotjrFcUKyXGg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ilt6CI36XA81A5bzDD/RCshwb/jVLhBA31XlYv7dY4Y=
+			TXa5C3lZK1o0fJTEzrit7A0o295YI1YBDNi6XJBgvPI=
 			</data>
 		</dict>
 		<key>app/tns_modules/async/parallel.js</key>
@@ -61505,11 +61475,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iTkJG30NOAx6t0LKtMAuHM8V53w=
+			yms8qH9hM2eg6czjsXfxT6/3hiM=
 			</data>
 			<key>hash2</key>
 			<data>
-			5rsd42MDMoeZoOZP9Js11apXVJJowFzIFHGoAjpeGNM=
+			2lHQiAy8dei9i3cS5QsztmseyBThJ6sP1Bg6LczuFGM=
 			</data>
 		</dict>
 		<key>app/tns_modules/ms/readme.md</key>
@@ -65619,11 +65589,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UoGtalcVDykjOo5GRjeGqe8Naz0=
+			XWai9/y6Tbi0OMvQkpU0HLaszgw=
 			</data>
 			<key>hash2</key>
 			<data>
-			7At9bY5jkoJNsD8i7j9zzeX5GQCrh+afNtJ7LiE+IEg=
+			6AbKMDMXAczJ4xrLqjo430yrc3Lcj+z1RH7DoELQDic=
 			</data>
 		</dict>
 		<key>app/tns_modules/tns-core-modules/platform/package.json</key>

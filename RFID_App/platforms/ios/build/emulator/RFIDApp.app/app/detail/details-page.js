@@ -39,7 +39,7 @@ exports.onNavBtnTap = function (args) {
     const navigationEntry = {
         moduleName: "home-view/home-view",
         animated: true,
-        clearHistory: true,
+        clearHistory: false,
         transition: {
             name: "fade"
         }

@@ -4,8 +4,8 @@ You can use this file to perform app-level initialization, but the primary
 purpose of the file is to pass control to the app’s first module.
 */
 
-require("./bundle-config");
 const application = require("application");
 application.setCssFileName("app.css");
+
 application.start({ moduleName: "home-view/home-view" });
  
