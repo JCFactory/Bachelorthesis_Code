@@ -6,18 +6,18 @@
     </ActionBar>
     <GridLayout rows="50, 50, 50, 50, 50, 50" columns="*, *">
         <GridLayout.itemTemplate>
-            <Label text="ID" col="0" row="0" class="detail"/>
-            <Label text="{{id}}" col="1" row="0" class="detail" textWrap="true"/>
-            <Label text="Name" col="0" row="1" class="detail"/>
-            <Label text="{{name}}" col="1" row="1" class="detail" textWrap="true"/>
-            <Label text="Countrycode" col="0" row="2" class="detail"/>
-            <Label text="{{countryCode}}" col="1" row="2" class="detail" textWrap="true"/>
-            <Label text="Size" col="0" row="3" class="detail"/>
-            <Label text="{{size}}" col="1" row="3" class="detail" textWrap="true"/>
-            <Label text="Location" col="0" row="4" class="detail"/>
-            <Label text="{{location}}" col="1" row="4" class="detail" textWrap="true"/>
-            <Label text="TimeStamp" col="0" row="5" class="detail"/>
-            <Label text="{{timeStamp}}" col="1" row="5" class="detail" textWrap="true"/>
+            <Label text="ID" col="0" row="0" class="header"/>
+            <Label text="{{id}}" col="1" row="0" class="detail"/>
+            <Label text="Name" col="0" row="1" class="header"/>
+            <Label text="{{name}}" col="1" row="1" class="detail"/>
+            <Label text="Countrycode" col="0" row="2" class="header"/>
+            <Label text="{{countryCode}}" col="1" row="2" class="detail"/>
+            <Label text="Size" col="0" row="3" class="header"/>
+            <Label text="{{size}}" col="1" row="3" class="detail"/>
+            <Label text="Location" col="0" row="4" class="header"/>
+            <Label text="{{location}}" col="1" row="4" class="detail"/>
+            <Label text="Timestamp" col="0" row="5" class="header"/>
+            <TextView text="{{timeStamp}}" col="1" row="5" class="detail"/>
         </GridLayout.itemTemplate>
     </GridLayout>
 </Page>

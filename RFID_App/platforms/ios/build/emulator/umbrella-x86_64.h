@@ -612,6 +612,8 @@
 #import "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UIKit.framework/Frameworks/DocumentManager.framework/Headers/DocumentManager.h"
 #import "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers/NetworkExtension.h"
 #import "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/EventKit.framework/Headers/EventKit.h"
+#import "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/ios/build/emulator/SDCAlertView.framework/Headers/SDCAlertView-umbrella.h"
+#import "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/ios/build/emulator/SDCAlertView.framework/Headers/SDCAlertView-Swift.h"
 #import "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.h"
 #import "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/zlib.h"
 #import "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/compression.h"

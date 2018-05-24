@@ -5,6 +5,10 @@
     overflow: hidden;
 }
 
+.list-group-item-heading {
+    font-weight: bold;
+}
+
 .circle {
     height: 50px;
     width: 50px;
@@ -34,10 +38,17 @@
     font-size: 16;
     padding: 10;
     margin-left: 20;
+}
+
+.header {
+    font-size: 16;
+    font-weight: bold;
+    padding: 10;
+    margin-left: 20;
     overflow: hidden;
     white-space: nowrap;
     /* text-align: justify; */
-    word-break: break-all;
+    word-break: break-word;
 }
 
 .text-detail {
