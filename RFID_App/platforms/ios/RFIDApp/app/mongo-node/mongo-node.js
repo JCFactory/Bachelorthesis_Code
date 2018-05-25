@@ -1,5 +1,6 @@
 var mongoose = require("mongoose");
 
+
 var drug = new mongoose.Schema({
     _id: {
         type: Number,
@@ -29,6 +30,10 @@ var drug = new mongoose.Schema({
         type: Date,
         default: Date.now
     },
+    event: {
+        type: String,
+        default: "Not detected",
+    }
 });
 
 

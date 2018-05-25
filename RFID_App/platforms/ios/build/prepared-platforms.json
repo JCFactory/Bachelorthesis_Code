@@ -1,8 +1,10 @@
 {
     "chai": true,
     "chai-as-promised": true,
+    "moment": true,
     "mongodb": true,
     "mongoose": true,
+    "mongoose-moment": true,
     "nativescript-dialog": true,
     "nativescript-pulltorefresh": true,
     "nativescript-socket.io": true,

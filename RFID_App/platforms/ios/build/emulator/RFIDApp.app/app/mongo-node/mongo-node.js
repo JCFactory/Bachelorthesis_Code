@@ -1,4 +1,6 @@
-var mongoose = require("mongoose");
+var mongoose = require("mongoose")
+require('mongoose-moment')(mongoose);
+
 
 var drug = new mongoose.Schema({
     _id: {
@@ -25,10 +27,11 @@ var drug = new mongoose.Schema({
         type: String,
         default: ""
     },
-    timeStamp: {
-        type: Date,
-        default: Date.now
-    },
+    timeStamp: 'Moment',
+    event: {
+        type: String,
+        default: "Not detected",
+    }
 });
 
 

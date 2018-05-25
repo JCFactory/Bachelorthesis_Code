@@ -17,6 +17,7 @@ exports.pageLoaded = function (args) {
 
 exports.pullToRefreshInitiated = function (args) {
     setTimeout(function () {
+        refreshDialog(args);
         getDataFromSocket(args);
         page.getViewById("listview").notifyPullToRefreshFinished();
     }, 2000);
@@ -55,7 +56,9 @@ function getDataFromSocket(args) {
             var StringData = JSON.stringify(drugs);
             console.log(StringData);
             if (drugs.length === 0) {
-                // alert("No medication data found...");
+                while (items.length) {
+                    items.pop();
+                }                // alert("No medication data found...");
                 noMedFoundDialog(args);
             } else {
                 while (items.length) {

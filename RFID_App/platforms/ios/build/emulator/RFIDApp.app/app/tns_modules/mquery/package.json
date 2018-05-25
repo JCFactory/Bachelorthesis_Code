@@ -1,14 +1,8 @@
 {
-  "_args": [
-    [
-      "mquery@3.0.0",
-      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
-    ]
-  ],
   "_from": "mquery@3.0.0",
   "_id": "mquery@3.0.0",
   "_inBundle": false,
-  "_integrity": "sha1-5fOH26vAubaYWeVQ6BD6q+DOq7A=",
+  "_integrity": "sha512-WL1Lk8v4l8VFSSwN3yCzY9TXw+fKVYKn6f+w86TRzOLSE8k1yTgGaLBPUByJQi8VcLbOdnUneFV/y3Kv874pnQ==",
   "_location": "/mquery",
   "_phantomChildren": {},
   "_requested": {
@@ -25,8 +19,9 @@
     "/mongoose"
   ],
   "_resolved": "https://registry.npmjs.org/mquery/-/mquery-3.0.0.tgz",
-  "_spec": "3.0.0",
-  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
+  "_shasum": "e5f387dbabc0b9b69859e550e810faabe0ceabb0",
+  "_spec": "mquery@3.0.0",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/mongoose",
   "author": {
     "name": "Aaron Heckmann",
     "email": "aaron.heckmann+github@gmail.com"
@@ -34,12 +29,14 @@
   "bugs": {
     "url": "https://github.com/aheckmann/mquery/issues/new"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "bluebird": "3.5.0",
     "debug": "2.6.9",
     "regexp-clone": "0.0.1",
     "sliced": "0.0.5"
   },
+  "deprecated": false,
   "description": "Expressive query building for MongoDB",
   "devDependencies": {
     "istanbul": "^0.4.5",

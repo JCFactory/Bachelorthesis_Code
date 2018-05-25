@@ -1,23 +1,28 @@
 <Page class="page" navigatingTo="loaded"
     xmlns="http://schemas.nativescript.org/tns.xsd">
     <ActionBar class="action-bar">
-        <Label class="action-bar-title" background-color="green" text="Details"></Label>
-        <NavigationButton text="Go Back" android.systemIcon="ic_menu_back" tap="onNavBtnTap"/>
+        <Label class="title" background-color="green" text="Details"></Label>
+        <NavigationButton text="Back" android.systemIcon="ic_menu_back" tap="onNavBtnTap"/>
     </ActionBar>
-    <GridLayout rows="50, 50, 50, 50, 50, 50" columns="*, *">
-        <GridLayout.itemTemplate>
-            <Label text="ID" col="0" row="0" class="detail"/>
-            <Label text="{{id}}" col="1" row="0" class="detail"/>
-            <Label text="Name" col="0" row="1" class="detail"/>
-            <Label text="{{name}}" col="1" row="1" class="detail"/>
-            <Label text="Countrycode" col="0" row="2" class="detail"/>
-            <Label text="{{countryCode}}" col="1" row="2" class="detail"/>
-            <Label text="Size" col="0" row="3" class="detail"/>
-            <Label text="{{size}}" col="1" row="3" class="detail"/>
-            <Label text="Location" col="0" row="4" class="detail"/>
-            <Label text="{{location}}" col="1" row="4" class="detail"/>
-            <Label text="TimeStamp" col="0" row="5" class="detail"/>
-            <Label text="{{timeStamp}}" col="1" row="5" class="detail"/>
-        </GridLayout.itemTemplate>
-    </GridLayout>
+    <StackLayout>
+        <GridLayout rows="50, 50, 50, 50, 50, 50, 50" columns="auto, auto">
+            <GridLayout.itemTemplate>
+                <Label text="ID" col="0" row="0" class="header"/>
+                <Label text="{{id}}" col="1" row="0" class="detail"/>
+                <Label text="Name" col="0" row="1" class="header"/>
+                <Label text="{{name}}" col="1" row="1" class="detail"/>
+                <Label text="Countrycode" col="0" row="2" class="header"/>
+                <Label text="{{countryCode}}" col="1" row="2" class="detail"/>
+                <Label text="Size" col="0" row="3" class="header"/>
+                <Label text="{{size}}" col="1" row="3" class="detail"/>
+                <Label text="Location" col="0" row="4" class="header"/>
+                <Label text="{{location}}" col="1" row="4" class="detail"/>
+                <Label text="Timestamp" col="0" row="5" class="header"/>
+                <Label text="{{timeStamp}}" col="1" row="5" class="detail"/>
+                <Label text="Event" col="0" row="6" class="header"/>
+                <Label text="Nothing" col="1" row="6" class="detail"/>
+            </GridLayout.itemTemplate>
+        </GridLayout>
+        <Button text="Administer to patient" tap="administerTap" class="button"/>
+    </StackLayout>
 </Page>

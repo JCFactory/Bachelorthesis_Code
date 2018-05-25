@@ -5,6 +5,30 @@
     overflow: hidden;
 }
 
+.list-group-item-heading {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.list-group-item-text {
+    font-size: 18px;
+}
+
+.button{
+    background-color: aquamarine;
+    border: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 .circle {
     height: 50px;
     width: 50px;
@@ -16,28 +40,28 @@
 
 .action-bar {
     background-color: aquamarine;
-    font-size: 20;
+    font-size: 24px;
     text-align: center;
 }
 
-.action-bar-title {
-    font-size: 20;
-}
-
 .title {
-    font-size: 20;
-    vertical-align: center;
-    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .detail {
-    font-size: 16;
-    padding: 10;
-    margin-left: 20;
-    overflow: hidden;
-    white-space: nowrap;
-    /* text-align: justify; */
-    word-break: break-word;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+.header {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-left: 20px;
+    text-align: right;
 }
 
 .text-detail {

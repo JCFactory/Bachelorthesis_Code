@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0970780EC23242B3B91452A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70EDA0AB2224B7A9338A5C6 /* LaunchScreen.storyboard */; };
 		31171B9309364151B7D18931 /* TNSListView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9F7B63E331C4FB2908F43BA /* TNSListView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
