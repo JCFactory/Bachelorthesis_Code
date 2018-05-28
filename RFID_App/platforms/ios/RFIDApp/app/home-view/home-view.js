@@ -73,7 +73,6 @@ function getDataFromSocket(args) {
 
 function noMedFoundDialog(args) {
     var nativeView;
-
     if (platform.device.os === platform.platformNames.ios) {
         nativeView = UIActivityIndicatorView.alloc().initWithActivityIndicatorStyle(UIActivityIndicatorViewStyle.UIActivityIndicatorViewStyleGray);
         nativeView.startAnimating();
@@ -81,7 +80,6 @@ function noMedFoundDialog(args) {
         nativeView = new android.widget.ProgressBar(application.android.currentContext);
         nativeView.setIndeterminate(true);
     }
-
     dialog.show({
         title: "No medication found...",
         message: "Please wait!",
@@ -94,7 +92,6 @@ function noMedFoundDialog(args) {
 
 function refreshDialog(args) {
     var nativeView;
-
     if (platform.device.os === platform.platformNames.ios) {
         nativeView = UIActivityIndicatorView.alloc().initWithActivityIndicatorStyle(UIActivityIndicatorViewStyle.UIActivityIndicatorViewStyleGray);
         nativeView.startAnimating();
@@ -102,13 +99,11 @@ function refreshDialog(args) {
         nativeView = new android.widget.ProgressBar(application.android.currentContext);
         nativeView.setIndeterminate(true);
     }
-
     dialog.show({
         title: "Refreshing...",
         message: "Please wait!",
         cancelButtonText: "Cancel",
         nativeView: nativeView
-    }
-    ).then(function (r) { console.log("Result: " + r); },
+    }).then(function (r) { console.log("Result: " + r); },
         function (e) { console.log("Error: " + e) });
 }

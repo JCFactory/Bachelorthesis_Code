@@ -55,18 +55,29 @@ exports.onNavBtnTap = function (args) {
 
 exports.administerTap = function () {
     alert("administered to patient!");
-    page.getViewById("eventID").text = "administered: room 314";
+    var eventData= "administered room: " + page.getViewById("location").text;
+    page.getViewById("eventID").text = eventData;
 
+    var socket = SocketIO.connect('http://127.0.0.1:3000');
+    var data = page.getViewById("eventID").text
+    //check for connection
+    if (socket !== undefined) {
+        socket.emit('administer', function (data) {
+            console.log(data);
+        });
+    };
+
+    // sendDataToSocket();
     //check if button is clicked
 }
 
-// function sendDataToSocket() {
-//     var socket = SocketIO.connect('http://127.0.0.1:3000');
-//     var data = page.getViewById("eventID").text
-//     //check for connection
-//     if (socket !== undefined) {
-//         socket.emit('administer', function (data) {
-//             console.log(data);
-//         });
-//     };
-// }
+function sendDataToSocket() {
+    var socket = SocketIO.connect('http://127.0.0.1:3000');
+    var data = page.getViewById("eventID").text
+    //check for connection
+    if (socket !== undefined) {
+        socket.emit('administer', function (data) {
+            console.log(data);
+        });
+    };
+}

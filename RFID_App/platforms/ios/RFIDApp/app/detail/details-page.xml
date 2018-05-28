@@ -16,7 +16,7 @@
                 <Label text="Size" col="0" row="3" class="header"/>
                 <Label text="{{size}}" col="1" row="3" class="detail"/>
                 <Label text="Location" col="0" row="4" class="header"/>
-                <Label text="{{location}}" col="1" row="4" class="detail"/>
+                <Label text="{{location}}" col="1" row="4" class="detail" id="location"/>
                 <Label text="Timestamp" col="0" row="5" class="header"/>
                 <Label text="{{timeStamp}}" col="1" row="5" class="detail"/>
                 <Label text="Event" col="0" row="6" class="header"/>

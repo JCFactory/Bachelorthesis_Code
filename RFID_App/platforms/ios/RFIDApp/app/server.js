@@ -25,16 +25,17 @@ setTimeout(function () {
                 console.log("getting drug from mongoDB and sending to client: " + drugs);
                 // socket.emit('output', JSON.stringify(drugs));
                 socket.emit('output', drugs);
-
             });
 
-            // socket.on("administer", function(data){
+            // socket.on("administer", function (data) {
+            //     var insertedData = data;
+            //     Drug.ins
 
-            // }
+            // });
 
             socket.on("disconnect", function (data) {
-                connections.splice(connections.indexOf(socket), 1);
-                console.log("disconnected: %s sockets connected", connections.length);
+                    connections.splice(connections.indexOf(socket), 1);
+                    console.log("disconnected: %s sockets connected", connections.length);
             });
         });
     });
