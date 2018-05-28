@@ -27,6 +27,11 @@ setTimeout(function () {
                 socket.emit('output', drugs);
 
             });
+
+            // socket.on("administer", function(data){
+
+            // }
+
             socket.on("disconnect", function (data) {
                 connections.splice(connections.indexOf(socket), 1);
                 console.log("disconnected: %s sockets connected", connections.length);

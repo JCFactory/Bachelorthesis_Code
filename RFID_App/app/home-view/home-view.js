@@ -33,7 +33,8 @@ exports.onTap = function (args) {
             countryCode: selectedItem.countryCode,
             size: selectedItem.size,
             location: selectedItem.location,
-            timeStamp: selectedItem.timeStamp
+            timeStamp: selectedItem.timeStamp,
+            event: selectedItem.event
         },
         animated: true,
         clearHistory: false,

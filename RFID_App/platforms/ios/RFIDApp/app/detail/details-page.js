@@ -1,6 +1,7 @@
 const topmost = require("ui/frame").topmost;
 var observableModule = require("data/observable");
 var ObservableArray = require("data/observable-array").ObservableArray;
+const SocketIO = require('nativescript-socket.io');
 var page;
 
 var drug = new ObservableArray();
@@ -52,7 +53,20 @@ exports.onNavBtnTap = function (args) {
     topmost().navigate(navigationEntry);
 }
 
-exports.administerTap=function(){
+exports.administerTap = function () {
     alert("administered to patient!");
+    page.getViewById("eventID").text = "administered: room 314";
+
     //check if button is clicked
 }
+
+// function sendDataToSocket() {
+//     var socket = SocketIO.connect('http://127.0.0.1:3000');
+//     var data = page.getViewById("eventID").text
+//     //check for connection
+//     if (socket !== undefined) {
+//         socket.emit('administer', function (data) {
+//             console.log(data);
+//         });
+//     };
+// }
