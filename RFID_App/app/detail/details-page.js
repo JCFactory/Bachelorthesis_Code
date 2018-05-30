@@ -54,30 +54,54 @@ exports.onNavBtnTap = function (args) {
 }
 
 exports.administerTap = function () {
-    alert("administered to patient!");
-    var eventData= "administered room: " + page.getViewById("location").text;
-    page.getViewById("eventID").text = eventData;
-
-    var socket = SocketIO.connect('http://127.0.0.1:3000');
-    var data = page.getViewById("eventID").text
+    var eventDefault = page.getViewById("event").text;
+    var setEvent = function (s) {
+        event.text = s;
+        if (s !== eventDefault) {
+            var delay = setTimeout(function () {
+                setEvent(eventDefault);
+            }, 4000);
+        }
+    }
+    var socket = SocketIO.connect('http://192.168.1.134:3000');
     //check for connection
     if (socket !== undefined) {
-        socket.emit('administer', function (data) {
-            console.log(data);
+        console.log("successfully connected through socket io to server");
+        socket.on('update', function (data) {
+            if (data.length) {
+                for (var x = 0; x < data.length; x++) {
+                    var eventData = "administered in room: " + page.getViewById("location").text;
+                    var thisID = page.getViewById("id").text;
+                    var data = [];
+                    data.push(eventData);
+                    data.push(thisID);
+                    // page.getViewById("eventID").text = eventData;
+                    socket.emit('administer', data);
+                }
+            }
         });
+        
     };
 
-    // sendDataToSocket();
-    //check if button is clicked
+    // socket.on()
+
+
+    // alert("administered to patient!");
+    // var eventData = "administered in room: " + page.getViewById("location").text;
+    // console.log(eventData);
+    // // page.getViewById("eventID").text = eventData;
+    // var thisID = page.getViewById("id").text;
+    // console.log(thisID);
+
 }
 
-function sendDataToSocket() {
-    var socket = SocketIO.connect('http://127.0.0.1:3000');
-    var data = page.getViewById("eventID").text
-    //check for connection
-    if (socket !== undefined) {
-        socket.emit('administer', function (data) {
-            console.log(data);
-        });
-    };
-}
+// function sendDataToSocket() {
+//     var socket = SocketIO.connect('http://127.0.0.1:3000');
+//     var data = page.getViewById("eventID").text
+//     //check for connection
+//     if (socket !== undefined) {
+//         socket.emit('administer', function (data) {
+//             console.log(data);
+//         });
+//     };
+// }

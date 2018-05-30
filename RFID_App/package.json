@@ -9,10 +9,10 @@
   "description": "NativeScript Application",
   "nativescript": {
     "id": "org.nativescript.RFIDApp",
-    "tns-ios": {
+    "tns-android": {
       "version": "4.0.1"
     },
-    "tns-android": {
+    "tns-ios": {
       "version": "4.0.1"
     }
   },
@@ -32,6 +32,7 @@
     "nativescript-socket.io": "^0.9.0",
     "nativescript-theme-core": "~1.0.4",
     "nativescript-ui-listview": "^3.5.6",
+    "npm": "^6.1.0",
     "socket.io": "^2.1.0",
     "tns-core-modules": "^4.0.1"
   },
