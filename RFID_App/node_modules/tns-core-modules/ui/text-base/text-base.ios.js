@@ -23,7 +23,7 @@ var TextBase = (function (_super) {
     };
     TextBase.prototype[text_base_common_1.formattedTextProperty.setNative] = function (value) {
         this._setNativeText();
-        text_base_common_1.textProperty.nativeValueChange(this, !value ? '' : value.toString());
+        text_base_common_1.textProperty.nativeValueChange(this, !value ? "" : value.toString());
         this._requestLayoutOnTextChanged();
     };
     TextBase.prototype[text_base_common_1.colorProperty.getDefault] = function () {
@@ -164,7 +164,7 @@ var TextBase = (function (_super) {
             dict.set(NSForegroundColorAttributeName, style.color.ios);
         }
         var text = this.text;
-        var string = (text === undefined || text === null) ? '' : text.toString();
+        var string = (text === undefined || text === null) ? "" : text.toString();
         var source = getTransformedText(string, this.textTransform);
         if (dict.size > 0 || isTextView) {
             if (isTextView) {
@@ -197,7 +197,7 @@ var TextBase = (function (_super) {
                 var span = formattedString.spans.getItem(i);
                 var text = span.text;
                 var textTransform = formattedString.parent.textTransform;
-                var spanText = (text === null || text === undefined) ? '' : text.toString();
+                var spanText = (text === null || text === undefined) ? "" : text.toString();
                 if (textTransform !== "none" && textTransform !== "initial") {
                     spanText = getTransformedText(spanText, textTransform);
                 }
@@ -243,11 +243,11 @@ var TextBase = (function (_super) {
         }
         if (valueSource) {
             var textDecorations = valueSource.textDecoration;
-            var underline_1 = textDecorations.indexOf('underline') !== -1;
+            var underline_1 = textDecorations.indexOf("underline") !== -1;
             if (underline_1) {
                 attrDict[NSUnderlineStyleAttributeName] = underline_1;
             }
-            var strikethrough = textDecorations.indexOf('line-through') !== -1;
+            var strikethrough = textDecorations.indexOf("line-through") !== -1;
             if (strikethrough) {
                 attrDict[NSStrikethroughStyleAttributeName] = strikethrough;
             }

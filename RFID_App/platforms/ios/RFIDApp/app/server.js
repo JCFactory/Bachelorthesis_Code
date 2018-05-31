@@ -9,7 +9,7 @@ var mongoose = require("mongoose");
 
 
 // setTimeout(function () {
-mongoose.connect('mongodb://127.0.0.1:27017/medication', function (err) {
+mongoose.connect('mongodb://169.254.1.4:27017/medication', function (err) {
     if (err) {
         throw err;
     }
@@ -40,7 +40,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/medication', function (err) {
             } else {
                 //update drug information and emit/send the updated information back to client
                 Drug.findByIdAndUpdate({ id: id, update: event }, function () {
-                    client.emit('update', [data]);
+                    socket.emit('update', [data]);
                     //send status object
                     sendStatus({
                         event: 'Event sent',

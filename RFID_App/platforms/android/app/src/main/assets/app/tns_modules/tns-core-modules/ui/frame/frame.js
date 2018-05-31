@@ -7,6 +7,8 @@ var frame_common_1 = require("./frame-common");
 var fragment_transitions_1 = require("./fragment.transitions");
 var profiling_1 = require("../../profiling");
 var builder_1 = require("../builder");
+var platform_1 = require("../../platform");
+var lazy_1 = require("../../utils/lazy");
 __export(require("./frame-common"));
 var INTENT_EXTRA = "com.tns.activity";
 var ROOT_VIEW_ID_EXTRA = "com.tns.activity.rootViewId";
@@ -14,6 +16,7 @@ var FRAMEID = "_frameId";
 var CALLBACKS = "_callbacks";
 var ownerSymbol = Symbol("_owner");
 var activityRootViewsMap = new Map();
+var sdkVersion = lazy_1.default(function () { return parseInt(platform_1.device.sdkVersion); });
 var navDepth = -1;
 var fragmentId = -1;
 if (global && global.__inspector) {
@@ -144,12 +147,22 @@ var Frame = (function (_super) {
         _super.prototype.onUnloaded.call(this);
     };
     Frame.prototype.disposeCurrentFragment = function () {
-        if (this._currentEntry && this._currentEntry.fragment) {
-            var manager = this._getFragmentManager();
-            var transaction = manager.beginTransaction();
-            transaction.remove(this._currentEntry.fragment);
-            transaction.commitAllowingStateLoss();
+        if (!this._currentEntry || !this._currentEntry.fragment) {
+            return;
         }
+        var manager = this._getFragmentManager();
+        var transaction = manager.beginTransaction();
+        var androidSdkVersion = sdkVersion();
+        if (androidSdkVersion !== 21 && androidSdkVersion !== 22) {
+            transaction.remove(this._currentEntry.fragment);
+        }
+        else {
+            var dummyFragmentTag = "dummy";
+            var dummyFragment = this.createFragment({}, dummyFragmentTag);
+            transaction.replace(this.containerViewId, dummyFragment, dummyFragmentTag);
+            transaction.remove(dummyFragment);
+        }
+        transaction.commitAllowingStateLoss();
     };
     Frame.prototype.createFragment = function (backstackEntry, fragmentTag) {
         ensureFragmentClass();
@@ -218,7 +231,6 @@ var Frame = (function (_super) {
             if (currentActivity) {
                 startActivity(currentActivity, this._android.frameId);
             }
-            this._delayedNavigationEntry = newEntry;
             return;
         }
         var manager = this._getFragmentManager();
@@ -537,7 +549,7 @@ var FragmentCallbacksImplementation = (function () {
             animator = superFunc.call(fragment, transit, enter, nextAnim);
         }
         if (frame_common_1.traceEnabled()) {
-            frame_common_1.traceWrite(fragment + ".onCreateAnimator(" + transit + ", " + (enter ? "enter" : "exit") + ", " + nextAnimString + "): " + (animator ? 'animator' : 'no animator'), frame_common_1.traceCategories.NativeLifecycle);
+            frame_common_1.traceWrite(fragment + ".onCreateAnimator(" + transit + ", " + (enter ? "enter" : "exit") + ", " + nextAnimString + "): " + (animator ? "animator" : "no animator"), frame_common_1.traceCategories.NativeLifecycle);
         }
         return animator;
     };

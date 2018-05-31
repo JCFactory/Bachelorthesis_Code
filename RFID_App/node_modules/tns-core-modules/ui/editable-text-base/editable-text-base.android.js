@@ -83,20 +83,16 @@ function initializeEditTextListeners() {
             if (!owner) {
                 return false;
             }
-            if (actionId === android.view.inputmethod.EditorInfo.IME_NULL ||
+            if (actionId === android.view.inputmethod.EditorInfo.IME_ACTION_DONE ||
                 actionId === android.view.inputmethod.EditorInfo.IME_ACTION_UNSPECIFIED ||
-                actionId === android.view.inputmethod.EditorInfo.IME_ACTION_DONE ||
-                actionId === android.view.inputmethod.EditorInfo.IME_ACTION_GO ||
-                actionId === android.view.inputmethod.EditorInfo.IME_ACTION_SEARCH ||
-                actionId === android.view.inputmethod.EditorInfo.IME_ACTION_SEND ||
                 (event && event.getKeyCode() === android.view.KeyEvent.KEYCODE_ENTER)) {
                 if (textView.getMaxLines() === 1) {
                     owner.dismissSoftInput();
                 }
                 owner._onReturnPress();
             }
-            if (actionId === android.view.inputmethod.EditorInfo.IME_ACTION_NEXT
-                || actionId === android.view.inputmethod.EditorInfo.IME_ACTION_PREVIOUS) {
+            else if (actionId === android.view.inputmethod.EditorInfo.IME_ACTION_NEXT ||
+                actionId === android.view.inputmethod.EditorInfo.IME_ACTION_PREVIOUS) {
                 owner._onReturnPress();
             }
             return false;

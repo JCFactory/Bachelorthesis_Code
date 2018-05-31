@@ -166,7 +166,7 @@ var UITableViewRowHeightDelegateImpl = (function (_super) {
         if (!owner) {
             return tableView.estimatedRowHeight;
         }
-        return owner._effectiveRowHeight;
+        return list_view_common_1.layout.toDeviceIndependentPixels(owner._effectiveRowHeight);
     };
     UITableViewRowHeightDelegateImpl.ObjCProtocols = [UITableViewDelegate];
     return UITableViewRowHeightDelegateImpl;
@@ -251,7 +251,7 @@ var ListView = (function (_super) {
         this._heights[index] = value;
     };
     ListView.prototype._onRowHeightPropertyChanged = function (oldValue, newValue) {
-        var value = this._effectiveRowHeight;
+        var value = list_view_common_1.layout.toDeviceIndependentPixels(this._effectiveRowHeight);
         var nativeView = this._ios;
         if (value < 0) {
             nativeView.rowHeight = UITableViewAutomaticDimension;

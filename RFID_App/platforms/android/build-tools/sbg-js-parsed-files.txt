@@ -98,6 +98,7 @@
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/styling/background-common.js
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/styling/style-properties.js
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/styling/style/style.js
+/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/styling/linear-gradient.js
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/styling/font-common.js
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/styling/css-selector/css-selector.js
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/styling/converters.js

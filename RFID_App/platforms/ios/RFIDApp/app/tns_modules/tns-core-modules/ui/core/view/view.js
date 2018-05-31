@@ -15,6 +15,7 @@ var View = (function (_super) {
     __extends(View, _super);
     function View() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this._isLaidOut = false;
         _this._hasTransfrom = false;
         _this._privateFlags = PFLAG_LAYOUT_REQUIRED | PFLAG_FORCE_LAYOUT;
         _this._suspendCATransaction = false;
@@ -121,6 +122,11 @@ var View = (function (_super) {
             }
             var boundsOrigin = nativeView.bounds.origin;
             nativeView.bounds = CGRectMake(boundsOrigin.x, boundsOrigin.y, frame.size.width, frame.size.height);
+            this._raiseLayoutChangedEvent();
+            this._isLaidOut = true;
+        }
+        else if (!this._isLaidOut) {
+            this._raiseLayoutChangedEvent();
         }
     };
     View.prototype.layoutNativeView = function (left, top, right, bottom) {
@@ -237,18 +243,9 @@ var View = (function (_super) {
     View.prototype._isPresentationLayerUpdateSuspeneded = function () {
         return this._suspendCATransaction || this._suspendNativeUpdatesCount;
     };
-    View.prototype.getParentWithViewController = function (parent) {
-        var view = parent;
-        var controller = view.viewController;
-        while (!controller) {
-            view = view.parent;
-            controller = view.viewController;
-        }
-        return view;
-    };
     View.prototype._showNativeModalView = function (parent, context, closeCallback, fullscreen, animated, stretched) {
         var _this = this;
-        var parentWithController = this.getParentWithViewController(parent);
+        var parentWithController = ios.getParentWithViewController(parent);
         _super.prototype._showNativeModalView.call(this, parentWithController, context, closeCallback, fullscreen, stretched);
         var controller = this.viewController;
         if (!controller) {
@@ -496,6 +493,16 @@ var CustomLayoutView = (function (_super) {
 exports.CustomLayoutView = CustomLayoutView;
 var ios;
 (function (ios) {
+    function getParentWithViewController(parent) {
+        var view = parent;
+        var controller = view.viewController;
+        while (!controller) {
+            view = view.parent;
+            controller = view.viewController;
+        }
+        return view;
+    }
+    ios.getParentWithViewController = getParentWithViewController;
     function isContentScrollable(controller, owner) {
         var scrollableContent = owner.scrollableContent;
         if (scrollableContent === undefined) {
@@ -505,7 +512,6 @@ var ios;
             }
         }
         return scrollableContent === true || scrollableContent === "true";
-        ;
     }
     ios.isContentScrollable = isContentScrollable;
     function updateAutoAdjustScrollInsets(controller, owner) {
@@ -551,8 +557,6 @@ var ios;
         var navBarHidden = navController ? navController.navigationBarHidden : true;
         var scrollable = isContentScrollable(controller, owner);
         var hasChildControllers = controller.childViewControllers.count > 0;
-        var safeAreaTopLength = safeOrigin.y - fullscreenOrigin.y;
-        var safeAreaBottomLength = fullscreenSize.height - safeAreaSize.height - safeAreaTopLength;
         if (!(controller.edgesForExtendedLayout & 1)) {
             var statusBarHeight = getStatusBarHeight(controller);
             var navBarHeight = controller.navigationController ? controller.navigationController.navigationBar.frame.size.height : 0;

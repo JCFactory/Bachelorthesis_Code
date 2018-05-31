@@ -46,6 +46,7 @@ var ImageAsset = (function (_super) {
         }
         var imageRequestOptions = PHImageRequestOptions.alloc().init();
         imageRequestOptions.deliveryMode = 1;
+        imageRequestOptions.networkAccessAllowed = true;
         PHImageManager.defaultManager().requestImageForAssetTargetSizeContentModeOptionsResultHandler(this.ios, requestedSize, 0, imageRequestOptions, function (image, imageResultInfo) {
             if (image) {
                 var resultImage = _this.scaleImage(image, requestedSize);

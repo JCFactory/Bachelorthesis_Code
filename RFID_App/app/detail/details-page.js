@@ -37,7 +37,7 @@ exports.loaded = function (args) {
     newDrug.push(context.timeStamp);
     newDrug.push(context.event);
     console.log(newDrug);
-    page = args.object;
+    // page = args.object;
     page.bindingContext = context;
 }
 
@@ -63,7 +63,7 @@ exports.administerTap = function () {
             }, 4000);
         }
     }
-    var socket = SocketIO.connect('http://192.168.1.134:3000');
+    var socket = SocketIO.connect('http://169.254.1.4:3000');
     //check for connection
     if (socket !== undefined) {
         console.log("successfully connected through socket io to server");
@@ -75,23 +75,22 @@ exports.administerTap = function () {
                     var data = [];
                     data.push(eventData);
                     data.push(thisID);
-                    // page.getViewById("eventID").text = eventData;
+                    page.getViewById("eventID").text = eventData;
                     socket.emit('administer', data);
                 }
             }
         });
-        
     };
 
-    // socket.on()
+    socket.on()
 
 
-    // alert("administered to patient!");
-    // var eventData = "administered in room: " + page.getViewById("location").text;
-    // console.log(eventData);
-    // // page.getViewById("eventID").text = eventData;
-    // var thisID = page.getViewById("id").text;
-    // console.log(thisID);
+    alert("administered to patient!");
+    var eventData = "administered in room: " + page.getViewById("location").text;
+    console.log(eventData);
+    // page.getViewById("eventID").text = eventData;
+    var thisID = page.getViewById("id").text;
+    console.log(thisID);
 
 }
 

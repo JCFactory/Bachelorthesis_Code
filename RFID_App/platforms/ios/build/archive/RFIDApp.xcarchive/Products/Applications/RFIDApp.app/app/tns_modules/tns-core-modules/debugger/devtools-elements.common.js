@@ -62,7 +62,7 @@ function setAttributeAsText(nodeId, text, name) {
             var textParts = text.split("=");
             if (textParts.length === 2) {
                 var attrName = textParts[0];
-                var attrValue = textParts[1].replace(/['"]+/g, '');
+                var attrValue = textParts[1].replace(/['"]+/g, "");
                 if (name !== attrName && hasOriginalAttribute) {
                     unsetViewValue(view, name);
                     view[attrName] = attrValue;

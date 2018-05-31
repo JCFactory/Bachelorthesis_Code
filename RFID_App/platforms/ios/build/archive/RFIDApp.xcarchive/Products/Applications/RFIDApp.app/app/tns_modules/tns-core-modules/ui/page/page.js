@@ -56,7 +56,6 @@ var UIViewControllerImpl = (function (_super) {
         }
         var frame = this.navigationController ? this.navigationController.owner : null;
         var newEntry = this[ENTRY];
-        var modalParent = owner._modalParent;
         if (!owner._presentedViewController && newEntry && (!frame || frame.currentPage !== owner)) {
             var isBack = isBackNavigationTo(owner, newEntry);
             owner.onNavigatingTo(newEntry.entry.context, isBack, newEntry.entry.bindingContext);

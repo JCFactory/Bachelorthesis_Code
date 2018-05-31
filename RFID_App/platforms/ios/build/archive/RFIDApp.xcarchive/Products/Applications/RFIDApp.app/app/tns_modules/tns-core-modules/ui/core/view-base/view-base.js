@@ -114,9 +114,9 @@ var ViewBase = (function (_super) {
         _this._onUnloadedCalled = false;
         _this._cssState = new ssm.CssState(_this);
         _this.pseudoClassAliases = {
-            'highlighted': [
-                'active',
-                'pressed'
+            "highlighted": [
+                "active",
+                "pressed"
             ]
         };
         _this.cssClasses = new Set();
@@ -661,13 +661,21 @@ var ViewBase = (function (_super) {
         }
     };
     ViewBase.prototype.showModal = function () {
+        var args = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            args[_i] = arguments[_i];
+        }
         var parent = this.parent;
-        return parent && parent.showModal();
+        return parent && parent.showModal.apply(parent, args);
     };
     ViewBase.prototype.closeModal = function () {
+        var args = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            args[_i] = arguments[_i];
+        }
         var parent = this.parent;
         if (parent) {
-            parent.closeModal();
+            parent.closeModal.apply(parent, args);
         }
     };
     ViewBase.prototype._dialogClosed = function () {
@@ -759,7 +767,7 @@ exports.classNameProperty.register(ViewBase);
 exports.idProperty = new properties_1.Property({ name: "id", valueChanged: function (view, oldValue, newValue) { return view._onCssStateChange(); } });
 exports.idProperty.register(ViewBase);
 function booleanConverter(v) {
-    var lowercase = (v + '').toLowerCase();
+    var lowercase = (v + "").toLowerCase();
     if (lowercase === "true") {
         return true;
     }

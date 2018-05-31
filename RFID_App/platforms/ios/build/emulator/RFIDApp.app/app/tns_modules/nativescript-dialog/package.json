@@ -1,27 +1,31 @@
 {
-  "_from": "nativescript-dialog",
+  "_args": [
+    [
+      "nativescript-dialog@0.1.0",
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
+    ]
+  ],
+  "_from": "nativescript-dialog@0.1.0",
   "_id": "nativescript-dialog@0.1.0",
   "_inBundle": false,
   "_integrity": "sha1-/HO3FePCB1SZP6QXI0c+yNcBvxo=",
   "_location": "/nativescript-dialog",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "nativescript-dialog",
+    "raw": "nativescript-dialog@0.1.0",
     "name": "nativescript-dialog",
     "escapedName": "nativescript-dialog",
-    "rawSpec": "",
+    "rawSpec": "0.1.0",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "0.1.0"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-dialog/-/nativescript-dialog-0.1.0.tgz",
-  "_shasum": "fc73b715e3c20754993fa41723473ec8d701bf1a",
-  "_spec": "nativescript-dialog",
+  "_spec": "0.1.0",
   "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
   "author": {
     "name": "Vladimir Enchev",
@@ -31,8 +35,6 @@
   "bugs": {
     "url": "https://github.com/enchev/nativescript-dialog/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "A NativeScript plugin for iOS and Android that allows you to create custom dialog.",
   "homepage": "https://github.com/enchev/nativescript-dialog",
   "keywords": [

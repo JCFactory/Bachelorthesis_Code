@@ -113,7 +113,7 @@ var Request = (function () {
     };
     Request.prototype.requestWillBeSent = function (request) {
         if (this._networkDomainDebugger.enabled) {
-            this._networkDomainDebugger.events.requestWillBeSent(this.requestID, frameId, loaderId, request.url, request, __inspectorTimestamp(), { type: 'Script' });
+            this._networkDomainDebugger.events.requestWillBeSent(this.requestID, frameId, loaderId, request.url, request, __inspectorTimestamp(), { type: "Script" });
         }
     };
     return Request;

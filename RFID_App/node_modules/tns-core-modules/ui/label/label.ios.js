@@ -59,7 +59,7 @@ var Label = (function (_super) {
             var heightMode = text_base_1.layout.getMeasureSpecMode(heightMeasureSpec);
             this._fixedSize = (widthMode === text_base_1.layout.EXACTLY ? FixedSize.WIDTH : FixedSize.NONE)
                 | (heightMode === text_base_1.layout.EXACTLY ? FixedSize.HEIGHT : FixedSize.NONE);
-            var nativeSize = text_base_1.layout.measureNativeView(nativeView, width, widthMode, height, heightMode);
+            var nativeSize = this._measureNativeView(width, widthMode, height, heightMode);
             var labelWidth = nativeSize.width;
             if (this.textWrap && widthMode === text_base_1.layout.AT_MOST) {
                 labelWidth = Math.min(labelWidth, width);
@@ -70,6 +70,13 @@ var Label = (function (_super) {
             var heightAndState = text_base_1.View.resolveSizeAndState(measureHeight, height, heightMode, 0);
             this.setMeasuredDimension(widthAndState, heightAndState);
         }
+    };
+    Label.prototype._measureNativeView = function (width, widthMode, height, heightMode) {
+        var view = this.nativeViewProtected;
+        var nativeSize = view.textRectForBoundsLimitedToNumberOfLines(CGRectMake(0, 0, widthMode === 0 ? Number.POSITIVE_INFINITY : text_base_1.layout.toDeviceIndependentPixels(width), heightMode === 0 ? Number.POSITIVE_INFINITY : text_base_1.layout.toDeviceIndependentPixels(height)), 0).size;
+        nativeSize.width = text_base_1.layout.round(text_base_1.layout.toDevicePixels(nativeSize.width));
+        nativeSize.height = text_base_1.layout.round(text_base_1.layout.toDevicePixels(nativeSize.height));
+        return nativeSize;
     };
     Label.prototype[text_base_1.whiteSpaceProperty.setNative] = function (value) {
         var nativeView = this.nativeViewProtected;

@@ -1,8 +1,8 @@
 {
   "_from": "tns-core-modules",
-  "_id": "tns-core-modules@4.0.1",
+  "_id": "tns-core-modules@4.1.0",
   "_inBundle": false,
-  "_integrity": "sha512-GgfwWC4TgqwSZeimR0mvCyrJjve31gSr3vhnEYQLD/8rQGu1ZS7U5tlHcgHsYtTKtwksxkovXAnHMPBz4MFRfQ==",
+  "_integrity": "sha512-ZTpH7/zHfARrJ+1bPwbBYyqFVQO+2unnygfLW8Bu3clzpTkdwwW++1DS+Qbzw7r84+dzdVPZ7zwEVkjpfAFogw==",
   "_location": "/tns-core-modules",
   "_phantomChildren": {},
   "_requested": {
@@ -19,13 +19,13 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-4.0.1.tgz",
-  "_shasum": "dc9e8ac5d7d49c3000a50754d590dafed6f3f876",
+  "_resolved": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-4.1.0.tgz",
+  "_shasum": "f838f0e040b9cdef8d361ba7392dfece51762fc2",
   "_spec": "tns-core-modules",
   "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
   "bundleDependencies": false,
   "dependencies": {
-    "tns-core-modules-widgets": "4.0.0"
+    "tns-core-modules-widgets": "4.1.0"
   },
   "deprecated": false,
   "description": "Telerik NativeScript Core Modules",
@@ -53,13 +53,13 @@
   "name": "tns-core-modules",
   "nativescript": {
     "platforms": {
-      "ios": "3.0.0",
-      "android": "3.0.0"
+      "ios": "4.0.0",
+      "android": "4.0.0"
     }
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NativeScript/NativeScript/commit/67c1df35d4ab69a1fc5e5384464c9fec545d9a03"
+    "url": "https://github.com/NativeScript/NativeScript/commit/86f9d3870688f1e7a759fa72061ea07d5d488e09"
   },
   "snapshot": {
     "android": {
@@ -72,5 +72,5 @@
     }
   },
   "typings": "tns-core-modules.d.ts",
-  "version": "4.0.1"
+  "version": "4.1.0"
 }

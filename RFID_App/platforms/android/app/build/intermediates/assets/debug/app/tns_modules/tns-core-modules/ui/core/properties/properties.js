@@ -536,7 +536,6 @@ exports.CssProperty = CssProperty;
 CssProperty.prototype.isStyleProperty = true;
 var CssAnimationProperty = (function () {
     function CssAnimationProperty(options) {
-        this.options = options;
         var valueConverter = options.valueConverter, equalityComparer = options.equalityComparer, valueChanged = options.valueChanged, defaultValue = options.defaultValue;
         var propertyName = options.name;
         this.name = propertyName;
@@ -897,7 +896,7 @@ function inheritableCssPropertyValuesOn(style) {
     }
     return array;
 }
-exports.initNativeView = profiling_1.profile('"properties".initNativeView', function initNativeView(view) {
+exports.initNativeView = profiling_1.profile("\"properties\".initNativeView", function initNativeView(view) {
     if (view._suspendedUpdates) {
         applyPendingNativeSetters(view);
     }

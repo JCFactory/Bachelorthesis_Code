@@ -130,12 +130,13 @@ function loadCustomComponent(componentPath, componentName, attributes, context, 
     var result;
     componentPath = componentPath.replace("~/", "");
     var moduleName = componentPath + "/" + componentName;
+    var xmlModuleName = moduleName + ".xml";
     var fullComponentPathFilePathWithoutExt = componentPath;
     if (!file_system_1.File.exists(componentPath) || componentPath === "." || componentPath === "./") {
         fullComponentPathFilePathWithoutExt = file_system_1.path.join(file_system_1.knownFolders.currentApp().path, componentPath, componentName);
     }
     var xmlFilePath = file_name_resolver_1.resolveFileName(fullComponentPathFilePathWithoutExt, "xml");
-    if (xmlFilePath) {
+    if (xmlFilePath || global.moduleExists(xmlModuleName)) {
         var subExports = context;
         if (global.moduleExists(moduleName)) {
             subExports = global.loadModule(moduleName);
@@ -150,7 +151,9 @@ function loadCustomComponent(componentPath, componentName, attributes, context, 
             subExports = {};
         }
         subExports["_parentPage"] = parentPage;
-        result = loadInternal(xmlFilePath, subExports);
+        result = xmlFilePath ?
+            loadInternal(xmlFilePath, subExports) :
+            loadInternal(xmlFilePath, subExports, moduleName);
         if (types_1.isDefined(result) && types_1.isDefined(result.component) && types_1.isDefined(attributes)) {
             for (var attr in attributes) {
                 component_builder_1.setPropertyValue(result.component, subExports, context, attr, attributes[attr]);
@@ -465,7 +468,7 @@ var xml2ui;
             }
             else {
                 var namespace = args.namespace;
-                if (defaultNameSpaceMatcher.test(namespace || '')) {
+                if (defaultNameSpaceMatcher.test(namespace || "")) {
                     namespace = undefined;
                 }
                 return component_builder_1.getComponentModule(args.elementName, namespace, args.attributes, this.context, this.moduleNamePath, !this.currentRootView);

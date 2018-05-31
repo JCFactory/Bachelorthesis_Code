@@ -19,6 +19,7 @@ var AndroidApplication = (function (_super) {
     __extends(AndroidApplication, _super);
     function AndroidApplication() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.callbacks = {};
         _this._registeredReceivers = {};
         _this._pendingReceiverRegistrations = new Array();
         return _this;
@@ -40,10 +41,10 @@ var AndroidApplication = (function (_super) {
         this.nativeApp = nativeApp;
         this.packageName = nativeApp.getPackageName();
         this.context = nativeApp.getApplicationContext();
-        var lifecycleCallbacks = initLifecycleCallbacks();
-        var componentCallbacks = initComponentCallbacks();
-        this.nativeApp.registerActivityLifecycleCallbacks(lifecycleCallbacks);
-        this.nativeApp.registerComponentCallbacks(componentCallbacks);
+        this.callbacks.lifecycleCallbacks = initLifecycleCallbacks();
+        this.callbacks.componentCallbacks = initComponentCallbacks();
+        this.nativeApp.registerActivityLifecycleCallbacks(this.callbacks.lifecycleCallbacks);
+        this.nativeApp.registerComponentCallbacks(this.callbacks.componentCallbacks);
         this._registerPendingReceivers();
     };
     AndroidApplication.prototype._registerPendingReceivers = function () {
@@ -182,14 +183,14 @@ function initLifecycleCallbacks() {
     });
     var subscribeForGlobalLayout = profiling_1.profile("subscribeForGlobalLayout", function (activity) {
         var rootView = activity.getWindow().getDecorView().getRootView();
-        var onGlobalLayoutListener = new android.view.ViewTreeObserver.OnGlobalLayoutListener({
+        this.onGlobalLayoutListener = new android.view.ViewTreeObserver.OnGlobalLayoutListener({
             onGlobalLayout: function () {
                 application_common_1.notify({ eventName: application_common_1.displayedEvent, object: androidApp, activity: activity });
                 var viewTreeObserver = rootView.getViewTreeObserver();
-                viewTreeObserver.removeOnGlobalLayoutListener(onGlobalLayoutListener);
+                viewTreeObserver.removeOnGlobalLayoutListener(this.onGlobalLayoutListener);
             }
         });
-        rootView.getViewTreeObserver().addOnGlobalLayoutListener(onGlobalLayoutListener);
+        rootView.getViewTreeObserver().addOnGlobalLayoutListener(this.onGlobalLayoutListener);
     });
     var lifecycleCallbacks = new android.app.Application.ActivityLifecycleCallbacks({
         onActivityCreated: profiling_1.profile("onActivityCreated", function (activity, savedInstanceState) {

@@ -97,7 +97,6 @@ global.System = {
         });
     }
 };
-var __tnsGlobalMergedModules = new Map();
 function registerOnGlobalContext(name, module) {
     Object.defineProperty(global, name, {
         get: function () {

@@ -5,9 +5,11 @@ var connectionType;
     connectionType[connectionType["none"] = 0] = "none";
     connectionType[connectionType["wifi"] = 1] = "wifi";
     connectionType[connectionType["mobile"] = 2] = "mobile";
+    connectionType[connectionType["ethernet"] = 3] = "ethernet";
 })(connectionType = exports.connectionType || (exports.connectionType = {}));
 var wifi = "wifi";
 var mobile = "mobile";
+var ethernet = "ethernet";
 function getConnectivityManager() {
     return application_1.getNativeApplication().getApplicationContext().getSystemService(android.content.Context.CONNECTIVITY_SERVICE);
 }
@@ -29,6 +31,9 @@ function getConnectionType() {
     }
     if (type.indexOf(mobile) !== -1) {
         return connectionType.mobile;
+    }
+    if (type.indexOf(ethernet) !== -1) {
+        return connectionType.ethernet;
     }
     return connectionType.none;
 }

@@ -44,7 +44,7 @@ var ImageSource = (function () {
         this.android = null;
         var res = getResources();
         if (res) {
-            var identifier = res.getIdentifier(name, 'drawable', getApplication().getPackageName());
+            var identifier = res.getIdentifier(name, "drawable", getApplication().getPackageName());
             if (0 < identifier) {
                 var bitmapDrawable = res.getDrawable(identifier);
                 if (bitmapDrawable && bitmapDrawable.getBitmap) {

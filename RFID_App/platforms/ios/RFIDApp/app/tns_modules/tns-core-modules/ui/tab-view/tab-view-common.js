@@ -109,6 +109,16 @@ var TabViewBase = (function (_super) {
         enumerable: true,
         configurable: true
     });
+    Object.defineProperty(TabViewBase.prototype, "tabTextFontSize", {
+        get: function () {
+            return this.style.tabTextFontSize;
+        },
+        set: function (value) {
+            this.style.tabTextFontSize = value;
+        },
+        enumerable: true,
+        configurable: true
+    });
     Object.defineProperty(TabViewBase.prototype, "tabTextColor", {
         get: function () {
             return this.style.tabTextColor;
@@ -250,6 +260,8 @@ exports.androidOffscreenTabLimitProperty = new view_1.Property({
 exports.androidOffscreenTabLimitProperty.register(TabViewBase);
 exports.androidTabsPositionProperty = new view_1.Property({ name: "androidTabsPosition", defaultValue: "top" });
 exports.androidTabsPositionProperty.register(TabViewBase);
+exports.tabTextFontSizeProperty = new view_1.CssProperty({ name: "tabTextFontSize", cssName: "tab-text-font-size", valueConverter: function (v) { return parseFloat(v); } });
+exports.tabTextFontSizeProperty.register(view_1.Style);
 exports.tabTextColorProperty = new view_1.CssProperty({ name: "tabTextColor", cssName: "tab-text-color", equalityComparer: view_1.Color.equals, valueConverter: function (v) { return new view_1.Color(v); } });
 exports.tabTextColorProperty.register(view_1.Style);
 exports.tabBackgroundColorProperty = new view_1.CssProperty({ name: "tabBackgroundColor", cssName: "tab-background-color", equalityComparer: view_1.Color.equals, valueConverter: function (v) { return new view_1.Color(v); } });

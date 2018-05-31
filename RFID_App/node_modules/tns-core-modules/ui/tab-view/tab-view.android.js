@@ -9,7 +9,6 @@ var image_source_1 = require("../../image-source");
 var utils_1 = require("../../utils/utils");
 var frame_1 = require("../frame");
 __export(require("./tab-view-common"));
-var VIEWS_STATES = "_viewStates";
 var ACCENT_COLOR = "colorAccent";
 var PRIMARY_COLOR = "colorPrimary";
 var DEFAULT_ELEVATION = 4;
@@ -496,6 +495,17 @@ var TabView = (function (_super) {
         }
         else {
             this._tabLayout.setBackground(tryCloneDrawable(value, this.nativeViewProtected.getResources));
+        }
+    };
+    TabView.prototype[tab_view_common_1.tabTextFontSizeProperty.getDefault] = function () {
+        return this._tabLayout.getTabTextFontSize();
+    };
+    TabView.prototype[tab_view_common_1.tabTextFontSizeProperty.setNative] = function (value) {
+        if (typeof value === "number") {
+            this._tabLayout.setTabTextFontSize(value);
+        }
+        else {
+            this._tabLayout.setTabTextFontSize(value.nativeSize);
         }
     };
     TabView.prototype[tab_view_common_1.tabTextColorProperty.getDefault] = function () {

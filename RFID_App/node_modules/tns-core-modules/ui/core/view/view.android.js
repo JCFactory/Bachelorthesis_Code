@@ -14,7 +14,6 @@ var modalMap = new Map();
 var TouchListener;
 var disableUserInteractionListener;
 var DialogFragment;
-var Dialog;
 function initializeDisabledListener() {
     if (disableUserInteractionListener) {
         return;
@@ -168,6 +167,21 @@ var View = (function (_super) {
             this.setOnTouchListener();
         }
     };
+    View.prototype.on = function (eventNames, callback, thisArg) {
+        _super.prototype.on.call(this, eventNames, callback, thisArg);
+        var isLayoutEvent = typeof eventNames === "string" ? eventNames.indexOf(view_common_1.ViewCommon.layoutChangedEvent) !== -1 : false;
+        if (this.isLoaded && !this.layoutChangeListenerIsSet && isLayoutEvent) {
+            this.setOnLayoutChangeListener();
+        }
+    };
+    View.prototype.off = function (eventNames, callback, thisArg) {
+        _super.prototype.off.call(this, eventNames, callback, thisArg);
+        var isLayoutEvent = typeof eventNames === "string" ? eventNames.indexOf(view_common_1.ViewCommon.layoutChangedEvent) !== -1 : false;
+        if (this.isLoaded && this.layoutChangeListenerIsSet && isLayoutEvent && !this.hasListeners(view_common_1.ViewCommon.layoutChangedEvent)) {
+            this.nativeViewProtected.removeOnLayoutChangeListener(this.layoutChangeListener);
+            this.layoutChangeListenerIsSet = false;
+        }
+    };
     View.prototype._getFragmentManager = function () {
         var manager = this._manager;
         if (!manager) {
@@ -216,6 +230,16 @@ var View = (function (_super) {
     View.prototype.initNativeView = function () {
         _super.prototype.initNativeView.call(this);
         this._isClickable = this.nativeViewProtected.isClickable();
+        if (this.hasListeners(view_common_1.ViewCommon.layoutChangedEvent)) {
+            this.setOnLayoutChangeListener();
+        }
+    };
+    View.prototype.disposeNativeView = function () {
+        _super.prototype.disposeNativeView.call(this);
+        if (this.layoutChangeListenerIsSet) {
+            this.layoutChangeListenerIsSet = false;
+            this.nativeViewProtected.removeOnLayoutChangeListener(this.layoutChangeListener);
+        }
     };
     View.prototype.setOnTouchListener = function () {
         if (this.nativeViewProtected && this.hasGestureObservers()) {
@@ -226,6 +250,20 @@ var View = (function (_super) {
             initializeTouchListener();
             this.touchListener = this.touchListener || new TouchListener(this);
             this.nativeViewProtected.setOnTouchListener(this.touchListener);
+        }
+    };
+    View.prototype.setOnLayoutChangeListener = function () {
+        if (this.nativeViewProtected) {
+            var owner_1 = this;
+            this.layoutChangeListenerIsSet = true;
+            this.layoutChangeListener = this.layoutChangeListener || new android.view.View.OnLayoutChangeListener({
+                onLayoutChange: function (v, left, top, right, bottom, oldLeft, oldTop, oldRight, oldBottom) {
+                    if (left !== oldLeft || top !== oldTop || right !== oldRight || bottom !== oldBottom) {
+                        owner_1._raiseLayoutChangedEvent();
+                    }
+                }
+            });
+            this.nativeViewProtected.addOnLayoutChangeListener(this.layoutChangeListener);
         }
     };
     Object.defineProperty(View.prototype, "isLayoutRequired", {

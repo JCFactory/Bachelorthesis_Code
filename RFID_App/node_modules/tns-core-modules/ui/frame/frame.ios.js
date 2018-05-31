@@ -489,7 +489,6 @@ exports._getNativeCurve = _getNativeCurve;
 var iOSFrame = (function () {
     function iOSFrame(frame) {
         this._navBarVisibility = "auto";
-        this._frame = frame;
         this._controller = UINavigationControllerImpl.initWithOwner(new WeakRef(frame));
     }
     Object.defineProperty(iOSFrame.prototype, "controller", {
@@ -505,9 +504,6 @@ var iOSFrame = (function () {
         },
         set: function (value) {
             this._showNavigationBar = value;
-            var viewController = this._controller.viewControllers;
-            var length = viewController ? viewController.count : 0;
-            var animated = length > 0 && !this._disableNavBarAnimation;
             this._controller.setNavigationBarHiddenAnimated(!value, true);
         },
         enumerable: true,

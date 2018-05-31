@@ -1,27 +1,31 @@
 {
-  "_from": "mongoose@^5.0.12",
+  "_args": [
+    [
+      "mongoose@5.1.2",
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
+    ]
+  ],
+  "_from": "mongoose@5.1.2",
   "_id": "mongoose@5.1.2",
   "_inBundle": false,
   "_integrity": "sha512-k9hssPMgBnUYG5e9NoUbx/2ERDyelDY0Vf6BwjtmoETUhVT7pQUe1o+oelLLuHF3ZVY2qgienK8pnrI5pdvlxA==",
   "_location": "/mongoose",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "mongoose@^5.0.12",
+    "raw": "mongoose@5.1.2",
     "name": "mongoose",
     "escapedName": "mongoose",
-    "rawSpec": "^5.0.12",
+    "rawSpec": "5.1.2",
     "saveSpec": null,
-    "fetchSpec": "^5.0.12"
+    "fetchSpec": "5.1.2"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/mongoose/-/mongoose-5.1.2.tgz",
-  "_shasum": "f0cf29f8e5b43b7ec0abb279f831b9ddfd266380",
-  "_spec": "mongoose@^5.0.12",
+  "_spec": "5.1.2",
   "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
   "author": {
     "name": "Guillermo Rauch",
@@ -31,7 +35,6 @@
   "bugs": {
     "url": "https://github.com/Automattic/mongoose/issues/new"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "async": "2.1.4",
     "bson": "~1.0.5",
@@ -45,7 +48,6 @@
     "regexp-clone": "0.0.1",
     "sliced": "1.0.1"
   },
-  "deprecated": false,
   "description": "Mongoose MongoDB ODM",
   "devDependencies": {
     "acquit": "0.6.3",

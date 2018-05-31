@@ -7,10 +7,8 @@ var tab_view_common_1 = require("./tab-view-common");
 var text_base_1 = require("../text-base");
 var image_source_1 = require("../../image-source");
 var profiling_1 = require("../../profiling");
-var utils = require("../../utils/utils");
 var frame_1 = require("../frame");
 __export(require("./tab-view-common"));
-var getter = utils.ios.getter;
 var UITabBarControllerImpl = (function (_super) {
     __extends(UITabBarControllerImpl, _super);
     function UITabBarControllerImpl() {
@@ -177,8 +175,6 @@ var TabView = (function (_super) {
     __extends(TabView, _super);
     function TabView() {
         var _this = _super.call(this) || this;
-        _this._tabBarHeight = 0;
-        _this._navBarHeight = 0;
         _this._iconsCache = {};
         _this.viewController = _this._ios = UITabBarControllerImpl.initWithOwner(new WeakRef(_this));
         _this.nativeViewProtected = _this._ios.view;
@@ -379,6 +375,12 @@ var TabView = (function (_super) {
         this.setViewControllers(value);
         tab_view_common_1.selectedIndexProperty.coerce(this);
     };
+    TabView.prototype[tab_view_common_1.tabTextFontSizeProperty.getDefault] = function () {
+        return null;
+    };
+    TabView.prototype[tab_view_common_1.tabTextFontSizeProperty.setNative] = function (value) {
+        this._updateIOSTabBarColorsAndFonts();
+    };
     TabView.prototype[tab_view_common_1.tabTextColorProperty.getDefault] = function () {
         return null;
     };
@@ -427,7 +429,9 @@ var TabView = (function (_super) {
 exports.TabView = TabView;
 function getTitleAttributesForStates(tabView) {
     var result = {};
-    var font = tabView.style.fontInternal.getUIFont(UIFont.systemFontOfSize(10));
+    var defaultTabItemFontSize = 10;
+    var tabItemFontSize = tabView.style.tabTextFontSize || defaultTabItemFontSize;
+    var font = tabView.style.fontInternal.getUIFont(UIFont.systemFontOfSize(tabItemFontSize));
     var tabItemTextColor = tabView.style.tabTextColor;
     var textColor = tabItemTextColor instanceof tab_view_common_1.Color ? tabItemTextColor.ios : null;
     result.normalState = (_a = {}, _a[NSFontAttributeName] = font, _a);

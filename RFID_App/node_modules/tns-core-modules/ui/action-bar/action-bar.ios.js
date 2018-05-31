@@ -272,9 +272,7 @@ var ActionBar = (function (_super) {
     ActionBar.prototype.onMeasure = function (widthMeasureSpec, heightMeasureSpec) {
         var _this = this;
         var width = action_bar_common_1.layout.getMeasureSpecSize(widthMeasureSpec);
-        var widthMode = action_bar_common_1.layout.getMeasureSpecMode(widthMeasureSpec);
         var height = action_bar_common_1.layout.getMeasureSpecSize(heightMeasureSpec);
-        var heightMode = action_bar_common_1.layout.getMeasureSpecMode(heightMeasureSpec);
         if (this.titleView) {
             action_bar_common_1.View.measureChild(this, this.titleView, UNSPECIFIED, UNSPECIFIED);
         }

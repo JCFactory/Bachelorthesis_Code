@@ -63,7 +63,7 @@ exports.administerTap = function () {
             }, 4000);
         }
     }
-    var socket = SocketIO.connect('http://192.168.1.134:3000');
+    var socket = SocketIO.connect('http://169.254.1.4:3000');
     //check for connection
     if (socket !== undefined) {
         console.log("successfully connected through socket io to server");
@@ -75,7 +75,7 @@ exports.administerTap = function () {
                     var data = [];
                     data.push(eventData);
                     data.push(thisID);
-                    // page.getViewById("eventID").text = eventData;
+                    page.getViewById("eventID").text = eventData;
                     socket.emit('administer', data);
                 }
             }

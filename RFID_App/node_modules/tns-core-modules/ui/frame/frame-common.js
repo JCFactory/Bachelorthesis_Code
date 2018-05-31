@@ -140,8 +140,8 @@ var FrameBase = (function (_super) {
             newPage._frame = this;
         }
         this._currentEntry = entry;
-        this._executingEntry = null;
         newPage.onNavigatedTo(isBack);
+        this._executingEntry = null;
     };
     FrameBase.prototype._updateBackstack = function (entry, isBack) {
         var _this = this;

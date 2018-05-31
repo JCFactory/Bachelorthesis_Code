@@ -2,31 +2,26 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 Object.defineProperty(exports, "__esModule", { value: true });
+var view_1 = require("../core/view");
 var dialogs_common_1 = require("./dialogs-common");
 var types_1 = require("../../utils/types");
 __export(require("./dialogs-common"));
-var allertButtons;
-(function (allertButtons) {
-    allertButtons[allertButtons["cancel"] = 1] = "cancel";
-    allertButtons[allertButtons["neutral"] = 2] = "neutral";
-    allertButtons[allertButtons["ok"] = 4] = "ok";
-})(allertButtons || (allertButtons = {}));
 function addButtonsToAlertController(alertController, options, callback) {
     if (!options) {
         return;
     }
     if (types_1.isString(options.cancelButtonText)) {
-        alertController.addAction(UIAlertAction.actionWithTitleStyleHandler(options.cancelButtonText, 0, function (arg) {
+        alertController.addAction(UIAlertAction.actionWithTitleStyleHandler(options.cancelButtonText, 0, function () {
             raiseCallback(callback, false);
         }));
     }
     if (types_1.isString(options.neutralButtonText)) {
-        alertController.addAction(UIAlertAction.actionWithTitleStyleHandler(options.neutralButtonText, 0, function (arg) {
+        alertController.addAction(UIAlertAction.actionWithTitleStyleHandler(options.neutralButtonText, 0, function () {
             raiseCallback(callback, undefined);
         }));
     }
     if (types_1.isString(options.okButtonText)) {
-        alertController.addAction(UIAlertAction.actionWithTitleStyleHandler(options.okButtonText, 0, function (arg) {
+        alertController.addAction(UIAlertAction.actionWithTitleStyleHandler(options.okButtonText, 0, function () {
             raiseCallback(callback, true);
         }));
     }
@@ -113,7 +108,7 @@ function prompt(arg) {
     });
 }
 exports.prompt = prompt;
-function login(arg) {
+function login() {
     var options;
     var defaultOptions = { title: dialogs_common_1.LOGIN, okButtonText: dialogs_common_1.OK, cancelButtonText: dialogs_common_1.CANCEL };
     if (arguments.length === 1) {
@@ -181,7 +176,17 @@ exports.login = login;
 function showUIAlertController(alertController) {
     var currentPage = dialogs_common_1.getCurrentPage();
     if (currentPage) {
-        var viewController = currentPage.modal ? currentPage.modal.ios : currentPage.ios;
+        var view = currentPage;
+        var viewController = currentPage.ios;
+        if (currentPage.modal) {
+            view = currentPage.modal;
+            if (view.ios instanceof UIViewController) {
+                viewController = view.ios;
+            }
+            else {
+                viewController = view_1.ios.getParentWithViewController(view).viewController;
+            }
+        }
         if (viewController) {
             if (alertController.popoverPresentationController) {
                 alertController.popoverPresentationController.sourceView = viewController.view;
@@ -208,7 +213,7 @@ function showUIAlertController(alertController) {
     }
     var _a, _b;
 }
-function action(arg) {
+function action() {
     var options;
     var defaultOptions = { title: null, cancelButtonText: dialogs_common_1.CANCEL };
     if (arguments.length === 1) {

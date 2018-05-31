@@ -109,15 +109,15 @@ var TextView = (function (_super) {
         if (this.formattedText) {
             return;
         }
-        if (text !== null && text !== undefined && text !== '') {
+        if (text !== null && text !== undefined && text !== "") {
             this.showText();
         }
-        else if (!this._isEditing && hint !== null && hint !== undefined && hint !== '') {
+        else if (!this._isEditing && hint !== null && hint !== undefined && hint !== "") {
             this.showHint(hint);
         }
         else {
             this._isShowingHint = false;
-            this.nativeViewProtected.text = '';
+            this.nativeViewProtected.text = "";
         }
     };
     TextView.prototype._refreshColor = function () {
@@ -150,7 +150,7 @@ var TextView = (function (_super) {
         var nativeView = this.nativeViewProtected;
         this._isShowingHint = true;
         this._refreshColor();
-        var hintAsString = (hint === null || hint === undefined) ? '' : hint.toString();
+        var hintAsString = (hint === null || hint === undefined) ? "" : hint.toString();
         nativeView.text = hintAsString;
     };
     TextView.prototype.showText = function () {

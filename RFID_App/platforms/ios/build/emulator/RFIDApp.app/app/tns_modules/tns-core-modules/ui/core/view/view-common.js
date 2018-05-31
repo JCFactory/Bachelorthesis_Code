@@ -7,6 +7,8 @@ var style_properties_1 = require("../../styling/style-properties");
 var gestures_1 = require("../../gestures");
 var builder_1 = require("../../builder");
 var style_scope_1 = require("../../styling/style-scope");
+var linear_gradient_1 = require("../../styling/linear-gradient");
+exports.LinearGradient = linear_gradient_1.LinearGradient;
 __export(require("../../styling/style-properties"));
 __export(require("../view-base"));
 var animationModule;
@@ -179,7 +181,7 @@ var ViewCommon = (function (_super) {
     };
     ViewCommon.prototype.showModal = function () {
         if (arguments.length === 0) {
-            throw new Error('showModal without parameters is deprecated. Please call showModal on a view instance instead.');
+            throw new Error("showModal without parameters is deprecated. Please call showModal on a view instance instead.");
         }
         else {
             var firstAgrument = arguments[0];
@@ -195,6 +197,10 @@ var ViewCommon = (function (_super) {
         }
     };
     ViewCommon.prototype.closeModal = function () {
+        var args = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            args[_i] = arguments[_i];
+        }
         var closeCallback = this._closeModalCallback;
         if (closeCallback) {
             closeCallback.apply(undefined, arguments);
@@ -202,7 +208,7 @@ var ViewCommon = (function (_super) {
         else {
             var parent_1 = this.parent;
             if (parent_1) {
-                parent_1.closeModal();
+                parent_1.closeModal.apply(parent_1, args);
             }
         }
     };
@@ -236,6 +242,13 @@ var ViewCommon = (function (_super) {
         };
     };
     ViewCommon.prototype._hideNativeModalView = function (parent) {
+    };
+    ViewCommon.prototype._raiseLayoutChangedEvent = function () {
+        var args = {
+            eventName: ViewCommon.layoutChangedEvent,
+            object: this
+        };
+        this.notify(args);
     };
     ViewCommon.prototype._raiseShownModallyEvent = function () {
         var args = {
@@ -951,6 +964,7 @@ var ViewCommon = (function (_super) {
         }
         return false;
     };
+    ViewCommon.layoutChangedEvent = "layoutChanged";
     ViewCommon.shownModallyEvent = "shownModally";
     ViewCommon.showingModallyEvent = "showingModally";
     return ViewCommon;

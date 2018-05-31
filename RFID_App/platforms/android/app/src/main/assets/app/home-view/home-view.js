@@ -12,6 +12,7 @@ var items = new ObservableArray([]);
 var pageData = new Observable();
 
 exports.pageLoaded = function (args) {
+    // alert("Hello");
     getDataFromSocket(args);
 };
 
@@ -47,7 +48,7 @@ exports.onTap = function (args) {
 }
 
 function getDataFromSocket(args) {
-    var socket = SocketIO.connect('http://192.168.1.134:3000');
+    var socket = SocketIO.connect('http://169.254.1.4:3000');
     page = args.object;
     pageData.set("items", items);
     page.bindingContext = pageData;
@@ -56,6 +57,7 @@ function getDataFromSocket(args) {
         socket.on('output', function (drugs) {
             var StringData = JSON.stringify(drugs);
             console.log(StringData);
+            // alert(StringData);
             if (drugs.length === 0) {
                 while (items.length) {
                     items.pop();
