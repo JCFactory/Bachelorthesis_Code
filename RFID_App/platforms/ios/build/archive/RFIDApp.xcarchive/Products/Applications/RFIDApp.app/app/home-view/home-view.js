@@ -12,7 +12,7 @@ var items = new ObservableArray([]);
 var pageData = new Observable();
 
 exports.pageLoaded = function (args) {
-    alert("Hello");
+    // alert("Hello");
     getDataFromSocket(args);
 };
 
@@ -51,12 +51,13 @@ function getDataFromSocket(args) {
     var socket = SocketIO.connect('http://169.254.1.4:3000');
     page = args.object;
     pageData.set("items", items);
-    // page.bindingContext = pageData;
+    page.bindingContext = pageData;
     //check for connection
     if (socket !== undefined) {
         socket.on('output', function (drugs) {
             var StringData = JSON.stringify(drugs);
             console.log(StringData);
+            // alert(StringData);
             if (drugs.length === 0) {
                 while (items.length) {
                     items.pop();

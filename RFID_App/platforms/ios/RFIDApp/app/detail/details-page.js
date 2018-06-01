@@ -37,7 +37,7 @@ exports.loaded = function (args) {
     newDrug.push(context.timeStamp);
     newDrug.push(context.event);
     console.log(newDrug);
-    page = args.object;
+    // page = args.object;
     page.bindingContext = context;
 }
 
@@ -80,18 +80,17 @@ exports.administerTap = function () {
                 }
             }
         });
-        
     };
 
-    // socket.on()
+    socket.on()
 
 
-    // alert("administered to patient!");
-    // var eventData = "administered in room: " + page.getViewById("location").text;
-    // console.log(eventData);
-    // // page.getViewById("eventID").text = eventData;
-    // var thisID = page.getViewById("id").text;
-    // console.log(thisID);
+    alert("administered to patient!");
+    var eventData = "administered in room: " + page.getViewById("location").text;
+    console.log(eventData);
+    // page.getViewById("eventID").text = eventData;
+    var thisID = page.getViewById("id").text;
+    console.log(thisID);
 
 }
 

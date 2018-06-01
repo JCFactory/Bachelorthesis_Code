@@ -24,6 +24,5 @@
             </GridLayout.itemTemplate>
         </GridLayout>
         <Button text="Administer to patient" tap="administerTap" class="button"/>
-        <Button text="Cancel" id="clear" tap="administerTap" class="button"/>
     </StackLayout>
 </Page>

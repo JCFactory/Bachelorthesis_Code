@@ -1,8 +1,9 @@
 use_frameworks!
-platform :ios, '11.2.6'
+
 target "RFIDApp" do
 # Begin Podfile - /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/nativescript-dialog/platforms/ios/Podfile 
  pod 'SDCAlertView', '~> 7.1' 
+ #platform :ios,'11.2.6'
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|

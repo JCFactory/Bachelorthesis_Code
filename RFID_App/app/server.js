@@ -17,12 +17,7 @@ setTimeout(function () {
 
         //connect to socket.io
         client.on('connection', function (socket) {
-
             //create function to send status
-            sendStatus = function (s) {
-                socket.emit('status', s);
-            }
-
             console.log('client connected: ' + socket.id);
             Drug.find(function (err, drugs) {
                 if (err) {
@@ -31,39 +26,30 @@ setTimeout(function () {
                 console.log("getting drug from mongoDB and sending to client: " + drugs);
                 socket.emit('output', drugs);
             });
+            socket.on("administer", function (data) {
+                let id = data.id;
+                let event = data.event;
+                console.log(event);
+                if (id == '' || event == '') {
+                    console.log("nothing");
+                } else {
+                    console.log("updating data to mongodb");
+                    //update drug information and emit/send the updated information back to client
+                    Drug.findOneAndUpdate({id: id}, {$set:{event:event}}, {new:true}, function(err, drug){
+                        if(err) {
+                            console.log("something went wrong when updating data");
+                        }else{
+                            console.log(drug);
+                            socket.emit('update', drug);
+                        } 
+                    });
 
-            // socket.on("administer", function (data) {
-            //     let id = data.thisID;
-            //     let event = data.eventData;
-            //     if (id == '' || event == '') {
-            //         sendStatus('No id or event found.');
-            //     } else {
-            //         //update drug information and emit/send the updated information back to client
-            //         Drug.findByIdAndUpdate({ id: id, update: event }, function () {
-            //             socket.emit('update', [data]);
-            //             //send status object
-            //             sendStatus({
-            //                 event: 'Event sent',
-            //                 clear: true
-            //             });
-            //         });
-            //     }
-            // });
-
-            // //handle clear/cancel button
-            // socket.on('clear', function (data) {
-            //     let id = data.id;
-            //     let event = "Not administered";
-            //     Drug.findByIdAndUpdate({ id: id, update: event }, function () {
-            //         socket.emit('canceled', [data]);
-            //         //send status object
-            //         sendStatus({
-            //             event: 'Event sent',
-            //             clear: true
-            //         });
-            //     });
-            // })
-
+                    // Drug.findByIdAndUpdate({ id: id, update: event}, function(){
+                    //     console.log("updating mongodb");
+                    //     socket.emit('update', [event]);
+                    // });
+                }
+            });
             socket.on("disconnect", function (data) {
                 connections.splice(connections.indexOf(socket), 1);
                 console.log("disconnected: %s sockets connected", connections.length);
