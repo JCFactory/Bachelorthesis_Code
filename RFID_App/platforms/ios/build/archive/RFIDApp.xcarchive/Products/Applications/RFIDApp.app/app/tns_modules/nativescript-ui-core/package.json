@@ -1,34 +1,35 @@
 {
   "_args": [
     [
-      "nativescript-ui-core@1.0.0",
+      "nativescript-ui-core@1.0.1",
       "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
     ]
   ],
-  "_from": "nativescript-ui-core@1.0.0",
-  "_id": "nativescript-ui-core@1.0.0",
+  "_from": "nativescript-ui-core@1.0.1",
+  "_id": "nativescript-ui-core@1.0.1",
   "_inBundle": false,
-  "_integrity": "sha1-rUkCflXMw7f1sybr0KoBlGwbaL8=",
+  "_integrity": "sha512-e3JHjF0BzF+upfGO3m3iUmj6B0XD+OpeFOYD9BQoG4khqzaON7ChMoGv7lJYApnmMHvtMaeuKwbDrUDw7d//iw==",
   "_location": "/nativescript-ui-core",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "nativescript-ui-core@1.0.0",
+    "raw": "nativescript-ui-core@1.0.1",
     "name": "nativescript-ui-core",
     "escapedName": "nativescript-ui-core",
-    "rawSpec": "1.0.0",
+    "rawSpec": "1.0.1",
     "saveSpec": null,
-    "fetchSpec": "1.0.0"
+    "fetchSpec": "1.0.1"
   },
   "_requiredBy": [
     "/nativescript-ui-listview"
   ],
-  "_resolved": "https://registry.npmjs.org/nativescript-ui-core/-/nativescript-ui-core-1.0.0.tgz",
-  "_spec": "1.0.0",
+  "_resolved": "https://registry.npmjs.org/nativescript-ui-core/-/nativescript-ui-core-1.0.1.tgz",
+  "_spec": "1.0.1",
   "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
   "author": {
-    "name": "Progress"
+    "name": "NativeScript Team",
+    "email": "nativescriptplugins@progress.com"
   },
   "bootstrapper": "nativescript-plugin-seed",
   "bugs": {
@@ -44,7 +45,7 @@
     "tslint": "^5.0.0",
     "typescript": "~2.3.0"
   },
-  "homepage": "https://github.com/nativescript/nativescript-ui-core",
+  "homepage": "https://github.com/telerik/nativescript-ui-feedback",
   "keywords": [
     "NativeScript",
     "JavaScript",
@@ -60,9 +61,15 @@
       "ios": "3.4.0"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telerik/nativescript-ui-feedback.git"
+  },
   "scripts": {
-    "build": "npm i && tsc",
-    "ci.tslint": "npm i && tslint '**/*.ts' --config '../tslint.json' --exclude '**/node_modules/**'",
+    "build": "npm run build.wrappers && npm run build.native",
+    "build.native": "bash ../publish/build-android.sh && bash ../publish/build-ios.sh",
+    "build.wrappers": "npm i && tsc",
+    "ci.tslint": "npm i && tslint '**/*.ts' --config '../tslint.json' --exclude '**/node_modules/**' --exclude '**/platforms/**'",
     "clean": "cd ../demo && rimraf hooks node_modules platforms && cd ../src && rimraf node_modules && npm run plugin.link",
     "demo.android": "npm i && npm run tsc && cd ../demo && tns run android --syncAllFiles",
     "demo.ios": "npm i && npm run tsc && cd ../demo && tns run ios --syncAllFiles",
@@ -74,8 +81,8 @@
     "test.android": "npm i && npm run tsc && npm run tslint && cd ../demo && tns build android && tns test android --justlaunch",
     "test.ios": "npm i && npm run tsc && npm run tslint && cd ../demo && tns build ios && tns test ios --justlaunch",
     "tsc": "tsc -skipLibCheck",
-    "tslint": "cd .. && tslint \"**/*.ts\" --config tslint.json --exclude \"**/node_modules/**\""
+    "tslint": "cd .. && tslint \"**/*.ts\" --config tslint.json --exclude '**/node_modules/**' --exclude '**/platforms/**'"
   },
   "typings": "index.d.ts",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

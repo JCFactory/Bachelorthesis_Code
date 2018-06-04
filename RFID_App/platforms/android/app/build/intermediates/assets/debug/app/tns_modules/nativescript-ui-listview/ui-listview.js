@@ -460,7 +460,8 @@ var RadListView = (function (_super) {
         this._android.addItemClickListener(new com.telerik.widget.list.RadListView.ItemClickListener({
             onItemClick: function (itemPosition, motionEvent) {
                 var listView = that.get();
-                var tappedView = listView._listViewAdapter.getViewForItem(listView.getItemAtIndex(itemPosition));
+                var originalPosition = listView.isDataOperationsEnabled ? listView._listViewAdapter.getItemId(itemPosition) : itemPosition;
+                var tappedView = listView._listViewAdapter.getViewForItem(listView.getItemAtIndex(originalPosition));
                 var args = {
                     android: motionEvent,
                     eventName: listViewCommonModule.RadListView.itemTapEvent,
@@ -473,7 +474,8 @@ var RadListView = (function (_super) {
             },
             onItemLongClick: function (itemPosition, motionEvent) {
                 var listView = that.get();
-                var tappedView = listView._listViewAdapter.getViewForItem(listView.getItemAtIndex(itemPosition));
+                var originalPosition = listView.isDataOperationsEnabled ? listView._listViewAdapter.getItemId(itemPosition) : itemPosition;
+                var tappedView = listView._listViewAdapter.getViewForItem(listView.getItemAtIndex(originalPosition));
                 var args = {
                     android: motionEvent,
                     eventName: listViewCommonModule.RadListView.itemHoldEvent,

@@ -21,6 +21,25 @@
                     }
                 },
                 {
+                    "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/183b3cfa1ec362ca78123381433782ce/res/values/values.xml",
+                    "from": {
+                        "startLines": "9,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "504,650",
+                        "endLines": "12,15",
+                        "endColumns": "12,12",
+                        "endOffsets": "645,769"
+                    },
+                    "to": {
+                        "startLines": "1790,1794",
+                        "startColumns": "4,4",
+                        "startOffsets": "127491,127637",
+                        "endLines": "1793,1796",
+                        "endColumns": "12,12",
+                        "endOffsets": "127632,127756"
+                    }
+                },
+                {
                     "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/6dd215a0668c446229521e130b1a74a0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,243,246,256,259,260,263,266,269,273,278,281,286,289,294,298,302,304,308,315,319,322,331,337,340,349,353",
@@ -93,25 +112,6 @@
                     }
                 },
                 {
-                    "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/8db5e4b5dcc15578ee450ad51af5f682/res/values/values.xml",
-                    "from": {
-                        "startLines": "9,13",
-                        "startColumns": "4,4",
-                        "startOffsets": "504,650",
-                        "endLines": "12,15",
-                        "endColumns": "12,12",
-                        "endOffsets": "645,769"
-                    },
-                    "to": {
-                        "startLines": "1790,1794",
-                        "startColumns": "4,4",
-                        "startOffsets": "127491,127637",
-                        "endLines": "1793,1796",
-                        "endColumns": "12,12",
-                        "endOffsets": "127632,127756"
-                    }
-                },
-                {
                     "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/7759ebd75c46f1a5b8da16a74f4e8e1f/res/values/values.xml",
                     "from": {
                         "startLines": "3,4,5,6",
@@ -165,6 +165,23 @@
                     }
                 },
                 {
+                    "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,112,164,218,267,318,365,418,466,506,558,627,693",
+                        "endColumns": "56,51,53,48,50,46,52,47,39,51,68,65,66",
+                        "endOffsets": "107,159,213,262,313,360,413,461,501,553,622,688,755"
+                    },
+                    "to": {
+                        "startLines": "46,49,50,71,86,87,88,93,94,481,608,609,610",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3217,3409,3461,4640,5688,5739,5786,6125,6173,42380,50878,50947,51013",
+                        "endColumns": "56,51,53,48,50,46,52,47,39,51,68,65,66",
+                        "endOffsets": "3269,3456,3510,4684,5734,5781,5834,6168,6208,42427,50942,51008,51075"
+                    }
+                },
+                {
                     "source": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/res/values/errorstyles.xml",
                     "from": {
                         "startLines": "2",
@@ -181,23 +198,6 @@
                         "endLines": "1683",
                         "endColumns": "12",
                         "endOffsets": "119579"
-                    }
-                },
-                {
-                    "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,112,164,218,267,318,365,418,466,506,558,627,693",
-                        "endColumns": "56,51,53,48,50,46,52,47,39,51,68,65,66",
-                        "endOffsets": "107,159,213,262,313,360,413,461,501,553,622,688,755"
-                    },
-                    "to": {
-                        "startLines": "46,49,50,71,86,87,88,93,94,481,608,609,610",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3217,3409,3461,4640,5688,5739,5786,6125,6173,42380,50878,50947,51013",
-                        "endColumns": "56,51,53,48,50,46,52,47,39,51,68,65,66",
-                        "endOffsets": "3269,3456,3510,4684,5734,5781,5834,6168,6208,42427,50942,51008,51075"
                     }
                 }
             ]

@@ -48,7 +48,9 @@ exports.onTap = function (args) {
 }
 
 function getDataFromSocket(args) {
+    // var socket = SocketIO.connect('http://127.0.0.1:3000');
     var socket = SocketIO.connect('http://169.254.1.4:3000');
+
     page = args.object;
     pageData.set("items", items);
     page.bindingContext = pageData;
@@ -79,10 +81,6 @@ function noMedFoundDialog(args) {
         nativeView = UIActivityIndicatorView.alloc().initWithActivityIndicatorStyle(UIActivityIndicatorViewStyle.UIActivityIndicatorViewStyleGray);
         nativeView.startAnimating();
     } 
-    // else if (platform.device.os === platform.platformNames.android) {
-    //     nativeView = new android.widget.ProgressBar(application.android.currentContext);
-    //     nativeView.setIndeterminate(true);
-    // }
     dialog.show({
         title: "No medication found...",
         message: "There is no medication!",
@@ -99,17 +97,4 @@ function refreshDialog(args) {
         nativeView = UIActivityIndicatorView.alloc().initWithActivityIndicatorStyle(UIActivityIndicatorViewStyle.UIActivityIndicatorViewStyleGray);
         nativeView.startAnimating();
     } 
-
-    // alert("hola refreshing..");
-    // else if (platform.device.os === platform.platformNames.android) {
-    //     nativeView = new android.widget.ProgressBar(application.android.currentContext);
-    //     nativeView.setIndeterminate(true);
-    // }
-    // dialog.show({
-    //     title: "Refreshing...",
-    //     message: "Please wait!",
-    //     cancelButtonText: "Cancel",
-    //     nativeView: nativeView
-    // }).then(function (r) { console.log("Result: " + r); },
-    //     function (e) { console.log("Error: " + e) });
 }

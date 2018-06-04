@@ -1,31 +1,31 @@
 {
   "_args": [
     [
-      "nativescript-ui-listview@3.5.6",
+      "nativescript-ui-listview@3.5.7",
       "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
     ]
   ],
-  "_from": "nativescript-ui-listview@3.5.6",
-  "_id": "nativescript-ui-listview@3.5.6",
+  "_from": "nativescript-ui-listview@3.5.7",
+  "_id": "nativescript-ui-listview@3.5.7",
   "_inBundle": false,
-  "_integrity": "sha1-H0FD8OD9LSEDOzt7LJKvVsqQ9VE=",
+  "_integrity": "sha512-WIGxB/yD+eoovKxGpeppEbUiTNuy1RMVbuOjTPo3LrsY7pHbXI6HxXb8utMc9RH6zq7NRuGBM1vqcAUYm3ACXA==",
   "_location": "/nativescript-ui-listview",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "nativescript-ui-listview@3.5.6",
+    "raw": "nativescript-ui-listview@3.5.7",
     "name": "nativescript-ui-listview",
     "escapedName": "nativescript-ui-listview",
-    "rawSpec": "3.5.6",
+    "rawSpec": "3.5.7",
     "saveSpec": null,
-    "fetchSpec": "3.5.6"
+    "fetchSpec": "3.5.7"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/nativescript-ui-listview/-/nativescript-ui-listview-3.5.6.tgz",
-  "_spec": "3.5.6",
+  "_resolved": "https://registry.npmjs.org/nativescript-ui-listview/-/nativescript-ui-listview-3.5.7.tgz",
+  "_spec": "3.5.7",
   "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
   "author": {
     "name": "NativeScript Team",
@@ -110,5 +110,5 @@
     "tslint": "cd .. && tslint \"**/*.ts\" --config tslint.json --exclude \"**/node_modules/**\""
   },
   "typings": "index.d.ts",
-  "version": "3.5.6"
+  "version": "3.5.7"
 }

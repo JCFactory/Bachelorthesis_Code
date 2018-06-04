@@ -8,7 +8,7 @@
   "_from": "bson@1.0.6",
   "_id": "bson@1.0.6",
   "_inBundle": false,
-  "_integrity": "sha1-RE21nd1MJPDLBjqr3FyMewzsqRI=",
+  "_integrity": "sha512-D8zmlb46xfuK2gGvKmUjIklQEouN2nQ0LEHHeZ/NoHM2LDiMk2EYzZ5Ntw/Urk+bgMDosOZxaRzXxvhI5TcAVQ==",
   "_location": "/bson",
   "_phantomChildren": {},
   "_requested": {
@@ -23,7 +23,8 @@
   },
   "_requiredBy": [
     "/mongodb-core",
-    "/mongoose"
+    "/mongoose",
+    "/mongoose/mongodb-core"
   ],
   "_resolved": "https://registry.npmjs.org/bson/-/bson-1.0.6.tgz",
   "_spec": "1.0.6",

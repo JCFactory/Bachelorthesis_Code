@@ -8,8 +8,8 @@
   "_from": "mongodb-core@3.0.8",
   "_id": "mongodb-core@3.0.8",
   "_inBundle": false,
-  "_integrity": "sha1-jUAfTqtgVsDYdKPVhEpIRPdh1Nc=",
-  "_location": "/mongodb-core",
+  "_integrity": "sha512-dFxfhH9N7ohuQnINyIl6dqEF8sYOE0WKuymrFf3L3cipJNrx+S8rAbNOTwa00/fuJCjBMJNFsaA+R2N16//UIw==",
+  "_location": "/mongoose/mongodb-core",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
@@ -22,7 +22,7 @@
     "fetchSpec": "3.0.8"
   },
   "_requiredBy": [
-    "/mongodb"
+    "/mongoose/mongodb"
   ],
   "_resolved": "https://registry.npmjs.org/mongodb-core/-/mongodb-core-3.0.8.tgz",
   "_spec": "3.0.8",

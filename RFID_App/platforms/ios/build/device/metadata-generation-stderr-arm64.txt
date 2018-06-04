@@ -78,7 +78,7 @@ In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhon
 @interface NSFileProviderExtension (NSFileProviderDomain)
            ^
 In file included from umbrella.h:706:
-In file included from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/ios/../../node_modules/nativescript-ui-core/platforms/ios/TNSCore.framework/Headers/TNSCore.h:57:
+In file included from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/ios/../../node_modules/nativescript-ui-core/platforms/ios/TNSCore.framework/Headers/TNSCore.h:58:
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/ios/../../node_modules/nativescript-ui-core/platforms/ios/TNSCore.framework/Headers/TKGridLayoutCellDefinition.h:87:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) NSNumber *row;
 ^

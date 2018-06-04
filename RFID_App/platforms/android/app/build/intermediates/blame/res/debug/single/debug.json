@@ -65,7 +65,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/layout_on_demand_automatic.xml.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/layout/on_demand_automatic.xml"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/layout/on_demand_automatic.xml"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
@@ -177,7 +177,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable_shade_bottom.xml.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/drawable/shade_bottom.xml"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/drawable/shade_bottom.xml"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21_abc_btn_colored_material.xml.flat",
@@ -293,7 +293,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_expand.png.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/drawable-xxhdpi-v4/ic_expand.png"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/drawable-xxhdpi-v4/ic_expand.png"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -373,7 +373,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_collapse.png.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/drawable-mdpi-v4/ic_collapse.png"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/drawable-mdpi-v4/ic_collapse.png"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -629,7 +629,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21_pressable_item_background.xml.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/drawable-v21/pressable_item_background.xml"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/drawable-v21/pressable_item_background.xml"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/layout_abc_expanded_menu_layout.xml.flat",
@@ -645,7 +645,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable_selectable_item_background.xml.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/drawable/selectable_item_background.xml"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/drawable/selectable_item_background.xml"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/anim_design_bottom_sheet_slide_in.xml.flat",
@@ -665,7 +665,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable_pressable_item_background.xml.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/drawable/pressable_item_background.xml"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/drawable/pressable_item_background.xml"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
@@ -805,7 +805,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_expand.png.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/drawable-xxxhdpi-v4/ic_expand.png"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/drawable-xxxhdpi-v4/ic_expand.png"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -817,7 +817,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_collapse.png.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/drawable-hdpi-v4/ic_collapse.png"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/drawable-hdpi-v4/ic_collapse.png"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -909,7 +909,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/layout_simple_group_header_item.xml.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/layout/simple_group_header_item.xml"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/layout/simple_group_header_item.xml"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -1061,7 +1061,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_expand.png.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/drawable-mdpi-v4/ic_expand.png"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/drawable-mdpi-v4/ic_expand.png"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
@@ -1181,7 +1181,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/layout_simple_list_item.xml.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/layout/simple_list_item.xml"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/layout/simple_list_item.xml"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -1317,7 +1317,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_collapse.png.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/drawable-xxhdpi-v4/ic_collapse.png"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/drawable-xxhdpi-v4/ic_collapse.png"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -1461,11 +1461,11 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_expand.png.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/drawable-hdpi-v4/ic_expand.png"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/drawable-hdpi-v4/ic_expand.png"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable_shade_right.xml.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/drawable/shade_right.xml"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/drawable/shade_right.xml"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -1525,7 +1525,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_expand.png.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/drawable-xhdpi-v4/ic_expand.png"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/drawable-xhdpi-v4/ic_expand.png"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/color_switch_thumb_material_dark.xml.flat",
@@ -1557,7 +1557,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/layout_on_demand_manual.xml.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/layout/on_demand_manual.xml"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/layout/on_demand_manual.xml"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -1621,7 +1621,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_collapse.png.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/drawable-xhdpi-v4/ic_collapse.png"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/drawable-xhdpi-v4/ic_collapse.png"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -1653,7 +1653,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/layout_simple_empty_content.xml.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/layout/simple_empty_content.xml"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/layout/simple_empty_content.xml"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -1685,7 +1685,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable_shade_corner.xml.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/drawable/shade_corner.xml"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/drawable/shade_corner.xml"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -1813,7 +1813,7 @@
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_collapse.png.flat",
-        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/d3a3463aa0eb9d61d4fb68d91a4e376d/res/drawable-xxxhdpi-v4/ic_collapse.png"
+        "source": "/Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/res/drawable-xxxhdpi-v4/ic_collapse.png"
     },
     {
         "merged": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
