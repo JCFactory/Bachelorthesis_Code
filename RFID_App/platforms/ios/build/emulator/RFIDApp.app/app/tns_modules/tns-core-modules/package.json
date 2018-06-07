@@ -1,35 +1,33 @@
 {
-  "_args": [
-    [
-      "tns-core-modules@4.1.0",
-      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
-    ]
-  ],
-  "_from": "tns-core-modules@4.1.0",
+  "_from": "tns-core-modules",
   "_id": "tns-core-modules@4.1.0",
   "_inBundle": false,
   "_integrity": "sha512-ZTpH7/zHfARrJ+1bPwbBYyqFVQO+2unnygfLW8Bu3clzpTkdwwW++1DS+Qbzw7r84+dzdVPZ7zwEVkjpfAFogw==",
   "_location": "/tns-core-modules",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "tag",
     "registry": true,
-    "raw": "tns-core-modules@4.1.0",
+    "raw": "tns-core-modules",
     "name": "tns-core-modules",
     "escapedName": "tns-core-modules",
-    "rawSpec": "4.1.0",
+    "rawSpec": "",
     "saveSpec": null,
-    "fetchSpec": "4.1.0"
+    "fetchSpec": "latest"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-4.1.0.tgz",
-  "_spec": "4.1.0",
+  "_shasum": "f838f0e040b9cdef8d361ba7392dfece51762fc2",
+  "_spec": "tns-core-modules",
   "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
+  "bundleDependencies": false,
   "dependencies": {
     "tns-core-modules-widgets": "4.1.0"
   },
+  "deprecated": false,
   "description": "Telerik NativeScript Core Modules",
   "devDependencies": {
     "@types/node": "~7.0.5",

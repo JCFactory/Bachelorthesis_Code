@@ -25,6 +25,7 @@
     "/babel-traverse",
     "/body-parser",
     "/compression",
+    "/debug-fabulous",
     "/expand-brackets",
     "/express",
     "/finalhandler",

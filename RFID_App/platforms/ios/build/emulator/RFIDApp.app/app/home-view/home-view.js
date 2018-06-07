@@ -48,7 +48,9 @@ exports.onTap = function (args) {
 }
 
 function getDataFromSocket(args) {
-    var socket = SocketIO.connect('http://127.0.0.1:3000');
+    // var socket = SocketIO.connect('http://127.0.0.1:3000');
+    var socket = SocketIO.connect('http://169.254.1.4:3000');
+
     page = args.object;
     pageData.set("items", items);
     page.bindingContext = pageData;

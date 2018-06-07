@@ -22,7 +22,6 @@
     "fetchSpec": "1.0.6"
   },
   "_requiredBy": [
-    "/mongodb-core",
     "/mongoose",
     "/mongoose/mongodb-core"
   ],

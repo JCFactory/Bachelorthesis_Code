@@ -5,7 +5,6 @@
       "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
     ]
   ],
-  "_development": true,
   "_from": "once@1.4.0",
   "_id": "once@1.4.0",
   "_inBundle": false,
@@ -25,6 +24,7 @@
   "_requiredBy": [
     "/end-of-stream",
     "/glob",
+    "/glob-stream/glob",
     "/inflight",
     "/nativescript-hook/glob",
     "/pump"

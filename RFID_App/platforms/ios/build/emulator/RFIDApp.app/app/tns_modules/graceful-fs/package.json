@@ -5,7 +5,6 @@
       "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
     ]
   ],
-  "_development": true,
   "_from": "graceful-fs@4.1.11",
   "_id": "graceful-fs@4.1.11",
   "_inBundle": false,
@@ -26,11 +25,16 @@
     "/cacache",
     "/enhanced-resolve",
     "/fs-write-stream-atomic",
+    "/gulp-sourcemaps",
     "/load-json-file",
     "/meow/load-json-file",
     "/meow/path-type",
+    "/module/load-json-file",
+    "/module/path-type",
     "/nativescript-worker-loader/enhanced-resolve",
+    "/pkg-conf/load-json-file",
     "/readdirp",
+    "/vinyl-fs",
     "/watchpack",
     "/webpack/load-json-file",
     "/webpack/path-type"

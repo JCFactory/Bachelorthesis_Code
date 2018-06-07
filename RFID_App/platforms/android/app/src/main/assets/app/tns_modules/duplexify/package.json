@@ -5,7 +5,6 @@
       "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
     ]
   ],
-  "_development": true,
   "_from": "duplexify@3.6.0",
   "_id": "duplexify@3.6.0",
   "_inBundle": false,
@@ -24,7 +23,8 @@
   },
   "_requiredBy": [
     "/mississippi",
-    "/pumpify"
+    "/pumpify",
+    "/vinyl-fs"
   ],
   "_resolved": "https://registry.npmjs.org/duplexify/-/duplexify-3.6.0.tgz",
   "_spec": "3.6.0",

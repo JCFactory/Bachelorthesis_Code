@@ -11,7 +11,7 @@ MERGED from [com.android.support:multidex:1.0.2] /Users/jacquelinefranssen/.grad
 MERGED from [com.android.support:transition:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/63f831e43758f869e03d8c052a47644f/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/7085668bc1bf2c9f233a63d74ae3ac6e/AndroidManifest.xml:17:1-31:12
 MERGED from [:nativescript-optimized:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript-optimized.aar/e1872a1d8fd101d28a0e28cfc9782012/AndroidManifest.xml:2:1-11:12
-MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/71cd51d6563eb2a6c2626bc1266b3746/AndroidManifest.xml:2:1-11:12
+MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/8f3ff88eaa985b2b7e0246a3e264e3e8/AndroidManifest.xml:2:1-11:12
 MERGED from [:TNSListView-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/AndroidManifest.xml:2:1-11:12
 MERGED from [:TNSCore-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/183b3cfa1ec362ca78123381433782ce/AndroidManifest.xml:2:1-11:12
 MERGED from [:widgets-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/998ed3a3325a5442bbde5d2d366d5efc/AndroidManifest.xml:2:1-14:12
@@ -67,8 +67,8 @@ MERGED from [com.android.support:support-v4:25.3.1] /Users/jacquelinefranssen/.g
 MERGED from [com.android.support:support-v4:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/7085668bc1bf2c9f233a63d74ae3ac6e/AndroidManifest.xml:21:5-23:54
 MERGED from [:nativescript-optimized:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript-optimized.aar/e1872a1d8fd101d28a0e28cfc9782012/AndroidManifest.xml:7:5-9:41
 MERGED from [:nativescript-optimized:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript-optimized.aar/e1872a1d8fd101d28a0e28cfc9782012/AndroidManifest.xml:7:5-9:41
-MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/71cd51d6563eb2a6c2626bc1266b3746/AndroidManifest.xml:7:5-47
-MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/71cd51d6563eb2a6c2626bc1266b3746/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/8f3ff88eaa985b2b7e0246a3e264e3e8/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/8f3ff88eaa985b2b7e0246a3e264e3e8/AndroidManifest.xml:7:5-47
 MERGED from [:TNSListView-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/AndroidManifest.xml:7:5-9:41
 MERGED from [:TNSListView-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/AndroidManifest.xml:7:5-9:41
 MERGED from [:TNSCore-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/183b3cfa1ec362ca78123381433782ce/AndroidManifest.xml:7:5-9:41
@@ -112,8 +112,8 @@ ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platfo
 		ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:16:22-78
 uses-permission#android.permission.INTERNET
 ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:17:5-67
-MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/71cd51d6563eb2a6c2626bc1266b3746/AndroidManifest.xml:9:5-67
-MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/71cd51d6563eb2a6c2626bc1266b3746/AndroidManifest.xml:9:5-67
+MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/8f3ff88eaa985b2b7e0246a3e264e3e8/AndroidManifest.xml:9:5-67
+MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/8f3ff88eaa985b2b7e0246a3e264e3e8/AndroidManifest.xml:9:5-67
 	android:name
 		ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:17:22-64
 application

@@ -5,7 +5,6 @@
       "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
     ]
   ],
-  "_development": true,
   "_from": "through2@2.0.3",
   "_id": "through2@2.0.3",
   "_inBundle": false,
@@ -23,7 +22,11 @@
     "fetchSpec": "2.0.3"
   },
   "_requiredBy": [
-    "/mississippi"
+    "/@gulp-sourcemaps/map-sources",
+    "/gulp-sourcemaps",
+    "/mississippi",
+    "/through2-filter",
+    "/vinyl-fs"
   ],
   "_resolved": "https://registry.npmjs.org/through2/-/through2-2.0.3.tgz",
   "_spec": "2.0.3",
