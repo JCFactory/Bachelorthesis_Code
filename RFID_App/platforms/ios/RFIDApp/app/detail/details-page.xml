@@ -5,7 +5,7 @@
         <NavigationButton text="Back" android.systemIcon="ic_menu_back" tap="onNavBtnTap"/>
     </ActionBar>
     <StackLayout>
-        <GridLayout rows="50, 50, 50, 50, 50, 50, 50" columns="*, *">
+        <GridLayout rows="50, 50, 50, 50, 50, 50, 50" columns="auto, auto">
             <GridLayout.itemTemplate>
                 <Label text="ID" col="0" row="0" class="header"/>
                 <Label text="{{id}}" col="1" row="0" id="id" class="detail"/>
