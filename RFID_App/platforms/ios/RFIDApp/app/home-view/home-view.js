@@ -48,9 +48,16 @@ exports.onTap = function (args) {
 }
 
 function getDataFromSocket(args) {
-    // var socket = SocketIO.connect('http://127.0.0.1:3000');
-    var socket = SocketIO.connect('http://169.254.1.4:3000');
+    //Localhost
+    var socket = SocketIO.connect('http://127.0.0.1:3000');
 
+    //private Hub IP
+    // var socket = SocketIO.connect('http://169.254.1.2:3000');
+
+    //Uniovi WIFI IP
+    // var socket = SocketIO.connect('http://10.38.30.106:3000');
+
+    
     page = args.object;
     pageData.set("items", items);
     page.bindingContext = pageData;

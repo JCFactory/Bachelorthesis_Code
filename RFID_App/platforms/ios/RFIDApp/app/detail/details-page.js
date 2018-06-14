@@ -6,7 +6,7 @@ var platform = require('platform');
 var dialog = require('nativescript-dialog')
 var page;
 
-var allowedDrugs = [110, 23456, 54321];
+var allowedDrugs = [112, 122, 126];
 
 var drug = new ObservableArray();
 var id;
@@ -74,7 +74,7 @@ exports.administerTap = function (args) {
                 function (e) { console.log("Error: " + e) });
         } else {
             var socket = SocketIO.connect('http://169.254.1.4:3000');
-            //  var socket = SocketIO.connect('http://127.0.0.1:3000');
+            // var socket = SocketIO.connect('http://127.0.0.1:3000');
             //check for connection
             if (socket !== undefined) {
                 console.log("successfully connected through socket io to server");

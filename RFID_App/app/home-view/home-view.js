@@ -17,11 +17,11 @@ exports.pageLoaded = function (args) {
 };
 
 exports.pullToRefreshInitiated = function (args) {
-     setTimeout(function () {
+    setTimeout(function () {
         refreshDialog(args);
         getDataFromSocket(args);
         page.getViewById("listview").notifyPullToRefreshFinished();
-     }, 5000);
+    }, 5000);
 };
 
 exports.onTap = function (args) {
@@ -48,8 +48,12 @@ exports.onTap = function (args) {
 }
 
 function getDataFromSocket(args) {
+    //localhost:
     // var socket = SocketIO.connect('http://127.0.0.1:3000');
-    var socket = SocketIO.connect('http://169.254.1.4:3000');
+    //lucia home:
+    var socket = SocketIO.connect('http://192.168.1.64:3000');
+    //private Network:
+    // var socket = SocketIO.connect('http://169.254.1.4:3000');
 
     page = args.object;
     pageData.set("items", items);
@@ -80,7 +84,7 @@ function noMedFoundDialog(args) {
     if (platform.device.os === platform.platformNames.ios) {
         nativeView = UIActivityIndicatorView.alloc().initWithActivityIndicatorStyle(UIActivityIndicatorViewStyle.UIActivityIndicatorViewStyleGray);
         nativeView.startAnimating();
-    } 
+    }
     dialog.show({
         title: "No medication found...",
         message: "There is no medication!",
@@ -96,5 +100,5 @@ function refreshDialog(args) {
     if (platform.device.os === platform.platformNames.ios) {
         nativeView = UIActivityIndicatorView.alloc().initWithActivityIndicatorStyle(UIActivityIndicatorViewStyle.UIActivityIndicatorViewStyleGray);
         nativeView.startAnimating();
-    } 
+    }
 }

@@ -6,7 +6,7 @@ var platform = require('platform');
 var dialog = require('nativescript-dialog')
 var page;
 
-var allowedDrugs = [110, 23456, 54321];
+var allowedDrugs = [110, 112];
 
 var drug = new ObservableArray();
 var id;
@@ -73,8 +73,10 @@ exports.administerTap = function (args) {
             }).then(function (r) { console.log("Result: " + r); },
                 function (e) { console.log("Error: " + e) });
         } else {
-            var socket = SocketIO.connect('http://169.254.1.4:3000');
-            //  var socket = SocketIO.connect('http://127.0.0.1:3000');
+            var socket = SocketIO.connect('http://192.168.1.64:3000');
+
+            // var socket = SocketIO.connect('http://169.254.1.4:3000');
+            // var socket = SocketIO.connect('http://127.0.0.1:3000');
             //check for connection
             if (socket !== undefined) {
                 console.log("successfully connected through socket io to server");
@@ -98,16 +100,16 @@ exports.administerTap = function (args) {
                     pageData.set("event", datareceived.event);
                     page.bindingContext = pageData;
                 });
-            } else {
-                var nativeView;
-                dialog.show({
-                    title: "Error!",
-                    message: "The selected drug should not be administered to patient!",
-                    cancelButtonText: "Ok",
-                    nativeView: nativeView
-                }).then(function (r) { console.log("Result: " + r); },
-                    function (e) { console.log("Error: " + e) });
             }
         }
+    } else {
+        var nativeView;
+        dialog.show({
+            title: "Error!",
+            message: "The selected drug should not be administered to patient!",
+            cancelButtonText: "Ok",
+            nativeView: nativeView
+        }).then(function (r) { console.log("Result: " + r); },
+            function (e) { console.log("Error: " + e) });
     }
 };

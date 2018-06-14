@@ -1,0 +1,4 @@
+#Thu Jun 14 12:31:54 CEST 2018
+base.0=/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
