@@ -6,7 +6,7 @@ var platform = require('platform');
 var dialog = require('nativescript-dialog')
 var page;
 
-var allowedDrugs = [112, 122, 126];
+var allowedDrugs = [110, 112, 115, 120];
 
 var drug = new ObservableArray();
 var id;
@@ -73,15 +73,17 @@ exports.administerTap = function (args) {
             }).then(function (r) { console.log("Result: " + r); },
                 function (e) { console.log("Error: " + e) });
         } else {
-           // var socket = SocketIO.connect('http://169.254.1.4:3000');
-           //Lucia home
-             var socket = SocketIO.connect('http://192.168.1.64:3000');
+            var socket = SocketIO.connect('http://192.168.1.64:3000');
+
+            // var socket = SocketIO.connect('http://169.254.1.4:3000');
+            // var socket = SocketIO.connect('http://127.0.0.1:3000');
             //check for connection
             if (socket !== undefined) {
                 console.log("successfully connected through socket io to server");
                 socket.emit('administer', thisID);
                 socket.on('updated', function (datareceived) {
                     var nativeView;
+                    alert(datareceived);
                     dialog.show({
                         title: "Information",
                         message: "The selected drug was administered successfully!",
@@ -90,25 +92,19 @@ exports.administerTap = function (args) {
                     }).then(function (r) { console.log("Result: " + r); },
                         function (e) { console.log("Error: " + e) });
                     page = args.object;
-                    pageData.set("id", datareceived.id);
-                    pageData.set("name", datareceived.name);
-                    pageData.set("countryCode", datareceived.countryCode);
-                    pageData.set("size", datareceived.size);
-                    pageData.set("location", datareceived.location);
-                    pageData.set("timeStamp", datareceived.timeStamp);
-                    pageData.set("event", datareceived.event);
+                    pageData.set("event", datareceived);
                     page.bindingContext = pageData;
                 });
-            } else {
-                var nativeView;
-                dialog.show({
-                    title: "Error!",
-                    message: "The selected drug should not be administered to patient!",
-                    cancelButtonText: "Ok",
-                    nativeView: nativeView
-                }).then(function (r) { console.log("Result: " + r); },
-                    function (e) { console.log("Error: " + e) });
             }
         }
+    } else {
+        var nativeView;
+        dialog.show({
+            title: "Error!",
+            message: "The selected drug should not be administered to patient!",
+            cancelButtonText: "Ok",
+            nativeView: nativeView
+        }).then(function (r) { console.log("Result: " + r); },
+            function (e) { console.log("Error: " + e) });
     }
 };

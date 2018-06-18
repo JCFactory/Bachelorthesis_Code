@@ -4,24 +4,24 @@ ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platfo
 INJECTED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:2:1-39:12
 INJECTED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:2:1-39:12
 INJECTED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:2:1-39:12
-MERGED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/6dd215a0668c446229521e130b1a74a0/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/dd36f131b214e76d9d13f9a768fd7e98/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/7759ebd75c46f1a5b8da16a74f4e8e1f/AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.support:multidex:1.0.2] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/adb9a38b47eaa50b783901f9a7665d9e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/63f831e43758f869e03d8c052a47644f/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/7085668bc1bf2c9f233a63d74ae3ac6e/AndroidManifest.xml:17:1-31:12
-MERGED from [:nativescript-optimized:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript-optimized.aar/e1872a1d8fd101d28a0e28cfc9782012/AndroidManifest.xml:2:1-11:12
-MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/9a79c2ba69422a03fefb7d8da3169b72/AndroidManifest.xml:2:1-11:12
-MERGED from [:TNSListView-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/AndroidManifest.xml:2:1-11:12
-MERGED from [:TNSCore-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/183b3cfa1ec362ca78123381433782ce/AndroidManifest.xml:2:1-11:12
-MERGED from [:widgets-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/998ed3a3325a5442bbde5d2d366d5efc/AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e1bdf4598c35b9aabe6fc2a4ae7433d8/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/384ed801e84107a91e4a7f8aaa4dda0c/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/cf129ebb36ce7a19e77b47673776d664/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/20a2c7ee40603fba8bd50c26181b2f89/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/0b000dbebd00b93e64c35b57951731ce/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1a8a4ab78c48fd0c6f7f54b298638e6/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/3896ff8db66f06c69d4cbdc56e2d3940/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a1e7f06f3621ad3b4c1fa8f9068f9702/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9374a5a697e210c825ffed397b485a04/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/61b9b1b46ce6482a30b8fff8d47f04ba/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/cf937511b5134da7393b6e470d54dd6e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/5291873f67f0401c4053999b35e86232/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/4cb079dfce0cc5994307f219d368209d/AndroidManifest.xml:17:1-31:12
+MERGED from [:nativescript-optimized-with-inspector:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/cb1dc88e3a395b1f29a8f173edfa5489/AndroidManifest.xml:2:1-11:12
+MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/bf241297e929a512d7aa0302043eb223/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSListView-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/0c0128f102ac7729e279015d0892e461/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSCore-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/4870a02e981348168a5127cf050e1a59/AndroidManifest.xml:2:1-11:12
+MERGED from [:widgets-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/ce34a582ad918a6e08336b82d8f2bf5e/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/083f8add9958e9cb6d0a12aa754b7603/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/1f841ac8d27028717598eef84b21e047/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/94ce178c8e3ce11ff71e69e7ccd231ad/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/54811ecfe6fab1c107d3e52cecf5ca5d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/80a9c96118a7c0fbb6a773470b4a486a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/19454b8fb70fdcb53c7274af7686f4ac/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/03e1333a6a6c97469f95712929075e1b/AndroidManifest.xml:17:1-31:12
 INJECTED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:2:1-39:12
 INJECTED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:2:1-39:12
 INJECTED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:2:1-39:12
@@ -53,46 +53,46 @@ uses-sdk
 ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:12:5-14:34
 INJECTED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:12:5-14:34
 INJECTED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:12:5-14:34
-MERGED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/6dd215a0668c446229521e130b1a74a0/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/6dd215a0668c446229521e130b1a74a0/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/dd36f131b214e76d9d13f9a768fd7e98/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/dd36f131b214e76d9d13f9a768fd7e98/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/7759ebd75c46f1a5b8da16a74f4e8e1f/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/7759ebd75c46f1a5b8da16a74f4e8e1f/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:multidex:1.0.2] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/adb9a38b47eaa50b783901f9a7665d9e/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:multidex:1.0.2] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/adb9a38b47eaa50b783901f9a7665d9e/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/63f831e43758f869e03d8c052a47644f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/63f831e43758f869e03d8c052a47644f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/7085668bc1bf2c9f233a63d74ae3ac6e/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/7085668bc1bf2c9f233a63d74ae3ac6e/AndroidManifest.xml:21:5-23:54
-MERGED from [:nativescript-optimized:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript-optimized.aar/e1872a1d8fd101d28a0e28cfc9782012/AndroidManifest.xml:7:5-9:41
-MERGED from [:nativescript-optimized:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript-optimized.aar/e1872a1d8fd101d28a0e28cfc9782012/AndroidManifest.xml:7:5-9:41
-MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/9a79c2ba69422a03fefb7d8da3169b72/AndroidManifest.xml:7:5-47
-MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/9a79c2ba69422a03fefb7d8da3169b72/AndroidManifest.xml:7:5-47
-MERGED from [:TNSListView-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/AndroidManifest.xml:7:5-9:41
-MERGED from [:TNSListView-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/317da1da0e7428a6ac546107b57be6e7/AndroidManifest.xml:7:5-9:41
-MERGED from [:TNSCore-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/183b3cfa1ec362ca78123381433782ce/AndroidManifest.xml:7:5-9:41
-MERGED from [:TNSCore-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/183b3cfa1ec362ca78123381433782ce/AndroidManifest.xml:7:5-9:41
-MERGED from [:widgets-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/998ed3a3325a5442bbde5d2d366d5efc/AndroidManifest.xml:7:5-9:41
-MERGED from [:widgets-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/998ed3a3325a5442bbde5d2d366d5efc/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e1bdf4598c35b9aabe6fc2a4ae7433d8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e1bdf4598c35b9aabe6fc2a4ae7433d8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/384ed801e84107a91e4a7f8aaa4dda0c/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/384ed801e84107a91e4a7f8aaa4dda0c/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/cf129ebb36ce7a19e77b47673776d664/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/cf129ebb36ce7a19e77b47673776d664/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/20a2c7ee40603fba8bd50c26181b2f89/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/20a2c7ee40603fba8bd50c26181b2f89/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/0b000dbebd00b93e64c35b57951731ce/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/0b000dbebd00b93e64c35b57951731ce/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1a8a4ab78c48fd0c6f7f54b298638e6/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1a8a4ab78c48fd0c6f7f54b298638e6/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/3896ff8db66f06c69d4cbdc56e2d3940/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/3896ff8db66f06c69d4cbdc56e2d3940/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a1e7f06f3621ad3b4c1fa8f9068f9702/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a1e7f06f3621ad3b4c1fa8f9068f9702/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9374a5a697e210c825ffed397b485a04/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9374a5a697e210c825ffed397b485a04/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/61b9b1b46ce6482a30b8fff8d47f04ba/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/61b9b1b46ce6482a30b8fff8d47f04ba/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/cf937511b5134da7393b6e470d54dd6e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/cf937511b5134da7393b6e470d54dd6e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/5291873f67f0401c4053999b35e86232/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/5291873f67f0401c4053999b35e86232/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/4cb079dfce0cc5994307f219d368209d/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/4cb079dfce0cc5994307f219d368209d/AndroidManifest.xml:21:5-23:54
+MERGED from [:nativescript-optimized-with-inspector:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/cb1dc88e3a395b1f29a8f173edfa5489/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript-optimized-with-inspector:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/cb1dc88e3a395b1f29a8f173edfa5489/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/bf241297e929a512d7aa0302043eb223/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/bf241297e929a512d7aa0302043eb223/AndroidManifest.xml:7:5-47
+MERGED from [:TNSListView-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/0c0128f102ac7729e279015d0892e461/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSListView-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/0c0128f102ac7729e279015d0892e461/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCore-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/4870a02e981348168a5127cf050e1a59/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCore-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/4870a02e981348168a5127cf050e1a59/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/ce34a582ad918a6e08336b82d8f2bf5e/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/ce34a582ad918a6e08336b82d8f2bf5e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/083f8add9958e9cb6d0a12aa754b7603/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/083f8add9958e9cb6d0a12aa754b7603/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/1f841ac8d27028717598eef84b21e047/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/1f841ac8d27028717598eef84b21e047/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/94ce178c8e3ce11ff71e69e7ccd231ad/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/94ce178c8e3ce11ff71e69e7ccd231ad/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/54811ecfe6fab1c107d3e52cecf5ca5d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/54811ecfe6fab1c107d3e52cecf5ca5d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/80a9c96118a7c0fbb6a773470b4a486a/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/80a9c96118a7c0fbb6a773470b4a486a/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/19454b8fb70fdcb53c7274af7686f4ac/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/19454b8fb70fdcb53c7274af7686f4ac/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/03e1333a6a6c97469f95712929075e1b/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/03e1333a6a6c97469f95712929075e1b/AndroidManifest.xml:21:5-23:58
 INJECTED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:12:5-14:34
 INJECTED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:12:5-14:34
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/6dd215a0668c446229521e130b1a74a0/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a1e7f06f3621ad3b4c1fa8f9068f9702/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:14:3-32
 		INJECTED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml
@@ -112,36 +112,36 @@ ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platfo
 		ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:16:22-78
 uses-permission#android.permission.INTERNET
 ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:17:5-67
-MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/9a79c2ba69422a03fefb7d8da3169b72/AndroidManifest.xml:9:5-67
-MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/9a79c2ba69422a03fefb7d8da3169b72/AndroidManifest.xml:9:5-67
+MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/bf241297e929a512d7aa0302043eb223/AndroidManifest.xml:9:5-67
+MERGED from [:nativescript_socket.io:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/nativescript_socket.io.aar/bf241297e929a512d7aa0302043eb223/AndroidManifest.xml:9:5-67
 	android:name
 		ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:17:22-64
 application
 ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:18:5-38:19
-MERGED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/6dd215a0668c446229521e130b1a74a0/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/6dd215a0668c446229521e130b1a74a0/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/dd36f131b214e76d9d13f9a768fd7e98/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/dd36f131b214e76d9d13f9a768fd7e98/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/63f831e43758f869e03d8c052a47644f/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/63f831e43758f869e03d8c052a47644f/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/7085668bc1bf2c9f233a63d74ae3ac6e/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/7085668bc1bf2c9f233a63d74ae3ac6e/AndroidManifest.xml:29:5-20
-MERGED from [:widgets-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/998ed3a3325a5442bbde5d2d366d5efc/AndroidManifest.xml:11:5-12:19
-MERGED from [:widgets-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/998ed3a3325a5442bbde5d2d366d5efc/AndroidManifest.xml:11:5-12:19
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e1bdf4598c35b9aabe6fc2a4ae7433d8/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e1bdf4598c35b9aabe6fc2a4ae7433d8/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/384ed801e84107a91e4a7f8aaa4dda0c/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/384ed801e84107a91e4a7f8aaa4dda0c/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/cf129ebb36ce7a19e77b47673776d664/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/cf129ebb36ce7a19e77b47673776d664/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/20a2c7ee40603fba8bd50c26181b2f89/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/20a2c7ee40603fba8bd50c26181b2f89/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/0b000dbebd00b93e64c35b57951731ce/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/0b000dbebd00b93e64c35b57951731ce/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1a8a4ab78c48fd0c6f7f54b298638e6/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1a8a4ab78c48fd0c6f7f54b298638e6/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/3896ff8db66f06c69d4cbdc56e2d3940/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/3896ff8db66f06c69d4cbdc56e2d3940/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a1e7f06f3621ad3b4c1fa8f9068f9702/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a1e7f06f3621ad3b4c1fa8f9068f9702/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9374a5a697e210c825ffed397b485a04/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9374a5a697e210c825ffed397b485a04/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/5291873f67f0401c4053999b35e86232/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/5291873f67f0401c4053999b35e86232/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/4cb079dfce0cc5994307f219d368209d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/4cb079dfce0cc5994307f219d368209d/AndroidManifest.xml:29:5-20
+MERGED from [:widgets-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/ce34a582ad918a6e08336b82d8f2bf5e/AndroidManifest.xml:11:5-12:19
+MERGED from [:widgets-release:] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/ce34a582ad918a6e08336b82d8f2bf5e/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/083f8add9958e9cb6d0a12aa754b7603/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/083f8add9958e9cb6d0a12aa754b7603/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/1f841ac8d27028717598eef84b21e047/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/1f841ac8d27028717598eef84b21e047/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/94ce178c8e3ce11ff71e69e7ccd231ad/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/94ce178c8e3ce11ff71e69e7ccd231ad/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/54811ecfe6fab1c107d3e52cecf5ca5d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/54811ecfe6fab1c107d3e52cecf5ca5d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/80a9c96118a7c0fbb6a773470b4a486a/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/80a9c96118a7c0fbb6a773470b4a486a/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/19454b8fb70fdcb53c7274af7686f4ac/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/19454b8fb70fdcb53c7274af7686f4ac/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/03e1333a6a6c97469f95712929075e1b/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/03e1333a6a6c97469f95712929075e1b/AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:22:3-35
 	android:icon
@@ -174,7 +174,7 @@ ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platfo
 		ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:31:14-34
 	android:name
 		ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:30:24-75
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:32:13-35:29
 action#android.intent.action.MAIN
 ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:33:17-69
@@ -189,30 +189,30 @@ ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platfo
 	android:name
 		ADDED from /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/AndroidManifest.xml:37:19-61
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/6dd215a0668c446229521e130b1a74a0/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/dd36f131b214e76d9d13f9a768fd7e98/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/dd36f131b214e76d9d13f9a768fd7e98/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/7759ebd75c46f1a5b8da16a74f4e8e1f/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/7759ebd75c46f1a5b8da16a74f4e8e1f/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/63f831e43758f869e03d8c052a47644f/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/63f831e43758f869e03d8c052a47644f/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/7085668bc1bf2c9f233a63d74ae3ac6e/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/7085668bc1bf2c9f233a63d74ae3ac6e/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e1bdf4598c35b9aabe6fc2a4ae7433d8/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/e1bdf4598c35b9aabe6fc2a4ae7433d8/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/384ed801e84107a91e4a7f8aaa4dda0c/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/384ed801e84107a91e4a7f8aaa4dda0c/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/cf129ebb36ce7a19e77b47673776d664/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/cf129ebb36ce7a19e77b47673776d664/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/20a2c7ee40603fba8bd50c26181b2f89/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/20a2c7ee40603fba8bd50c26181b2f89/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/0b000dbebd00b93e64c35b57951731ce/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/0b000dbebd00b93e64c35b57951731ce/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1a8a4ab78c48fd0c6f7f54b298638e6/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a1a8a4ab78c48fd0c6f7f54b298638e6/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/3896ff8db66f06c69d4cbdc56e2d3940/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/3896ff8db66f06c69d4cbdc56e2d3940/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a1e7f06f3621ad3b4c1fa8f9068f9702/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9374a5a697e210c825ffed397b485a04/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/9374a5a697e210c825ffed397b485a04/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/61b9b1b46ce6482a30b8fff8d47f04ba/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/61b9b1b46ce6482a30b8fff8d47f04ba/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/5291873f67f0401c4053999b35e86232/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/5291873f67f0401c4053999b35e86232/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/4cb079dfce0cc5994307f219d368209d/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/4cb079dfce0cc5994307f219d368209d/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/083f8add9958e9cb6d0a12aa754b7603/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/083f8add9958e9cb6d0a12aa754b7603/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/1f841ac8d27028717598eef84b21e047/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/1f841ac8d27028717598eef84b21e047/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/94ce178c8e3ce11ff71e69e7ccd231ad/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/94ce178c8e3ce11ff71e69e7ccd231ad/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/54811ecfe6fab1c107d3e52cecf5ca5d/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/54811ecfe6fab1c107d3e52cecf5ca5d/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/80a9c96118a7c0fbb6a773470b4a486a/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/80a9c96118a7c0fbb6a773470b4a486a/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/19454b8fb70fdcb53c7274af7686f4ac/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/19454b8fb70fdcb53c7274af7686f4ac/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/03e1333a6a6c97469f95712929075e1b/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/03e1333a6a6c97469f95712929075e1b/AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/6dd215a0668c446229521e130b1a74a0/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a1e7f06f3621ad3b4c1fa8f9068f9702/AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/6dd215a0668c446229521e130b1a74a0/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] /Users/jacquelinefranssen/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a1e7f06f3621ad3b4c1fa8f9068f9702/AndroidManifest.xml:26:9-47

@@ -10,7 +10,7 @@
                 <Label text="ID" col="0" row="0" class="header"/>
                 <Label text="{{id}}" col="1" row="0" id="id" class="detail"/>
                 <Label text="Name" col="0" row="1" class="header"/>
-                <Label text="{{name}}" col="1" row="1" class="detail"/>
+                <Label text="{{name}}" col="1" row="1" id="name" class="detail"/>
                 <Label text="Countrycode" col="0" row="2" class="header"/>
                 <Label text="{{countryCode}}" col="1" row="2" class="detail"/>
                 <Label text="Size" col="0" row="3" class="header"/>

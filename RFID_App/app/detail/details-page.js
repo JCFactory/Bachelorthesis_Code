@@ -6,7 +6,8 @@ var platform = require('platform');
 var dialog = require('nativescript-dialog')
 var page;
 
-var allowedDrugs = [110, 112];
+// var allowedDrugs = [110, 112, 115, 120];
+var allowedDrugs = ["Aspirin", "Ibuprofen", "Insulin"];
 
 var drug = new ObservableArray();
 var id;
@@ -61,8 +62,10 @@ exports.onNavBtnTap = function (args) {
 //sending administered information to server
 //and receiving the updated data; refreshing page content
 exports.administerTap = function (args) {
-    var thisID = page.getViewById("id").text;
-    if (allowedDrugs.includes(thisID)) {
+    var thisName = page.getViewById("name").text;
+    // var thisID = page.getViewById("id").text;
+
+    if (allowedDrugs.includes(thisName)) {
         if (page.getViewById("event").text == "administered to patient") {
             var nativeView;
             dialog.show({
@@ -80,9 +83,10 @@ exports.administerTap = function (args) {
             //check for connection
             if (socket !== undefined) {
                 console.log("successfully connected through socket io to server");
-                socket.emit('administer', thisID);
+                socket.emit('administer', thisName);
                 socket.on('updated', function (datareceived) {
                     var nativeView;
+                    console.log(datareceived);
                     dialog.show({
                         title: "Information",
                         message: "The selected drug was administered successfully!",
@@ -90,14 +94,10 @@ exports.administerTap = function (args) {
                         nativeView: nativeView
                     }).then(function (r) { console.log("Result: " + r); },
                         function (e) { console.log("Error: " + e) });
+                        // drug.push(datareceived);
+
                     page = args.object;
-                    pageData.set("id", datareceived.id);
-                    pageData.set("name", datareceived.name);
-                    pageData.set("countryCode", datareceived.countryCode);
-                    pageData.set("size", datareceived.size);
-                    pageData.set("location", datareceived.location);
-                    pageData.set("timeStamp", datareceived.timeStamp);
-                    pageData.set("event", datareceived.event);
+                    pageData.set("event", datareceived);
                     page.bindingContext = pageData;
                 });
             }

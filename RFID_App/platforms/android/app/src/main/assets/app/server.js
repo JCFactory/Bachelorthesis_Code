@@ -30,20 +30,19 @@ setTimeout(function () {
                 console.log("getting drug from mongoDB and sending to client: " + drugs);
                 socket.emit('output', drugs);
             });
-            socket.on("administer", function (itemID) {
-                console.log(itemID);
-                //2.sending updated drug back to client
-                Drug.findOneAndUpdate({id: itemID}, { event: "administered to patient" }, {
-                        upsert: true,
-                        new: true,
-                         overwrite: true
-                    }, function (err, doc) {
-                        if (err) {
-                            console.log("something wrong when updating data!");
-                        }
-                        socket.emit('updated', doc);
-                        console.log(doc);
-                    });
+            socket.on("administer", function (itemName) {
+                // //2.sending updated drug back to client
+                Drug.findOneAndUpdate({ name: itemName }, { event: "administered to patient" }, {
+                    upsert: true,
+                    new: true,
+                    // overwrite: true,
+                }, function (err, doc) {
+                    if (err) {
+                        console.log("something wrong when updating data!");
+                    }
+                    socket.emit('updated', doc);
+                    console.log(doc);
+                });
 
             });
             socket.on("disconnect", function (data) {

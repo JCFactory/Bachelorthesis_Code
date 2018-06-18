@@ -9,11 +9,11 @@
   "description": "NativeScript Application",
   "nativescript": {
     "id": "org.nativescript.RFIDApp",
-    "tns-ios": {
-      "version": "4.0.1"
-    },
     "tns-android": {
-      "version": "4.0.1"
+      "version": "4.1.3"
+    },
+    "tns-ios": {
+      "version": "4.1.0"
     }
   },
   "repository": {

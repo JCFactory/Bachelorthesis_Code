@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      "nativescript-socket.io@0.9.0",
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
+    ]
+  ],
+  "_from": "nativescript-socket.io@0.9.0",
+  "_id": "nativescript-socket.io@0.9.0",
+  "_inBundle": false,
+  "_integrity": "sha1-O9ZPBUnbxRZakrQlSE8V/p7TWHg=",
+  "_location": "/nativescript-socket.io",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "nativescript-socket.io@0.9.0",
+    "name": "nativescript-socket.io",
+    "escapedName": "nativescript-socket.io",
+    "rawSpec": "0.9.0",
+    "saveSpec": null,
+    "fetchSpec": "0.9.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-socket.io/-/nativescript-socket.io-0.9.0.tgz",
+  "_spec": "0.9.0",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
+  "author": {
+    "name": "Nader Toukabri",
+    "email": "ping@nader.tech"
+  },
+  "bugs": {
+    "url": "https://github.com/naderio/nativescript-socket.io/issues"
+  },
+  "contributors": [
+    {
+      "name": "Ludovic Fabrèges",
+      "url": "https://github.com/lfabreges"
+    }
+  ],
+  "description": "Full-featured Socket.IO client implementation for NativeScript",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "karma": "1.7.1",
+    "karma-chai": "0.1.0",
+    "karma-mocha": "1.3.0",
+    "karma-nativescript-launcher": "0.4.0",
+    "mocha": "4.0.1",
+    "tns-core-modules": "3.2.0",
+    "tns-platform-declarations": "3.2.0",
+    "typescript": "~2.3.4"
+  },
+  "homepage": "https://github.com/naderio/nativescript-socket.io#readme",
+  "keywords": [
+    "NativeScript",
+    "ecosystem:nativeScript",
+    "JavaScript",
+    "TypeScript",
+    "Android",
+    "iOS",
+    "WebSocket",
+    "Socket.IO",
+    "SocketIO",
+    "Socket"
+  ],
+  "license": "Unlicense",
+  "main": "socketio",
+  "name": "nativescript-socket.io",
+  "nativescript": {
+    "platforms": {
+      "ios": "2.0.0",
+      "android": "2.0.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naderio/nativescript-socket.io.git"
+  },
+  "scripts": {
+    "android-native-type-definition": "cd demo ; tns build android ; java -jar platforms/android/build-tools/dts-generator.jar -input $(find ./ -name 'engine.io-client-*.jar') -input $(find ./ -name 'socket.io-client-*.jar') ; cp -f ./out/android.d.ts ../typings/android.d.ts ; rm -fr ./out ; cd ..",
+    "build": "tsc",
+    "dev": "rm -fr ./nativescript-socket.io-*.tgz ; npm pack ; cd ./demo ; rm -fr ./dev ; tar -xvzf ../nativescript-socket.io-*.tgz ; mv ./package ./dev ; exit",
+    "ios-native-type-definition": "cd demo ; TNS_TYPESCRIPT_DECLARATIONS_PATH=$(pwd)/typings tns build ios ; cp -f './typings-x86_64/objc!SocketIO.d.ts' ../typings/ios.d.ts ; rm -fr ./typings* ; cd ..",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "typings": "index.d.ts",
+  "version": "0.9.0"
+}
