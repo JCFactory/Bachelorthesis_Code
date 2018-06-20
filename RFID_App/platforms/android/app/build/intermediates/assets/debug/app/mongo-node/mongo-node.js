@@ -33,6 +33,10 @@ var drug = new mongoose.Schema({
     event: {
         type: String,
         default: "Detected",
+    },
+    isDetected: {
+        type: String,
+        default: "no",
     }
 });
 

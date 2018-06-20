@@ -6,7 +6,8 @@ var platform = require('platform');
 var dialog = require('nativescript-dialog')
 var page;
 
-var allowedDrugs = [110, 112, 115, 120];
+// var allowedDrugs = [110, 112, 115, 120];
+var allowedDrugs = ["Aspirin", "Ibuprofen", "Insulin"];
 
 var drug = new ObservableArray();
 var id;
@@ -16,6 +17,7 @@ var size;
 var location;
 var timeStamp;
 var event;
+var isDetected;
 
 var pageData = new observableModule.fromObject({
     id: drug.id,
@@ -25,6 +27,7 @@ var pageData = new observableModule.fromObject({
     location: drug.location,
     timeStamp: drug.timeStamp,
     event: drug.event,
+    isDetected:drug.isDetected,
 });
 
 exports.loaded = function (args) {
@@ -40,11 +43,11 @@ exports.loaded = function (args) {
     newDrug.push(context.location);
     newDrug.push(context.timeStamp);
     newDrug.push(context.event);
+    newDrug.push(context.isDetected);
     console.log(newDrug);
     // page = args.object;
     page.bindingContext = context;
 }
-
 
 exports.onNavBtnTap = function (args) {
     const navigationEntry = {
@@ -60,9 +63,11 @@ exports.onNavBtnTap = function (args) {
 
 //sending administered information to server
 //and receiving the updated data; refreshing page content
-exports.administerTap = function (args) {
-    var thisID = page.getViewById("id").text;
-    if (allowedDrugs.includes(thisID)) {
+exports.administerTap = function () {
+    var thisName = page.getViewById("name").text;
+    // var thisID = page.getViewById("id").text;
+
+    if (allowedDrugs.includes(thisName)) {
         if (page.getViewById("event").text == "administered to patient") {
             var nativeView;
             dialog.show({
@@ -73,28 +78,31 @@ exports.administerTap = function (args) {
             }).then(function (r) { console.log("Result: " + r); },
                 function (e) { console.log("Error: " + e) });
         } else {
-            var socket = SocketIO.connect('http://192.168.1.64:3000');
+            // var socket = SocketIO.connect('http://192.168.1.64:3000');
 
-            // var socket = SocketIO.connect('http://169.254.1.4:3000');
+            var socket = SocketIO.connect('http://169.254.1.2:3000');
             // var socket = SocketIO.connect('http://127.0.0.1:3000');
             //check for connection
             if (socket !== undefined) {
                 console.log("successfully connected through socket io to server");
-                socket.emit('administer', thisID);
+                socket.emit('administer', thisName);
                 socket.on('updated', function (datareceived) {
-                    var nativeView;
-                    alert(datareceived);
-                    dialog.show({
-                        title: "Information",
-                        message: "The selected drug was administered successfully!",
-                        cancelButtonText: "Ok",
-                        nativeView: nativeView
-                    }).then(function (r) { console.log("Result: " + r); },
-                        function (e) { console.log("Error: " + e) });
-                    page = args.object;
-                    pageData.set("event", datareceived);
-                    page.bindingContext = pageData;
+                    console.log(datareceived);
+                    page.getViewById("event").text = "administered to patient";
                 });
+                var nativeView;
+                dialog.show({
+                    title: "Information",
+                    message: "The selected drug was administered successfully!",
+                    cancelButtonText: "Ok",
+                    nativeView: nativeView
+                }).then(function (r) { console.log("Result: " + r); },
+                    function (e) { console.log("Error: " + e) });
+                    // drug.push(datareceived);
+
+                // page = args.object;
+                // pageData.set("event", datareceived);
+                // page.bindingContext = pageData;
             }
         }
     } else {

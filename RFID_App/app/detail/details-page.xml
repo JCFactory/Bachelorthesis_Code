@@ -5,7 +5,7 @@
         <NavigationButton text="Back" android.systemIcon="ic_menu_back" tap="onNavBtnTap"/>
     </ActionBar>
     <StackLayout>
-        <GridLayout rows="50, 50, 50, 50, 50, 50, 50" columns="auto, auto">
+        <GridLayout rows="50, 50, 50, 50, 50, 50, 50, 50" columns="auto, auto">
             <GridLayout.itemTemplate>
                 <Label text="ID" col="0" row="0" class="header"/>
                 <Label text="{{id}}" col="1" row="0" id="id" class="detail"/>
@@ -21,6 +21,8 @@
                 <Label text="{{timeStamp}}" col="1" row="5" class="detail"/>
                 <Label text="Event" col="0" row="6" class="header"/>
                 <Label text="{{event}}" id="event" col="1" row="6" class="detail"/>
+                <Label text="Is Detected" col="0" row="7" class="header"/>
+                <Label text="{{isDetected}}" id="event" col="1" row="7" class="detail"/>
             </GridLayout.itemTemplate>
         </GridLayout>
         <Button text="Administer to patient" tap="administerTap" class="button"/>
