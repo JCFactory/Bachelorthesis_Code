@@ -78,9 +78,9 @@ exports.administerTap = function () {
             }).then(function (r) { console.log("Result: " + r); },
                 function (e) { console.log("Error: " + e) });
         } else {
-            // var socket = SocketIO.connect('http://192.168.1.64:3000');
+            var socket = SocketIO.connect('http://192.168.1.64:3000');
 
-            var socket = SocketIO.connect('http://169.254.1.2:3000');
+            // var socket = SocketIO.connect('http://169.254.1.2:3000');
             // var socket = SocketIO.connect('http://127.0.0.1:3000');
             //check for connection
             if (socket !== undefined) {

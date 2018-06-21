@@ -52,9 +52,9 @@ function getDataFromSocket(args) {
     //localhost:
     // var socket = SocketIO.connect('http://127.0.0.1:3000');
     //lucia home:
-    // var socket = SocketIO.connect('http://192.168.1.64:3000');
+    var socket = SocketIO.connect('http://192.168.1.64:3000');
     //private Network:
-    var socket = SocketIO.connect('http://169.254.1.2:3000');
+    // var socket = SocketIO.connect('http://169.254.1.2:3000');
 
     page = args.object;
     pageData.set("items", items);

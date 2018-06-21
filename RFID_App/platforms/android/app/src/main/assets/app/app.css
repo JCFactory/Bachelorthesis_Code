@@ -30,10 +30,19 @@
     font-size: 18px;
 }
 
-.circle {
+.circle-not-detected{
     height: 50px;
     width: 50px;
-    background-color: #10BA10;
+    background-color: #dd2d00;
+    border-radius: 50%;
+    /* background: url('./images/icon.png'); */
+    display: inline-block;
+}
+
+.circle-detected {
+    height: 50px;
+    width: 50px;
+    background-color: #00cc00;
     border-radius: 50%;
     /* background: url('./images/icon.png'); */
     display: inline-block;

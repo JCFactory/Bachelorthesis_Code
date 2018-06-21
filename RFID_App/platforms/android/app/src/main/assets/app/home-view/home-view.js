@@ -52,9 +52,9 @@ function getDataFromSocket(args) {
     //localhost:
     // var socket = SocketIO.connect('http://127.0.0.1:3000');
     //lucia home:
-    // var socket = SocketIO.connect('http://192.168.1.64:3000');
+    var socket = SocketIO.connect('http://192.168.1.64:3000');
     //private Network:
-    var socket = SocketIO.connect('http://169.254.1.2:3000');
+    // var socket = SocketIO.connect('http://169.254.1.2:3000');
 
     page = args.object;
     pageData.set("items", items);
@@ -62,8 +62,8 @@ function getDataFromSocket(args) {
     //check for connection
     if (socket !== undefined) {
         socket.on('output', function (drugs) {
-            var StringData = JSON.stringify(drugs);
-            console.log(StringData);
+            // var StringData = JSON.stringify(drugs);
+            // console.log(StringData);
             // alert(StringData);
             if (drugs.length === 0) {
                 while (items.length) {
@@ -74,11 +74,20 @@ function getDataFromSocket(args) {
                 while (items.length) {
                     items.pop();
                 }
-                items.push(drugs);
+                // for (i=0; i<drugs.length;i++){
+                drugs.every(function (elem) {
+                    if (elem.length === 0) {
+                        return false; // break
+                        console.log("empty element");
+                    } else if (elem.isDetected == "true") {
+                        return true;
+                    }
+                });
             }
+            items.push(drugs);
         });
-    };
-}
+    }
+};
 
 function noMedFoundDialog(args) {
     var nativeView;

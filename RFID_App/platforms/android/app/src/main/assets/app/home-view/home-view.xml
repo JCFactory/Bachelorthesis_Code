@@ -15,7 +15,8 @@
                     <Label text="{{ name }}" class="list-group-item-heading"/>
                     <Label text="{{ id }}" class="list-group-item-text" />
                 </StackLayout>
-                <Image col="1" class="circle"/>
+                  <!-- <Label col="1" text="{{isDetected}}"/> -->
+                <Image col="1" class="circle-not-detected" id="circle"/>
             </GridLayout>
         </lv:RadListView.itemTemplate>
     </lv:RadListView>
