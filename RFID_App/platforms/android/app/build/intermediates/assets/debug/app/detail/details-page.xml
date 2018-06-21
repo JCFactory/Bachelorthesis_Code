@@ -22,7 +22,7 @@
                 <Label text="Event" col="0" row="6" class="header"/>
                 <Label text="{{event}}" id="event" col="1" row="6" class="detail"/>
                 <Label text="Is Detected" col="0" row="7" class="header"/>
-                <Label text="{{isDetected}}" id="event" col="1" row="7" class="detail"/>
+                <Label text="{{isDetected}}" col="1" row="7" class="detail"/>
             </GridLayout.itemTemplate>
         </GridLayout>
         <Button text="Administer to patient" tap="administerTap" class="button"/>

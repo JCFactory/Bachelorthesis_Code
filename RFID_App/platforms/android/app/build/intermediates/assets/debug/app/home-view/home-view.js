@@ -35,7 +35,8 @@ exports.onTap = function (args) {
             size: selectedItem.size,
             location: selectedItem.location,
             timeStamp: selectedItem.timeStamp,
-            event: selectedItem.event
+            event: selectedItem.event,
+            isDetected: selectedItem.isDetected
         },
         animated: true,
         clearHistory: false,
