@@ -1,7 +1,3 @@
-
-
-
-
 <Page
     xmlns="http://schemas.nativescript.org/tns.xsd"
     xmlns:lv="nativescript-ui-listview"
@@ -16,14 +12,12 @@
         <lv:RadListView.itemTemplate>
             <GridLayout class="list-group-item" columns="*,*" tap="onTap" id="grid">
                 <StackLayout col="0" class="names">
-                    <Label text="{{ name }}" class="list-group-item-heading"/>
+                    <Label text="{{ name }}" class="list-group-item-heading" id="name"/>
                     <Label text="{{ id }}" class="list-group-item-text" />
                 </StackLayout>
-                 <!-- <Label col="1" backgroundColor="green" text ="no" id="circle"/> -->
-                <Label col="1" text="{{isDetected }}" color="{{ isDetected, isDetected ? '#73b94f' : '#e36262' }}" />
-
-                <!-- <Image col="1" class="circle-not-detected" id="circle"/> -->
+                <!-- <TextField  col="1" id="circle" class="circle"/> -->
+                <Image col="1" class="circle" id="circle"/>
             </GridLayout>
         </lv:RadListView.itemTemplate>
     </lv:RadListView>
-    </Page> 
+</Page> 

@@ -6,16 +6,14 @@ const frameModule = require('ui/frame');
 const topmost = require("ui/frame").topmost;
 var platform = require('platform');
 var dialog = require('nativescript-dialog');
+var color_1 = require("color");
+var imageModule = require("ui/image");
 
 var page;
 var items = new ObservableArray([]);
-var pageData = new Observable(
-    detected = false,
-);
+var pageData = new Observable();
 
 exports.pageLoaded = function (args) {
-    page = args.object;
-    page.bindingContext = pageData;
     // alert("Hello");
     getDataFromSocket(args);
 };
@@ -80,9 +78,11 @@ function getDataFromSocket(args) {
                         return false; // break
                         console.log("empty element");
                     } else if (elem.isDetected == "true") {
-                        // var circle = page.getViewById("circle");
-                        // var grid = page.getViewById("grid");
-                        // grid.addChild(item);
+                        items(elem).backgroundColor = "#00cc00";
+                        // var image = new imageModule.Image();
+                        // image = page.getViewById("circle");
+                        // var color = new color_1.Color("#00cc00");
+                        // image.color = color;
                         console.log(elem);
                         return true;
                     }
