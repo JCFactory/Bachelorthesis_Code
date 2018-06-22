@@ -5,13 +5,17 @@ var ObservableArray = require("data/observable-array").ObservableArray;
 const frameModule = require('ui/frame');
 const topmost = require("ui/frame").topmost;
 var platform = require('platform');
-var dialog = require('nativescript-dialog')
+var dialog = require('nativescript-dialog');
 
 var page;
 var items = new ObservableArray([]);
-var pageData = new Observable();
+var pageData = new Observable(
+    detected = false,
+);
 
 exports.pageLoaded = function (args) {
+    page = args.object;
+    page.bindingContext = pageData;
     // alert("Hello");
     getDataFromSocket(args);
 };
@@ -62,9 +66,6 @@ function getDataFromSocket(args) {
     //check for connection
     if (socket !== undefined) {
         socket.on('output', function (drugs) {
-            // var StringData = JSON.stringify(drugs);
-            // console.log(StringData);
-            // alert(StringData);
             if (drugs.length === 0) {
                 while (items.length) {
                     items.pop();
@@ -74,12 +75,15 @@ function getDataFromSocket(args) {
                 while (items.length) {
                     items.pop();
                 }
-                // for (i=0; i<drugs.length;i++){
                 drugs.every(function (elem) {
                     if (elem.length === 0) {
                         return false; // break
                         console.log("empty element");
                     } else if (elem.isDetected == "true") {
+                        // var circle = page.getViewById("circle");
+                        // var grid = page.getViewById("grid");
+                        // grid.addChild(item);
+                        console.log(elem);
                         return true;
                     }
                 });

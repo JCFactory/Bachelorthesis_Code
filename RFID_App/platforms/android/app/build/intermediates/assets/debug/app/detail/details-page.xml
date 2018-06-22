@@ -19,12 +19,12 @@
                 <Label text="{{location}}" col="1" row="4" class="detail" id="location"/>
                 <Label text="Timestamp" col="0" row="5" class="header"/>
                 <Label text="{{timeStamp}}" col="1" row="5" class="detail"/>
-                <Label text="Event" col="0" row="6" class="header"/>
+                <Label text="Last seen" col="0" row="6" class="header"/>
                 <Label text="{{event}}" id="event" col="1" row="6" class="detail"/>
                 <Label text="Is Detected" col="0" row="7" class="header"/>
                 <Label text="{{isDetected}}" col="1" row="7" class="detail"/>
             </GridLayout.itemTemplate>
         </GridLayout>
-        <Button text="Administer to patient" tap="administerTap" class="button"/>
+        <Button text="Administer to patient" id="adminButton" tap="administerTap" isEnabled = "true" class="button"/>
     </StackLayout>
 </Page>

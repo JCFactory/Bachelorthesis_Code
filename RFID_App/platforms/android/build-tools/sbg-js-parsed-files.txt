@@ -8,6 +8,7 @@
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/app.js
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-pulltorefresh/pulltorefresh.js
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-pulltorefresh/pulltorefresh-common.js
+/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-dom/dom.js
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-socket.io/app/tests/example.js
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-socket.io/hooks/after-prepare/nativescript-unit-test-runner.js
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-socket.io/karma.conf.js

@@ -1,0 +1,19 @@
+<Page loaded="loaded">
+    <GridLayout rows="*, auto, auto">
+        <ScrollView row="0">
+            <Repeater items="{{ testList }}" id="testList-repeater">
+                <Repeater.itemsLayout>
+                    <StackLayout id="testList" />
+                </Repeater.itemsLayout>
+                <Repeater.itemTemplate>
+                    <GridLayout columns="*, 55" height="55" id="{{ id, 'id-' + id }}" tap="check">
+                        <Label row="0" text="{{ pageData.history }}" color="{{ pageData.history, pageData.history ? '#73b94f' : '#e36262' }}" />
+                        <StackLayout col="1" class="{{ className.name }}" />
+                    </GridLayout>
+                </Repeater.itemTemplate>
+            </Repeater>
+        </ScrollView>
+        <Button row="1" text="Push new item" tap="push" />
+        <Button row="2" text="Refresh list" tap="refresh" />
+    </GridLayout>
+</Page>

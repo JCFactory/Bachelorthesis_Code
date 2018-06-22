@@ -5,7 +5,9 @@ var ObservableArray = require("data/observable-array").ObservableArray;
 const frameModule = require('ui/frame');
 const topmost = require("ui/frame").topmost;
 var platform = require('platform');
-var dialog = require('nativescript-dialog')
+var dialog = require('nativescript-dialog');
+const textFieldModule = require("tns-core-modules/ui/text-field");
+require("nativescript-dom");
 
 var page;
 var items = new ObservableArray([]);
@@ -62,9 +64,6 @@ function getDataFromSocket(args) {
     //check for connection
     if (socket !== undefined) {
         socket.on('output', function (drugs) {
-            var StringData = JSON.stringify(drugs);
-            console.log(StringData);
-            // alert(StringData);
             if (drugs.length === 0) {
                 while (items.length) {
                     items.pop();
@@ -74,11 +73,22 @@ function getDataFromSocket(args) {
                 while (items.length) {
                     items.pop();
                 }
-                items.push(drugs);
+                drugs.every(function (elem) {
+                    if (elem.length === 0) {
+                        return false; // break
+                        console.log("empty element");
+                    } else if (elem.isDetected == "true") {
+                        const textField = page.getElementById('circle');
+                        textField.backgroundColor = "red";
+                        console.log(elem);
+                        return true;
+                    }
+                });
             }
+            items.push(drugs);
         });
-    };
-}
+    }
+};
 
 function noMedFoundDialog(args) {
     var nativeView;

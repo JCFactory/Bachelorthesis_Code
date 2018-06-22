@@ -5,6 +5,11 @@ const SocketIO = require('nativescript-socket.io');
 var platform = require('platform');
 var dialog = require('nativescript-dialog')
 var page;
+const Button = require("tns-core-modules/ui/button").Button;
+
+
+// var tmpObservable = new observableModule.fromObject();
+
 
 // var allowedDrugs = [110, 112, 115, 120];
 var allowedDrugs = ["Aspirin", "Ibuprofen", "Insulin"];
@@ -27,7 +32,7 @@ var pageData = new observableModule.fromObject({
     location: drug.location,
     timeStamp: drug.timeStamp,
     event: drug.event,
-    isDetected:drug.isDetected,
+    isDetected: drug.isDetected,
 });
 
 exports.loaded = function (args) {
@@ -45,7 +50,7 @@ exports.loaded = function (args) {
     newDrug.push(context.event);
     newDrug.push(context.isDetected);
     console.log(newDrug);
-    // page = args.object;
+
     page.bindingContext = context;
 }
 
@@ -63,12 +68,11 @@ exports.onNavBtnTap = function (args) {
 
 //sending administered information to server
 //and receiving the updated data; refreshing page content
-exports.administerTap = function () {
+exports.administerTap = function (args) {
     var thisName = page.getViewById("name").text;
-    // var thisID = page.getViewById("id").text;
-
     if (allowedDrugs.includes(thisName)) {
         if (page.getViewById("event").text == "administered to patient") {
+            page.getViewById("adminButton").isEnabled = false;
             var nativeView;
             dialog.show({
                 title: "Information",
@@ -79,7 +83,6 @@ exports.administerTap = function () {
                 function (e) { console.log("Error: " + e) });
         } else {
             var socket = SocketIO.connect('http://192.168.1.64:3000');
-
             // var socket = SocketIO.connect('http://169.254.1.2:3000');
             // var socket = SocketIO.connect('http://127.0.0.1:3000');
             //check for connection
@@ -90,6 +93,7 @@ exports.administerTap = function () {
                     console.log(datareceived);
                     page.getViewById("event").text = "administered to patient";
                 });
+                page.getViewById("adminButton").isEnabled = false;
                 var nativeView;
                 dialog.show({
                     title: "Information",
@@ -98,14 +102,10 @@ exports.administerTap = function () {
                     nativeView: nativeView
                 }).then(function (r) { console.log("Result: " + r); },
                     function (e) { console.log("Error: " + e) });
-                    // drug.push(datareceived);
-
-                // page = args.object;
-                // pageData.set("event", datareceived);
-                // page.bindingContext = pageData;
             }
         }
     } else {
+        page.getViewById("adminButton").isEnabled = false;
         var nativeView;
         dialog.show({
             title: "Error!",

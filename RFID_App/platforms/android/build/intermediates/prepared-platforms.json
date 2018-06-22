@@ -3,6 +3,7 @@
     "moment": true,
     "mongoose": true,
     "nativescript-dialog": true,
+    "nativescript-dom": true,
     "nativescript-pulltorefresh": true,
     "nativescript-socket.io": true,
     "nativescript-theme-core": true,

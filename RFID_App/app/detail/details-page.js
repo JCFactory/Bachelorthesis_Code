@@ -12,7 +12,8 @@ const Button = require("tns-core-modules/ui/button").Button;
 
 
 // var allowedDrugs = [110, 112, 115, 120];
-var allowedDrugs = ["Aspirin", "Ibuprofen", "Insulin"];
+var allowedDrugsRoom312 = ["Aspirin", "Ibuprofen", "Insulin"];
+var allowedDrugsRoom314 = ["Fenitoina", "Acetilcisteina", "Cloreto de Sodico"];
 
 var drug = new ObservableArray();
 var id;
@@ -70,49 +71,105 @@ exports.onNavBtnTap = function (args) {
 //and receiving the updated data; refreshing page content
 exports.administerTap = function (args) {
     var thisName = page.getViewById("name").text;
-    if (allowedDrugs.includes(thisName)) {
-        if (page.getViewById("event").text == "administered to patient") {
-            page.getViewById("adminButton").isEnabled = false;
-            var nativeView;
-            dialog.show({
-                title: "Information",
-                message: "The selected drug has already been administered!",
-                cancelButtonText: "Ok",
-                nativeView: nativeView
-            }).then(function (r) { console.log("Result: " + r); },
-                function (e) { console.log("Error: " + e) });
-        } else {
-            var socket = SocketIO.connect('http://192.168.1.64:3000');
-            // var socket = SocketIO.connect('http://169.254.1.2:3000');
-            // var socket = SocketIO.connect('http://127.0.0.1:3000');
-            //check for connection
-            if (socket !== undefined) {
-                console.log("successfully connected through socket io to server");
-                socket.emit('administer', thisName);
-                socket.on('updated', function (datareceived) {
-                    console.log(datareceived);
-                    page.getViewById("event").text = "administered to patient";
-                });
+    if (page.getViewById("event").text == "detected in room 312") {
+        if (allowedDrugsRoom312.includes(thisName)) {
+            //check whether drug already administered
+            if (page.getViewById("event").text == "administered to patient") {
                 page.getViewById("adminButton").isEnabled = false;
                 var nativeView;
                 dialog.show({
                     title: "Information",
-                    message: "The selected drug was administered successfully!",
+                    message: "The selected drug has already been administered!",
                     cancelButtonText: "Ok",
                     nativeView: nativeView
                 }).then(function (r) { console.log("Result: " + r); },
                     function (e) { console.log("Error: " + e) });
+            } else {
+                //if drug not already administered
+                var socket = SocketIO.connect('http://192.168.1.64:3000');
+                // var socket = SocketIO.connect('http://169.254.1.2:3000');
+                // var socket = SocketIO.connect('http://127.0.0.1:3000');
+                //check for connection
+                if (socket !== undefined) {
+                    console.log("successfully connected through socket io to server");
+                    socket.emit('administer', thisName);
+                    socket.on('updated', function (datareceived) {
+                        console.log(datareceived);
+                        page.getViewById("event").text = "administered to patient";
+                    });
+                    page.getViewById("adminButton").isEnabled = false;
+                    var nativeView;
+                    dialog.show({
+                        title: "Information",
+                        message: "The selected drug was administered successfully!",
+                        cancelButtonText: "Ok",
+                        nativeView: nativeView
+                    }).then(function (r) { console.log("Result: " + r); },
+                        function (e) { console.log("Error: " + e) });
+                }
             }
+        } else {
+            //if drug is on hallway, do not allow administration
+            page.getViewById("adminButton").isEnabled = false;
+            var nativeView;
+            dialog.show({
+                title: "Error!",
+                message: "The selected drug should not be administered to patient!",
+                cancelButtonText: "Ok",
+                nativeView: nativeView
+            }).then(function (r) { console.log("Result: " + r); },
+                function (e) { console.log("Error: " + e) });
         }
-    } else {
-        page.getViewById("adminButton").isEnabled = false;
-        var nativeView;
-        dialog.show({
-            title: "Error!",
-            message: "The selected drug should not be administered to patient!",
-            cancelButtonText: "Ok",
-            nativeView: nativeView
-        }).then(function (r) { console.log("Result: " + r); },
-            function (e) { console.log("Error: " + e) });
+    } else if (page.getViewById("event").text == "detected in room 314") {
+        if (allowedDrugsRoom314.includes(thisName)) {
+            //check whether drug already administered
+            if (page.getViewById("event").text == "administered to patient") {
+                page.getViewById("adminButton").isEnabled = false;
+                var nativeView;
+                dialog.show({
+                    title: "Information",
+                    message: "The selected drug has already been administered!",
+                    cancelButtonText: "Ok",
+                    nativeView: nativeView
+                }).then(function (r) { console.log("Result: " + r); },
+                    function (e) { console.log("Error: " + e) });
+            } else {
+                //if drug not already administered
+                var socket = SocketIO.connect('http://192.168.1.64:3000');
+                // var socket = SocketIO.connect('http://169.254.1.2:3000');
+                // var socket = SocketIO.connect('http://127.0.0.1:3000');
+                //check for connection
+                if (socket !== undefined) {
+                    console.log("successfully connected through socket io to server");
+                    socket.emit('administer', thisName);
+                    socket.on('updated', function (datareceived) {
+                        console.log(datareceived);
+                        page.getViewById("event").text = "administered to patient";
+                    });
+                    page.getViewById("adminButton").isEnabled = false;
+                    var nativeView;
+                    dialog.show({
+                        title: "Information",
+                        message: "The selected drug was administered successfully!",
+                        cancelButtonText: "Ok",
+                        nativeView: nativeView
+                    }).then(function (r) { console.log("Result: " + r); },
+                        function (e) { console.log("Error: " + e) });
+                }
+            }
+        } else {
+            //if drug is on hallway, do not allow administration
+            page.getViewById("adminButton").isEnabled = false;
+            var nativeView;
+            dialog.show({
+                title: "Error!",
+                message: "The selected drug should not be administered to patient!",
+                cancelButtonText: "Ok",
+                nativeView: nativeView
+            }).then(function (r) { console.log("Result: " + r); },
+                function (e) { console.log("Error: " + e) });
+        }
     }
 };
+
+
