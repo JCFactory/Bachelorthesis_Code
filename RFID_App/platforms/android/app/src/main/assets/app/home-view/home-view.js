@@ -1,19 +1,15 @@
-var view = require("ui/core/view");
 const SocketIO = require('nativescript-socket.io');
 var Observable = require("data/observable").Observable;
 var ObservableArray = require("data/observable-array").ObservableArray;
-const frameModule = require('ui/frame');
 const topmost = require("ui/frame").topmost;
 var platform = require('platform');
 var dialog = require('nativescript-dialog');
-var color_1 = require("color");
-var imageModule = require("ui/image");
 
 var page;
 var items = new ObservableArray([]);
 var pageData = new Observable();
 
-exports.pageLoaded = function (args) { 
+exports.pageLoaded = function (args) {
     setInterval(function () {
         getDataFromSocket(args);
     }, 3000);
@@ -71,6 +67,7 @@ function getDataFromSocket(args) {
                     items.pop();
                 }                // alert("No medication data found...");
                 noMedFoundDialog(args);
+                socket.disconnect();
             } else {
                 while (items.length) {
                     items.pop();
@@ -84,7 +81,6 @@ function getDataFromSocket(args) {
                         console.log(elem);
                         socket.disconnect();
                         return true;
-
                     }
                 });
             }

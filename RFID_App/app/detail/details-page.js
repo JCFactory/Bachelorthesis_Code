@@ -97,6 +97,7 @@ exports.administerTap = function () {
                 socket.on('updated', function (datareceived) {
                     console.log(datareceived);
                     page.getViewById("event").text = "administered to patient";
+                    socket.disconnect();
                 });
                 page.getViewById("adminButton").isEnabled = false;
                 var nativeView;
@@ -135,6 +136,7 @@ exports.administerTap = function () {
                 socket.on('updated', function (datareceived) {
                     console.log(datareceived);
                     page.getViewById("event").text = "administered to patient";
+                    socket.disconnect();
                 });
                 page.getViewById("adminButton").isEnabled = false;
                 var nativeView;

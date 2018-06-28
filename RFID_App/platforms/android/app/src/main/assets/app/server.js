@@ -29,7 +29,6 @@ mongoose.connect('mongodb://192.168.1.64:27017/medication', function (err) {
             console.log("getting drug from mongoDB and sending to client: " + drugs);
             socket.emit('output', drugs);
         });
-
         socket.on("disconnect", function (data) {
             connections.splice(connections.indexOf(socket), 1);
             console.log("disconnected: %s sockets connected", connections.length);
