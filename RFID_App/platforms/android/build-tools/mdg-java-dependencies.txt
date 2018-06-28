@@ -22,3 +22,4 @@
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/exploded-dependencies/5/classes.jar
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/exploded-dependencies/14/classes.jar
 /Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/exploded-dependencies/22/okio-1.13.0.jar
+/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/platforms/android/app/build/intermediates/classes/debug

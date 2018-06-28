@@ -87,8 +87,8 @@ exports.administerTap = function () {
     else if (page.getViewById("event").text == "detected in room 312") {
         if (allowedDrugsRoom312.includes(thisName)) {
             //if drug not already administered
-            // var socket = SocketIO.connect('http://192.168.1.64:3000');
-            var socket = SocketIO.connect('http://169.254.1.2:3000');
+            var socket = SocketIO.connect('http://192.168.1.64:3000');
+            // var socket = SocketIO.connect('http://169.254.1.2:3000');
             // var socket = SocketIO.connect('http://127.0.0.1:3000');
             //check for connection
             if (socket !== undefined) {
@@ -125,8 +125,8 @@ exports.administerTap = function () {
     else if (page.getViewById("event").text == "detected in room 314") {
         if (allowedDrugsRoom314.includes(thisName)) {
             //if drug not already administered
-            // var socket = SocketIO.connect('http://192.168.1.64:3000');
-            var socket = SocketIO.connect('http://169.254.1.2:3000');
+            var socket = SocketIO.connect('http://192.168.1.64:3000');
+            // var socket = SocketIO.connect('http://169.254.1.2:3000');
             // var socket = SocketIO.connect('http://127.0.0.1:3000');
             //check for connection
             if (socket !== undefined) {

@@ -14,20 +14,23 @@ var items = new ObservableArray([]);
 var pageData = new Observable();
 
 exports.pageLoaded = function (args) {
+    // getDataFromSocket(args);
     // alert("Hello");
-    setTimeout(function () {
+    // setTimeout(function () {
+    // setInterval(function () {
         getDataFromSocket(args);
-    }, 3000);
+    // }, 3000);
+    // }, 3000);
     // getDataFromSocket(args);
 };
 
-exports.pullToRefreshInitiated = function (args) {
-    refreshDialog(args);
-    setTimeout(function () {
-        getDataFromSocket(args);
-        page.getViewById("listview").notifyPullToRefreshFinished();
-    }, 5000);
-};
+// exports.pullToRefreshInitiated = function (args) {
+//     refreshDialog(args);
+//     setInterval(function () {
+//         getDataFromSocket(args);
+//         page.getViewById("listview").notifyPullToRefreshFinished();
+//     });
+// };
 
 exports.onTap = function (args) {
     const selectedItem = args.view.bindingContext;
@@ -57,13 +60,14 @@ function getDataFromSocket(args) {
     //localhost:
     // var socket = SocketIO.connect('http://127.0.0.1:3000');
     //lucia home:
-    // var socket = SocketIO.connect('http://192.168.1.64:3000');
+    var socket = SocketIO.connect('http://192.168.1.64:3000');
     //private Network:
-    var socket = SocketIO.connect('http://169.254.1.2:3000');
+    // var socket = SocketIO.connect('http://169.254.1.2:3000');
 
     page = args.object;
     pageData.set("items", items);
     page.bindingContext = pageData;
+
     //check for connection
     if (socket !== undefined) {
         socket.on('output', function (drugs) {
@@ -83,7 +87,9 @@ function getDataFromSocket(args) {
                     } else if (elem.isDetected == "true") {
                         items.push(elem);
                         console.log(elem);
+                        socket.disconnect();
                         return true;
+
                     }
                 });
             }
@@ -108,18 +114,18 @@ function noMedFoundDialog(args) {
         function (e) { console.log("Error: " + e) });
 }
 
-function refreshDialog(args) {
-    var nativeView;
-    if (platform.device.os === platform.platformNames.ios) {
-        nativeView = UIActivityIndicatorView.alloc().initWithActivityIndicatorStyle(UIActivityIndicatorViewStyle.UIActivityIndicatorViewStyleGray);
-        nativeView.startAnimating();
-    }
-    dialog.show({
-        title: "Refreshing...Please Wait.",
-        message: "Updating all data.",
-        cancelButtonText: "Ok",
-        nativeView: nativeView
-    }
-    ).then(function (r) { console.log("Result: " + r); },
-        function (e) { console.log("Error: " + e) });
-}
+// function refreshDialog(args) {
+//     var nativeView;
+//     if (platform.device.os === platform.platformNames.ios) {
+//         nativeView = UIActivityIndicatorView.alloc().initWithActivityIndicatorStyle(UIActivityIndicatorViewStyle.UIActivityIndicatorViewStyleGray);
+//         nativeView.startAnimating();
+//     }
+//     dialog.show({
+//         title: "Refreshing...Please Wait.",
+//         message: "Updating all data.",
+//         cancelButtonText: "Ok",
+//         nativeView: nativeView
+//     }
+//     ).then(function (r) { console.log("Result: " + r); },
+//         function (e) { console.log("Error: " + e) });
+// }
