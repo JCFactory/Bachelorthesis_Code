@@ -66,7 +66,7 @@ function getDataFromSocket(args) {
                 while (items.length) {
                     items.pop();
                 }                // alert("No medication data found...");
-                noMedFoundDialog(args);
+                // noMedFoundDialog(args);
                 socket.disconnect();
             } else {
                 while (items.length) {
@@ -95,14 +95,16 @@ function noMedFoundDialog(args) {
         nativeView = UIActivityIndicatorView.alloc().initWithActivityIndicatorStyle(UIActivityIndicatorViewStyle.UIActivityIndicatorViewStyleGray);
         nativeView.startAnimating();
     }
-    dialog.show({
-        title: "No medication found...",
-        message: "There is no medication!",
-        cancelButtonText: "Ok",
-        nativeView: nativeView
-    }
-    ).then(function (r) { console.log("Result: " + r); },
-        function (e) { console.log("Error: " + e) });
+    setTimeout(function () {
+        dialog.show({
+            title: "No medication found...",
+            message: "There is no medication!",
+            cancelButtonText: "Ok",
+            nativeView: nativeView
+        }
+        ).then(function (r) { console.log("Result: " + r); },
+            function (e) { console.log("Error: " + e) });
+    }, 2000);
 }
 
 // function refreshDialog(args) {
