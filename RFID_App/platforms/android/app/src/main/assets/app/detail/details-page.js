@@ -2,10 +2,8 @@ const topmost = require("ui/frame").topmost;
 var observableModule = require("data/observable");
 var ObservableArray = require("data/observable-array").ObservableArray;
 const SocketIO = require('nativescript-socket.io');
-var platform = require('platform');
 var dialog = require('nativescript-dialog')
 var page;
-const Button = require("tns-core-modules/ui/button").Button;
 
 
 // var tmpObservable = new observableModule.fromObject();
@@ -86,8 +84,10 @@ exports.administerTap = function () {
     //check if drug has been detected in room 312 
     else if (page.getViewById("event").text == "detected in room 312") {
         if (allowedDrugsRoom312.includes(thisName)) {
+             //Uniovi WIFI
+      var socket = SocketIO.connect('http://10.38.31.112:3000');
             //if drug not already administered
-            var socket = SocketIO.connect('http://192.168.1.64:3000');
+            // var socket = SocketIO.connect('http://192.168.1.64:3000');
             // var socket = SocketIO.connect('http://169.254.1.2:3000');
             // var socket = SocketIO.connect('http://127.0.0.1:3000');
             //check for connection
@@ -126,7 +126,9 @@ exports.administerTap = function () {
     else if (page.getViewById("event").text == "detected in room 314") {
         if (allowedDrugsRoom314.includes(thisName)) {
             //if drug not already administered
-            var socket = SocketIO.connect('http://192.168.1.64:3000');
+             //Uniovi WIFI
+    var socket = SocketIO.connect('http://10.38.31.112:3000');
+            // var socket = SocketIO.connect('http://192.168.1.64:3000');
             // var socket = SocketIO.connect('http://169.254.1.2:3000');
             // var socket = SocketIO.connect('http://127.0.0.1:3000');
             //check for connection

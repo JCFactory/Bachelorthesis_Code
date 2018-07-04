@@ -2,14 +2,14 @@
   "_args": [
     [
       "mkdirp@0.5.1",
-      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/nativescript"
     ]
   ],
   "_from": "mkdirp@0.5.1",
   "_id": "mkdirp@0.5.1",
   "_inBundle": false,
   "_integrity": "sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=",
-  "_location": "/mkdirp",
+  "_location": "/nativescript/fsevents/mkdirp",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
@@ -22,20 +22,12 @@
     "fetchSpec": "0.5.1"
   },
   "_requiredBy": [
-    "/cacache",
-    "/copy-concurrently",
-    "/move-concurrently",
-    "/nativescript-hook",
-    "/nativescript-worker-loader/webpack",
-    "/portfinder",
-    "/svgo",
-    "/vinyl-fs",
-    "/webpack",
-    "/webpack-bundle-analyzer"
+    "/nativescript/fsevents/node-pre-gyp",
+    "/nativescript/fsevents/tar"
   ],
   "_resolved": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz",
   "_spec": "0.5.1",
-  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/nativescript",
   "author": {
     "name": "James Halliday",
     "email": "mail@substack.net",

@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      "bplist-parser@https://github.com/telerik/node-bplist-parser/tarball/master",
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/nativescript"
+    ]
+  ],
+  "_from": "bplist-parser@https://github.com/telerik/node-bplist-parser/tarball/master",
+  "_id": "bplist-parser@https://github.com/telerik/node-bplist-parser/tarball/master",
+  "_inBundle": false,
+  "_integrity": "sha512-B7Agq6ELA8hOERzvUhhgQPFe1Hcx6HCAtdaxHv/YS/PAUdxhxtCYzWFJ3zDfGIWXT1X2Nt2Q8lqeEASKoY3Wfw==",
+  "_location": "/nativescript/bplist-parser",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "bplist-parser@https://github.com/telerik/node-bplist-parser/tarball/master",
+    "name": "bplist-parser",
+    "escapedName": "bplist-parser",
+    "rawSpec": "https://github.com/telerik/node-bplist-parser/tarball/master",
+    "saveSpec": "https://github.com/telerik/node-bplist-parser/tarball/master",
+    "fetchSpec": "https://github.com/telerik/node-bplist-parser/tarball/master"
+  },
+  "_requiredBy": [
+    "/nativescript/ios-sim-portable"
+  ],
+  "_resolved": false,
+  "_spec": "https://github.com/telerik/node-bplist-parser/tarball/master",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/nativescript",
+  "author": {
+    "name": "Joe Ferner",
+    "email": "joe.ferner@nearinfinity.com"
+  },
+  "bugs": {
+    "url": "https://github.com/nearinfinity/node-bplist-parser/issues"
+  },
+  "dependencies": {
+    "big-integer": "^1.6.7"
+  },
+  "description": "Binary plist parser.",
+  "devDependencies": {
+    "nodeunit": "~0.9.1"
+  },
+  "homepage": "https://github.com/nearinfinity/node-bplist-parser#readme",
+  "keywords": [
+    "bplist",
+    "plist",
+    "parser"
+  ],
+  "license": "MIT",
+  "main": "bplistParser.js",
+  "name": "bplist-parser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nearinfinity/node-bplist-parser.git"
+  },
+  "scripts": {
+    "test": "./node_modules/nodeunit/bin/nodeunit test"
+  },
+  "version": "0.2.0"
+}

@@ -1,31 +1,32 @@
 {
   "_args": [
     [
-      "read-pkg-up@1.0.1",
+      "read-pkg-up@2.0.0",
       "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
     ]
   ],
-  "_from": "read-pkg-up@1.0.1",
-  "_id": "read-pkg-up@1.0.1",
+  "_development": true,
+  "_from": "read-pkg-up@2.0.0",
+  "_id": "read-pkg-up@2.0.0",
   "_inBundle": false,
-  "_integrity": "sha1-nWPBMnbAZZGNV/ACpX9AobZD+wI=",
-  "_location": "/module/read-pkg-up",
+  "_integrity": "sha1-a3KoBImE4MQeeVEP1en6mbO1Sb4=",
+  "_location": "/read-pkg-up",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "read-pkg-up@1.0.1",
+    "raw": "read-pkg-up@2.0.0",
     "name": "read-pkg-up",
     "escapedName": "read-pkg-up",
-    "rawSpec": "1.0.1",
+    "rawSpec": "2.0.0",
     "saveSpec": null,
-    "fetchSpec": "1.0.1"
+    "fetchSpec": "2.0.0"
   },
   "_requiredBy": [
-    "/module/yargs"
+    "/yargs"
   ],
-  "_resolved": "https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-1.0.1.tgz",
-  "_spec": "1.0.1",
+  "_resolved": "https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-2.0.0.tgz",
+  "_spec": "2.0.0",
   "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
   "author": {
     "name": "Sindre Sorhus",
@@ -36,8 +37,8 @@
     "url": "https://github.com/sindresorhus/read-pkg-up/issues"
   },
   "dependencies": {
-    "find-up": "^1.0.0",
-    "read-pkg": "^1.0.0"
+    "find-up": "^2.0.0",
+    "read-pkg": "^2.0.0"
   },
   "description": "Read the closest package.json file",
   "devDependencies": {
@@ -45,7 +46,7 @@
     "xo": "*"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "files": [
     "index.js"
@@ -90,5 +91,8 @@
   "scripts": {
     "test": "xo && ava"
   },
-  "version": "1.0.1"
+  "version": "2.0.0",
+  "xo": {
+    "esnext": true
+  }
 }

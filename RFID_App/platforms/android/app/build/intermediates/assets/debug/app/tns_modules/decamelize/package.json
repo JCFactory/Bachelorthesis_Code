@@ -2,14 +2,14 @@
   "_args": [
     [
       "decamelize@1.2.0",
-      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/nativescript"
     ]
   ],
   "_from": "decamelize@1.2.0",
   "_id": "decamelize@1.2.0",
   "_inBundle": false,
   "_integrity": "sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=",
-  "_location": "/decamelize",
+  "_location": "/nativescript/decamelize",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
@@ -22,17 +22,15 @@
     "fetchSpec": "1.2.0"
   },
   "_requiredBy": [
-    "/cssnano",
-    "/meow",
-    "/module/yargs",
-    "/uglify-js/yargs",
-    "/webpack-dev-server/yargs",
-    "/webpack/yargs",
-    "/yargs"
+    "/nativescript/ios-mobileprovision-finder/yargs",
+    "/nativescript/ios-sim-portable/yargs",
+    "/nativescript/meow",
+    "/nativescript/uglify-js/yargs",
+    "/nativescript/yargs"
   ],
   "_resolved": "https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz",
   "_spec": "1.2.0",
-  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/nativescript",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",

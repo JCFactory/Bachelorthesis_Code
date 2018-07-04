@@ -48,10 +48,13 @@ exports.onTap = function (args) {
 }
 
 function getDataFromSocket(args) {
+    //Uniovi WIFI
+    var socket = SocketIO.connect('http://10.38.31.112:3000');
+
     //localhost:
     // var socket = SocketIO.connect('http://127.0.0.1:3000');
     //lucia home:
-    var socket = SocketIO.connect('http://192.168.1.64:3000');
+    // var socket = SocketIO.connect('http://192.168.1.64:3000');
     //private Network:
     // var socket = SocketIO.connect('http://169.254.1.2:3000');
 
@@ -66,7 +69,7 @@ function getDataFromSocket(args) {
                 while (items.length) {
                     items.pop();
                 }                // alert("No medication data found...");
-                // noMedFoundDialog(args);
+                noMedFoundDialog(args);
                 socket.disconnect();
             } else {
                 while (items.length) {

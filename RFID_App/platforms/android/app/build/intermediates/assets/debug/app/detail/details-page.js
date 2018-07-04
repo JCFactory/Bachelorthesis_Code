@@ -2,10 +2,8 @@ const topmost = require("ui/frame").topmost;
 var observableModule = require("data/observable");
 var ObservableArray = require("data/observable-array").ObservableArray;
 const SocketIO = require('nativescript-socket.io');
-var platform = require('platform');
 var dialog = require('nativescript-dialog')
 var page;
-const Button = require("tns-core-modules/ui/button").Button;
 
 
 // var tmpObservable = new observableModule.fromObject();
@@ -97,6 +95,7 @@ exports.administerTap = function () {
                 socket.on('updated', function (datareceived) {
                     console.log(datareceived);
                     page.getViewById("event").text = "administered to patient";
+                    socket.disconnect();
                 });
                 page.getViewById("adminButton").isEnabled = false;
                 var nativeView;
@@ -135,6 +134,7 @@ exports.administerTap = function () {
                 socket.on('updated', function (datareceived) {
                     console.log(datareceived);
                     page.getViewById("event").text = "administered to patient";
+                    socket.disconnect();
                 });
                 page.getViewById("adminButton").isEnabled = false;
                 var nativeView;

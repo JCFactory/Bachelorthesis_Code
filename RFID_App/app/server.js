@@ -12,7 +12,10 @@ var mongoose = require("mongoose");
 // mongoose.connect('mongodb://127.0.0.1:27017/medication', function (err) {
 // setTimeout(function () {
 // setInterval(function () {
-mongoose.connect('mongodb://192.168.1.64:27017/medication', function (err) {
+    
+mongoose.connect('mongodb://10.38.31.112:27017/medication', function (err) {
+
+// mongoose.connect('mongodb://192.168.1.64:27017/medication', function (err) {
     if (err) {
         throw err;
     }

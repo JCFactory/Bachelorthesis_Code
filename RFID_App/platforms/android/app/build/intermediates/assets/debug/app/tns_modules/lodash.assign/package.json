@@ -2,14 +2,14 @@
   "_args": [
     [
       "lodash.assign@4.2.0",
-      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/nativescript"
     ]
   ],
   "_from": "lodash.assign@4.2.0",
   "_id": "lodash.assign@4.2.0",
   "_inBundle": false,
   "_integrity": "sha1-DZnzzNem0mHRm9rrkkUAXShYCOc=",
-  "_location": "/lodash.assign",
+  "_location": "/nativescript/lodash.assign",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
@@ -22,13 +22,13 @@
     "fetchSpec": "4.2.0"
   },
   "_requiredBy": [
-    "/adjust-sourcemap-loader",
-    "/module/yargs",
-    "/module/yargs-parser"
+    "/nativescript/ios-sim-portable/yargs",
+    "/nativescript/ios-sim-portable/yargs-parser",
+    "/nativescript/marked-terminal"
   ],
   "_resolved": "https://registry.npmjs.org/lodash.assign/-/lodash.assign-4.2.0.tgz",
   "_spec": "4.2.0",
-  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/nativescript",
   "author": {
     "name": "John-David Dalton",
     "email": "john.david.dalton@gmail.com",

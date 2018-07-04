@@ -2,14 +2,14 @@
   "_args": [
     [
       "has-ansi@2.0.0",
-      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App"
+      "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/nativescript"
     ]
   ],
   "_from": "has-ansi@2.0.0",
   "_id": "has-ansi@2.0.0",
   "_inBundle": false,
   "_integrity": "sha1-NPUEnOHs3ysGSa8+8k5F7TVBbZE=",
-  "_location": "/has-ansi",
+  "_location": "/nativescript/has-ansi",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
@@ -22,11 +22,18 @@
     "fetchSpec": "2.0.0"
   },
   "_requiredBy": [
-    "/chalk"
+    "/nativescript/babel-code-frame/chalk",
+    "/nativescript/chalk",
+    "/nativescript/eslint/chalk",
+    "/nativescript/grunt-contrib-copy/chalk",
+    "/nativescript/grunt-legacy-log-utils/chalk",
+    "/nativescript/ios-mobileprovision-finder/chalk",
+    "/nativescript/marked-terminal/chalk",
+    "/nativescript/table/chalk"
   ],
   "_resolved": "https://registry.npmjs.org/has-ansi/-/has-ansi-2.0.0.tgz",
   "_spec": "2.0.0",
-  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App",
+  "_where": "/Users/jacquelinefranssen/Desktop/Bachelorthesis_Code/RFID_App/node_modules/nativescript",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",

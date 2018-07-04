@@ -1,27 +1,18 @@
-var view = require("ui/core/view");
 const SocketIO = require('nativescript-socket.io');
 var Observable = require("data/observable").Observable;
 var ObservableArray = require("data/observable-array").ObservableArray;
-const frameModule = require('ui/frame');
 const topmost = require("ui/frame").topmost;
 var platform = require('platform');
 var dialog = require('nativescript-dialog');
-var color_1 = require("color");
-var imageModule = require("ui/image");
 
 var page;
 var items = new ObservableArray([]);
 var pageData = new Observable();
 
 exports.pageLoaded = function (args) {
-    // getDataFromSocket(args);
-    // alert("Hello");
-    // setTimeout(function () {
-    // setInterval(function () {
+    setInterval(function () {
         getDataFromSocket(args);
-    // }, 3000);
-    // }, 3000);
-    // getDataFromSocket(args);
+    }, 3000);
 };
 
 // exports.pullToRefreshInitiated = function (args) {
@@ -75,7 +66,8 @@ function getDataFromSocket(args) {
                 while (items.length) {
                     items.pop();
                 }                // alert("No medication data found...");
-                noMedFoundDialog(args);
+                // noMedFoundDialog(args);
+                socket.disconnect();
             } else {
                 while (items.length) {
                     items.pop();
@@ -89,7 +81,6 @@ function getDataFromSocket(args) {
                         console.log(elem);
                         socket.disconnect();
                         return true;
-
                     }
                 });
             }
@@ -104,14 +95,16 @@ function noMedFoundDialog(args) {
         nativeView = UIActivityIndicatorView.alloc().initWithActivityIndicatorStyle(UIActivityIndicatorViewStyle.UIActivityIndicatorViewStyleGray);
         nativeView.startAnimating();
     }
-    dialog.show({
-        title: "No medication found...",
-        message: "There is no medication!",
-        cancelButtonText: "Ok",
-        nativeView: nativeView
-    }
-    ).then(function (r) { console.log("Result: " + r); },
-        function (e) { console.log("Error: " + e) });
+    setTimeout(function () {
+        dialog.show({
+            title: "No medication found...",
+            message: "There is no medication!",
+            cancelButtonText: "Ok",
+            nativeView: nativeView
+        }
+        ).then(function (r) { console.log("Result: " + r); },
+            function (e) { console.log("Error: " + e) });
+    }, 2000);
 }
 
 // function refreshDialog(args) {
